@@ -3,7 +3,7 @@ name: Auto Update Processed Azur Lane Data (CN)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2 * * *'      # 每天 UTC 2:30，香港时间上午10:30
+    - cron: '0 */3 * * *'  # 每3小时运行一次（UTC 0:00, 3:00, 6:00, ..., 21:00）
 
 jobs:
   update:
@@ -29,10 +29,14 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run processing script
-        run: python 1.py           # ← 这里改成你的脚本文件名，例如 python process.py
+      - name: 删除旧的生成文件（确保每次全量重新生成）
+        run: |
+          rm -f al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json || true
 
-      - name: Commit processed files if changed
+      - name: Run processing script
+        run: python 1.py
+
+      - name: Commit all processed files（强制添加并提交）
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto update processed Azur Lane CN data from upstream"
@@ -42,6 +46,7 @@ jobs:
             name.json
             文本配置.json
             skin_voice_mapping_optimized.json
+          add_options: '--all'
           branch: ${{ github.head_ref || github.ref_name }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
