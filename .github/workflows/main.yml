@@ -3,7 +3,7 @@ name: Auto Update Processed Azur Lane Data (CN)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'  # 每3小时运行一次（UTC 0:00, 3:00, 6:00, ..., 21:00）
+    - cron: '0 */3 * * *'  # 每3小时运行一次（UTC时间）
 
 jobs:
   update:
@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout 你的仓库
+      - name: Checkout 主仓库
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -28,25 +28,33 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'  # 缓存Python依赖，加速运行
 
-      - name: 删除旧的生成文件（确保每次全量重新生成）
+      - name: 验证原始数据是否拉取成功
+        run: |
+          ls -l raw-data/CN/  # 检查上游数据路径是否存在
+          echo "Python版本：$(python --version)"
+
+      - name: 删除旧的生成文件
         run: |
           rm -f al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json || true
 
-      - name: Run processing script
-        run: python 1.py
+      - name: 运行数据处理脚本
+        run: |
+          python 1.py
+          # 打印生成的文件列表，方便排查
+          ls -l al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json || echo "部分文件未生成"
 
-      - name: Commit all processed files（强制添加并提交）
+      - name: 提交所有处理后的文件
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto update processed Azur Lane CN data from upstream"
-          file_pattern: |
-            al_combined_final.json
-            zuming.json
-            name.json
-            文本配置.json
-            skin_voice_mapping_optimized.json
-          add_options: '--all'
+          # 关键修复：用空格分隔文件列表（支持中文文件名）
+          file_pattern: "al_combined_final.json zuming.json name.json 文本配置.json skin_voice_mapping_optimized.json"
+          add_options: '--force'  # 强制添加（即使文件在.gitignore中）
           branch: ${{ github.head_ref || github.ref_name }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
+          # 可选：只有文件变化时才提交
+          skip_fetch: true
+          skip_checkout: true
