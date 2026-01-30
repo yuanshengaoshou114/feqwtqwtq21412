@@ -8,6 +8,9 @@ import re
 def find_data_file(filename: str, search_paths: List[Path] = None) -> Path:
     if search_paths is None:
         search_paths = [
+            Path("raw-data/CN/ShareCfg"),
+            Path("raw-data/CN/sharecfgdata"),
+            Path("raw-data/CN/GameCfg"),
             Path("raw-data/CN"),
             Path("raw-data"),
             Path("."),
@@ -19,7 +22,10 @@ def find_data_file(filename: str, search_paths: List[Path] = None) -> Path:
     for path in search_paths:
         file_path = path / filename
         if file_path.exists():
+            print(f"找到文件: {file_path}")
             return file_path
+    
+    print(f"未找到文件: {filename}")
     return None
 
 def load_json_file(file_path: Path) -> Dict:
