@@ -1,0 +1,47 @@
+name: Auto Update Processed Azur Lane Data (CN)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2 * * *'      # 每天 UTC 2:30，香港时间上午10:30
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout 你的仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest CN raw data from upstream
+        uses: actions/checkout@v4
+        with:
+          repository: AzurLaneTools/AzurLaneData
+          path: raw-data
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run processing script
+        run: python 1.py           # ← 这里改成你的脚本文件名，例如 python process.py
+
+      - name: Commit processed files if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto update processed Azur Lane CN data from upstream"
+          file_pattern: |
+            al_combined_final.json
+            zuming.json
+            name.json
+            文本配置.json
+            skin_voice_mapping_optimized.json
+          branch: ${{ github.head_ref || github.ref_name }}
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
