@@ -31,7 +31,7 @@ jobs:
 
       - name: 删除旧的生成文件（确保每次全量重新生成）
         run: |
-          rm -f al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json story.json activity_sp_story.json ship_skin_expression.json || true
+          rm -f al_combined_final.json zuming.json name.json 文本配置.json skin_voice_mapping_optimized.json story.json activity_sp_story.json ship_skin_expression.json || true
 
       - name: 额外复制上游的 story.json、activity_sp_story.json 和 ship_skin_expression.json（原封不动）
         run: |
@@ -56,8 +56,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto update processed Azur Lane CN data + raw story/activity_sp_story/ship_skin_expression from upstream"
-          file_pattern: al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json story.json activity_sp_story.json ship_skin_expression.json
+          file_pattern: al_combined_final.json zuming.json name.json 文本配置.json skin_voice_mapping_optimized.json story.json activity_sp_story.json ship_skin_expression.json
           add_options: '--all'
+          disable_globbing: true
           branch: ${{ github.head_ref || github.ref_name }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
