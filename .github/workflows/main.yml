@@ -3,7 +3,7 @@ name: Auto Update Processed Azur Lane Data (CN)
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'  # 每3小时一次（UTC）
+    - cron: '0 */3 * * *'
 
 jobs:
   update:
@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout 主仓库
+      - name: Checkout 你的仓库
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -28,30 +28,20 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
-      - name: 验证原始数据是否拉取成功
-        run: |
-          ls -l raw-data/CN/ || echo "raw-data/CN 不存在"
-          echo "Python版本：$(python --version)"
-
-      - name: 删除旧的生成文件
+      - name: 删除旧的生成文件（确保每次全量重新生成）
         run: |
           rm -f al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json || true
 
-      - name: 运行数据处理脚本
-        run: |
-          python 1.py
-          ls -l *.json || echo "未找到生成的 json 文件"
+      - name: Run processing script
+        run: python 1.py
 
-      - name: 提交所有处理后的文件
+      - name: Commit all processed files（强制添加并提交）
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto update processed Azur Lane CN data from upstream (${{ github.run_id }})"
+          commit_message: "chore: auto update processed Azur Lane CN data from upstream"
           file_pattern: 'al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json'
-          add_options: '--all'  # 正确选项：添加所有变化 + untracked 文件
-          branch: main
+          add_options: '--all'
+          branch: ${{ github.head_ref || github.ref_name }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
-          skip_fetch: false
-          skip_checkout: false
