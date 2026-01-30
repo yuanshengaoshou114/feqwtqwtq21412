@@ -15,21 +15,16 @@ def find_data_file(filename: str, search_paths: List[Path] = None) -> Path:
             Path("raw-data/CN/ShareCfg"),
             Path("GameCfg")
         ]
-
     found_paths = []
-
     for path in search_paths:
         file_path = path / filename
         if file_path.exists():
             found_paths.append(file_path)
-
     if not found_paths:
         return None
-
     preferred_paths = [p for p in found_paths if "sharecfgdata" in str(p).lower()]
     if preferred_paths:
         return preferred_paths[0]
-
     return found_paths[0]
 
 def load_json_file(file_path: Path) -> Dict:
@@ -39,10 +34,8 @@ def load_json_file(file_path: Path) -> Dict:
         with open(file_path, 'r', encoding='utf-8') as f:
             raw = f.read().strip()
             data = json.loads(raw)
-
             if isinstance(data, dict):
                 return data
-
             if isinstance(data, list):
                 converted = {}
                 for item in data:
@@ -51,7 +44,6 @@ def load_json_file(file_path: Path) -> Dict:
                         if key is not None:
                             converted[str(key)] = item
                 return converted
-
             return {}
     except Exception as e:
         print(f"加载文件错误 {file_path}: {str(e)}")
@@ -61,9 +53,7 @@ def replace_namecodes(data: Any, code_mapping: Dict) -> Any:
     def replace_match(match):
         code = match.group(1)
         return code_mapping.get(code, {}).get('name', match.group(0))
-
     pattern = r'{namecode:(\d+)}'
-
     if isinstance(data, str):
         return re.sub(pattern, replace_match, data)
     elif isinstance(data, dict):
@@ -75,24 +65,18 @@ def replace_namecodes(data: Any, code_mapping: Dict) -> Any:
 def process_ships(original_data: Dict, code_mapping: Dict) -> List[Dict]:
     seen_groups: Set[str] = set()
     result = []
-
     sorted_ships = sorted(original_data.items(), key=lambda x: int(x[0]))
-
     for idx, (ship_id, ship_data) in enumerate(sorted_ships, start=1):
         processed_data = replace_namecodes(ship_data, code_mapping)
-
         raw_group = processed_data.get("ship_group")
         ship_group = ""
-
         if isinstance(raw_group, list):
             ship_group = next((str(x) for x in raw_group if x), "")
         elif raw_group:
             ship_group = str(raw_group)
-
         final_group = ship_group if ship_group not in seen_groups else ""
         if ship_group:
             seen_groups.add(ship_group)
-
         result.append({
             "id": ship_id,
             "id2": str(idx),
@@ -100,16 +84,13 @@ def process_ships(original_data: Dict, code_mapping: Dict) -> List[Dict]:
             "ship_group": final_group,
             "painting": processed_data.get("painting", "")
         })
-
     return result
 
 def process_skins(original_data: Dict, code_mapping: Dict) -> List[Dict]:
     result = []
     skin_idx = 1
-
     for ship_id, ship_data in sorted(original_data.items(), key=lambda x: int(x[0])):
         processed_data = replace_namecodes(ship_data, code_mapping)
-
         if "painting" in processed_data:
             result.append({
                 "id": str(skin_idx),
@@ -118,7 +99,6 @@ def process_skins(original_data: Dict, code_mapping: Dict) -> List[Dict]:
                 "painting": processed_data["painting"]
             })
             skin_idx += 1
-
     return result
 
 def process_words(words_data: Dict, code_mapping: Dict) -> Dict:
@@ -135,7 +115,6 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
     ships = process_ships(ship_data, code_mapping)
     skins = process_skins(ship_data, code_mapping)
     words = process_words(words_data, code_mapping)
-
     id_mapping = {
         "ship": {
             "id_to_id2": {s["id"]: s["id2"] for s in ships},
@@ -146,7 +125,6 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
             "original_to_id": {s["original_id"]: s["id"] for s in skins}
         }
     }
-
     zuming_data = {
         "ships": [
             {
@@ -157,7 +135,6 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
             for ship in ships
         ]
     }
-
     return {
         "metadata": {
             "version": "3.1",
@@ -274,14 +251,12 @@ def split_main_lines(value):
 def generate_skin_voice_mapping():
     template_path = find_data_file("ship_skin_template.json")
     words_path = find_data_file("ship_skin_words.json")
-
     if not template_path:
         print("错误: 未找到 ship_skin_template.json，跳过生成 skin_voice_mapping_optimized.json")
         return
     if not words_path:
         print("错误: 未找到 ship_skin_words.json，跳过生成 skin_voice_mapping_optimized.json")
         return
-
     template = load_json_file(template_path)
     words = load_json_file(words_path)
     skins_by_group = defaultdict(list)
@@ -329,8 +304,10 @@ def generate_skin_voice_mapping():
                 full_key = full_key_base + suffix
                 group_map[full_key] = name
         mapping[ship_group] = group_map
+    timestamp = datetime.now().isoformat()
     with open("skin_voice_mapping_optimized.json", "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=4)
+        f.write(f"\n// Generated at {timestamp}")
     print("skin_voice_mapping_optimized.json 生成成功")
 
 def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None):
@@ -338,7 +315,6 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
     painting_lower_map = {}
     for key, value in painting_filte_map.items():
         painting_lower_map[key.lower()] = value
-
     name_data = {
         "ships": [
             {
@@ -349,9 +325,10 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
             for ship in ships_data
         ]
     }
-
+    timestamp = datetime.now().isoformat()
     with open("name.json", 'w', encoding='utf-8') as f:
         json.dump(name_data, f, ensure_ascii=False, indent=2)
+        f.write(f"\n// Generated at {timestamp}")
     print(f"name.json 生成成功！包含 {len(ships_data)} 个舰船数据")
 
 def main():
@@ -360,15 +337,12 @@ def main():
         "words": "ship_skin_words.json",
         "namecode": "name_code.json"
     }
-
     loaded_data = {}
     missing_files = []
-
     for key, filename in required_files.items():
         file_path = find_data_file(filename)
         if file_path:
             data = load_json_file(file_path)
-            # 针对 words 强制优先 sharecfgdata
             if key == "words" and "ShareCfg" in str(file_path) and not "sharecfgdata" in str(file_path).lower():
                 alt_path = Path("sharecfgdata") / filename
                 if alt_path.exists():
@@ -378,20 +352,19 @@ def main():
         else:
             missing_files.append(filename)
             loaded_data[key] = {}
-
     if missing_files:
         print("警告: 以下必需文件未找到:")
         for filename in missing_files:
             print(f"- {filename}")
-
     if loaded_data["ships"] and loaded_data["namecode"]:
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
+        timestamp = datetime.now().isoformat()
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
-
+            f.write(f"\n// Generated at {timestamp}")
         with open("zuming.json", 'w', encoding='utf-8') as f:
             json.dump({"ships": combined["zuming_data"]["ships"]}, f, ensure_ascii=False, indent=2)
-
+            f.write(f"\n// Generated at {timestamp}")
         painting_filter_path = find_data_file("painting_filte_map.json")
         painting_filter_data = {}
         if painting_filter_path:
@@ -399,22 +372,20 @@ def main():
             print(f"已加载 painting_filte_map.json，包含 {len(painting_filter_data)} 个资源映射")
         else:
             print("警告: 未找到 painting_filte_map.json，生成的 name.json 中将不包含 res_list 字段")
-
         generate_name_json(combined["ships"], painting_filter_data)
-
         print(f"生成成功！包含：{len(combined['ships'])}舰船, {len(combined['skins'])}皮肤, {len(combined['words'])}台词")
         print(f"同时生成了zuming.json，包含{len(combined['zuming_data']['ships'])}舰船数据")
     else:
         print("错误: 缺少 ships 或 namecode，无法生成主数据文件")
-
     if loaded_data["namecode"]:
         additional_config = process_additional_files(loaded_data["namecode"])
+        timestamp = datetime.now().isoformat()
         with open("文本配置.json", 'w', encoding='utf-8') as f:
             json.dump(additional_config, f, ensure_ascii=False, indent=2, sort_keys=True)
+            f.write(f"\n// Generated at {timestamp}")
         print(f"额外配置处理完成！")
     else:
         print("警告: 缺少name_code.json文件，跳过额外配置处理")
-
     generate_skin_voice_mapping()
 
 if __name__ == "__main__":
