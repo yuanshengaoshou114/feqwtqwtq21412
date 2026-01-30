@@ -32,7 +32,16 @@ def load_json_file(file_path: Path) -> Dict:
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            return data if isinstance(data, dict) else {}
+            # 如果是 list，转成 dict（用索引作为 key）
+            if isinstance(data, list):
+                return {str(i): item for i, item in enumerate(data)}
+            # 如果已经是 dict，直接返回
+            elif isinstance(data, dict):
+                return data
+            # 其他情况返回空 dict
+            else:
+                print(f"文件 {file_path} 格式异常，不是 dict 或 list")
+                return {}
     except Exception as e:
         print(f"加载文件错误 {file_path}: {str(e)}")
         return {}
