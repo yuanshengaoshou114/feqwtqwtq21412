@@ -35,8 +35,8 @@ jobs:
 
       - name: 额外复制上游的 story.json、activity_sp_story.json 和 ship_skin_expression.json（原封不动）
         run: |
-          # story.json 路径：CN/GameCfg/story/story.json
-          cp raw-data/CN/GameCfg/story/story.json ./story.json 2>/dev/null || true
+          # story.json 路径：CN/GameCfg/story.json
+          cp raw-data/CN/GameCfg/story.json ./story.json 2>/dev/null || true
           
           # activity_sp_story.json 路径：CN/ShareCfg/activity_sp_story.json
           cp raw-data/CN/ShareCfg/activity_sp_story.json ./activity_sp_story.json 2>/dev/null || true
