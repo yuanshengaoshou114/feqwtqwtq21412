@@ -40,7 +40,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: auto update processed Azur Lane CN data from upstream"
-          file_pattern: 'al_combined_final.json zuming.json name.json "文本配置.json" skin_voice_mapping_optimized.json'
+          file_pattern: al_combined_final.json zuming.json name.json 文本配置.json skin_voice_mapping_optimized.json
           add_options: '--all'
           branch: ${{ github.head_ref || github.ref_name }}
           commit_user_name: github-actions[bot]
