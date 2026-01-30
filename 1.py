@@ -304,10 +304,8 @@ def generate_skin_voice_mapping():
                 full_key = full_key_base + suffix
                 group_map[full_key] = name
         mapping[ship_group] = group_map
-    timestamp = datetime.now().isoformat()
     with open("skin_voice_mapping_optimized.json", "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=4)
-        f.write(f"\n// Generated at {timestamp}")
     print("skin_voice_mapping_optimized.json 生成成功")
 
 def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None):
@@ -325,10 +323,8 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
             for ship in ships_data
         ]
     }
-    timestamp = datetime.now().isoformat()
     with open("name.json", 'w', encoding='utf-8') as f:
         json.dump(name_data, f, ensure_ascii=False, indent=2)
-        f.write(f"\n// Generated at {timestamp}")
     print(f"name.json 生成成功！包含 {len(ships_data)} 个舰船数据")
 
 def main():
@@ -358,13 +354,10 @@ def main():
             print(f"- {filename}")
     if loaded_data["ships"] and loaded_data["namecode"]:
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
-        timestamp = datetime.now().isoformat()
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
-            f.write(f"\n// Generated at {timestamp}")
         with open("zuming.json", 'w', encoding='utf-8') as f:
             json.dump({"ships": combined["zuming_data"]["ships"]}, f, ensure_ascii=False, indent=2)
-            f.write(f"\n// Generated at {timestamp}")
         painting_filter_path = find_data_file("painting_filte_map.json")
         painting_filter_data = {}
         if painting_filter_path:
@@ -379,10 +372,8 @@ def main():
         print("错误: 缺少 ships 或 namecode，无法生成主数据文件")
     if loaded_data["namecode"]:
         additional_config = process_additional_files(loaded_data["namecode"])
-        timestamp = datetime.now().isoformat()
         with open("文本配置.json", 'w', encoding='utf-8') as f:
             json.dump(additional_config, f, ensure_ascii=False, indent=2, sort_keys=True)
-            f.write(f"\n// Generated at {timestamp}")
         print(f"额外配置处理完成！")
     else:
         print("警告: 缺少name_code.json文件，跳过额外配置处理")
