@@ -3405,6 +3405,19 @@
       ]
     },
     {
+      "name": "红包，多多益善！",
+      "painting": "changdao_5",
+      "ship_group": "10601",
+      "res_list": [
+        "painting/changdao_5_tex",
+        "painting/changdao_5_rw_tex",
+        "painting/changdao_5_n_tex",
+        "painting/changdao_5_n_rw_tex",
+        "painting/changdao_5_n",
+        "painting/changdao_5"
+      ]
+    },
+    {
       "name": "长岛.改",
       "painting": "changdao_g",
       "ship_group": "10601",
@@ -7098,6 +7111,7 @@
       "ship_group": "20313",
       "res_list": [
         "painting/dewenjun_2_tex",
+        "painting/dewenjun_2_shophx_tex",
         "painting/dewenjun_2"
       ]
     },
@@ -13368,6 +13382,17 @@
       ]
     },
     {
+      "name": "相融一梦",
+      "painting": "xinnong_6",
+      "ship_group": "30708",
+      "res_list": [
+        "painting/xinnong_6_tex",
+        "painting/xinnong_6_rw_tex",
+        "painting/xinnong_6_bj_tex",
+        "painting/xinnong_6"
+      ]
+    },
+    {
       "name": "小赤城",
       "painting": "chicheng_younv",
       "ship_group": "30709",
@@ -16263,6 +16288,20 @@
       ]
     },
     {
+      "name": "红幔下的微醺",
+      "painting": "qibolin_3",
+      "ship_group": "40701",
+      "res_list": [
+        "painting/qibolin_3_tex",
+        "painting/qibolin_3_rw_tex",
+        "painting/qibolin_3_n_tex",
+        "painting/qibolin_3_n_rw_tex",
+        "painting/qibolin_3_n",
+        "painting/qibolin_3_bj_tex",
+        "painting/qibolin_3"
+      ]
+    },
+    {
       "name": "小齐柏林",
       "painting": "qibolin_younv",
       "ship_group": "40702",
@@ -16820,6 +16859,18 @@
       ]
     },
     {
+      "name": "案上墨戏",
+      "painting": "z23_13",
+      "ship_group": "40123",
+      "res_list": [
+        "painting/z23_13_tex",
+        "painting/z23_13_rw_tex",
+        "painting/z23_13_n_rw_tex",
+        "painting/z23_13_n",
+        "painting/z23_13"
+      ]
+    },
+    {
       "name": "罗恩",
       "painting": "luoen",
       "ship_group": "49901",
@@ -16893,6 +16944,30 @@
         "painting/feiteliedadi_3_n_tex",
         "painting/feiteliedadi_3_n",
         "painting/feiteliedadi_3"
+      ]
+    },
+    {
+      "name": "红封之礼",
+      "painting": "feiteliedadi_4",
+      "ship_group": "49902",
+      "res_list": [
+        "painting/feiteliedadi_4_tex",
+        "painting/feiteliedadi_4_rw_tex",
+        "painting/feiteliedadi_4_n_rw_tex",
+        "painting/feiteliedadi_4_n",
+        "painting/feiteliedadi_4"
+      ]
+    },
+    {
+      "name": "携心夜烛",
+      "painting": "feiteliedadi_5",
+      "ship_group": "49902",
+      "res_list": [
+        "painting/feiteliedadi_5_tex",
+        "painting/feiteliedadi_5_rw_tex",
+        "painting/feiteliedadi_5_n_rw_tex",
+        "painting/feiteliedadi_5_n",
+        "painting/feiteliedadi_5"
       ]
     },
     {
@@ -17397,6 +17472,19 @@
       ]
     },
     {
+      "name": "飞云大人的糖衣炮弹",
+      "painting": "feiyun_3",
+      "ship_group": "50107",
+      "res_list": [
+        "painting/feiyun_3_tex",
+        "painting/feiyun_3_rw_tex",
+        "painting/feiyun_3_n_rw_tex",
+        "painting/feiyun_3_n",
+        "painting/feiyun_3_bj_tex",
+        "painting/feiyun_3"
+      ]
+    },
+    {
       "name": "长风",
       "painting": "changfeng",
       "ship_group": "50108",
@@ -17728,6 +17816,19 @@
       ]
     },
     {
+      "name": "应瑞·改",
+      "painting": "yingrui_g",
+      "ship_group": "50204",
+      "res_list": [
+        "painting/yingrui_g_tex",
+        "painting/yingrui_g_rw_tex",
+        "painting/yingrui_g_n_tex",
+        "painting/yingrui_g_n_rw_tex",
+        "painting/yingrui_g_n",
+        "painting/yingrui_g"
+      ]
+    },
+    {
       "name": "肇和",
       "painting": "zhaohe",
       "ship_group": "50205",
@@ -17777,6 +17878,19 @@
         "painting/zhaohe_4_bj_tex",
         "painting/zhaohe_4_bj_hx_tex",
         "painting/zhaohe_4"
+      ]
+    },
+    {
+      "name": "肇和·改",
+      "painting": "zhaohe_g",
+      "ship_group": "50205",
+      "res_list": [
+        "painting/zhaohe_g_tex",
+        "painting/zhaohe_g_rw_tex",
+        "painting/zhaohe_g_n_tex",
+        "painting/zhaohe_g_n_rw_tex",
+        "painting/zhaohe_g_n",
+        "painting/zhaohe_g"
       ]
     },
     {
@@ -17944,6 +18058,40 @@
       ]
     },
     {
+      "name": "海筹",
+      "painting": "haichou",
+      "ship_group": "50212",
+      "res_list": [
+        "painting/haichou_tex",
+        "painting/haichou_rw_tex",
+        "painting/haichou_n_tex",
+        "painting/haichou_n_rw_tex",
+        "painting/haichou_n",
+        "painting/haichou_bj_tex",
+        "painting/haichou"
+      ]
+    },
+    {
+      "name": "醒梦芳醇",
+      "painting": "haichou_2",
+      "ship_group": "50212",
+      "res_list": [
+        "painting/haichou_2_tex",
+        "painting/haichou_2_rw_tex",
+        "painting/haichou_2_n_rw_tex",
+        "painting/haichou_2_n",
+        "painting/haichou_2"
+      ]
+    },
+    {
+      "name": "醒梦芳醇",
+      "painting": "haichou_2_asmr",
+      "ship_group": "50212",
+      "res_list": [
+        "painting/haichou_2_asmr"
+      ]
+    },
+    {
       "name": "建武",
       "painting": "jianwu",
       "ship_group": "50301",
@@ -17988,6 +18136,31 @@
         "painting/jianwu_4_n",
         "painting/jianwu_4_bj_tex",
         "painting/jianwu_4"
+      ]
+    },
+    {
+      "name": "彰武",
+      "painting": "zhangwu",
+      "ship_group": "50302",
+      "res_list": [
+        "painting/zhangwu_tex",
+        "painting/zhangwu_rw_tex",
+        "painting/zhangwu_n_tex",
+        "painting/zhangwu_n_rw_tex",
+        "painting/zhangwu_n",
+        "painting/zhangwu"
+      ]
+    },
+    {
+      "name": "一枝春欲放",
+      "painting": "zhangwu_2",
+      "ship_group": "50302",
+      "res_list": [
+        "painting/zhangwu_2_tex",
+        "painting/zhangwu_2_rw_tex",
+        "painting/zhangwu_2_n_rw_tex",
+        "painting/zhangwu_2_n",
+        "painting/zhangwu_2"
       ]
     },
     {
