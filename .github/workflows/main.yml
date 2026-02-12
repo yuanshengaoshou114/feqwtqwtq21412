@@ -12,7 +12,7 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout 你的仓库
+      - name: Checkout 你的仓库（带完整历史）
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -29,25 +29,73 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 删除旧的生成文件（确保每次全量重新生成）
+      - name: 强制删除仓库根目录下所有旧的生成文件（每次都删干净）
         run: |
-          rm -f al_combined_final.json zuming.json name.json 文本配置.json skin_voice_mapping_optimized.json || true
+          set -e  # 遇到错误就停止
 
-      - name: Run processing script
-        run: python 1.py
+          FILES_TO_DELETE=(
+            "al_combined_final.json"
+            "zuming.json"
+            "name.json"
+            "文本配置.json"
+            "skin_voice_mapping_optimized.json"
+            "story.json"
+            "activity_sp_story.json"
+            "ship_skin_expression.json"
+          )
 
-      - name: Commit all processed files
+          echo "开始强制删除旧文件..."
+
+          for file in "${FILES_TO_DELETE[@]}"; do
+            if [ -f "$file" ]; then
+              echo "删除: $file"
+              rm -f "$file"
+              git rm --quiet "$file" 2>/dev/null || true   # 告诉 git 这个文件被删了（不报错）
+            elif [ -e "$file" ]; then
+              echo "警告: $file 存在但不是普通文件，强制删除"
+              rm -rf "$file"
+            else
+              echo "文件不存在（正常）: $file"
+            fi
+          done
+
+          # 提交删除操作（如果有文件被删）
+          git status --short
+          git commit -m "chore: remove old generated files before update" || echo "没有文件被删除，无需 commit 删除"
+
+          echo "删除阶段完成"
+
+      - name: 复制上游原始 story / activity_sp_story / ship_skin_expression
+        run: |
+          cp raw-data/CN/GameCfg/story.json ./story.json 2>/dev/null || echo "story.json 未找到"
+          cp raw-data/CN/ShareCfg/activity_sp_story.json ./activity_sp_story.json 2>/dev/null || echo "activity_sp_story.json 未找到"
+          cp raw-data/CN/ShareCfg/ship_skin_expression.json ./ship_skin_expression.json 2>/dev/null || echo "ship_skin_expression.json 未找到"
+
+          ls -l story*.json activity*.json ship_skin*.json 2>/dev/null || true
+
+      - name: 执行处理脚本生成新文件
+        run: |
+          echo "运行前目录 json 文件："
+          ls -la *.json 2>/dev/null || echo "无 json 文件"
+
+          python 1.py || { echo "1.py 执行失败！"; exit 1; }
+
+          echo "运行后目录 json 文件："
+          ls -la *.json
+
+          echo "关键文件检查："
+          for f in al_combined_final.json name.json 文本配置.json story.json; do
+            [ -f "$f" ] && echo "$f 存在，大小 $(du -h "$f" | cut -f1)" || echo "!!! $f 缺失 !!!"
+          done
+
+      - name: 提交所有生成的文件（内容变化或新增时提交）
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto update processed Azur Lane CN data"
+          commit_message: |
+            chore: auto update processed Azur Lane CN data
+            Run #${{ github.run_number }}
           file_pattern: |
-            al_combined_final.json
-            zuming.json
-            name.json
-            文本配置.json
-            skin_voice_mapping_optimized.json
+            *.json
           add_options: '--all'
-          disable_globbing: true
-          branch: ${{ github.head_ref || github.ref_name }}
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
