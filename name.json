@@ -8380,6 +8380,18 @@
       ]
     },
     {
+      "name": "杯盏盈芳华",
+      "painting": "yuanchou_3",
+      "ship_group": "20707",
+      "res_list": [
+        "painting/yuanchou_3_tex",
+        "painting/yuanchou_3_rw_tex",
+        "painting/yuanchou_3_n_rw_tex",
+        "painting/yuanchou_3_n",
+        "painting/yuanchou_3"
+      ]
+    },
+    {
       "name": "小光辉",
       "painting": "guanghui_younv",
       "ship_group": "20709",
@@ -12914,6 +12926,19 @@
       ]
     },
     {
+      "name": "莲池茶香",
+      "painting": "qiansui_4",
+      "ship_group": "30608",
+      "res_list": [
+        "painting/qiansui_4_tex",
+        "painting/qiansui_4_rw_tex",
+        "painting/qiansui_4_rw_hx_tex",
+        "painting/qiansui_4_hx_tex",
+        "painting/qiansui_4_hx",
+        "painting/qiansui_4"
+      ]
+    },
+    {
       "name": "千代田",
       "painting": "qiandaitian",
       "ship_group": "30609",
@@ -12931,6 +12956,17 @@
         "painting/qiandaitian_2_n_tex",
         "painting/qiandaitian_2_n",
         "painting/qiandaitian_2"
+      ]
+    },
+    {
+      "name": "荷畔酒香",
+      "painting": "qiandaitian_3",
+      "ship_group": "30609",
+      "res_list": [
+        "painting/qiandaitian_3_tex",
+        "painting/qiandaitian_3_rw_tex",
+        "painting/qiandaitian_3_bj_tex",
+        "painting/qiandaitian_3"
       ]
     },
     {
@@ -17212,6 +17248,18 @@
       ]
     },
     {
+      "name": "深阁舞戏",
+      "painting": "xingdengbao_3",
+      "ship_group": "49909",
+      "res_list": [
+        "painting/xingdengbao_3_tex",
+        "painting/xingdengbao_3_rw_tex",
+        "painting/xingdengbao_3_n_rw_tex",
+        "painting/xingdengbao_3_n",
+        "painting/xingdengbao_3"
+      ]
+    },
+    {
       "name": "梅克伦堡",
       "painting": "meikelunbao",
       "ship_group": "49910",
@@ -19766,6 +19814,34 @@
       ]
     },
     {
+      "name": "顽皮",
+      "painting": "wanpi",
+      "ship_group": "70113",
+      "res_list": [
+        "painting/wanpi_tex",
+        "painting/wanpi_rw_tex",
+        "painting/wanpi_n_tex",
+        "painting/wanpi_n_rw_tex",
+        "painting/wanpi_n",
+        "painting/wanpi_bj_tex",
+        "painting/wanpi"
+      ]
+    },
+    {
+      "name": "乘风披挂跃琼霄",
+      "painting": "wanpi_2",
+      "ship_group": "70113",
+      "res_list": [
+        "painting/wanpi_2_tex",
+        "painting/wanpi_2_rw_tex",
+        "painting/wanpi_2_n_rw_tex",
+        "painting/wanpi_2_n_bj_tex",
+        "painting/wanpi_2_n",
+        "painting/wanpi_2_bj_tex",
+        "painting/wanpi_2"
+      ]
+    },
+    {
       "name": "阿芙乐尔",
       "painting": "afuleer",
       "ship_group": "70201",
@@ -20113,6 +20189,61 @@
       ]
     },
     {
+      "name": "红色山脉",
+      "painting": "hongseshanmai",
+      "ship_group": "70209",
+      "res_list": [
+        "painting/hongseshanmai_tex",
+        "painting/hongseshanmai_rw_tex",
+        "painting/hongseshanmai_n_tex",
+        "painting/hongseshanmai_n_rw_tex",
+        "painting/hongseshanmai_n_bj_tex",
+        "painting/hongseshanmai_n",
+        "painting/hongseshanmai_bj_tex",
+        "painting/hongseshanmai"
+      ]
+    },
+    {
+      "name": "盲打练习：触觉麻将",
+      "painting": "hongseshanmai_2",
+      "ship_group": "70209",
+      "res_list": [
+        "painting/hongseshanmai_2_tex",
+        "painting/hongseshanmai_2_rw_tex",
+        "painting/hongseshanmai_2_n_rw_tex",
+        "painting/hongseshanmai_2_n",
+        "painting/hongseshanmai_2"
+      ]
+    },
+    {
+      "name": "博加特里",
+      "painting": "bojiateli",
+      "ship_group": "70210",
+      "res_list": [
+        "painting/bojiateli_tex",
+        "painting/bojiateli_rw_tex",
+        "painting/bojiateli_n_tex",
+        "painting/bojiateli_n_rw_tex",
+        "painting/bojiateli_n_bj_tex",
+        "painting/bojiateli_n",
+        "painting/bojiateli_bj_tex",
+        "painting/bojiateli"
+      ]
+    },
+    {
+      "name": "情感数据维护中",
+      "painting": "bojiateli_2",
+      "ship_group": "70210",
+      "res_list": [
+        "painting/bojiateli_2_tex",
+        "painting/bojiateli_2_rw_tex",
+        "painting/bojiateli_2_n_rw_tex",
+        "painting/bojiateli_2_n",
+        "painting/bojiateli_2_bj_tex",
+        "painting/bojiateli_2"
+      ]
+    },
+    {
       "name": "塔林",
       "painting": "talin",
       "ship_group": "70301",
@@ -20197,6 +20328,33 @@
         "painting/kuersike_3_n_rw_tex",
         "painting/kuersike_3_n",
         "painting/kuersike_3"
+      ]
+    },
+    {
+      "name": "莫斯科",
+      "painting": "mosike",
+      "ship_group": "70303",
+      "res_list": [
+        "painting/mosike_tex",
+        "painting/mosike_rw_tex",
+        "painting/mosike_n_tex",
+        "painting/mosike_n_rw_tex",
+        "painting/mosike_n",
+        "painting/mosike_bj_tex",
+        "painting/mosike"
+      ]
+    },
+    {
+      "name": "待君落子之时",
+      "painting": "mosike_2",
+      "ship_group": "70303",
+      "res_list": [
+        "painting/mosike_2_tex",
+        "painting/mosike_2_rw_tex",
+        "painting/mosike_2_n_rw_tex",
+        "painting/mosike_2_n",
+        "painting/mosike_2_bj_tex",
+        "painting/mosike_2"
       ]
     },
     {
@@ -26668,6 +26826,19 @@
         "painting/neihuada_alter_tex",
         "painting/neihuada_alter_rw_tex",
         "painting/neihuada_alter"
+      ]
+    },
+    {
+      "name": "甘古特·META",
+      "painting": "gangute_alter",
+      "ship_group": "970510",
+      "res_list": [
+        "painting/gangute_alter_tex",
+        "painting/gangute_alter_rw_tex",
+        "painting/gangute_alter_n_tex",
+        "painting/gangute_alter_n_rw_tex",
+        "painting/gangute_alter_n",
+        "painting/gangute_alter"
       ]
     },
     {
