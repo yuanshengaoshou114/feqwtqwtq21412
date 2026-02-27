@@ -290,6 +290,8 @@ def generate_story_dialogues():
                 break
         if memory_id and str(memory_id) in memory_to_group:
             group_title = memory_to_group[str(memory_id)]
+        group_title = replace_namecodes(group_title, namecode)
+        title = replace_namecodes(title, namecode)
         group_episodes[group_title].append({
             "story_key": key_lower,
             "episode_title": title,
@@ -313,7 +315,6 @@ def main():
         "namecode": "name_code.json"
     }
     loaded_data = {}
-    missing_files = []
     for key, filename in required_files.items():
         file_path = find_data_file(filename)
         if file_path:
@@ -323,9 +324,6 @@ def main():
                 if alt_path.exists():
                     data = load_json_file(alt_path)
             loaded_data[key] = data
-        else:
-            missing_files.append(filename)
-            loaded_data[key] = {}
     if loaded_data["ships"] and loaded_data["namecode"]:
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
