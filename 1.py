@@ -45,15 +45,14 @@ def load_json_file(file_path: Path) -> Dict:
                             converted[str(key)] = item
                 return converted
             return {}
-    except Exception as e:
-        print(f"加载文件错误 {file_path}: {str(e)}")
+    except:
         return {}
 
 def replace_namecodes(data: Any, code_mapping: Dict) -> Any:
     def replace_match(match):
         code = match.group(1)
         return code_mapping.get(code, {}).get('name', match.group(0))
-    pattern = r'{namecode:(\d+)}'
+    pattern = r'{namecode:(\d+)(?::[^}]*)?}'
     if isinstance(data, str):
         return re.sub(pattern, replace_match, data)
     elif isinstance(data, dict):
@@ -151,11 +150,7 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
 def generate_skin_voice_mapping():
     template_path = find_data_file("ship_skin_template.json")
     words_path = find_data_file("ship_skin_words.json")
-    if not template_path:
-        print("错误: 未找到 ship_skin_template.json，跳过生成 skin_voice_mapping_optimized.json")
-        return
-    if not words_path:
-        print("错误: 未找到 ship_skin_words.json，跳过生成 skin_voice_mapping_optimized.json")
+    if not template_path or not words_path:
         return
     template = load_json_file(template_path)
     words = load_json_file(words_path)
@@ -206,7 +201,6 @@ def generate_skin_voice_mapping():
         mapping[ship_group] = group_map
     with open("skin_voice_mapping_optimized.json", "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=4)
-    print("skin_voice_mapping_optimized.json 生成成功")
 
 def split_main_lines(value):
     if not value:
@@ -232,36 +226,29 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
     }
     with open("name.json", 'w', encoding='utf-8') as f:
         json.dump(name_data, f, ensure_ascii=False, indent=2)
-    print(f"name.json 生成成功！包含 {len(ships_data)} 个舰船数据")
 
 def generate_story_dialogues():
     story_path = find_data_file("story.json")
     memory_template_path = find_data_file("memory_template.json")
     memory_group_path = find_data_file("memory_group.json")
     name_code_path = find_data_file("name_code.json")
-
     if not all([story_path, memory_template_path, memory_group_path, name_code_path]):
-        print("缺少必要的剧情文件，跳过生成 story_dialogues_structured.json")
         return
-
     story = load_json_file(story_path)
     mem_temp = load_json_file(memory_template_path)
     mem_group = load_json_file(memory_group_path)
     namecode = load_json_file(name_code_path)
-
     story_to_title = {}
     for tid, item in mem_temp.items():
         sk = item.get("story")
         if sk:
             story_to_title[sk.upper()] = item.get("title", "未知标题")
-
     memory_to_group = {}
     for gid, group in mem_group.items():
         title = group.get("title", "未知组")
         memories = group.get("memories", [])
         for mid in memories:
             memory_to_group[str(mid)] = title
-
     structured_output = {
         "metadata": {
             "generated_at": datetime.now().isoformat(),
@@ -270,14 +257,10 @@ def generate_story_dialogues():
         },
         "groups": []
     }
-
     group_episodes = defaultdict(list)
-
     for key_lower, content in story.items():
         key_upper = key_lower.upper()
-
         scripts_raw = content.get("scripts", content) if isinstance(content, dict) else content
-
         dialogues = []
         if isinstance(scripts_raw, dict):
             try:
@@ -287,50 +270,41 @@ def generate_story_dialogues():
                     if isinstance(s, dict) and "say" in s and s["say"]:
                         say_text = replace_namecodes(s["say"], namecode)
                         dialogues.append(say_text)
-            except Exception as e:
-                print(f"处理 {key_lower} scripts 失败: {e}")
+            except:
+                pass
         elif isinstance(scripts_raw, list):
             for s in scripts_raw:
                 if isinstance(s, dict) and "say" in s and s["say"]:
                     say_text = replace_namecodes(s["say"], namecode)
                     dialogues.append(say_text)
-
         if not dialogues:
             continue
-
         title = story_to_title.get(key_upper, f"[{key_lower}]")
         memory_id = None
         group_title = "未分组剧情"
-
         for tid, tmp in mem_temp.items():
             if tmp.get("story", "").upper() == key_upper:
                 memory_id = tid
                 if title.startswith("["):
                     title = tmp.get("title", title)
                 break
-
         if memory_id and str(memory_id) in memory_to_group:
             group_title = memory_to_group[str(memory_id)]
-
         group_episodes[group_title].append({
             "story_key": key_lower,
             "episode_title": title,
             "memory_id": memory_id,
             "dialogues": dialogues
         })
-
     for group_name in sorted(group_episodes.keys()):
         episodes = sorted(group_episodes[group_name], key=lambda x: x["story_key"])
         structured_output["groups"].append({
             "group_title": group_name,
             "episodes": episodes
         })
-
     output_path = Path("story_dialogues_structured.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
-
-    print(f"已生成 {output_path} （分组、标题、数字排序、纯对话已处理完成）")
 
 def main():
     required_files = {
@@ -347,16 +321,11 @@ def main():
             if key == "words" and "ShareCfg" in str(file_path) and not "sharecfgdata" in str(file_path).lower():
                 alt_path = Path("sharecfgdata") / filename
                 if alt_path.exists():
-                    print(f"检测到 ShareCfg 中的 words，切换到 sharecfgdata: {alt_path}")
                     data = load_json_file(alt_path)
             loaded_data[key] = data
         else:
             missing_files.append(filename)
             loaded_data[key] = {}
-    if missing_files:
-        print("警告: 以下必需文件未找到:")
-        for filename in missing_files:
-            print(f"- {filename}")
     if loaded_data["ships"] and loaded_data["namecode"]:
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
@@ -367,16 +336,8 @@ def main():
         painting_filter_data = {}
         if painting_filter_path:
             painting_filter_data = load_json_file(painting_filter_path)
-            print(f"已加载 painting_filte_map.json，包含 {len(painting_filter_data)} 个资源映射")
-        else:
-            print("警告: 未找到 painting_filte_map.json，生成的 name.json 中将不包含 res_list 字段")
         generate_name_json(combined["ships"], painting_filter_data)
-        print(f"生成成功！包含：{len(combined['ships'])}舰船, {len(combined['skins'])}皮肤, {len(combined['words'])}台词")
-        print(f"同时生成了zuming.json，包含{len(combined['zuming_data']['ships'])}舰船数据")
-    else:
-        print("错误: 缺少 ships 或 namecode，无法生成主数据文件")
     generate_skin_voice_mapping()
-
     generate_story_dialogues()
 
 if __name__ == "__main__":
