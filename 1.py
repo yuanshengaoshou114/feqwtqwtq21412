@@ -219,7 +219,6 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
     painting_lower_map = {}
     for key, value in painting_filter_map.items():
         painting_lower_map[key.lower()] = value
-
     name_data = {
         "ships": [
             {
@@ -231,10 +230,60 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
             for ship in ships_data
         ]
     }
-
     with open("name.json", 'w', encoding='utf-8') as f:
         json.dump(name_data, f, ensure_ascii=False, indent=2)
     print(f"name.json 生成成功！包含 {len(ships_data)} 个舰船数据")
+
+def extract_dialogue_lines(script_item: Dict, code_mapping: Dict) -> str:
+    if "say" in script_item:
+        say_text = script_item["say"]
+        say_text = replace_namecodes(say_text, code_mapping)
+        actor = script_item.get("actorName") or script_item.get("actor") or ""
+        if actor:
+            return f"{actor}：{say_text}"
+        return say_text
+    return ""
+
+def generate_story_dialogues(code_mapping: Dict):
+    story_path = find_data_file("story.json")
+    if not story_path:
+        print("未找到 story.json，跳过生成 story_dialogues.json")
+        return
+    story_data = load_json_file(story_path)
+    dialogues = {}
+    for key, entry in story_data.items():
+        if not isinstance(entry, dict):
+            continue
+        raw_scripts = entry.get("scripts")
+        if not raw_scripts:
+            continue
+        lines = []
+        if isinstance(raw_scripts, dict):
+            try:
+                sorted_keys = sorted(raw_scripts.keys(), key=lambda k: int(k) if k.isdigit() else 999999)
+                for k in sorted_keys:
+                    item = raw_scripts[k]
+                    if isinstance(item, dict):
+                        line = extract_dialogue_lines(item, code_mapping)
+                        if line:
+                            lines.append(line)
+            except:
+                for item in raw_scripts.values():
+                    if isinstance(item, dict):
+                        line = extract_dialogue_lines(item, code_mapping)
+                        if line:
+                            lines.append(line)
+        elif isinstance(raw_scripts, list):
+            for item in raw_scripts:
+                if isinstance(item, dict):
+                    line = extract_dialogue_lines(item, code_mapping)
+                    if line:
+                        lines.append(line)
+        if lines:
+            dialogues[key] = lines
+    with open("story_dialogues.json", "w", encoding="utf-8") as f:
+        json.dump(dialogues, f, ensure_ascii=False, indent=2)
+    print(f"story_dialogues.json 生成成功，包含 {len(dialogues)} 个剧情段")
 
 def main():
     required_files = {
@@ -280,6 +329,7 @@ def main():
     else:
         print("错误: 缺少 ships 或 namecode，无法生成主数据文件")
     generate_skin_voice_mapping()
+    generate_story_dialogues(loaded_data.get("namecode", {}))
 
 if __name__ == "__main__":
     main()
