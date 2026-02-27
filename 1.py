@@ -234,56 +234,103 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
         json.dump(name_data, f, ensure_ascii=False, indent=2)
     print(f"name.json 生成成功！包含 {len(ships_data)} 个舰船数据")
 
-def extract_dialogue_lines(script_item: Dict, code_mapping: Dict) -> str:
-    if "say" in script_item:
-        say_text = script_item["say"]
-        say_text = replace_namecodes(say_text, code_mapping)
-        actor = script_item.get("actorName") or script_item.get("actor") or ""
-        if actor:
-            return f"{actor}：{say_text}"
-        return say_text
-    return ""
-
-def generate_story_dialogues(code_mapping: Dict):
+def generate_story_dialogues():
     story_path = find_data_file("story.json")
-    if not story_path:
-        print("未找到 story.json，跳过生成 story_dialogues.json")
+    memory_template_path = find_data_file("memory_template.json")
+    memory_group_path = find_data_file("memory_group.json")
+    name_code_path = find_data_file("name_code.json")
+
+    if not all([story_path, memory_template_path, memory_group_path, name_code_path]):
+        print("缺少必要的剧情文件，跳过生成 story_dialogues_structured.json")
         return
-    story_data = load_json_file(story_path)
-    dialogues = {}
-    for key, entry in story_data.items():
-        if not isinstance(entry, dict):
-            continue
-        raw_scripts = entry.get("scripts")
-        if not raw_scripts:
-            continue
-        lines = []
-        if isinstance(raw_scripts, dict):
+
+    story = load_json_file(story_path)
+    mem_temp = load_json_file(memory_template_path)
+    mem_group = load_json_file(memory_group_path)
+    namecode = load_json_file(name_code_path)
+
+    story_to_title = {}
+    for tid, item in mem_temp.items():
+        sk = item.get("story")
+        if sk:
+            story_to_title[sk.upper()] = item.get("title", "未知标题")
+
+    memory_to_group = {}
+    for gid, group in mem_group.items():
+        title = group.get("title", "未知组")
+        memories = group.get("memories", [])
+        for mid in memories:
+            memory_to_group[str(mid)] = title
+
+    structured_output = {
+        "metadata": {
+            "generated_at": datetime.now().isoformat(),
+            "version": "1.0",
+            "description": "碧蓝航线剧情对话 - 已替换namecode，按数字顺序排序，只包含纯对话文本"
+        },
+        "groups": []
+    }
+
+    group_episodes = defaultdict(list)
+
+    for key_lower, content in story.items():
+        key_upper = key_lower.upper()
+
+        scripts_raw = content.get("scripts", content) if isinstance(content, dict) else content
+
+        dialogues = []
+        if isinstance(scripts_raw, dict):
             try:
-                sorted_keys = sorted(raw_scripts.keys(), key=lambda k: int(k) if k.isdigit() else 999999)
+                sorted_keys = sorted(scripts_raw.keys(), key=lambda k: int(k) if k.isdigit() else 999999)
                 for k in sorted_keys:
-                    item = raw_scripts[k]
-                    if isinstance(item, dict):
-                        line = extract_dialogue_lines(item, code_mapping)
-                        if line:
-                            lines.append(line)
-            except:
-                for item in raw_scripts.values():
-                    if isinstance(item, dict):
-                        line = extract_dialogue_lines(item, code_mapping)
-                        if line:
-                            lines.append(line)
-        elif isinstance(raw_scripts, list):
-            for item in raw_scripts:
-                if isinstance(item, dict):
-                    line = extract_dialogue_lines(item, code_mapping)
-                    if line:
-                        lines.append(line)
-        if lines:
-            dialogues[key] = lines
-    with open("story_dialogues.json", "w", encoding="utf-8") as f:
-        json.dump(dialogues, f, ensure_ascii=False, indent=2)
-    print(f"story_dialogues.json 生成成功，包含 {len(dialogues)} 个剧情段")
+                    s = scripts_raw.get(k)
+                    if isinstance(s, dict) and "say" in s and s["say"]:
+                        say_text = replace_namecodes(s["say"], namecode)
+                        dialogues.append(say_text)
+            except Exception as e:
+                print(f"处理 {key_lower} scripts 失败: {e}")
+        elif isinstance(scripts_raw, list):
+            for s in scripts_raw:
+                if isinstance(s, dict) and "say" in s and s["say"]:
+                    say_text = replace_namecodes(s["say"], namecode)
+                    dialogues.append(say_text)
+
+        if not dialogues:
+            continue
+
+        title = story_to_title.get(key_upper, f"[{key_lower}]")
+        memory_id = None
+        group_title = "未分组剧情"
+
+        for tid, tmp in mem_temp.items():
+            if tmp.get("story", "").upper() == key_upper:
+                memory_id = tid
+                if title.startswith("["):
+                    title = tmp.get("title", title)
+                break
+
+        if memory_id and str(memory_id) in memory_to_group:
+            group_title = memory_to_group[str(memory_id)]
+
+        group_episodes[group_title].append({
+            "story_key": key_lower,
+            "episode_title": title,
+            "memory_id": memory_id,
+            "dialogues": dialogues
+        })
+
+    for group_name in sorted(group_episodes.keys()):
+        episodes = sorted(group_episodes[group_name], key=lambda x: x["story_key"])
+        structured_output["groups"].append({
+            "group_title": group_name,
+            "episodes": episodes
+        })
+
+    output_path = Path("story_dialogues_structured.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(structured_output, f, ensure_ascii=False, indent=2)
+
+    print(f"已生成 {output_path} （分组、标题、数字排序、纯对话已处理完成）")
 
 def main():
     required_files = {
@@ -329,7 +376,8 @@ def main():
     else:
         print("错误: 缺少 ships 或 namecode，无法生成主数据文件")
     generate_skin_voice_mapping()
-    generate_story_dialogues(loaded_data.get("namecode", {}))
+
+    generate_story_dialogues()
 
 if __name__ == "__main__":
     main()
