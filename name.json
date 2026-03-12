@@ -19786,6 +19786,7 @@
       "ship_group": "70111",
       "res_list": [
         "painting/huoli_2_tex",
+        "painting/huoli_2_shophx_tex",
         "painting/huoli_2_n_tex",
         "painting/huoli_2_n",
         "painting/huoli_2"
@@ -26590,6 +26591,20 @@
         "painting/kelifulan_alter_n_rw_tex",
         "painting/kelifulan_alter_n",
         "painting/kelifulan_alter"
+      ]
+    },
+    {
+      "name": "雷根斯堡·META",
+      "painting": "leigensibao_alter",
+      "ship_group": "970211",
+      "res_list": [
+        "painting/leigensibao_alter_tex",
+        "painting/leigensibao_alter_rw_tex",
+        "painting/leigensibao_alter_n_tex",
+        "painting/leigensibao_alter_n_rw_tex",
+        "painting/leigensibao_alter_n",
+        "painting/leigensibao_alter_bj_tex",
+        "painting/leigensibao_alter"
       ]
     },
     {
