@@ -27029,6 +27029,34 @@
       ]
     },
     {
+      "name": "数据集：无数的我",
+      "painting": "linghangyuan3_2",
+      "ship_group": "990002",
+      "res_list": [
+        "painting/linghangyuan3_2_tex",
+        "painting/linghangyuan3_2_rw_tex",
+        "painting/linghangyuan3_2_n_rw_tex",
+        "painting/linghangyuan3_2_n",
+        "painting/linghangyuan3_2_bj_tex",
+        "painting/linghangyuan3_2"
+      ]
+    },
+    {
+      "name": "悠悠假日私语时",
+      "painting": "tansuozhe_2",
+      "ship_group": "990003",
+      "res_list": [
+        "painting/tansuozhe_2_tex",
+        "painting/tansuozhe_2_rw_tex",
+        "painting/tansuozhe_2_n_tex",
+        "painting/tansuozhe_2_n_rw_tex",
+        "painting/tansuozhe_2_n_bj_tex",
+        "painting/tansuozhe_2_n",
+        "painting/tansuozhe_2_bj_tex",
+        "painting/tansuozhe_2"
+      ]
+    },
+    {
       "name": "涅普顿",
       "painting": "HDN101",
       "ship_group": "1010001",
