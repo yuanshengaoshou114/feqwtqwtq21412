@@ -19,6 +19,18 @@
       ]
     },
     {
+      "name": "布里愚人节",
+      "painting": "gin_3",
+      "ship_group": "10000",
+      "res_list": [
+        "painting/gin_3_tex",
+        "painting/gin_3_rw_tex",
+        "painting/gin_3_n_rw_tex",
+        "painting/gin_3_n",
+        "painting/gin_3"
+      ]
+    },
+    {
       "name": "试作型布里MKII",
       "painting": "kin",
       "ship_group": "10001",
@@ -11447,6 +11459,68 @@
       ]
     },
     {
+      "name": "木津",
+      "painting": "mujin",
+      "ship_group": "30228",
+      "res_list": [
+        "painting/mujin_tex",
+        "painting/mujin_rw_tex",
+        "painting/mujin_n_tex",
+        "painting/mujin_n_rw_tex",
+        "painting/mujin_n",
+        "painting/mujin_bj_tex",
+        "painting/mujin"
+      ]
+    },
+    {
+      "name": "“落网”之龙",
+      "painting": "mujin_2",
+      "ship_group": "30228",
+      "res_list": [
+        "painting/mujin_2_tex",
+        "painting/mujin_2_rw_tex",
+        "painting/mujin_2_rw_hx_tex",
+        "painting/mujin_2_n_rw_tex",
+        "painting/mujin_2_n_rw_hx_tex",
+        "painting/mujin_2_n_hx",
+        "painting/mujin_2_n",
+        "painting/mujin_2_hx_tex",
+        "painting/mujin_2_hx",
+        "painting/mujin_2_bj_tex",
+        "painting/mujin_2_bj_hx_tex",
+        "painting/mujin_2"
+      ]
+    },
+    {
+      "name": "名寄",
+      "painting": "mingji",
+      "ship_group": "30229",
+      "res_list": [
+        "painting/mingji_tex",
+        "painting/mingji_rw_tex",
+        "painting/mingji_n_tex",
+        "painting/mingji_n_rw_tex",
+        "painting/mingji_n_bj_tex",
+        "painting/mingji_n",
+        "painting/mingji_bj_tex",
+        "painting/mingji"
+      ]
+    },
+    {
+      "name": "Electric Affection",
+      "painting": "mingji_2",
+      "ship_group": "30229",
+      "res_list": [
+        "painting/mingji_2_tex",
+        "painting/mingji_2_shophx_tex",
+        "painting/mingji_2_rw_tex",
+        "painting/mingji_2_n_rw_tex",
+        "painting/mingji_2_n",
+        "painting/mingji_2_bj_tex",
+        "painting/mingji_2"
+      ]
+    },
+    {
       "name": "古鹰",
       "painting": "guying",
       "ship_group": "30301",
@@ -11782,6 +11856,18 @@
       ]
     },
     {
+      "name": "凛然的猎心杀手",
+      "painting": "moye_2",
+      "ship_group": "30313",
+      "res_list": [
+        "painting/moye_2_tex",
+        "painting/moye_2_rw_tex",
+        "painting/moye_2_n_rw_tex",
+        "painting/moye_2_n",
+        "painting/moye_2"
+      ]
+    },
+    {
       "name": "鸟海",
       "painting": "niaohai",
       "ship_group": "30314",
@@ -11799,6 +11885,20 @@
         "painting/niaohai_2_n_tex",
         "painting/niaohai_2_n",
         "painting/niaohai_2"
+      ]
+    },
+    {
+      "name": "偷心怪盗",
+      "painting": "niaohai_3",
+      "ship_group": "30314",
+      "res_list": [
+        "painting/niaohai_3_tex",
+        "painting/niaohai_3_rw_tex",
+        "painting/niaohai_3_n_rw_tex",
+        "painting/niaohai_3_n_bj_tex",
+        "painting/niaohai_3_n",
+        "painting/niaohai_3_bj_tex",
+        "painting/niaohai_3"
       ]
     },
     {
@@ -13575,6 +13675,51 @@
         "painting/baifeng_2_n_rw_tex",
         "painting/baifeng_2_n",
         "painting/baifeng_2"
+      ]
+    },
+    {
+      "name": "云龙",
+      "painting": "yunlong",
+      "ship_group": "30717",
+      "res_list": [
+        "painting/yunlong_tex",
+        "painting/yunlong_rw_tex",
+        "painting/yunlong_n_tex",
+        "painting/yunlong_n_rw_tex",
+        "painting/yunlong_n_bj_tex",
+        "painting/yunlong_n",
+        "painting/yunlong_bj2_tex",
+        "painting/yunlong_bj1_tex",
+        "painting/yunlong"
+      ]
+    },
+    {
+      "name": "溶于重重夜色",
+      "painting": "yunlong_2",
+      "ship_group": "30717",
+      "res_list": [
+        "painting/yunlong_2_tex",
+        "painting/yunlong_2_rw_tex",
+        "painting/yunlong_2_rw_hx_tex",
+        "painting/yunlong_2_n_rw_tex",
+        "painting/yunlong_2_n_rw_hx_tex",
+        "painting/yunlong_2_n_hx",
+        "painting/yunlong_2_n",
+        "painting/yunlong_2_hx_tex",
+        "painting/yunlong_2_hx",
+        "painting/yunlong_2"
+      ]
+    },
+    {
+      "name": "溶于重重夜色",
+      "painting": "yunlong_3",
+      "ship_group": "30717",
+      "res_list": [
+        "painting/yunlong_3_tex",
+        "painting/yunlong_3_rw_tex",
+        "painting/yunlong_3_n_rw_tex",
+        "painting/yunlong_3_n",
+        "painting/yunlong_3"
       ]
     },
     {
@@ -15788,6 +15933,18 @@
         "painting/saidelici_7_n_tex",
         "painting/saidelici_7_n",
         "painting/saidelici_7"
+      ]
+    },
+    {
+      "name": "双面危局",
+      "painting": "saidelici_8",
+      "ship_group": "40403",
+      "res_list": [
+        "painting/saidelici_8_tex",
+        "painting/saidelici_8_rw_tex",
+        "painting/saidelici_8_n_rw_tex",
+        "painting/saidelici_8_n",
+        "painting/saidelici_8"
       ]
     },
     {
@@ -18997,6 +19154,23 @@
       ]
     },
     {
+      "name": "间谍行动大失败！",
+      "painting": "geliqiya_3",
+      "ship_group": "60306",
+      "res_list": [
+        "painting/geliqiya_3_tex",
+        "painting/geliqiya_3_rw_tex",
+        "painting/geliqiya_3_rw_hx_tex",
+        "painting/geliqiya_3_n_rw_tex",
+        "painting/geliqiya_3_n_rw_hx_tex",
+        "painting/geliqiya_3_n_hx",
+        "painting/geliqiya_3_n",
+        "painting/geliqiya_3_hx_tex",
+        "painting/geliqiya_3_hx",
+        "painting/geliqiya_3"
+      ]
+    },
+    {
       "name": "维托里奥·维内托",
       "painting": "weineituo",
       "ship_group": "60501",
@@ -19872,6 +20046,18 @@
         "painting/afuleer_3_n_tex",
         "painting/afuleer_3_n",
         "painting/afuleer_3"
+      ]
+    },
+    {
+      "name": "微醺的海风",
+      "painting": "afuleer_4",
+      "ship_group": "70201",
+      "res_list": [
+        "painting/afuleer_4_tex",
+        "painting/afuleer_4_rw_tex",
+        "painting/afuleer_4_n_rw_tex",
+        "painting/afuleer_4_n",
+        "painting/afuleer_4"
       ]
     },
     {
@@ -25042,6 +25228,15 @@
       ]
     },
     {
+      "name": "名寄",
+      "painting": "npcmingji_2",
+      "ship_group": "900539",
+      "res_list": [
+        "painting/npcmingji_2_tex",
+        "painting/npcmingji_2"
+      ]
+    },
+    {
       "name": "勒马尔",
       "painting": "lemaer",
       "ship_group": "90101",
@@ -25368,6 +25563,19 @@
       "res_list": [
         "painting/buqu_3_tex",
         "painting/buqu_3"
+      ]
+    },
+    {
+      "name": "全力以赴的伪装监听！",
+      "painting": "buqu_4",
+      "ship_group": "90113",
+      "res_list": [
+        "painting/buqu_4_tex",
+        "painting/buqu_4_rw_tex",
+        "painting/buqu_4_n_tex",
+        "painting/buqu_4_n_rw_tex",
+        "painting/buqu_4_n",
+        "painting/buqu_4"
       ]
     },
     {
@@ -26591,6 +26799,20 @@
         "painting/kelifulan_alter_n_rw_tex",
         "painting/kelifulan_alter_n",
         "painting/kelifulan_alter"
+      ]
+    },
+    {
+      "name": "科隆·META",
+      "painting": "kelong_alter",
+      "ship_group": "970210",
+      "res_list": [
+        "painting/kelong_alter_tex",
+        "painting/kelong_alter_rw_tex",
+        "painting/kelong_alter_n_tex",
+        "painting/kelong_alter_n_rw_tex",
+        "painting/kelong_alter_n",
+        "painting/kelong_alter_bj_tex",
+        "painting/kelong_alter"
       ]
     },
     {
