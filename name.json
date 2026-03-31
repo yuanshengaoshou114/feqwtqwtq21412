@@ -19,6 +19,18 @@
       ]
     },
     {
+      "name": "变身！魔法少女★buli！",
+      "painting": "gin_3",
+      "ship_group": "10000",
+      "res_list": [
+        "painting/gin_3_tex",
+        "painting/gin_3_rw_tex",
+        "painting/gin_3_n_rw_tex",
+        "painting/gin_3_n",
+        "painting/gin_3"
+      ]
+    },
+    {
       "name": "试作型布里MKII",
       "painting": "kin",
       "ship_group": "10001",
