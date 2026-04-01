@@ -110,14 +110,51 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
     ships = process_ships(ship_data, code_mapping)
     skins = process_skins(ship_data, code_mapping)
     words = process_words(words_data, code_mapping)
+    
+    ships_by_name = defaultdict(list)
+    for ship in ships:
+        ships_by_name[ship["name"]].append(ship)
+    
+    unique_ships = []
+    ship_skin_counts = {}
+    for ship in ships:
+        skin_count = len([s for s in skins if s["original_id"] == ship["id"]])
+        ship_skin_counts[ship["id"]] = skin_count
+    
+    for name, ship_list in ships_by_name.items():
+        if len(ship_list) == 1:
+            unique_ships.append(ship_list[0])
+        else:
+            best_ship = None
+            best_skin_count = -1
+            for ship in ship_list:
+                skin_count = ship_skin_counts.get(ship["id"], 0)
+                if skin_count > best_skin_count:
+                    best_ship = ship
+                    best_skin_count = skin_count
+                elif skin_count == best_skin_count:
+                    if not ship["painting"].startswith("npc") and best_ship and best_ship["painting"].startswith("npc"):
+                        best_ship = ship
+            if best_ship:
+                unique_ships.append(best_ship)
+    
+    unique_skin_ids = {ship["id"] for ship in unique_ships}
+    unique_skins = [skin for skin in skins if skin["original_id"] in unique_skin_ids]
+    
+    unique_words = {}
+    for word_id, word_data in words.items():
+        linked_ship_id = word_data.get("linked_ship_id")
+        if linked_ship_id in unique_skin_ids:
+            unique_words[word_id] = word_data
+    
     id_mapping = {
         "ship": {
-            "id_to_id2": {s["id"]: s["id2"] for s in ships},
-            "id2_to_id": {s["id2"]: s["id"] for s in ships}
+            "id_to_id2": {s["id"]: s["id2"] for s in unique_ships},
+            "id2_to_id": {s["id2"]: s["id"] for s in unique_ships}
         },
         "skin": {
-            "id_to_original": {s["id"]: s["original_id"] for s in skins},
-            "original_to_id": {s["original_id"]: s["id"] for s in skins}
+            "id_to_original": {s["id"]: s["original_id"] for s in unique_skins},
+            "original_to_id": {s["original_id"]: s["id"] for s in unique_skins}
         }
     }
     zuming_data = {
@@ -127,7 +164,7 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
                 "name": ship["name"],
                 "ship_group": ship["ship_group"]
             }
-            for ship in ships
+            for ship in unique_ships
         ]
     }
     return {
@@ -140,9 +177,9 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
                 "words": "保留原始ID"
             }
         },
-        "ships": ships,
-        "skins": skins,
-        "words": words,
+        "ships": unique_ships,
+        "skins": unique_skins,
+        "words": unique_words,
         "id_mapping": id_mapping,
         "zuming_data": zuming_data
     }
@@ -154,10 +191,37 @@ def generate_skin_voice_mapping():
         return
     template = load_json_file(template_path)
     words = load_json_file(words_path)
+    
+    ships_by_name = defaultdict(list)
+    for skin_id_str, info in template.items():
+        name = info.get("name", "未知皮肤")
+        ships_by_name[name].append((skin_id_str, info))
+    
+    ship_groups_to_keep = set()
+    for name, ship_list in ships_by_name.items():
+        if len(ship_list) == 1:
+            for skin_id_str, info in ship_list:
+                ship_groups_to_keep.add(str(info.get("ship_group")))
+        else:
+            best_info = None
+            best_skin_count = -1
+            for skin_id_str, info in ship_list:
+                skin_count = len([s for s in template.values() if s.get("ship_group") == info.get("ship_group")])
+                if skin_count > best_skin_count:
+                    best_info = info
+                    best_skin_count = skin_count
+                elif skin_count == best_skin_count:
+                    if best_info and best_info.get("painting", "").startswith("npc") and not info.get("painting", "").startswith("npc"):
+                        best_info = info
+            if best_info:
+                ship_groups_to_keep.add(str(best_info.get("ship_group")))
+    
     skins_by_group = defaultdict(list)
     for skin_id_str, info in template.items():
         ship_group = info.get("ship_group")
         if ship_group is None:
+            continue
+        if str(ship_group) not in ship_groups_to_keep:
             continue
         group_index = info.get("group_index", 0)
         name = info.get("name", "未知皮肤")
@@ -166,8 +230,10 @@ def generate_skin_voice_mapping():
             "group_index": group_index,
             "name": name
         })
+    
     for group in skins_by_group:
         skins_by_group[group].sort(key=lambda x: x["group_index"])
+    
     mapping = {}
     for ship_group, skin_list in skins_by_group.items():
         group_map = {}
@@ -213,6 +279,30 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
     painting_lower_map = {}
     for key, value in painting_filter_map.items():
         painting_lower_map[key.lower()] = value
+    
+    ships_by_name = defaultdict(list)
+    for ship in ships_data:
+        ships_by_name[ship["name"]].append(ship)
+    
+    unique_ships = []
+    for name, ship_list in ships_by_name.items():
+        if len(ship_list) == 1:
+            unique_ships.append(ship_list[0])
+        else:
+            ship_with_skins = None
+            for ship in ship_list:
+                painting = ship["painting"]
+                skin_count = len(painting_lower_map.get(painting.lower(), {}).get("res_list", []))
+                if ship_with_skins is None:
+                    ship_with_skins = (ship, skin_count)
+                else:
+                    if skin_count > ship_with_skins[1]:
+                        ship_with_skins = (ship, skin_count)
+                    elif skin_count == ship_with_skins[1]:
+                        if not ship["painting"].startswith("npc") and ship_with_skins[0]["painting"].startswith("npc"):
+                            ship_with_skins = (ship, skin_count)
+            unique_ships.append(ship_with_skins[0])
+    
     name_data = {
         "ships": [
             {
@@ -221,7 +311,7 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
                 "ship_group": ship.get("ship_group", ""),
                 "res_list": painting_lower_map.get(ship["painting"].lower(), {}).get("res_list", [])
             }
-            for ship in ships_data
+            for ship in unique_ships
         ]
     }
     with open("name.json", 'w', encoding='utf-8') as f:
