@@ -3000,15 +3000,6 @@
       ]
     },
     {
-      "name": "科罗拉多",
-      "painting": "keluoladuo_2",
-      "ship_group": "10509",
-      "res_list": [
-        "painting/keluoladuo_2_tex",
-        "painting/keluoladuo_2"
-      ]
-    },
-    {
       "name": "旅途的旋律",
       "painting": "keluoladuo_3",
       "ship_group": "10509",
@@ -3058,15 +3049,6 @@
       ]
     },
     {
-      "name": "马里兰",
-      "painting": "malilan_2",
-      "ship_group": "10510",
-      "res_list": [
-        "painting/malilan_2_tex",
-        "painting/malilan_2"
-      ]
-    },
-    {
       "name": "真红鼓手",
       "painting": "malilan_3",
       "ship_group": "10510",
@@ -3100,15 +3082,6 @@
       "res_list": [
         "painting/xifujiniya_tex",
         "painting/xifujiniya"
-      ]
-    },
-    {
-      "name": "西弗吉尼亚",
-      "painting": "xifujiniya_2",
-      "ship_group": "10511",
-      "res_list": [
-        "painting/xifujiniya_2_tex",
-        "painting/xifujiniya_2"
       ]
     },
     {
@@ -3940,18 +3913,6 @@
         "painting/yuekechengii_3_n_rw_tex",
         "painting/yuekechengii_3_n",
         "painting/yuekechengii_3"
-      ]
-    },
-    {
-      "name": "交错的温柔时光",
-      "painting": "yuekechengII_4",
-      "ship_group": "10710",
-      "res_list": [
-        "painting/yuekechengii_4_tex",
-        "painting/yuekechengii_4_rw_tex",
-        "painting/yuekechengii_4_n_rw_tex",
-        "painting/yuekechengii_4_n",
-        "painting/yuekechengii_4"
       ]
     },
     {
@@ -10058,15 +10019,6 @@
       ]
     },
     {
-      "name": "新月",
-      "painting": "xinyue_jp",
-      "ship_group": "30156",
-      "res_list": [
-        "painting/xinyue_jp_tex",
-        "painting/xinyue_jp"
-      ]
-    },
-    {
       "name": "春月",
       "painting": "chunyue",
       "ship_group": "30157",
@@ -13140,15 +13092,6 @@
       ]
     },
     {
-      "name": "加贺",
-      "painting": "jiahe",
-      "ship_group": "30702",
-      "res_list": [
-        "painting/jiahe_tex",
-        "painting/jiahe"
-      ]
-    },
-    {
       "name": "常夏的杀生石",
       "painting": "Jiahe_2",
       "ship_group": "30702",
@@ -13613,19 +13556,6 @@
       ]
     },
     {
-      "name": "天城",
-      "painting": "tiancheng_cv",
-      "ship_group": "30715",
-      "res_list": [
-        "painting/tiancheng_cv_tex",
-        "painting/tiancheng_cv_rw_tex",
-        "painting/tiancheng_cv_n_rw_tex",
-        "painting/tiancheng_cv_n",
-        "painting/tiancheng_cv_bj_tex",
-        "painting/tiancheng_cv"
-      ]
-    },
-    {
       "name": "落于王座之花",
       "painting": "tiancheng_cv_2",
       "ship_group": "30715",
@@ -13708,18 +13638,6 @@
         "painting/yunlong_2_hx_tex",
         "painting/yunlong_2_hx",
         "painting/yunlong_2"
-      ]
-    },
-    {
-      "name": "溶于重重夜色",
-      "painting": "yunlong_3",
-      "ship_group": "30717",
-      "res_list": [
-        "painting/yunlong_3_tex",
-        "painting/yunlong_3_rw_tex",
-        "painting/yunlong_3_n_rw_tex",
-        "painting/yunlong_3_n",
-        "painting/yunlong_3"
       ]
     },
     {
@@ -13971,19 +13889,6 @@
         "painting/i404_2_n",
         "painting/i404_2_bj_tex",
         "painting/i404_2"
-      ]
-    },
-    {
-      "name": "绛縢华舞",
-      "painting": "I404_3",
-      "ship_group": "31702",
-      "res_list": [
-        "painting/i404_3_tex",
-        "painting/i404_3_rw_tex",
-        "painting/i404_3_n_rw_tex",
-        "painting/i404_3_n",
-        "painting/i404_3_bj_tex",
-        "painting/i404_3"
       ]
     },
     {
@@ -14370,18 +14275,6 @@
         "painting/siwanshi_3_tex",
         "painting/siwanshi_3_rw_tex",
         "painting/siwanshi_3"
-      ]
-    },
-    {
-      "name": "优哉游哉的龙神大人",
-      "painting": "siwanshi_4",
-      "ship_group": "39906",
-      "res_list": [
-        "painting/siwanshi_4_tex",
-        "painting/siwanshi_4_rw_tex",
-        "painting/siwanshi_4_n_rw_tex",
-        "painting/siwanshi_4_n",
-        "painting/siwanshi_4"
       ]
     },
     {
@@ -15732,18 +15625,6 @@
         "painting/adaerbote_3_n_tex",
         "painting/adaerbote_3_n",
         "painting/adaerbote_3"
-      ]
-    },
-    {
-      "name": "约克",
-      "painting": "yueke_ger",
-      "ship_group": "40311",
-      "res_list": [
-        "painting/yueke_ger_tex",
-        "painting/yueke_ger_rw_tex",
-        "painting/yueke_ger_n_tex",
-        "painting/yueke_ger_n",
-        "painting/yueke_ger"
       ]
     },
     {
@@ -18289,14 +18170,6 @@
       ]
     },
     {
-      "name": "醒梦芳醇",
-      "painting": "haichou_2_asmr",
-      "ship_group": "50212",
-      "res_list": [
-        "painting/haichou_2_asmr"
-      ]
-    },
-    {
       "name": "建武",
       "painting": "jianwu",
       "ship_group": "50301",
@@ -18316,18 +18189,6 @@
         "painting/jianwu_2_n_tex",
         "painting/jianwu_2_n",
         "painting/jianwu_2"
-      ]
-    },
-    {
-      "name": "妆点，只为今夜",
-      "painting": "jianwu_3",
-      "ship_group": "50301",
-      "res_list": [
-        "painting/jianwu_3_tex",
-        "painting/jianwu_3_rw_tex",
-        "painting/jianwu_3_n_tex",
-        "painting/jianwu_3_n",
-        "painting/jianwu_3"
       ]
     },
     {
@@ -20617,18 +20478,6 @@
       ]
     },
     {
-      "name": "缠丝审讯",
-      "painting": "suweiaitongmeng_4",
-      "ship_group": "70502",
-      "res_list": [
-        "painting/suweiaitongmeng_4_tex",
-        "painting/suweiaitongmeng_4_rw_tex",
-        "painting/suweiaitongmeng_4_n_rw_tex",
-        "painting/suweiaitongmeng_4_n",
-        "painting/suweiaitongmeng_4"
-      ]
-    },
-    {
       "name": "苏维埃贝拉罗斯",
       "painting": "suweiaibeilaluosi",
       "ship_group": "70504",
@@ -21308,14 +21157,6 @@
       ]
     },
     {
-      "name": "Milk&Kiss",
-      "painting": "jishang_3_asmr",
-      "ship_group": "80203",
-      "res_list": [
-        "painting/jishang_3_asmr"
-      ]
-    },
-    {
       "name": "迪盖·特鲁因",
       "painting": "digaiteluyin",
       "ship_group": "80204",
@@ -21839,100 +21680,6 @@
       ]
     },
     {
-      "name": "柯尼斯堡",
-      "painting": "kenisibao-ui",
-      "ship_group": "900001",
-      "res_list": [
-        "painting/kenisibao-ui_tex",
-        "painting/kenisibao-ui"
-      ]
-    },
-    {
-      "name": "卡尔斯鲁厄",
-      "painting": "kaersilue",
-      "ship_group": "900002",
-      "res_list": [
-        "painting/kaersilue_tex",
-        "painting/kaersilue"
-      ]
-    },
-    {
-      "name": "科隆",
-      "painting": "kelong-ui",
-      "ship_group": "900003",
-      "res_list": [
-        "painting/kelong-ui_tex",
-        "painting/kelong-ui"
-      ]
-    },
-    {
-      "name": "萨福克",
-      "painting": "safuke",
-      "ship_group": "900004",
-      "res_list": [
-        "painting/safuke_tex",
-        "painting/safuke_hx_tex",
-        "painting/safuke_hx",
-        "painting/safuke"
-      ]
-    },
-    {
-      "name": "诺福克",
-      "painting": "nuofuke",
-      "ship_group": "900005",
-      "res_list": [
-        "painting/nuofuke_tex",
-        "painting/nuofuke_hx_tex",
-        "painting/nuofuke_hx",
-        "painting/nuofuke"
-      ]
-    },
-    {
-      "name": "胡德",
-      "painting": "hude",
-      "ship_group": "900006",
-      "res_list": [
-        "painting/hude_tex",
-        "painting/hude"
-      ]
-    },
-    {
-      "name": "威尔士亲王",
-      "painting": "weiershiqinwang",
-      "ship_group": "900007",
-      "res_list": [
-        "painting/weiershiqinwang_tex",
-        "painting/weiershiqinwang"
-      ]
-    },
-    {
-      "name": "皇家方舟",
-      "painting": "huangjiafangzhou",
-      "ship_group": "900008",
-      "res_list": [
-        "painting/huangjiafangzhou_tex",
-        "painting/huangjiafangzhou"
-      ]
-    },
-    {
-      "name": "欧根亲王",
-      "painting": "ougen",
-      "ship_group": "900009",
-      "res_list": [
-        "painting/ougen_tex",
-        "painting/ougen"
-      ]
-    },
-    {
-      "name": "俾斯麦",
-      "painting": "bisimai",
-      "ship_group": "900010",
-      "res_list": [
-        "painting/bisimai_tex",
-        "painting/bisimai"
-      ]
-    },
-    {
       "name": "？？？？？",
       "painting": "unknown1",
       "ship_group": "900011",
@@ -21941,17 +21688,6 @@
         "painting/unknown1_hx_tex",
         "painting/unknown1_hx",
         "painting/unknown1"
-      ]
-    },
-    {
-      "name": "？？？？？",
-      "painting": "unknown2",
-      "ship_group": "900012",
-      "res_list": [
-        "painting/unknown2_tex",
-        "painting/unknown2_hx_tex",
-        "painting/unknown2_hx",
-        "painting/unknown2"
       ]
     },
     {
@@ -21965,258 +21701,12 @@
       ]
     },
     {
-      "name": "雾岛",
-      "painting": "wudao",
-      "ship_group": "900014",
-      "res_list": [
-        "painting/wudao_tex",
-        "painting/wudao_shadow_tex",
-        "painting/wudao"
-      ]
-    },
-    {
-      "name": "最上",
-      "painting": "zuishang",
-      "ship_group": "900015",
-      "res_list": [
-        "painting/zuishang_tex",
-        "painting/zuishang"
-      ]
-    },
-    {
-      "name": "爱宕",
-      "painting": "aidang",
-      "ship_group": "900016",
-      "res_list": [
-        "painting/aidang_tex",
-        "painting/aidang"
-      ]
-    },
-    {
-      "name": "金刚",
-      "painting": "jingang",
-      "ship_group": "900017",
-      "res_list": [
-        "painting/jingang_tex",
-        "painting/jingang"
-      ]
-    },
-    {
-      "name": "逸仙",
-      "painting": "yixian",
-      "ship_group": "900020",
-      "res_list": [
-        "painting/yixian_tex",
-        "painting/yixian"
-      ]
-    },
-    {
-      "name": "？？？？？",
-      "painting": "unknown3",
-      "ship_group": "900021",
-      "res_list": [
-        "painting/unknown3_tex",
-        "painting/unknown3"
-      ]
-    },
-    {
-      "name": "宁海",
-      "painting": "ninghai_memory",
-      "ship_group": "900022",
-      "res_list": [
-        "painting/ninghai_memory_tex",
-        "painting/ninghai_memory"
-      ]
-    },
-    {
-      "name": "平海",
-      "painting": "pinghai_memory",
-      "ship_group": "900023",
-      "res_list": [
-        "painting/pinghai_memory_tex",
-        "painting/pinghai_memory"
-      ]
-    },
-    {
-      "name": "逸仙",
-      "painting": "yixian_memory",
-      "ship_group": "900024",
-      "res_list": [
-        "painting/yixian_memory_tex",
-        "painting/yixian_memory"
-      ]
-    },
-    {
-      "name": "翔鹤",
-      "painting": "xianghe_memory",
-      "ship_group": "900027",
-      "res_list": [
-        "painting/xianghe_memory_tex",
-        "painting/xianghe_memory"
-      ]
-    },
-    {
-      "name": "瑞鹤",
-      "painting": "ruihe_memory",
-      "ship_group": "900028",
-      "res_list": [
-        "painting/ruihe_memory_tex",
-        "painting/ruihe_memory"
-      ]
-    },
-    {
-      "name": "绫波",
-      "painting": "lingbo",
-      "ship_group": "900040",
-      "res_list": [
-        "painting/lingbo_tex",
-        "painting/lingbo"
-      ]
-    },
-    {
-      "name": "高雄",
-      "painting": "gaoxiong",
-      "ship_group": "900041",
-      "res_list": [
-        "painting/gaoxiong_tex",
-        "painting/gaoxiong-hx_tex",
-        "painting/gaoxiong"
-      ]
-    },
-    {
-      "name": "爱宕",
-      "painting": "aidang",
-      "ship_group": "900042",
-      "res_list": [
-        "painting/aidang_tex",
-        "painting/aidang"
-      ]
-    },
-    {
-      "name": "翔鹤",
-      "painting": "xianghe",
-      "ship_group": "900043",
-      "res_list": [
-        "painting/xianghe_tex",
-        "painting/xianghe"
-      ]
-    },
-    {
-      "name": "瑞鹤",
-      "painting": "ruihe",
-      "ship_group": "900044",
-      "res_list": [
-        "painting/ruihe_tex",
-        "painting/ruihe"
-      ]
-    },
-    {
-      "name": "三笠",
-      "painting": "sanli",
-      "ship_group": "900045",
-      "res_list": [
-        "painting/sanli_tex",
-        "painting/sanli"
-      ]
-    },
-    {
-      "name": "比叡",
-      "painting": "birui",
-      "ship_group": "900046",
-      "res_list": [
-        "painting/birui_tex",
-        "painting/birui"
-      ]
-    },
-    {
-      "name": "三笠",
-      "painting": "sanli_memory",
-      "ship_group": "900050",
-      "res_list": [
-        "painting/sanli_memory_tex",
-        "painting/sanli_memory"
-      ]
-    },
-    {
-      "name": "比叡",
-      "painting": "birui_memory",
-      "ship_group": "900051",
-      "res_list": [
-        "painting/birui_memory_tex",
-        "painting/birui_memory"
-      ]
-    },
-    {
-      "name": "黎塞留",
-      "painting": "lisailiu",
-      "ship_group": "900052",
-      "res_list": [
-        "painting/lisailiu_tex",
-        "painting/lisailiu"
-      ]
-    },
-    {
-      "name": "圣女贞德",
-      "painting": "shengnvzhende",
-      "ship_group": "900053",
-      "res_list": [
-        "painting/shengnvzhende_tex",
-        "painting/shengnvzhende"
-      ]
-    },
-    {
-      "name": "黎塞留",
-      "painting": "lisailiu_memory",
-      "ship_group": "900054",
-      "res_list": [
-        "painting/lisailiu_memory_tex",
-        "painting/lisailiu_memory"
-      ]
-    },
-    {
       "name": "让·巴尔",
       "painting": "rangbaer_memory",
       "ship_group": "900055",
       "res_list": [
         "painting/rangbaer_memory_tex",
         "painting/rangbaer_memory"
-      ]
-    },
-    {
-      "name": "企业",
-      "painting": "qiye_dark_memory",
-      "ship_group": "900070",
-      "res_list": [
-        "painting/qiye_dark_memory_tex",
-        "painting/qiye_dark_memory_ani_tex",
-        "painting/qiye_dark_memory"
-      ]
-    },
-    {
-      "name": "？？？？？",
-      "painting": "unknown2_memory",
-      "ship_group": "900071",
-      "res_list": [
-        "painting/unknown2_memory_tex",
-        "painting/unknown2_memory_ani_tex",
-        "painting/unknown2_memory_00003_tex",
-        "painting/unknown2_memory_00002_tex",
-        "painting/unknown2_memory_00001_tex",
-        "painting/unknown2_memory_00000_tex",
-        "painting/unknown2_memory"
-      ]
-    },
-    {
-      "name": "企业",
-      "painting": "qiye_dark",
-      "ship_group": "900072",
-      "res_list": [
-        "painting/qiye_dark_tex",
-        "painting/qiye_dark_00003_tex",
-        "painting/qiye_dark_00002_tex",
-        "painting/qiye_dark_00001_tex",
-        "painting/qiye_dark_00000_tex",
-        "painting/qiye_dark"
       ]
     },
     {
@@ -22238,88 +21728,12 @@
       ]
     },
     {
-      "name": "光荣",
-      "painting": "guangrong",
-      "ship_group": "900079",
-      "res_list": [
-        "painting/guangrong_tex",
-        "painting/guangrong"
-      ]
-    },
-    {
-      "name": "神子的休憩",
-      "painting": "changmen_2",
-      "ship_group": "900130",
-      "res_list": [
-        "painting/changmen_2_tex",
-        "painting/changmen_2"
-      ]
-    },
-    {
-      "name": "海伦娜",
-      "painting": "hailunna",
-      "ship_group": "900132",
-      "res_list": [
-        "painting/hailunna_tex",
-        "painting/hailunna"
-      ]
-    },
-    {
-      "name": "北卡罗来纳",
-      "painting": "beikaluolaina",
-      "ship_group": "900133",
-      "res_list": [
-        "painting/beikaluolaina_tex",
-        "painting/beikaluolaina"
-      ]
-    },
-    {
-      "name": "华盛顿",
-      "painting": "huashengdun",
-      "ship_group": "900134",
-      "res_list": [
-        "painting/huashengdun_tex",
-        "painting/huashengdun"
-      ]
-    },
-    {
-      "name": "？？？？？",
-      "painting": "qiye_dark",
-      "ship_group": "900135",
-      "res_list": [
-        "painting/qiye_dark_tex",
-        "painting/qiye_dark_00003_tex",
-        "painting/qiye_dark_00002_tex",
-        "painting/qiye_dark_00001_tex",
-        "painting/qiye_dark_00000_tex",
-        "painting/qiye_dark"
-      ]
-    },
-    {
       "name": "观察者-零",
       "painting": "unknown4",
       "ship_group": "900136",
       "res_list": [
         "painting/unknown4_tex",
         "painting/unknown4"
-      ]
-    },
-    {
-      "name": "厌战",
-      "painting": "yanzhan",
-      "ship_group": "900161",
-      "res_list": [
-        "painting/yanzhan_tex",
-        "painting/yanzhan"
-      ]
-    },
-    {
-      "name": "长春",
-      "painting": "changchun",
-      "ship_group": "900162",
-      "res_list": [
-        "painting/changchun_tex",
-        "painting/changchun"
       ]
     },
     {
@@ -22334,102 +21748,12 @@
       ]
     },
     {
-      "name": "U-556",
-      "painting": "u556",
-      "ship_group": "900180",
-      "res_list": [
-        "painting/u556_tex",
-        "painting/u556"
-      ]
-    },
-    {
-      "name": "U-556",
-      "painting": "u556",
-      "ship_group": "900180",
-      "res_list": [
-        "painting/u556_tex",
-        "painting/u556"
-      ]
-    },
-    {
-      "name": "U-556",
-      "painting": "u556",
-      "ship_group": "900180",
-      "res_list": [
-        "painting/u556_tex",
-        "painting/u556"
-      ]
-    },
-    {
       "name": "指挥喵",
       "painting": "lanmao",
       "ship_group": "900183",
       "res_list": [
         "painting/lanmao_tex",
         "painting/lanmao"
-      ]
-    },
-    {
-      "name": "企业",
-      "painting": "qiye",
-      "ship_group": "900184",
-      "res_list": [
-        "painting/qiye_tex",
-        "painting/qiye"
-      ]
-    },
-    {
-      "name": "丹佛",
-      "painting": "danfo",
-      "ship_group": "900185",
-      "res_list": [
-        "painting/danfo_tex",
-        "painting/danfo"
-      ]
-    },
-    {
-      "name": "哥伦比亚",
-      "painting": "gelunbiya",
-      "ship_group": "900186",
-      "res_list": [
-        "painting/gelunbiya_tex",
-        "painting/gelunbiya"
-      ]
-    },
-    {
-      "name": "蒙彼利埃",
-      "painting": "mengbiliai",
-      "ship_group": "900187",
-      "res_list": [
-        "painting/mengbiliai_tex",
-        "painting/mengbiliai"
-      ]
-    },
-    {
-      "name": "克利夫兰",
-      "painting": "kelifulan",
-      "ship_group": "900188",
-      "res_list": [
-        "painting/kelifulan_tex",
-        "painting/kelifulan"
-      ]
-    },
-    {
-      "name": "高雄",
-      "painting": "gaoxiong_dark_shadow",
-      "ship_group": "900189",
-      "res_list": [
-        "painting/gaoxiong_dark_shadow_tex",
-        "painting/gaoxiong_dark_shadow"
-      ]
-    },
-    {
-      "name": "企业",
-      "painting": "qiye_dark_shadow",
-      "ship_group": "900190",
-      "res_list": [
-        "painting/qiye_dark_shadow_tex",
-        "painting/qiye_dark_shadow"
       ]
     },
     {
@@ -22442,77 +21766,12 @@
       ]
     },
     {
-      "name": "高雄",
-      "painting": "gaoxiong_dark",
-      "ship_group": "900192",
-      "res_list": [
-        "painting/gaoxiong_dark_tex",
-        "painting/gaoxiong_dark"
-      ]
-    },
-    {
-      "name": "巴尔的摩",
-      "painting": "baerdimo_dark_shadow",
-      "ship_group": "900193",
-      "res_list": [
-        "painting/baerdimo_dark_shadow_tex",
-        "painting/baerdimo_dark_shadow"
-      ]
-    },
-    {
-      "name": "大黄蜂",
-      "painting": "dahuangfeng_dark_shadow",
-      "ship_group": "900194",
-      "res_list": [
-        "painting/dahuangfeng_dark_shadow_tex",
-        "painting/dahuangfeng_dark_shadow"
-      ]
-    },
-    {
       "name": "苝",
       "painting": "beifeng",
       "ship_group": "900195",
       "res_list": [
         "painting/beifeng_tex",
         "painting/beifeng"
-      ]
-    },
-    {
-      "name": "波拉",
-      "painting": "bola",
-      "ship_group": "900196",
-      "res_list": [
-        "painting/bola_tex",
-        "painting/bola"
-      ]
-    },
-    {
-      "name": "维托里奥·维内托",
-      "painting": "weineituo",
-      "ship_group": "900195",
-      "res_list": [
-        "painting/weineituo_wjz_tex",
-        "painting/weineituo_wjz_hx_tex",
-        "painting/weineituo_wjz_hx",
-        "painting/weineituo_wjz",
-        "painting/weineituo_tex",
-        "painting/weineituo_renwu_tex",
-        "painting/weineituo_renwu_hx_tex",
-        "painting/weineituo_n_hx",
-        "painting/weineituo_n",
-        "painting/weineituo_jz_tex",
-        "painting/weineituo_hx",
-        "painting/weineituo_front_tex",
-        "painting/weineituo"
-      ]
-    },
-    {
-      "name": "骏河",
-      "painting": "junhe",
-      "ship_group": "900200",
-      "res_list": [
-        "painting/junhe_tex",
-        "painting/junhe"
       ]
     },
     {
@@ -22525,66 +21784,12 @@
       ]
     },
     {
-      "name": "？？？",
-      "painting": "abeikelongbi_2_dark_shadow",
-      "ship_group": "900202",
-      "res_list": [
-        "painting/abeikelongbi_2_dark_shadow_tex",
-        "painting/abeikelongbi_2_dark_shadow"
-      ]
-    },
-    {
       "name": "加斯科涅(μ兵装)",
       "painting": "jiasikenie_idolns",
       "ship_group": "900203",
       "res_list": [
         "painting/jiasikenie_idolns_tex",
         "painting/jiasikenie_idolns"
-      ]
-    },
-    {
-      "name": "赤城(μ兵装)",
-      "painting": "chicheng_idolns",
-      "ship_group": "900204",
-      "res_list": [
-        "painting/chicheng_idolns_tex",
-        "painting/chicheng_idolns"
-      ]
-    },
-    {
-      "name": "克利夫兰(μ兵装)",
-      "painting": "kelifulan_idolns",
-      "ship_group": "900205",
-      "res_list": [
-        "painting/kelifulan_idolns_tex",
-        "painting/kelifulan_idolns"
-      ]
-    },
-    {
-      "name": "希佩尔海军上将(μ兵装)",
-      "painting": "xipeier_idolns",
-      "ship_group": "900206",
-      "res_list": [
-        "painting/xipeier_idolns_tex",
-        "painting/xipeier_idolns"
-      ]
-    },
-    {
-      "name": "谢菲尔德(μ兵装)",
-      "painting": "xiefeierde_idolns",
-      "ship_group": "900207",
-      "res_list": [
-        "painting/xiefeierde_idolns_tex",
-        "painting/xiefeierde_idolns"
-      ]
-    },
-    {
-      "name": "大黄蜂",
-      "painting": "dahuangfeng_hx",
-      "ship_group": "900208",
-      "res_list": [
-        "painting/dahuangfeng_hx_tex",
-        "painting/dahuangfeng_hx"
       ]
     },
     {
@@ -22651,131 +21856,12 @@
       ]
     },
     {
-      "name": "黛朵",
-      "painting": "daiduo",
-      "ship_group": "900216",
-      "res_list": [
-        "painting/daiduo_tex",
-        "painting/daiduo"
-      ]
-    },
-    {
-      "name": "基洛夫",
-      "painting": "jiluofu",
-      "ship_group": "900217",
-      "res_list": [
-        "painting/jiluofu_tex",
-        "painting/jiluofu_n_tex",
-        "painting/jiluofu_n",
-        "painting/jiluofu"
-      ]
-    },
-    {
-      "name": "苏维埃同盟",
-      "painting": "suweiaitongmeng_wjz",
-      "ship_group": "900218",
-      "res_list": [
-        "painting/suweiaitongmeng_wjz_tex",
-        "painting/suweiaitongmeng_wjz"
-      ]
-    },
-    {
       "name": "清除者",
       "painting": "qingchuzhe",
       "ship_group": "900219",
       "res_list": [
         "painting/qingchuzhe_tex",
         "painting/qingchuzhe"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "suweiailuoxiya_dark",
-      "ship_group": "900220",
-      "res_list": [
-        "painting/suweiailuoxiya_dark_tex",
-        "painting/suweiailuoxiya_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "gangute_dark",
-      "ship_group": "900221",
-      "res_list": [
-        "painting/gangute_dark_tex",
-        "painting/gangute_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "tashigan_dark",
-      "ship_group": "900222",
-      "res_list": [
-        "painting/tashigan_dark_tex",
-        "painting/tashigan_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "qiabayefu_dark",
-      "ship_group": "900223",
-      "res_list": [
-        "painting/qiabayefu_dark_tex",
-        "painting/qiabayefu_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "weiyan_dark",
-      "ship_group": "900224",
-      "res_list": [
-        "painting/weiyan_dark_tex",
-        "painting/weiyan_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "shuixingjinian_dark",
-      "ship_group": "900225",
-      "res_list": [
-        "painting/shuixingjinian_dark_tex",
-        "painting/shuixingjinian_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "suweiaitongmeng_dark",
-      "ship_group": "900226",
-      "res_list": [
-        "painting/suweiaitongmeng_dark_tex",
-        "painting/suweiaitongmeng_dark"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "qiye_dark_shadow",
-      "ship_group": "900227",
-      "res_list": [
-        "painting/qiye_dark_shadow_tex",
-        "painting/qiye_dark_shadow"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "lansaiyu",
-      "ship_group": "900228",
-      "res_list": [
-        "painting/lansaiyu_tex",
-        "painting/lansaiyu"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "unknown5_shadow",
-      "ship_group": "900229",
-      "res_list": [
-        "painting/unknown5_shadow_tex",
-        "painting/unknown5_shadow"
       ]
     },
     {
@@ -22808,33 +21894,6 @@
       ]
     },
     {
-      "name": "净化者",
-      "painting": "unknown3",
-      "ship_group": "900233",
-      "res_list": [
-        "painting/unknown3_tex",
-        "painting/unknown3"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "unknown5",
-      "ship_group": "900234",
-      "res_list": [
-        "painting/unknown5_tex",
-        "painting/unknown5"
-      ]
-    },
-    {
-      "name": "泛用型布里",
-      "painting": "gin",
-      "ship_group": "900235",
-      "res_list": [
-        "painting/gin_tex",
-        "painting/gin"
-      ]
-    },
-    {
       "name": "沃克兰",
       "painting": "wokelan",
       "ship_group": "900236",
@@ -22844,433 +21903,12 @@
       ]
     },
     {
-      "name": "可怖",
-      "painting": "kebu",
-      "ship_group": "900237",
-      "res_list": [
-        "painting/kebu_tex",
-        "painting/kebu_rw_tex",
-        "painting/kebu_n_tex",
-        "painting/kebu_n",
-        "painting/kebu"
-      ]
-    },
-    {
       "name": "阿尔及利亚？",
       "painting": "aerjiliya_hei",
       "ship_group": "900238",
       "res_list": [
         "painting/aerjiliya_hei_tex",
         "painting/aerjiliya_hei"
-      ]
-    },
-    {
-      "name": "让·巴尔",
-      "painting": "rangbaer_hei",
-      "ship_group": "900239",
-      "res_list": [
-        "painting/rangbaer_hei_tex",
-        "painting/rangbaer_hei"
-      ]
-    },
-    {
-      "name": "拉菲",
-      "painting": "lafei",
-      "ship_group": "900240",
-      "res_list": [
-        "painting/lafei_tex",
-        "painting/lafei"
-      ]
-    },
-    {
-      "name": "标枪",
-      "painting": "biaoqiang",
-      "ship_group": "900241",
-      "res_list": [
-        "painting/biaoqiang_tex",
-        "painting/biaoqiang"
-      ]
-    },
-    {
-      "name": "Z23",
-      "painting": "z23",
-      "ship_group": "900242",
-      "res_list": [
-        "painting/z23_tex",
-        "painting/z23"
-      ]
-    },
-    {
-      "name": "绫波",
-      "painting": "lingbo",
-      "ship_group": "900243",
-      "res_list": [
-        "painting/lingbo_tex",
-        "painting/lingbo"
-      ]
-    },
-    {
-      "name": "提尔比茨",
-      "painting": "tierbici",
-      "ship_group": "900244",
-      "res_list": [
-        "painting/tierbici_tex",
-        "painting/tierbici_hx_tex",
-        "painting/tierbici_hx",
-        "painting/tierbici"
-      ]
-    },
-    {
-      "name": "齐柏林伯爵",
-      "painting": "qibolin",
-      "ship_group": "900245",
-      "res_list": [
-        "painting/qibolin_tex",
-        "painting/qibolin"
-      ]
-    },
-    {
-      "name": "格奈森瑙",
-      "painting": "genaisennao",
-      "ship_group": "900246",
-      "res_list": [
-        "painting/genaisennao_tex",
-        "painting/genaisennao"
-      ]
-    },
-    {
-      "name": "翔鹤",
-      "painting": "xianghe",
-      "ship_group": "900247",
-      "res_list": [
-        "painting/xianghe_tex",
-        "painting/xianghe"
-      ]
-    },
-    {
-      "name": "瑞鹤",
-      "painting": "ruihe",
-      "ship_group": "900248",
-      "res_list": [
-        "painting/ruihe_tex",
-        "painting/ruihe"
-      ]
-    },
-    {
-      "name": "山城.改",
-      "painting": "shancheng_g",
-      "ship_group": "900249",
-      "res_list": [
-        "painting/shancheng_g_tex",
-        "painting/shancheng_g"
-      ]
-    },
-    {
-      "name": "北卡罗来纳",
-      "painting": "beikaluolaina",
-      "ship_group": "900250",
-      "res_list": [
-        "painting/beikaluolaina_tex",
-        "painting/beikaluolaina"
-      ]
-    },
-    {
-      "name": "华盛顿",
-      "painting": "huashengdun",
-      "ship_group": "900251",
-      "res_list": [
-        "painting/huashengdun_tex",
-        "painting/huashengdun"
-      ]
-    },
-    {
-      "name": "企业",
-      "painting": "qiye",
-      "ship_group": "900252",
-      "res_list": [
-        "painting/qiye_tex",
-        "painting/qiye"
-      ]
-    },
-    {
-      "name": "约克公爵",
-      "painting": "yuekegongjue",
-      "ship_group": "900253",
-      "res_list": [
-        "painting/yuekegongjue_tex",
-        "painting/yuekegongjue"
-      ]
-    },
-    {
-      "name": "胜利",
-      "painting": "shengli",
-      "ship_group": "900254",
-      "res_list": [
-        "painting/shengli_tex",
-        "painting/shengli"
-      ]
-    },
-    {
-      "name": "三笠",
-      "painting": "sanli",
-      "ship_group": "900255",
-      "res_list": [
-        "painting/sanli_tex",
-        "painting/sanli"
-      ]
-    },
-    {
-      "name": "马萨诸塞",
-      "painting": "masazhusai",
-      "ship_group": "900256",
-      "res_list": [
-        "painting/masazhusai_tex",
-        "painting/masazhusai_hx_tex",
-        "painting/masazhusai_hx",
-        "painting/masazhusai"
-      ]
-    },
-    {
-      "name": "胡德",
-      "painting": "hude",
-      "ship_group": "900257",
-      "res_list": [
-        "painting/hude_tex",
-        "painting/hude"
-      ]
-    },
-    {
-      "name": "皇家方舟",
-      "painting": "huangjiafangzhou",
-      "ship_group": "900258",
-      "res_list": [
-        "painting/huangjiafangzhou_tex",
-        "painting/huangjiafangzhou"
-      ]
-    },
-    {
-      "name": "赤城",
-      "painting": "chicheng",
-      "ship_group": "900259",
-      "res_list": [
-        "painting/chicheng_tex",
-        "painting/chicheng"
-      ]
-    },
-    {
-      "name": "加贺",
-      "painting": "jiahe",
-      "ship_group": "900260",
-      "res_list": [
-        "painting/jiahe_tex",
-        "painting/jiahe"
-      ]
-    },
-    {
-      "name": "声望",
-      "painting": "shengwang",
-      "ship_group": "900261",
-      "res_list": [
-        "painting/shengwang_tex",
-        "painting/shengwang"
-      ]
-    },
-    {
-      "name": "英王乔治五世",
-      "painting": "qiaozhiwushi",
-      "ship_group": "900262",
-      "res_list": [
-        "painting/qiaozhiwushi_tex",
-        "painting/qiaozhiwushi"
-      ]
-    },
-    {
-      "name": "厌战",
-      "painting": "yanzhan",
-      "ship_group": "900263",
-      "res_list": [
-        "painting/yanzhan_tex",
-        "painting/yanzhan"
-      ]
-    },
-    {
-      "name": "光辉",
-      "painting": "guanghui",
-      "ship_group": "900264",
-      "res_list": [
-        "painting/guanghui_tex",
-        "painting/guanghui"
-      ]
-    },
-    {
-      "name": "可畏",
-      "painting": "kewei",
-      "ship_group": "900265",
-      "res_list": [
-        "painting/kewei_tex",
-        "painting/kewei"
-      ]
-    },
-    {
-      "name": "苏维埃罗西亚",
-      "painting": "suweiailuoxiya",
-      "ship_group": "900266",
-      "res_list": [
-        "painting/suweiailuoxiya_tex",
-        "painting/suweiailuoxiya"
-      ]
-    },
-    {
-      "name": "甘古特",
-      "painting": "gangute",
-      "ship_group": "900267",
-      "res_list": [
-        "painting/gangute_tex",
-        "painting/gangute"
-      ]
-    },
-    {
-      "name": "萨拉托加",
-      "painting": "salatuojia",
-      "ship_group": "900268",
-      "res_list": [
-        "painting/salatuojia_tex",
-        "painting/salatuojia"
-      ]
-    },
-    {
-      "name": "埃塞克斯",
-      "painting": "aisaikesi",
-      "ship_group": "900269",
-      "res_list": [
-        "painting/aisaikesi_tex",
-        "painting/aisaikesi"
-      ]
-    },
-    {
-      "name": "无畏",
-      "painting": "wuwei",
-      "ship_group": "900270",
-      "res_list": [
-        "painting/wuwei_tex",
-        "painting/wuwei"
-      ]
-    },
-    {
-      "name": "邦克山",
-      "painting": "bangkeshan",
-      "ship_group": "900271",
-      "res_list": [
-        "painting/bangkeshan_tex",
-        "painting/bangkeshan"
-      ]
-    },
-    {
-      "name": "黎塞留",
-      "painting": "lisailiu",
-      "ship_group": "900272",
-      "res_list": [
-        "painting/lisailiu_tex",
-        "painting/lisailiu"
-      ]
-    },
-    {
-      "name": "贝亚恩",
-      "painting": "beiyaen",
-      "ship_group": "900273",
-      "res_list": [
-        "painting/beiyaen_tex",
-        "painting/beiyaen"
-      ]
-    },
-    {
-      "name": "豪",
-      "painting": "hao",
-      "ship_group": "900274",
-      "res_list": [
-        "painting/hao_tex",
-        "painting/hao"
-      ]
-    },
-    {
-      "name": "英勇",
-      "painting": "yingyong",
-      "ship_group": "900275",
-      "res_list": [
-        "painting/yingyong_tex",
-        "painting/yingyong"
-      ]
-    },
-    {
-      "name": "英仙座",
-      "painting": "yingxianzuo",
-      "ship_group": "900276",
-      "res_list": [
-        "painting/yingxianzuo_tex",
-        "painting/yingxianzuo"
-      ]
-    },
-    {
-      "name": "鹰",
-      "painting": "ying",
-      "ship_group": "900277",
-      "res_list": [
-        "painting/ying_tex",
-        "painting/ying"
-      ]
-    },
-    {
-      "name": "长门",
-      "painting": "changmen",
-      "ship_group": "900278",
-      "res_list": [
-        "painting/changmen_tex",
-        "painting/changmen"
-      ]
-    },
-    {
-      "name": "突击者",
-      "painting": "tujizhe",
-      "ship_group": "900279",
-      "res_list": [
-        "painting/tujizhe_tex",
-        "painting/tujizhe"
-      ]
-    },
-    {
-      "name": "加贺",
-      "painting": "jiahezhanlie",
-      "ship_group": "900280",
-      "res_list": [
-        "painting/jiahezhanlie_tex",
-        "painting/jiahezhanlie"
-      ]
-    },
-    {
-      "name": "凤翔",
-      "painting": "fengxiang",
-      "ship_group": "900281",
-      "res_list": [
-        "painting/fengxiang_tex",
-        "painting/fengxiang"
-      ]
-    },
-    {
-      "name": "罗德尼",
-      "painting": "luodeni",
-      "ship_group": "900282",
-      "res_list": [
-        "painting/luodeni_tex",
-        "painting/luodeni"
-      ]
-    },
-    {
-      "name": "山城",
-      "painting": "shancheng",
-      "ship_group": "900249",
-      "res_list": [
-        "painting/shancheng_tex",
-        "painting/shancheng"
       ]
     },
     {
@@ -23340,42 +21978,6 @@
       "res_list": []
     },
     {
-      "name": "约克城",
-      "painting": "yuekecheng_hei",
-      "ship_group": "90295",
-      "res_list": [
-        "painting/yuekecheng_hei_tex",
-        "painting/yuekecheng_hei"
-      ]
-    },
-    {
-      "name": "企业",
-      "painting": "qiye_hei",
-      "ship_group": "90296",
-      "res_list": [
-        "painting/qiye_hei_tex",
-        "painting/qiye_hei"
-      ]
-    },
-    {
-      "name": "大黄蜂",
-      "painting": "dahuangfeng_hei",
-      "ship_group": "90297",
-      "res_list": [
-        "painting/dahuangfeng_hei_tex",
-        "painting/dahuangfeng_hei"
-      ]
-    },
-    {
-      "name": "天城",
-      "painting": "tiancheng_hei",
-      "ship_group": "90298",
-      "res_list": [
-        "painting/tiancheng_hei_tex",
-        "painting/tiancheng_hei"
-      ]
-    },
-    {
       "name": "玛莉萝丝",
       "painting": "maliluosi_doa_wjz",
       "ship_group": "900300",
@@ -23391,15 +21993,6 @@
       "res_list": [
         "painting/suixiang_doa_wjz_tex",
         "painting/suixiang_doa_wjz"
-      ]
-    },
-    {
-      "name": "霞",
-      "painting": "xia_DOA_wjz",
-      "ship_group": "900302",
-      "res_list": [
-        "painting/xia_doa_wjz_tex",
-        "painting/xia_doa_wjz"
       ]
     },
     {
@@ -23457,51 +22050,6 @@
       ]
     },
     {
-      "name": "？？？",
-      "painting": "suweiaibeilaluosi_hei",
-      "ship_group": "900309",
-      "res_list": [
-        "painting/suweiaibeilaluosi_hei_tex",
-        "painting/suweiaibeilaluosi_hei"
-      ]
-    },
-    {
-      "name": "泛用型强化武装(工作用)",
-      "painting": "gin_2",
-      "ship_group": "900310",
-      "res_list": [
-        "painting/gin_2_tex",
-        "painting/gin_2"
-      ]
-    },
-    {
-      "name": "试作型布里MKII",
-      "painting": "kin",
-      "ship_group": "900311",
-      "res_list": [
-        "painting/kin_tex",
-        "painting/kin"
-      ]
-    },
-    {
-      "name": "萨福克",
-      "painting": "safuke_xinshou",
-      "ship_group": "900312",
-      "res_list": [
-        "painting/safuke_xinshou_tex",
-        "painting/safuke_xinshou"
-      ]
-    },
-    {
-      "name": "？？？？？",
-      "painting": "unknown1_xinshou",
-      "ship_group": "900313",
-      "res_list": [
-        "painting/unknown1_xinshou_tex",
-        "painting/unknown1_xinshou"
-      ]
-    },
-    {
       "name": "苍龙·META",
       "painting": "canglong_alter_hei",
       "ship_group": "900314",
@@ -23534,24 +22082,6 @@
       ]
     },
     {
-      "name": "旧金山",
-      "painting": "jiujinshan_wjz",
-      "ship_group": "900317",
-      "res_list": [
-        "painting/jiujinshan_wjz_tex",
-        "painting/jiujinshan_wjz"
-      ]
-    },
-    {
-      "name": "罗恩",
-      "painting": "luoen_3",
-      "ship_group": "900318",
-      "res_list": [
-        "painting/luoen_3_tex",
-        "painting/luoen_3"
-      ]
-    },
-    {
       "name": "沙恩霍斯特·META",
       "painting": "shaenhuosite_alter_hei",
       "ship_group": "900319",
@@ -23570,15 +22100,6 @@
       ]
     },
     {
-      "name": "？？？",
-      "painting": "ailunsamuna_hei",
-      "ship_group": "900321",
-      "res_list": [
-        "painting/ailunsamuna_hei_tex",
-        "painting/ailunsamuna_hei"
-      ]
-    },
-    {
       "name": "好人理查德",
       "painting": "haorenlichade_alter",
       "ship_group": "900322",
@@ -23594,15 +22115,6 @@
       "res_list": [
         "painting/tbniang_hei_tex",
         "painting/tbniang_hei"
-      ]
-    },
-    {
-      "name": "试作型布里MKII",
-      "painting": "kin",
-      "ship_group": "900324",
-      "res_list": [
-        "painting/kin_tex",
-        "painting/kin"
       ]
     },
     {
@@ -23633,37 +22145,6 @@
       ]
     },
     {
-      "name": "雅努斯",
-      "painting": "yanusi",
-      "ship_group": "900328",
-      "res_list": [
-        "painting/yanusi_tex",
-        "painting/yanusi_n_tex",
-        "painting/yanusi_n",
-        "painting/yanusi"
-      ]
-    },
-    {
-      "name": "罗马",
-      "painting": "luoma_ghost",
-      "ship_group": "900329",
-      "res_list": [
-        "painting/luoma_ghost_tex",
-        "painting/luoma_ghost"
-      ]
-    },
-    {
-      "name": "武藏",
-      "painting": "wuzang_s",
-      "ship_group": "900330",
-      "res_list": [
-        "painting/wuzang_s_tex",
-        "painting/wuzang_s_hx_tex",
-        "painting/wuzang_s_hx",
-        "painting/wuzang_s"
-      ]
-    },
-    {
       "name": "神通·META",
       "painting": "shentong_alter",
       "ship_group": "900331",
@@ -23678,63 +22159,12 @@
       ]
     },
     {
-      "name": "安洁",
-      "painting": "anjie",
-      "ship_group": "900332",
-      "res_list": [
-        "painting/anjie_tex",
-        "painting/anjie"
-      ]
-    },
-    {
-      "name": "奥斯塔",
-      "painting": "aosita",
-      "ship_group": "900333",
-      "res_list": [
-        "painting/aosita_tex",
-        "painting/aosita"
-      ]
-    },
-    {
-      "name": "拉菲II",
-      "painting": "lafeiII_n",
-      "ship_group": "900334",
-      "res_list": [
-        "painting/lafeiii_n_tex",
-        "painting/lafeiii_n_rw_tex",
-        "painting/lafeiii_n"
-      ]
-    },
-    {
       "name": "仲裁者·迪贝路·XV",
       "painting": "devil",
       "ship_group": "900335",
       "res_list": [
         "painting/devil_tex",
         "painting/devil"
-      ]
-    },
-    {
-      "name": "神通",
-      "painting": "shentong",
-      "ship_group": "900350",
-      "res_list": [
-        "painting/shentong_tex",
-        "painting/shentong"
-      ]
-    },
-    {
-      "name": "新泽西",
-      "painting": "xinzexi",
-      "ship_group": "900351",
-      "res_list": [
-        "painting/xinzexi_tex",
-        "painting/xinzexi_renwu_tex",
-        "painting/xinzexi_n",
-        "painting/xinzexi_jz2_tex",
-        "painting/xinzexi_jz1_tex",
-        "painting/xinzexi_front_tex",
-        "painting/xinzexi"
       ]
     },
     {
@@ -23763,25 +22193,6 @@
       ]
     },
     {
-      "name": "苏维埃同盟",
-      "painting": "suweiaitongmeng",
-      "ship_group": "900354",
-      "res_list": [
-        "painting/suweiaitongmeng_tex",
-        "painting/suweiaitongmeng"
-      ]
-    },
-    {
-      "name": "仲裁者·赫米忒·IX",
-      "painting": "hermit_alter",
-      "ship_group": "900355",
-      "res_list": [
-        "painting/hermit_alter_tex",
-        "painting/hermit_alter_rw_tex",
-        "painting/hermit_alter"
-      ]
-    },
-    {
       "name": "仲裁者·托瓦·XVI",
       "painting": "tower",
       "ship_group": "900356",
@@ -23803,98 +22214,12 @@
       ]
     },
     {
-      "name": "圣女贞德",
-      "painting": "shengnvzhende",
-      "ship_group": "900384",
-      "res_list": [
-        "painting/shengnvzhende_tex",
-        "painting/shengnvzhende"
-      ]
-    },
-    {
-      "name": "谢菲尔德",
-      "painting": "xiefeierde",
-      "ship_group": "900385",
-      "res_list": [
-        "painting/xiefeierde_tex",
-        "painting/xiefeierde"
-      ]
-    },
-    {
-      "name": "能代",
-      "painting": "nengdai",
-      "ship_group": "900386",
-      "res_list": [
-        "painting/nengdai_tex",
-        "painting/nengdai"
-      ]
-    },
-    {
-      "name": "骏河",
-      "painting": "junhe",
-      "ship_group": "900387",
-      "res_list": [
-        "painting/junhe_tex",
-        "painting/junhe"
-      ]
-    },
-    {
-      "name": "帝国",
-      "painting": "diguo",
-      "ship_group": "900388",
-      "res_list": [
-        "painting/diguo_tex",
-        "painting/diguo_n_tex",
-        "painting/diguo_n",
-        "painting/diguo"
-      ]
-    },
-    {
-      "name": "里昂",
-      "painting": "liang",
-      "ship_group": "900389",
-      "res_list": [
-        "painting/liang_tex",
-        "painting/liang_rw_tex",
-        "painting/liang_n_tex",
-        "painting/liang_n",
-        "painting/liang"
-      ]
-    },
-    {
       "name": "孟菲斯·META",
       "painting": "mengfeisi_alter",
       "ship_group": "900390",
       "res_list": [
         "painting/mengfeisi_alter_tex",
         "painting/mengfeisi_alter"
-      ]
-    },
-    {
-      "name": "阿布鲁齐公爵",
-      "painting": "abuluqi",
-      "ship_group": "900391",
-      "res_list": [
-        "painting/abuluqi_tex",
-        "painting/abuluqi_n_tex",
-        "painting/abuluqi_n_hx_tex",
-        "painting/abuluqi_n_hx",
-        "painting/abuluqi_n",
-        "painting/abuluqi_hx_tex",
-        "painting/abuluqi_hx",
-        "painting/abuluqi"
-      ]
-    },
-    {
-      "name": "喀琅施塔得",
-      "painting": "kalangshitade",
-      "ship_group": "900392",
-      "res_list": [
-        "painting/kalangshitade_tex",
-        "painting/kalangshitade_rw_tex",
-        "painting/kalangshitade_n_tex",
-        "painting/kalangshitade_n",
-        "painting/kalangshitade"
       ]
     },
     {
@@ -23916,59 +22241,12 @@
       ]
     },
     {
-      "name": "光辉",
-      "painting": "guanghui",
-      "ship_group": "900395",
-      "res_list": [
-        "painting/guanghui_tex",
-        "painting/guanghui"
-      ]
-    },
-    {
       "name": "加斯科涅",
       "painting": "jiasikenie",
       "ship_group": "900396",
       "res_list": [
         "painting/jiasikenie_tex",
         "painting/jiasikenie"
-      ]
-    },
-    {
-      "name": "香槟",
-      "painting": "xiangbin",
-      "ship_group": "900397",
-      "res_list": [
-        "painting/xiangbin_tex",
-        "painting/xiangbin_n_tex",
-        "painting/xiangbin"
-      ]
-    },
-    {
-      "name": "奥丁",
-      "painting": "aoding",
-      "ship_group": "900398",
-      "res_list": [
-        "painting/aoding_tex",
-        "painting/aoding"
-      ]
-    },
-    {
-      "name": "路易九世",
-      "painting": "luyijiushi",
-      "ship_group": "900399",
-      "res_list": [
-        "painting/luyijiushi_tex",
-        "painting/luyijiushi"
-      ]
-    },
-    {
-      "name": "鲁普雷希特亲王",
-      "painting": "lupuleixite",
-      "ship_group": "900400",
-      "res_list": [
-        "painting/lupuleixite_tex",
-        "painting/lupuleixite_rw_tex",
-        "painting/lupuleixite"
       ]
     },
     {
@@ -23983,18 +22261,6 @@
         "painting/fulandeer_n",
         "painting/fulandeer_bj_tex",
         "painting/fulandeer"
-      ]
-    },
-    {
-      "name": "瑞凤",
-      "painting": "ruifeng",
-      "ship_group": "900402",
-      "res_list": [
-        "painting/ruifeng_tex",
-        "painting/ruifeng_rw_tex",
-        "painting/ruifeng_n_tex",
-        "painting/ruifeng_n",
-        "painting/ruifeng"
       ]
     },
     {
@@ -24016,16 +22282,6 @@
       ]
     },
     {
-      "name": "战争协议-堡垒",
-      "painting": "baolei2",
-      "ship_group": "900405",
-      "res_list": [
-        "painting/baolei2_tex",
-        "painting/baolei2_rw_tex",
-        "painting/baolei2"
-      ]
-    },
-    {
       "name": "埃塞克斯·META",
       "painting": "aisaikesi_alter",
       "ship_group": "900406",
@@ -24034,15 +22290,6 @@
         "painting/aisaikesi_alter_n_tex",
         "painting/aisaikesi_alter_n",
         "painting/aisaikesi_alter"
-      ]
-    },
-    {
-      "name": "「银狐」女士",
-      "painting": "silverfox",
-      "ship_group": "900407",
-      "res_list": [
-        "painting/silverfox_tex",
-        "painting/silverfox"
       ]
     },
     {
@@ -24239,24 +22486,6 @@
       ]
     },
     {
-      "name": "金布里机甲",
-      "painting": "kin",
-      "ship_group": "900425",
-      "res_list": [
-        "painting/kin_tex",
-        "painting/kin"
-      ]
-    },
-    {
-      "name": "金布里机甲",
-      "painting": "kin",
-      "ship_group": "900426",
-      "res_list": [
-        "painting/kin_tex",
-        "painting/kin"
-      ]
-    },
-    {
       "name": "腓特烈·卡尔-钢铁教会机械师",
       "painting": "feiteliekaer",
       "ship_group": "900427",
@@ -24278,15 +22507,6 @@
       "res_list": [
         "painting/unknown6_tex",
         "painting/unknown6"
-      ]
-    },
-    {
-      "name": "埃姆登",
-      "painting": "aimudeng_4_npc",
-      "ship_group": "900429",
-      "res_list": [
-        "painting/aimudeng_4_npc_rw_tex",
-        "painting/aimudeng_4_npc"
       ]
     },
     {
@@ -24333,334 +22553,65 @@
       ]
     },
     {
-      "name": "土佐",
-      "painting": "tuzuo_3",
-      "ship_group": "900434",
-      "res_list": [
-        "painting/tuzuo_3_tex",
-        "painting/tuzuo_3_rw_tex",
-        "painting/tuzuo_3_rw_hx_tex",
-        "painting/tuzuo_3_n_tex",
-        "painting/tuzuo_3_n_hx",
-        "painting/tuzuo_3_n",
-        "painting/tuzuo_3_hx_tex",
-        "painting/tuzuo_3_hx",
-        "painting/tuzuo_3"
-      ]
-    },
-    {
-      "name": "阿达尔伯特亲王",
-      "painting": "npcadaerbote_3",
-      "ship_group": "900435",
-      "res_list": [
-        "painting/npcadaerbote_3_n_tex",
-        "painting/npcadaerbote_3_n"
-      ]
-    },
-    {
-      "name": "塔什干",
-      "painting": "tashigan_4",
-      "ship_group": "900436",
-      "res_list": [
-        "painting/tashigan_4_tex",
-        "painting/tashigan_4_rw_tex",
-        "painting/tashigan_4_n_tex",
-        "painting/tashigan_4_n",
-        "painting/tashigan_4"
-      ]
-    },
-    {
-      "name": "斯库拉",
-      "painting": "sikula_3",
-      "ship_group": "900437",
-      "res_list": [
-        "painting/sikula_3_tex",
-        "painting/sikula_3_rw_tex",
-        "painting/sikula_3_n_rw_tex",
-        "painting/sikula_3_n",
-        "painting/sikula_3"
-      ]
-    },
-    {
-      "name": "名取",
-      "painting": "mingqu_3",
-      "ship_group": "900438",
-      "res_list": [
-        "painting/mingqu_3_tex",
-        "painting/mingqu_3_rw_tex",
-        "painting/mingqu_3_n_rw_tex",
-        "painting/mingqu_3_n",
-        "painting/mingqu_3"
-      ]
-    },
-    {
-      "name": "萨拉托加",
-      "painting": "salatuojia_10",
-      "ship_group": "900439",
-      "res_list": [
-        "painting/salatuojia_10_tex",
-        "painting/salatuojia_10_n_tex",
-        "painting/salatuojia_10_n",
-        "painting/salatuojia_10"
-      ]
-    },
-    {
-      "name": "库尔斯克",
-      "painting": "kuersike_3",
-      "ship_group": "900440",
-      "res_list": [
-        "painting/kuersike_3_tex",
-        "painting/kuersike_3_rw_tex",
-        "painting/kuersike_3_n_rw_tex",
-        "painting/kuersike_3_n",
-        "painting/kuersike_3"
-      ]
-    },
-    {
-      "name": "阿尔萨斯",
-      "painting": "npcaersasi_2",
-      "ship_group": "900441",
-      "res_list": [
-        "painting/npcaersasi_2_rw_tex",
-        "painting/npcaersasi_2_n"
-      ]
-    },
-    {
-      "name": "圣路易斯",
-      "painting": "npcshengluyisi_5",
-      "ship_group": "900442",
-      "res_list": [
-        "painting/npcshengluyisi_5_tex",
-        "painting/npcshengluyisi_5_n_tex",
-        "painting/npcshengluyisi_5_n"
-      ]
-    },
-    {
       "name": "恶毒",
-      "painting": "npcedu_4",
-      "ship_group": "900443",
+      "painting": "edu",
+      "ship_group": "90111",
       "res_list": [
-        "painting/npcedu_4_n_tex",
-        "painting/npcedu_4_n"
+        "painting/edu_tex",
+        "painting/edu"
       ]
     },
     {
       "name": "莫加多尔",
-      "painting": "npcmojiaduoer_2",
-      "ship_group": "900444",
+      "painting": "mojiaduoer",
+      "ship_group": "90107",
       "res_list": [
-        "painting/npcmojiaduoer_2"
-      ]
-    },
-    {
-      "name": "天城",
-      "painting": "npctiancheng",
-      "ship_group": "900445",
-      "res_list": [
-        "painting/npctiancheng_tex",
-        "painting/npctiancheng"
-      ]
-    },
-    {
-      "name": "赤城",
-      "painting": "npcchicheng",
-      "ship_group": "900446",
-      "res_list": [
-        "painting/npcchicheng_tex",
-        "painting/npcchicheng"
-      ]
-    },
-    {
-      "name": "加贺",
-      "painting": "npcjiahe",
-      "ship_group": "900447",
-      "res_list": [
-        "painting/npcjiahe_tex",
-        "painting/npcjiahe"
-      ]
-    },
-    {
-      "name": "赤城",
-      "painting": "chicheng_alter",
-      "ship_group": "900448",
-      "res_list": [
-        "painting/chicheng_alter_tex",
-        "painting/chicheng_alter_rw4_tex",
-        "painting/chicheng_alter_rw3_tex",
-        "painting/chicheng_alter_rw2_tex",
-        "painting/chicheng_alter_rw1_tex",
-        "painting/chicheng_alter_n_tex",
-        "painting/chicheng_alter_n",
-        "painting/chicheng_alter_bj_tex",
-        "painting/chicheng_alter"
-      ]
-    },
-    {
-      "name": "赤城",
-      "painting": "leftchicheng_alter",
-      "ship_group": "900449",
-      "res_list": [
-        "painting/leftchicheng_alter_n",
-        "painting/leftchicheng_alter"
-      ]
-    },
-    {
-      "name": "赤城",
-      "painting": "rightchicheng_alter",
-      "ship_group": "900450",
-      "res_list": [
-        "painting/rightchicheng_alter_n",
-        "painting/rightchicheng_alter"
-      ]
-    },
-    {
-      "name": "赤城",
-      "painting": "midchicheng_alter",
-      "ship_group": "900451",
-      "res_list": [
-        "painting/midchicheng_alter_n",
-        "painting/midchicheng_alter"
-      ]
-    },
-    {
-      "name": "皇家方舟",
-      "painting": "huangjiafangzhou_6",
-      "ship_group": "900452",
-      "res_list": [
-        "painting/huangjiafangzhou_6_tex",
-        "painting/huangjiafangzhou_6_rw_tex",
-        "painting/huangjiafangzhou_6_n_tex",
-        "painting/huangjiafangzhou_6_n",
-        "painting/huangjiafangzhou_6"
-      ]
-    },
-    {
-      "name": "樫野",
-      "painting": "npcjianye_5",
-      "ship_group": "900453",
-      "res_list": [
-        "painting/npcjianye_5_rw_tex",
-        "painting/npcjianye_5_rw_hx_tex",
-        "painting/npcjianye_5_n_hx",
-        "painting/npcjianye_5_n"
-      ]
-    },
-    {
-      "name": "布莱默顿",
-      "painting": "npcbulaimodun_6",
-      "ship_group": "900454",
-      "res_list": [
-        "painting/npcbulaimodun_6_rw_tex",
-        "painting/npcbulaimodun_6_rw_hx_tex",
-        "painting/npcbulaimodun_6_n_tex",
-        "painting/npcbulaimodun_6_n_hx",
-        "painting/npcbulaimodun_6_n"
-      ]
-    },
-    {
-      "name": "鲁普雷希特亲王",
-      "painting": "lupuleixite_3",
-      "ship_group": "900455",
-      "res_list": [
-        "painting/lupuleixite_3_tex",
-        "painting/lupuleixite_3_rw_tex",
-        "painting/lupuleixite_3_n_tex",
-        "painting/lupuleixite_3_n",
-        "painting/lupuleixite_3"
-      ]
-    },
-    {
-      "name": "龙骧",
-      "painting": "longxiang_4",
-      "ship_group": "900456",
-      "res_list": [
-        "painting/longxiang_4_tex",
-        "painting/longxiang_4_rw_tex",
-        "painting/longxiang_4_n_tex",
-        "painting/longxiang_4_n",
-        "painting/longxiang_4"
-      ]
-    },
-    {
-      "name": "格罗斯特",
-      "painting": "geluosite_3",
-      "ship_group": "900457",
-      "res_list": [
-        "painting/geluosite_3_tex",
-        "painting/geluosite_3_rw_tex",
-        "painting/geluosite_3_n_tex",
-        "painting/geluosite_3_n",
-        "painting/geluosite_3"
-      ]
-    },
-    {
-      "name": "武藏",
-      "painting": "wuzang_3",
-      "ship_group": "900458",
-      "res_list": [
-        "painting/wuzang_3_tex",
-        "painting/wuzang_3_rw_tex",
-        "painting/wuzang_3_n_tex",
-        "painting/wuzang_3_n_hx",
-        "painting/wuzang_3_n",
-        "painting/wuzang_3_hx_tex",
-        "painting/wuzang_3_hx",
-        "painting/wuzang_3"
-      ]
-    },
-    {
-      "name": "天狼星",
-      "painting": "npctianlangxing_5",
-      "ship_group": "900459",
-      "res_list": [
-        "painting/npctianlangxing_5_n_tex",
-        "painting/npctianlangxing_5_n_hx",
-        "painting/npctianlangxing_5_n"
+        "painting/mojiaduoer_tex",
+        "painting/mojiaduoer_rw_tex",
+        "painting/mojiaduoer_n_tex",
+        "painting/mojiaduoer_n",
+        "painting/mojiaduoer_bj_tex",
+        "painting/mojiaduoer"
       ]
     },
     {
       "name": "冈依沙瓦号",
-      "painting": "npcgangyishawa_2",
-      "ship_group": "900460",
+      "painting": "gangyishawa",
+      "ship_group": "960007",
       "res_list": [
-        "painting/npcgangyishawa_2_n_hx",
-        "painting/npcgangyishawa_2_n"
+        "painting/gangyishawa_tex",
+        "painting/gangyishawa_rw_tex",
+        "painting/gangyishawa"
       ]
     },
     {
       "name": "幻想号",
-      "painting": "npchuanxianghao_2",
-      "ship_group": "900461",
+      "painting": "huanxianghao",
+      "ship_group": "960008",
       "res_list": [
-        "painting/npchuanxianghao_2_n_hx",
-        "painting/npchuanxianghao_2_n"
+        "painting/huanxianghao_tex",
+        "painting/huanxianghao_rw_tex",
+        "painting/huanxianghao"
       ]
     },
     {
       "name": "朴茨茅斯冒险号",
-      "painting": "npcpucimaosi_2",
-      "ship_group": "900462",
+      "painting": "pucimaosi",
+      "ship_group": "960010",
       "res_list": [
-        "painting/npcpucimaosi_2_n_hx",
-        "painting/npcpucimaosi_2_n"
+        "painting/pucimaosi_tex",
+        "painting/pucimaosi_rw_tex",
+        "painting/pucimaosi"
       ]
     },
     {
       "name": "海豚号",
-      "painting": "npchaitunhao_2",
-      "ship_group": "900463",
+      "painting": "haitunhao",
+      "ship_group": "960011",
       "res_list": [
-        "painting/npchaitunhao_2_n_hx",
-        "painting/npchaitunhao_2_n"
-      ]
-    },
-    {
-      "name": "尾张",
-      "painting": "npcweizhang_3",
-      "ship_group": "900464",
-      "res_list": [
-        "painting/npcweizhang_3_n_hx",
-        "painting/npcweizhang_3_n"
+        "painting/haitunhao_tex",
+        "painting/haitunhao_rw_tex",
+        "painting/haitunhao"
       ]
     },
     {
@@ -24670,15 +22621,6 @@
       "res_list": [
         "painting/madamm_tex",
         "painting/madamm"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "yuekecheng_alter_hei",
-      "ship_group": "900466",
-      "res_list": [
-        "painting/yuekecheng_alter_hei_tex",
-        "painting/yuekecheng_alter_hei"
       ]
     },
     {
@@ -24709,50 +22651,15 @@
       ]
     },
     {
-      "name": "新泽西",
-      "painting": "npcxinzexi_4",
-      "ship_group": "900470",
-      "res_list": [
-        "painting/npcxinzexi_4_tex",
-        "painting/npcxinzexi_4_rw_tex",
-        "painting/npcxinzexi_4_n_tex",
-        "painting/npcxinzexi_4_n"
-      ]
-    },
-    {
-      "name": "让·巴尔",
-      "painting": "npcrangbaer_5",
-      "ship_group": "900471",
-      "res_list": [
-        "painting/npcrangbaer_5_tex",
-        "painting/npcrangbaer_5_rw_tex",
-        "painting/npcrangbaer_5_n_tex",
-        "painting/npcrangbaer_5_n"
-      ]
-    },
-    {
-      "name": "美因茨",
-      "painting": "npcmeiyinci_3",
-      "ship_group": "900472",
-      "res_list": [
-        "painting/npcmeiyinci_3_tex",
-        "painting/npcmeiyinci_3_n_tex",
-        "painting/npcmeiyinci_3_n_hx_tex",
-        "painting/npcmeiyinci_3_n_hx",
-        "painting/npcmeiyinci_3_n",
-        "painting/npcmeiyinci_3_hx_tex",
-        "painting/npcmeiyinci_3_hx",
-        "painting/npcmeiyinci_3"
-      ]
-    },
-    {
       "name": "安德烈亚·多利亚·META",
-      "painting": "npcandelieyaduoliya_alter",
-      "ship_group": "900473",
+      "painting": "andelieyaduoliya_alter",
+      "ship_group": "970508",
       "res_list": [
-        "painting/npcandelieyaduoliya_alter_rw_tex",
-        "painting/npcandelieyaduoliya_alter_n_tex",
-        "painting/npcandelieyaduoliya_alter_n"
+        "painting/andelieyaduoliya_alter_tex",
+        "painting/andelieyaduoliya_alter_rw_tex",
+        "painting/andelieyaduoliya_alter_n_tex",
+        "painting/andelieyaduoliya_alter_n",
+        "painting/andelieyaduoliya_alter"
       ]
     },
     {
@@ -24802,15 +22709,6 @@
       ]
     },
     {
-      "name": "好人理查德",
-      "painting": "MissR",
-      "ship_group": "900479",
-      "res_list": [
-        "painting/missr_tex",
-        "painting/missr"
-      ]
-    },
-    {
       "name": "超级AI-TC",
       "painting": "linghangyuan1_5",
       "ship_group": "900480",
@@ -24854,31 +22752,27 @@
     },
     {
       "name": "光荣·META",
-      "painting": "npcguangrong_alter",
-      "ship_group": "900487",
+      "painting": "guangrong_alter",
+      "ship_group": "970707",
       "res_list": [
-        "painting/npcguangrong_alter_tex",
-        "painting/npcguangrong_alter_rw_tex",
-        "painting/npcguangrong_alter_n"
+        "painting/guangrong_alter_tex",
+        "painting/guangrong_alter_rw_tex",
+        "painting/guangrong_alter_n_tex",
+        "painting/guangrong_alter_n_rw_tex",
+        "painting/guangrong_alter_n",
+        "painting/guangrong_alter"
       ]
     },
     {
       "name": "格伦维尔·META",
-      "painting": "npcgelunweier_alter",
-      "ship_group": "900488",
+      "painting": "gelunweier_alter",
+      "ship_group": "970107",
       "res_list": [
-        "painting/npcgelunweier_alter_tex",
-        "painting/npcgelunweier_alter_rw_tex",
-        "painting/npcgelunweier_alter_n"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "unknownstar",
-      "ship_group": "900489",
-      "res_list": [
-        "painting/unknownstar_tex",
-        "painting/unknownstar"
+        "painting/gelunweier_alter_tex",
+        "painting/gelunweier_alter_rw_tex",
+        "painting/gelunweier_alter_n_rw_tex",
+        "painting/gelunweier_alter_n",
+        "painting/gelunweier_alter"
       ]
     },
     {
@@ -24894,76 +22788,24 @@
     },
     {
       "name": "黑暗界·META",
-      "painting": "npcheianjie_alter",
-      "ship_group": "900491",
+      "painting": "heianjie_alter",
+      "ship_group": "971301",
       "res_list": [
-        "painting/npcheianjie_alter_n"
+        "painting/heianjie_alter_tex",
+        "painting/heianjie_alter_n_tex",
+        "painting/heianjie_alter_n",
+        "painting/heianjie_alter"
       ]
     },
     {
       "name": "猎人·META",
-      "painting": "npclieren_alter",
-      "ship_group": "900492",
+      "painting": "lieren_alter",
+      "ship_group": "970101",
       "res_list": [
-        "painting/npclieren_alter_n"
-      ]
-    },
-    {
-      "name": "构建者",
-      "painting": "unknown5",
-      "ship_group": "900506",
-      "res_list": [
-        "painting/unknown5_tex",
-        "painting/unknown5"
-      ]
-    },
-    {
-      "name": "可畏",
-      "painting": "npckewei_6",
-      "ship_group": "900507",
-      "res_list": [
-        "painting/npckewei_6_tex",
-        "painting/npckewei_6_rw_tex",
-        "painting/npckewei_6_bj_tex",
-        "painting/npckewei_6_bj1_tex",
-        "painting/npckewei_6"
-      ]
-    },
-    {
-      "name": "君主",
-      "painting": "npcjunzhu_5",
-      "ship_group": "900508",
-      "res_list": [
-        "painting/npcjunzhu_5_tex",
-        "painting/npcjunzhu_5_rw_tex",
-        "painting/npcjunzhu_5"
-      ]
-    },
-    {
-      "name": "腓特烈·卡尔",
-      "painting": "npcfeiteliekaer_3",
-      "ship_group": "900509",
-      "res_list": [
-        "painting/npcfeiteliekaer_3_tex",
-        "painting/npcfeiteliekaer_3_rw_tex",
-        "painting/npcfeiteliekaer_3_bj_tex",
-        "painting/npcfeiteliekaer_3"
-      ]
-    },
-    {
-      "name": "马里兰",
-      "painting": "npcmalilan_3_n",
-      "ship_group": "900510",
-      "res_list": [
-        "painting/npcmalilan_3_n"
-      ]
-    },
-    {
-      "name": "初月",
-      "painting": "npcchuyue_3_n",
-      "ship_group": "900511",
-      "res_list": [
-        "painting/npcchuyue_3_n"
+        "painting/lieren_alter_tex",
+        "painting/lieren_alter_n_tex",
+        "painting/lieren_alter_n",
+        "painting/lieren_alter"
       ]
     },
     {
@@ -24982,20 +22824,6 @@
       "res_list": [
         "painting/siwangzhuzai_wjz_tex",
         "painting/siwangzhuzai_wjz"
-      ]
-    },
-    {
-      "name": "？？？",
-      "painting": "dosair",
-      "ship_group": "900514",
-      "res_list": [
-        "painting/dosair_tex",
-        "painting/dosair_rw_tex",
-        "painting/dosair_n_tex",
-        "painting/dosair_n_rw_tex",
-        "painting/dosair_n",
-        "painting/dosair_bj_tex",
-        "painting/dosair"
       ]
     },
     {
@@ -25053,48 +22881,6 @@
       ]
     },
     {
-      "name": "阿尔萨斯",
-      "painting": "npcaersasi_3",
-      "ship_group": "900521",
-      "res_list": [
-        "painting/npcaersasi_3_tex",
-        "painting/npcaersasi_3_rw_tex",
-        "painting/npcaersasi_3"
-      ]
-    },
-    {
-      "name": "布伦努斯",
-      "painting": "npcbulunnusi_3",
-      "ship_group": "900522",
-      "res_list": [
-        "painting/npcbulunnusi_3_tex",
-        "painting/npcbulunnusi_3_rw_tex",
-        "painting/npcbulunnusi_3"
-      ]
-    },
-    {
-      "name": "关岛",
-      "painting": "npcguandao_3",
-      "ship_group": "900523",
-      "res_list": [
-        "painting/npcguandao_3_tex",
-        "painting/npcguandao_3_rw_tex",
-        "painting/npcguandao_3_bj_tex",
-        "painting/npcguandao_3"
-      ]
-    },
-    {
-      "name": "加斯科涅",
-      "painting": "npcjiasikenie_3",
-      "ship_group": "900524",
-      "res_list": [
-        "painting/npcjiasikenie_3_tex",
-        "painting/npcjiasikenie_3_rw_tex",
-        "painting/npcjiasikenie_3_bj_tex",
-        "painting/npcjiasikenie_3"
-      ]
-    },
-    {
       "name": "拉菲Ⅱ",
       "painting": "npclafeiII_4",
       "ship_group": "900525",
@@ -25103,27 +22889,6 @@
         "painting/npclafeiii_4_rw_tex",
         "painting/npclafeiii_4_bj_tex",
         "painting/npclafeiii_4"
-      ]
-    },
-    {
-      "name": "厌战",
-      "painting": "npcyanzhan_4",
-      "ship_group": "900526",
-      "res_list": [
-        "painting/npcyanzhan_4_tex",
-        "painting/npcyanzhan_4_rw_tex",
-        "painting/npcyanzhan_4_bj_tex",
-        "painting/npcyanzhan_4"
-      ]
-    },
-    {
-      "name": "云仙",
-      "painting": "npcyunxian_3",
-      "ship_group": "900527",
-      "res_list": [
-        "painting/npcyunxian_3_tex",
-        "painting/npcyunxian_3_rw_tex",
-        "painting/npcyunxian_3"
       ]
     },
     {
@@ -25186,54 +22951,12 @@
       ]
     },
     {
-      "name": "好人理查德",
-      "painting": "richard_white",
-      "ship_group": "900534",
-      "res_list": [
-        "painting/richard_white_tex",
-        "painting/richard_white"
-      ]
-    },
-    {
       "name": "玛利亚",
       "painting": "maria",
       "ship_group": "900535",
       "res_list": [
         "painting/maria_tex",
         "painting/maria"
-      ]
-    },
-    {
-      "name": "马可波罗 王座",
-      "painting": "makeboluo",
-      "ship_group": "900536",
-      "res_list": [
-        "painting/makeboluo_tx3_tex",
-        "painting/makeboluo_tx2_tex",
-        "painting/makeboluo_tex",
-        "painting/makeboluo_shadow_tex",
-        "painting/makeboluo_rw_tex",
-        "painting/makeboluo_n",
-        "painting/makeboluo_jz1_tex",
-        "painting/makeboluo"
-      ]
-    },
-    {
-      "name": "仲裁者·提尔瑞特·VII",
-      "painting": "unknown5",
-      "ship_group": "900538",
-      "res_list": [
-        "painting/unknown5_tex",
-        "painting/unknown5"
-      ]
-    },
-    {
-      "name": "名寄",
-      "painting": "npcmingji_2",
-      "ship_group": "900539",
-      "res_list": [
-        "painting/npcmingji_2_tex",
-        "painting/npcmingji_2"
       ]
     },
     {
@@ -25305,15 +23028,6 @@
         "painting/taertu_2_hx_tex",
         "painting/taertu_2_hx",
         "painting/taertu_2"
-      ]
-    },
-    {
-      "name": "沃克兰",
-      "painting": "wokelan",
-      "ship_group": "90103",
-      "res_list": [
-        "painting/wokelan_tex",
-        "painting/wokelan"
       ]
     },
     {
@@ -25442,19 +23156,6 @@
       ]
     },
     {
-      "name": "莫加多尔",
-      "painting": "mojiaduoer",
-      "ship_group": "90107",
-      "res_list": [
-        "painting/mojiaduoer_tex",
-        "painting/mojiaduoer_rw_tex",
-        "painting/mojiaduoer_n_tex",
-        "painting/mojiaduoer_n",
-        "painting/mojiaduoer_bj_tex",
-        "painting/mojiaduoer"
-      ]
-    },
-    {
       "name": "静谧一隅的燥热",
       "painting": "mojiaduoer_2",
       "ship_group": "90107",
@@ -25480,15 +23181,6 @@
         "painting/mojiaduoer_3_n_tex",
         "painting/mojiaduoer_3_n",
         "painting/mojiaduoer_3"
-      ]
-    },
-    {
-      "name": "恶毒",
-      "painting": "edu",
-      "ship_group": "90111",
-      "res_list": [
-        "painting/edu_tex",
-        "painting/edu"
       ]
     },
     {
@@ -25831,16 +23523,6 @@
       ]
     },
     {
-      "name": "让·巴尔",
-      "painting": "rangbaer",
-      "ship_group": "90501",
-      "res_list": [
-        "painting/rangbaer_tex",
-        "painting/rangbaer_shadow_tex",
-        "painting/rangbaer"
-      ]
-    },
-    {
       "name": "不羁的BloodStone",
       "painting": "rangbaer_2",
       "ship_group": "90501",
@@ -25908,15 +23590,6 @@
       ]
     },
     {
-      "name": "加斯科涅(μ兵装)",
-      "painting": "jiasikenie_idol",
-      "ship_group": "90503",
-      "res_list": [
-        "painting/jiasikenie_idol_tex",
-        "painting/jiasikenie_idol"
-      ]
-    },
-    {
       "name": "霞飞",
       "painting": "xiafei",
       "ship_group": "90701",
@@ -25969,15 +23642,6 @@
       ]
     },
     {
-      "name": "加斯科涅",
-      "painting": "jiasikenie",
-      "ship_group": "99901",
-      "res_list": [
-        "painting/jiasikenie_tex",
-        "painting/jiasikenie"
-      ]
-    },
-    {
       "name": "夏季环境应对外装",
       "painting": "jiasikenie_2",
       "ship_group": "99901",
@@ -25999,20 +23663,6 @@
         "painting/jiasikenie_3_n",
         "painting/jiasikenie_3_bj_tex",
         "painting/jiasikenie_3"
-      ]
-    },
-    {
-      "name": "弗兰德尔",
-      "painting": "fulandeer",
-      "ship_group": "99902",
-      "res_list": [
-        "painting/fulandeer_tex",
-        "painting/fulandeer_rw_tex",
-        "painting/fulandeer_n_tex",
-        "painting/fulandeer_n_rw_tex",
-        "painting/fulandeer_n",
-        "painting/fulandeer_bj_tex",
-        "painting/fulandeer"
       ]
     },
     {
@@ -26285,16 +23935,6 @@
       ]
     },
     {
-      "name": "冈依沙瓦号",
-      "painting": "gangyishawa",
-      "ship_group": "960007",
-      "res_list": [
-        "painting/gangyishawa_tex",
-        "painting/gangyishawa_rw_tex",
-        "painting/gangyishawa"
-      ]
-    },
-    {
       "name": "被封印的美人鱼",
       "painting": "gangyishawa_2",
       "ship_group": "960007",
@@ -26306,16 +23946,6 @@
         "painting/gangyishawa_2_n",
         "painting/gangyishawa_2_bj1_tex",
         "painting/gangyishawa_2"
-      ]
-    },
-    {
-      "name": "幻想号",
-      "painting": "huanxianghao",
-      "ship_group": "960008",
-      "res_list": [
-        "painting/huanxianghao_tex",
-        "painting/huanxianghao_rw_tex",
-        "painting/huanxianghao"
       ]
     },
     {
@@ -26355,16 +23985,6 @@
       ]
     },
     {
-      "name": "朴茨茅斯冒险号",
-      "painting": "pucimaosi",
-      "ship_group": "960010",
-      "res_list": [
-        "painting/pucimaosi_tex",
-        "painting/pucimaosi_rw_tex",
-        "painting/pucimaosi"
-      ]
-    },
-    {
       "name": "精心准备的“惊喜”",
       "painting": "pucimaosi_2",
       "ship_group": "960010",
@@ -26378,16 +23998,6 @@
         "painting/pucimaosi_2_n",
         "painting/pucimaosi_2_hx",
         "painting/pucimaosi_2"
-      ]
-    },
-    {
-      "name": "海豚号",
-      "painting": "haitunhao",
-      "ship_group": "960011",
-      "res_list": [
-        "painting/haitunhao_tex",
-        "painting/haitunhao_rw_tex",
-        "painting/haitunhao"
       ]
     },
     {
@@ -26561,17 +24171,6 @@
       ]
     },
     {
-      "name": "猎人·META",
-      "painting": "lieren_alter",
-      "ship_group": "970101",
-      "res_list": [
-        "painting/lieren_alter_tex",
-        "painting/lieren_alter_n_tex",
-        "painting/lieren_alter_n",
-        "painting/lieren_alter"
-      ]
-    },
-    {
       "name": "命运女神·META",
       "painting": "mingyunnvshen_alter",
       "ship_group": "970102",
@@ -26621,18 +24220,6 @@
         "painting/xia_alter_n_tex",
         "painting/xia_alter_n",
         "painting/xia_alter"
-      ]
-    },
-    {
-      "name": "格伦维尔·META",
-      "painting": "gelunweier_alter",
-      "ship_group": "970107",
-      "res_list": [
-        "painting/gelunweier_alter_tex",
-        "painting/gelunweier_alter_rw_tex",
-        "painting/gelunweier_alter_n_rw_tex",
-        "painting/gelunweier_alter_n",
-        "painting/gelunweier_alter"
       ]
     },
     {
@@ -26694,56 +24281,12 @@
       ]
     },
     {
-      "name": "海伦娜·META",
-      "painting": "hailunna_alter",
-      "ship_group": "970201",
-      "res_list": [
-        "painting/hailunna_alter_tex",
-        "painting/hailunna_alter"
-      ]
-    },
-    {
-      "name": "孟菲斯·META",
-      "painting": "mengfeisi_alter",
-      "ship_group": "970202",
-      "res_list": [
-        "painting/mengfeisi_alter_tex",
-        "painting/mengfeisi_alter"
-      ]
-    },
-    {
       "name": "谢菲尔德·META",
       "painting": "xiefeierde_alter",
       "ship_group": "970203",
       "res_list": [
         "painting/xiefeierde_alter_tex",
         "painting/xiefeierde_alter"
-      ]
-    },
-    {
-      "name": "拉·加利索尼埃·META ",
-      "painting": "jialisuoniye_alter",
-      "ship_group": "970204",
-      "res_list": [
-        "painting/jialisuoniye_alter_tex",
-        "painting/jialisuoniye_alter_rw_tex",
-        "painting/jialisuoniye_alter_rw_hx_tex",
-        "painting/jialisuoniye_alter_hx",
-        "painting/jialisuoniye_alter"
-      ]
-    },
-    {
-      "name": "神通·META",
-      "painting": "shentong_alter",
-      "ship_group": "970205",
-      "res_list": [
-        "painting/shentong_alter_tex",
-        "painting/shentong_alter_rw_tex",
-        "painting/shentong_alter_n_tex",
-        "painting/shentong_alter_n_front_tex",
-        "painting/shentong_alter_n",
-        "painting/shentong_alter_front_tex",
-        "painting/shentong_alter"
       ]
     },
     {
@@ -26910,35 +24453,6 @@
       ]
     },
     {
-      "name": "沙恩霍斯特·META",
-      "painting": "shaenhuosite_alter",
-      "ship_group": "970402",
-      "res_list": [
-        "painting/shaenhuosite_alter_tex",
-        "painting/shaenhuosite_alter_rw_tex",
-        "painting/shaenhuosite_alter_front_tex",
-        "painting/shaenhuosite_alter"
-      ]
-    },
-    {
-      "name": "反击·META",
-      "painting": "fanji_alter",
-      "ship_group": "970403",
-      "res_list": [
-        "painting/fanji_alter_tex",
-        "painting/fanji_alter"
-      ]
-    },
-    {
-      "name": "声望·META",
-      "painting": "shengwang_alter",
-      "ship_group": "970404",
-      "res_list": [
-        "painting/shengwang_alter_tex",
-        "painting/shengwang_alter"
-      ]
-    },
-    {
       "name": "比叡·META",
       "painting": "birui_alter",
       "ship_group": "970405",
@@ -27044,18 +24558,6 @@
       ]
     },
     {
-      "name": "安德烈亚·多利亚·META",
-      "painting": "andelieyaduoliya_alter",
-      "ship_group": "970508",
-      "res_list": [
-        "painting/andelieyaduoliya_alter_tex",
-        "painting/andelieyaduoliya_alter_rw_tex",
-        "painting/andelieyaduoliya_alter_n_tex",
-        "painting/andelieyaduoliya_alter_n",
-        "painting/andelieyaduoliya_alter"
-      ]
-    },
-    {
       "name": "内华达·META",
       "painting": "neihuada_alter",
       "ship_group": "970509",
@@ -27121,33 +24623,6 @@
       ]
     },
     {
-      "name": "飞龙·META",
-      "painting": "feilong_alter",
-      "ship_group": "970701",
-      "res_list": [
-        "painting/feilong_alter_tex",
-        "painting/feilong_alter"
-      ]
-    },
-    {
-      "name": "皇家方舟·META",
-      "painting": "huangjiafangzhou_alter",
-      "ship_group": "970702",
-      "res_list": [
-        "painting/huangjiafangzhou_alter_tex",
-        "painting/huangjiafangzhou_alter"
-      ]
-    },
-    {
-      "name": "苍龙·META",
-      "painting": "canglong_alter",
-      "ship_group": "970703",
-      "res_list": [
-        "painting/canglong_alter_tex",
-        "painting/canglong_alter"
-      ]
-    },
-    {
       "name": "贝亚恩·META",
       "painting": "beiyaen_alter",
       "ship_group": "970704",
@@ -27182,33 +24657,6 @@
       ]
     },
     {
-      "name": "光荣·META",
-      "painting": "guangrong_alter",
-      "ship_group": "970707",
-      "res_list": [
-        "painting/guangrong_alter_tex",
-        "painting/guangrong_alter_rw_tex",
-        "painting/guangrong_alter_n_tex",
-        "painting/guangrong_alter_n_rw_tex",
-        "painting/guangrong_alter_n",
-        "painting/guangrong_alter"
-      ]
-    },
-    {
-      "name": "约克城·META",
-      "painting": "yuekecheng_alter",
-      "ship_group": "970708",
-      "res_list": [
-        "painting/yuekecheng_alter_tex",
-        "painting/yuekecheng_alter_rw_tex",
-        "painting/yuekecheng_alter_n_tex",
-        "painting/yuekecheng_alter_n_rw_tex",
-        "painting/yuekecheng_alter_n",
-        "painting/yuekecheng_alter_bj_tex",
-        "painting/yuekecheng_alter"
-      ]
-    },
-    {
       "name": "U-556·META",
       "painting": "u556_alter",
       "ship_group": "970801",
@@ -27226,17 +24674,6 @@
       "res_list": [
         "painting/zaoshen_alter_tex",
         "painting/zaoshen_alter"
-      ]
-    },
-    {
-      "name": "黑暗界·META",
-      "painting": "heianjie_alter",
-      "ship_group": "971301",
-      "res_list": [
-        "painting/heianjie_alter_tex",
-        "painting/heianjie_alter_n_tex",
-        "painting/heianjie_alter_n",
-        "painting/heianjie_alter"
       ]
     },
     {
@@ -27294,26 +24731,6 @@
       "res_list": [
         "painting/hdn201_tex",
         "painting/hdn201"
-      ]
-    },
-    {
-      "name": "布兰",
-      "painting": "HDN301",
-      "ship_group": "1010003",
-      "res_list": [
-        "painting/hdn301_tex",
-        "painting/hdn301"
-      ]
-    },
-    {
-      "name": "贝露",
-      "painting": "HDN401",
-      "ship_group": "1010004",
-      "res_list": [
-        "painting/hdn401_tex",
-        "painting/hdn401_hx_tex",
-        "painting/hdn401_hx",
-        "painting/hdn401"
       ]
     },
     {
@@ -27521,15 +24938,6 @@
       ]
     },
     {
-      "name": "绊爱",
-      "painting": "aijiangDD",
-      "ship_group": "1040001",
-      "res_list": [
-        "painting/aijiangdd_tex",
-        "painting/aijiangdd"
-      ]
-    },
-    {
       "name": "Sakura Festival",
       "painting": "aijiangDD_2",
       "ship_group": "1040001",
@@ -27566,15 +24974,6 @@
       ]
     },
     {
-      "name": "白上吹雪",
-      "painting": "vtuber_fubuki",
-      "ship_group": "1050001",
-      "res_list": [
-        "painting/vtuber_fubuki_tex",
-        "painting/vtuber_fubuki"
-      ]
-    },
-    {
       "name": "沙滩之狐",
       "painting": "vtuber_fubuki_2",
       "ship_group": "1050001",
@@ -27583,15 +24982,6 @@
         "painting/vtuber_fubuki_2_n_tex",
         "painting/vtuber_fubuki_2_n",
         "painting/vtuber_fubuki_2"
-      ]
-    },
-    {
-      "name": "时乃空",
-      "painting": "vtuber_sora",
-      "ship_group": "1050002",
-      "res_list": [
-        "painting/vtuber_sora_tex",
-        "painting/vtuber_sora"
       ]
     },
     {
@@ -27604,30 +24994,12 @@
       ]
     },
     {
-      "name": "湊阿库娅",
-      "painting": "vtuber_aqua",
-      "ship_group": "1050003",
-      "res_list": [
-        "painting/vtuber_aqua_tex",
-        "painting/vtuber_aqua"
-      ]
-    },
-    {
       "name": "海之女仆",
       "painting": "vtuber_aqua_2",
       "ship_group": "1050003",
       "res_list": [
         "painting/vtuber_aqua_2_tex",
         "painting/vtuber_aqua_2"
-      ]
-    },
-    {
-      "name": "夏色祭",
-      "painting": "vtuber_matsuri",
-      "ship_group": "1050004",
-      "res_list": [
-        "painting/vtuber_matsuri_tex",
-        "painting/vtuber_matsuri"
       ]
     },
     {
@@ -27640,30 +25012,12 @@
       ]
     },
     {
-      "name": "百鬼绫目",
-      "painting": "vtuber_ayame",
-      "ship_group": "1050005",
-      "res_list": [
-        "painting/vtuber_ayame_tex",
-        "painting/vtuber_ayame"
-      ]
-    },
-    {
       "name": "夏之百鬼",
       "painting": "vtuber_ayame_2",
       "ship_group": "1050005",
       "res_list": [
         "painting/vtuber_ayame_2_tex",
         "painting/vtuber_ayame_2"
-      ]
-    },
-    {
-      "name": "紫咲诗音",
-      "painting": "vtuber_shion",
-      "ship_group": "1050006",
-      "res_list": [
-        "painting/vtuber_shion_tex",
-        "painting/vtuber_shion"
       ]
     },
     {
@@ -27676,30 +25030,12 @@
       ]
     },
     {
-      "name": "大神澪",
-      "painting": "vtuber_mio",
-      "ship_group": "1050007",
-      "res_list": [
-        "painting/vtuber_mio_tex",
-        "painting/vtuber_mio"
-      ]
-    },
-    {
       "name": "Summer Vacance",
       "painting": "vtuber_mio_2",
       "ship_group": "1050007",
       "res_list": [
         "painting/vtuber_mio_2_tex",
         "painting/vtuber_mio_2"
-      ]
-    },
-    {
-      "name": "玛莉萝丝",
-      "painting": "maliluosi_doa",
-      "ship_group": "1060001",
-      "res_list": [
-        "painting/maliluosi_doa_tex",
-        "painting/maliluosi_doa"
       ]
     },
     {
@@ -27723,30 +25059,12 @@
       ]
     },
     {
-      "name": "穗香",
-      "painting": "suixiang_doa",
-      "ship_group": "1060002",
-      "res_list": [
-        "painting/suixiang_doa_tex",
-        "painting/suixiang_doa"
-      ]
-    },
-    {
       "name": "礁石边的盛夏天使",
       "painting": "suixiang_2_doa",
       "ship_group": "1060002",
       "res_list": [
         "painting/suixiang_2_doa_tex",
         "painting/suixiang_2_doa"
-      ]
-    },
-    {
-      "name": "霞",
-      "painting": "xia_DOA",
-      "ship_group": "1060003",
-      "res_list": [
-        "painting/xia_doa_tex",
-        "painting/xia_doa"
       ]
     },
     {
@@ -27761,30 +25079,12 @@
       ]
     },
     {
-      "name": "海咲",
-      "painting": "haixiao_DOA",
-      "ship_group": "1060004",
-      "res_list": [
-        "painting/haixiao_doa_tex",
-        "painting/haixiao_doa"
-      ]
-    },
-    {
       "name": "金色的特别摄影",
       "painting": "haixiao_2_DOA",
       "ship_group": "1060004",
       "res_list": [
         "painting/haixiao_2_doa_tex",
         "painting/haixiao_2_doa"
-      ]
-    },
-    {
-      "name": "凪咲",
-      "painting": "zhixiao_DOA",
-      "ship_group": "1060005",
-      "res_list": [
-        "painting/zhixiao_doa_tex",
-        "painting/zhixiao_doa"
       ]
     },
     {
@@ -27797,15 +25097,6 @@
       ]
     },
     {
-      "name": "女天狗",
-      "painting": "nvtiangou_DOA",
-      "ship_group": "1060006",
-      "res_list": [
-        "painting/nvtiangou_doa_tex",
-        "painting/nvtiangou_doa"
-      ]
-    },
-    {
       "name": "红枫与温泉假日",
       "painting": "nvtiangou_2_DOA",
       "ship_group": "1060006",
@@ -27814,15 +25105,6 @@
         "painting/nvtiangou_2_doa_n_tex",
         "painting/nvtiangou_2_doa_n",
         "painting/nvtiangou_2_doa"
-      ]
-    },
-    {
-      "name": "莫妮卡",
-      "painting": "monika_DOA",
-      "ship_group": "1060007",
-      "res_list": [
-        "painting/monika_doa_tex",
-        "painting/monika_doa"
       ]
     },
     {
@@ -28824,20 +26106,6 @@
       ]
     },
     {
-      "name": "BLACK★ROCK SHOOTER",
-      "painting": "heiyansheshou",
-      "ship_group": "1120001",
-      "res_list": [
-        "painting/heiyansheshou_tex",
-        "painting/heiyansheshou_rw_tex",
-        "painting/heiyansheshou_n_tex",
-        "painting/heiyansheshou_n_rw_tex",
-        "painting/heiyansheshou_n",
-        "painting/heiyansheshou_bj_tex",
-        "painting/heiyansheshou"
-      ]
-    },
-    {
       "name": "黑之女神",
       "painting": "heiyansheshou_2",
       "ship_group": "1120001",
@@ -28851,21 +26119,6 @@
       ]
     },
     {
-      "name": "DEAD MASTER",
-      "painting": "siwangzhuzai",
-      "ship_group": "1120002",
-      "res_list": [
-        "painting/siwangzhuzai_tex",
-        "painting/siwangzhuzai_rw_tex",
-        "painting/siwangzhuzai_n_tex",
-        "painting/siwangzhuzai_n_rw_tex",
-        "painting/siwangzhuzai_n",
-        "painting/siwangzhuzai_bj_tex",
-        "painting/siwangzhuzai_bj1_tex",
-        "painting/siwangzhuzai"
-      ]
-    },
-    {
       "name": "战士的小憩",
       "painting": "siwangzhuzai_2",
       "ship_group": "1120002",
@@ -28873,19 +26126,6 @@
         "painting/siwangzhuzai_2_tex",
         "painting/siwangzhuzai_2_rw_tex",
         "painting/siwangzhuzai_2"
-      ]
-    },
-    {
-      "name": "优米雅·利斯菲尔德",
-      "painting": "youmiya",
-      "ship_group": "1130001",
-      "res_list": [
-        "painting/youmiya_tex",
-        "painting/youmiya_rw_tex",
-        "painting/youmiya_n_tex",
-        "painting/youmiya_n_rw_tex",
-        "painting/youmiya_n",
-        "painting/youmiya"
       ]
     },
     {
@@ -28901,19 +26141,6 @@
       ]
     },
     {
-      "name": "艾菈·冯·杜勒",
-      "painting": "aila",
-      "ship_group": "1130002",
-      "res_list": [
-        "painting/aila_tex",
-        "painting/aila_rw_tex",
-        "painting/aila_n_tex",
-        "painting/aila_n_rw_tex",
-        "painting/aila_n",
-        "painting/aila"
-      ]
-    },
-    {
       "name": "假日的户外风格",
       "painting": "aila_2",
       "ship_group": "1130002",
@@ -28923,16 +26150,6 @@
         "painting/aila_2_n_rw_tex",
         "painting/aila_2_n",
         "painting/aila_2"
-      ]
-    },
-    {
-      "name": "妮娜·弗里德",
-      "painting": "nina",
-      "ship_group": "1130003",
-      "res_list": [
-        "painting/nina_tex",
-        "painting/nina_rw_tex",
-        "painting/nina"
       ]
     },
     {
@@ -28949,19 +26166,6 @@
       ]
     },
     {
-      "name": "蕾妮雅",
-      "painting": "leiniya",
-      "ship_group": "1130004",
-      "res_list": [
-        "painting/leiniya_tex",
-        "painting/leiniya_rw_tex",
-        "painting/leiniya_n_tex",
-        "painting/leiniya_n_rw_tex",
-        "painting/leiniya_n",
-        "painting/leiniya"
-      ]
-    },
-    {
       "name": "夏日假期",
       "painting": "leiniya_2",
       "ship_group": "1130004",
@@ -28971,19 +26175,6 @@
         "painting/leiniya_2_n_rw_tex",
         "painting/leiniya_2_n",
         "painting/leiniya_2"
-      ]
-    },
-    {
-      "name": "赫斯缇雅",
-      "painting": "hesitiya",
-      "ship_group": "1140001",
-      "res_list": [
-        "painting/hesitiya_tex",
-        "painting/hesitiya_rw_tex",
-        "painting/hesitiya_n_tex",
-        "painting/hesitiya_n_rw_tex",
-        "painting/hesitiya_n",
-        "painting/hesitiya"
       ]
     },
     {
@@ -28997,20 +26188,6 @@
         "painting/hesitiya_2_n",
         "painting/hesitiya_2_bj_tex",
         "painting/hesitiya_2"
-      ]
-    },
-    {
-      "name": "琉·璃昂",
-      "painting": "liuliang",
-      "ship_group": "1140002",
-      "res_list": [
-        "painting/liuliang_tex",
-        "painting/liuliang_rw_tex",
-        "painting/liuliang_n_tex",
-        "painting/liuliang_n_rw_tex",
-        "painting/liuliang_n",
-        "painting/liuliang_bj_tex",
-        "painting/liuliang"
       ]
     },
     {
