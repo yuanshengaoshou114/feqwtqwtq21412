@@ -210,7 +210,7 @@ def convert_ship_skin_expression(content: str) -> Dict:
     
     return result
 
-def load_lua_or_json(filename: str) -> Dict:
+def load_lua_file(filename: str) -> Dict:
     lua_filename = filename.replace('.json', '.lua')
     lua_path = find_data_file(lua_filename)
     
@@ -230,12 +230,7 @@ def load_lua_or_json(filename: str) -> Dict:
         elif 'ship_skin_expression' in lua_filename:
             return convert_ship_skin_expression(content)
     
-    json_path = find_data_file(filename)
-    if json_path:
-        print(f"从JSON加载: {filename}")
-        return load_json_file(json_path)
-    
-    print(f"警告: {filename} 未找到")
+    print(f"警告: {lua_filename} 未找到")
     return {}
 
 def replace_namecodes(data: Any, code_mapping: Dict) -> Any:
@@ -381,8 +376,8 @@ def split_main_lines(value):
     return lines
 
 def generate_skin_voice_mapping():
-    template = load_lua_or_json("ship_skin_template.json")
-    words = load_lua_or_json("ship_skin_words.json")
+    template = load_lua_file("ship_skin_template.json")
+    words = load_lua_file("ship_skin_words.json")
     if not template or not words:
         return
     
@@ -509,7 +504,7 @@ def generate_story_dialogues():
     story_path = find_data_file("story.json")
     memory_template_path = find_data_file("memory_template.json")
     memory_group_path = find_data_file("memory_group.json")
-    namecode = load_lua_or_json("name_code.json")
+    namecode = load_lua_file("name_code.json")
     if not all([story_path, memory_template_path, memory_group_path, namecode]):
         return
     story = load_json_file(story_path)
@@ -586,9 +581,10 @@ def generate_story_dialogues():
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
 
 def main():
-    ship_data = load_lua_or_json("ship_skin_template.json")
-    words_data = load_lua_or_json("ship_skin_words.json")
-    namecode_data = load_lua_or_json("name_code.json")
+    ship_data = load_lua_file("ship_skin_template.json")
+    words_data = load_lua_file("ship_skin_words.json")
+    namecode_data = load_lua_file("name_code.json")
+    painting_filter_data = load_lua_file("painting_filte_map.json")
     
     if ship_data and namecode_data:
         combined = generate_combined_data(ship_data, words_data, namecode_data)
@@ -596,8 +592,6 @@ def main():
             json.dump(combined, f, ensure_ascii=False, indent=2)
         with open("zuming.json", 'w', encoding='utf-8') as f:
             json.dump({"ships": combined["zuming_data"]["ships"]}, f, ensure_ascii=False, indent=2)
-        
-        painting_filter_data = load_lua_or_json("painting_filte_map.json")
         generate_name_json(combined["ships"], painting_filter_data)
     
     generate_skin_voice_mapping()
