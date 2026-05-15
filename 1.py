@@ -48,6 +48,196 @@ def load_json_file(file_path: Path) -> Dict:
     except:
         return {}
 
+def convert_ship_skin_template(content: str) -> Dict:
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_skin_template\[(\d+)\]\s*=\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}'
+    
+    for match in re.finditer(pattern, content, re.DOTALL):
+        skin_id = match.group(1)
+        table_content = match.group(2)
+        
+        skin_data = {}
+        kv_pattern = r'(\w+)\s*=\s*("[^"\\]*(?:\\.[^"\\]*)*"|true|false|\{[^}]*\}|-?\d+(?:\.\d+)?|[\w_]+)'
+        
+        for kv_match in re.finditer(kv_pattern, table_content):
+            key = kv_match.group(1)
+            value_str = kv_match.group(2)
+            
+            if value_str.startswith('"'):
+                value = value_str[1:-1].replace('\\"', '"')
+            elif value_str == 'true':
+                value = True
+            elif value_str == 'false':
+                value = False
+            elif value_str.isdigit():
+                value = int(value_str)
+            elif value_str.startswith('-') and value_str[1:].isdigit():
+                value = int(value_str)
+            elif '.' in value_str and value_str.replace('.', '').replace('-', '').isdigit():
+                value = float(value_str)
+            else:
+                value = value_str
+            skin_data[key] = value
+        
+        result[skin_id] = skin_data
+    return result
+
+def convert_ship_skin_words(content: str) -> Dict:
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_skin_words\[(\d+)\]\s*=\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}'
+    
+    for match in re.finditer(pattern, content, re.DOTALL):
+        skin_id = match.group(1)
+        table_content = match.group(2)
+        
+        words_data = {}
+        kv_pattern = r'(\w+)\s*=\s*((?:"[^"\\]*(?:\\.[^"\\]*)*")|(?:{[^}]*})|(?:\[[^\]]*\])|(?:true|false)|(?:-?\d+(?:\.\d+)?)|(?:[\w_]+))'
+        
+        for kv_match in re.finditer(kv_pattern, table_content):
+            key = kv_match.group(1)
+            value_str = kv_match.group(2).strip()
+            
+            if value_str.startswith('"'):
+                value = value_str[1:-1].replace('\\"', '"').replace('\\n', '\n')
+            elif value_str == 'true':
+                value = True
+            elif value_str == 'false':
+                value = False
+            elif value_str.isdigit():
+                value = int(value_str)
+            elif value_str.startswith('-') and value_str[1:].isdigit():
+                value = int(value_str)
+            elif value_str.startswith('{'):
+                arr = re.findall(r'"([^"]*)"|(\d+)', value_str)
+                value = [item[0] if item[0] else int(item[1]) for item in arr if item[0] or item[1]]
+            else:
+                value = value_str
+            words_data[key] = value
+        
+        result[skin_id] = words_data
+    return result
+
+def convert_name_code(content: str) -> Dict:
+    result = {}
+    pattern = r'pg\.base\.name_code\[(\d+)\]\s*=\s*\{([^}]+)\}'
+    
+    for match in re.finditer(pattern, content):
+        code_id = match.group(1)
+        table_content = match.group(2)
+        
+        code_data = {}
+        field_pattern = r'(\w+)\s*=\s*("([^"]*)"|(\d+))'
+        
+        for field_match in re.finditer(field_pattern, table_content):
+            key = field_match.group(1)
+            str_value = field_match.group(3)
+            int_value = field_match.group(4)
+            
+            if str_value is not None:
+                code_data[key] = str_value
+            else:
+                code_data[key] = int(int_value)
+        
+        result[code_id] = code_data
+    return result
+
+def convert_painting_filte_map(content: str) -> Dict:
+    result = {}
+    
+    pattern1 = r'pg\.base\.painting_filte_map\["([^"]+)"\]\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
+    for match in re.finditer(pattern1, content, re.DOTALL):
+        key = match.group(1)
+        table_content = match.group(2)
+        
+        item_data = {}
+        key_match = re.search(r'key\s*=\s*"([^"]*)"', table_content)
+        if key_match:
+            item_data["key"] = key_match.group(1)
+        
+        res_list_match = re.search(r'res_list\s*=\s*\{([^}]+)\}', table_content)
+        if res_list_match:
+            res_list = re.findall(r'"([^"]*)"', res_list_match.group(1))
+            if res_list:
+                item_data["res_list"] = res_list
+        
+        if item_data:
+            result[key] = item_data
+    
+    pattern2 = r'pg\.base\.painting_filte_map\.([a-zA-Z0-9_]+)\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
+    for match in re.finditer(pattern2, content, re.DOTALL):
+        key = match.group(1)
+        table_content = match.group(2)
+        
+        item_data = {}
+        key_match = re.search(r'key\s*=\s*"([^"]*)"', table_content)
+        if key_match:
+            item_data["key"] = key_match.group(1)
+        
+        res_list_match = re.search(r'res_list\s*=\s*\{([^}]+)\}', table_content)
+        if res_list_match:
+            res_list = re.findall(r'"([^"]*)"', res_list_match.group(1))
+            if res_list:
+                item_data["res_list"] = res_list
+        
+        if item_data:
+            result[key] = item_data
+    
+    return result
+
+def convert_ship_skin_expression(content: str) -> Dict:
+    result = {}
+    pattern = r'pg\.base\.ship_skin_expression\.([a-zA-Z0-9_]+)\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
+    
+    for match in re.finditer(pattern, content, re.DOTALL):
+        key = match.group(1)
+        table_content = match.group(2)
+        
+        expression_data = {}
+        field_pattern = r'(\w+)\s*=\s*("([^"]*)"|(\d+))'
+        
+        for field_match in re.finditer(field_pattern, table_content):
+            field_name = field_match.group(1)
+            str_value = field_match.group(3)
+            int_value = field_match.group(4)
+            
+            if str_value is not None:
+                expression_data[field_name] = str_value
+            else:
+                expression_data[field_name] = int_value
+        
+        if expression_data:
+            result[key] = expression_data
+    
+    return result
+
+def load_lua_or_json(filename: str) -> Dict:
+    lua_filename = filename.replace('.json', '.lua')
+    lua_path = find_data_file(lua_filename)
+    
+    if lua_path and lua_path.exists():
+        print(f"从Lua加载: {lua_filename}")
+        with open(lua_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        if 'ship_skin_template' in lua_filename:
+            return convert_ship_skin_template(content)
+        elif 'ship_skin_words' in lua_filename:
+            return convert_ship_skin_words(content)
+        elif 'name_code' in lua_filename:
+            return convert_name_code(content)
+        elif 'painting_filte_map' in lua_filename:
+            return convert_painting_filte_map(content)
+        elif 'ship_skin_expression' in lua_filename:
+            return convert_ship_skin_expression(content)
+    
+    json_path = find_data_file(filename)
+    if json_path:
+        print(f"从JSON加载: {filename}")
+        return load_json_file(json_path)
+    
+    print(f"警告: {filename} 未找到")
+    return {}
+
 def replace_namecodes(data: Any, code_mapping: Dict) -> Any:
     def replace_match(match):
         code = match.group(1)
@@ -184,13 +374,17 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
         "zuming_data": zuming_data
     }
 
+def split_main_lines(value):
+    if not value:
+        return []
+    lines = [line.strip() for line in value.split("|") if line.strip()]
+    return lines
+
 def generate_skin_voice_mapping():
-    template_path = find_data_file("ship_skin_template.json")
-    words_path = find_data_file("ship_skin_words.json")
-    if not template_path or not words_path:
+    template = load_lua_or_json("ship_skin_template.json")
+    words = load_lua_or_json("ship_skin_words.json")
+    if not template or not words:
         return
-    template = load_json_file(template_path)
-    words = load_json_file(words_path)
     
     ships_by_name = defaultdict(list)
     for skin_id_str, info in template.items():
@@ -268,12 +462,6 @@ def generate_skin_voice_mapping():
     with open("skin_voice_mapping_optimized.json", "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=4)
 
-def split_main_lines(value):
-    if not value:
-        return []
-    lines = [line.strip() for line in value.split("|") if line.strip()]
-    return lines
-
 def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None):
     painting_filter_map = painting_filter_data or {}
     painting_lower_map = {}
@@ -321,13 +509,12 @@ def generate_story_dialogues():
     story_path = find_data_file("story.json")
     memory_template_path = find_data_file("memory_template.json")
     memory_group_path = find_data_file("memory_group.json")
-    name_code_path = find_data_file("name_code.json")
-    if not all([story_path, memory_template_path, memory_group_path, name_code_path]):
+    namecode = load_lua_or_json("name_code.json")
+    if not all([story_path, memory_template_path, memory_group_path, namecode]):
         return
     story = load_json_file(story_path)
     mem_temp = load_json_file(memory_template_path)
     mem_group = load_json_file(memory_group_path)
-    namecode = load_json_file(name_code_path)
     story_to_title = {}
     for tid, item in mem_temp.items():
         sk = item.get("story")
@@ -399,32 +586,20 @@ def generate_story_dialogues():
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
 
 def main():
-    required_files = {
-        "ships": "ship_skin_template.json",
-        "words": "ship_skin_words.json",
-        "namecode": "name_code.json"
-    }
-    loaded_data = {}
-    for key, filename in required_files.items():
-        file_path = find_data_file(filename)
-        if file_path:
-            data = load_json_file(file_path)
-            if key == "words" and "ShareCfg" in str(file_path) and not "sharecfgdata" in str(file_path).lower():
-                alt_path = Path("sharecfgdata") / filename
-                if alt_path.exists():
-                    data = load_json_file(alt_path)
-            loaded_data[key] = data
-    if loaded_data["ships"] and loaded_data["namecode"]:
-        combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
+    ship_data = load_lua_or_json("ship_skin_template.json")
+    words_data = load_lua_or_json("ship_skin_words.json")
+    namecode_data = load_lua_or_json("name_code.json")
+    
+    if ship_data and namecode_data:
+        combined = generate_combined_data(ship_data, words_data, namecode_data)
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
         with open("zuming.json", 'w', encoding='utf-8') as f:
             json.dump({"ships": combined["zuming_data"]["ships"]}, f, ensure_ascii=False, indent=2)
-        painting_filter_path = find_data_file("painting_filte_map.json")
-        painting_filter_data = {}
-        if painting_filter_path:
-            painting_filter_data = load_json_file(painting_filter_path)
+        
+        painting_filter_data = load_lua_or_json("painting_filte_map.json")
         generate_name_json(combined["ships"], painting_filter_data)
+    
     generate_skin_voice_mapping()
     generate_story_dialogues()
 
