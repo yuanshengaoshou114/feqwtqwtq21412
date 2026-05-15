@@ -5,6 +5,353 @@ from typing import List, Dict, Any
 from datetime import datetime
 import re
 
+def parse_lua_table(content, start_pos):
+    content_len = len(content)
+    pos = start_pos
+    brace_count = 0
+    in_string = False
+    escape_next = False
+    
+    while pos < content_len:
+        char = content[pos]
+        
+        if escape_next:
+            escape_next = False
+            pos += 1
+            continue
+        
+        if char == '\\' and in_string:
+            escape_next = True
+            pos += 1
+            continue
+        
+        if char == '"' and not escape_next:
+            in_string = not in_string
+            pos += 1
+            continue
+        
+        if not in_string:
+            if char == '{':
+                brace_count += 1
+            elif char == '}':
+                brace_count -= 1
+                if brace_count == 0:
+                    return content[start_pos:pos + 1], pos + 1
+        
+        pos += 1
+    
+    return None, start_pos
+
+def parse_value(value_str):
+    value_str = value_str.strip()
+    
+    if value_str == 'true':
+        return True
+    if value_str == 'false':
+        return False
+    if value_str == 'nil':
+        return None
+    
+    if value_str.startswith('"'):
+        end = len(value_str) - 1
+        while end > 0:
+            if value_str[end] == '"' and value_str[end - 1] != '\\':
+                break
+            end -= 1
+        result = value_str[1:end]
+        result = result.replace('\\"', '"').replace('\\n', '\n').replace('\\r', '\r').replace('\\t', '\t')
+        return result
+    
+    if value_str.startswith("'"):
+        end = len(value_str) - 1
+        while end > 0:
+            if value_str[end] == "'" and value_str[end - 1] != '\\':
+                break
+            end -= 1
+        return value_str[1:end]
+    
+    if value_str.startswith('{'):
+        return parse_table(value_str)
+    
+    if value_str.startswith('['):
+        bracket_count = 0
+        in_str = False
+        for i, ch in enumerate(value_str):
+            if ch == '"' and (i == 0 or value_str[i-1] != '\\'):
+                in_str = not in_str
+            elif not in_str:
+                if ch == '[':
+                    bracket_count += 1
+                elif ch == ']':
+                    bracket_count -= 1
+                    if bracket_count == 0:
+                        inner = value_str[1:i]
+                        if inner.startswith('"') and inner.endswith('"'):
+                            inner = inner[1:-1]
+                        return inner
+        return value_str
+    
+    try:
+        if '.' in value_str:
+            return float(value_str)
+        return int(value_str)
+    except ValueError:
+        return value_str
+
+def parse_table(table_str):
+    table_str = table_str.strip()
+    if not table_str.startswith('{') or not table_str.endswith('}'):
+        return table_str
+    
+    inner = table_str[1:-1].strip()
+    if not inner:
+        return {}
+    
+    result = {}
+    pos = 0
+    length = len(inner)
+    
+    while pos < length:
+        while pos < length and inner[pos] in ' ,\t\n\r':
+            pos += 1
+        if pos >= length:
+            break
+        
+        if inner[pos] == '[':
+            bracket_end = pos + 1
+            bracket_count = 1
+            in_str = False
+            while bracket_end < length and bracket_count > 0:
+                ch = inner[bracket_end]
+                if ch == '"' and (bracket_end == 0 or inner[bracket_end-1] != '\\'):
+                    in_str = not in_str
+                elif not in_str:
+                    if ch == '[':
+                        bracket_count += 1
+                    elif ch == ']':
+                        bracket_count -= 1
+                bracket_end += 1
+            key_part = inner[pos:bracket_end]
+            key = parse_value(key_part)
+            
+            while bracket_end < length and inner[bracket_end] in ' \t\n\r':
+                bracket_end += 1
+            if bracket_end < length and inner[bracket_end] == '=':
+                bracket_end += 1
+            pos = bracket_end
+        else:
+            key_match = re.match(r'[a-zA-Z_][a-zA-Z0-9_]*', inner[pos:])
+            if key_match:
+                key = key_match.group(0)
+                pos += len(key)
+                while pos < length and inner[pos] in ' \t\n\r':
+                    pos += 1
+                if pos < length and inner[pos] == '=':
+                    pos += 1
+            else:
+                key = len(result)
+        
+        while pos < length and inner[pos] in ' \t\n\r':
+            pos += 1
+        
+        if pos < length and inner[pos] == '{':
+            value_str, next_pos = parse_lua_table(inner, pos)
+            if value_str:
+                value = parse_table(value_str)
+                pos = next_pos
+            else:
+                value = None
+        else:
+            value_match = re.match(r'("[^"\\]*(?:\\.[^"\\]*)*"|\'[^\'\\]*(?:\\.[^\'\\]*)*\'|\[[^\]]*\]|true|false|nil|-?\d+(?:\.\d+)?|[a-zA-Z_][a-zA-Z0-9_]*)', inner[pos:])
+            if value_match:
+                value_str = value_match.group(0)
+                value = parse_value(value_str)
+                pos += len(value_str)
+            else:
+                value = None
+        
+        if key is not None and value is not None:
+            if isinstance(key, int) and key == len(result):
+                result[str(key)] = value
+            else:
+                result[key] = value
+        
+        while pos < length and inner[pos] in ' ,\t\n\r':
+            pos += 1
+        
+        if pos < length and inner[pos] == ',':
+            pos += 1
+    
+    return result
+
+def convert_ship_skin_template(content):
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_skin_template\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        skin_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                skin_data = parse_table(table_str)
+                result[skin_id] = skin_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
+
+def convert_ship_skin_words(content):
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_skin_words\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        skin_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                words_data = parse_table(table_str)
+                result[skin_id] = words_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
+
+def convert_name_code(content):
+    result = {}
+    pattern = r'pg\.base\.name_code\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        code_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                code_data = parse_table(table_str)
+                result[code_id] = code_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
+
+def convert_painting_filte_map(content):
+    result = {}
+    
+    pattern1 = r'pg\.base\.painting_filte_map\["([^"]+)"\]\s*=\s*'
+    pattern2 = r'pg\.base\.painting_filte_map\.([a-zA-Z0-9_]+)\s*=\s*'
+    
+    for pattern in [pattern1, pattern2]:
+        pos = 0
+        while True:
+            match = re.search(pattern, content[pos:])
+            if not match:
+                break
+            
+            key = match.group(1)
+            start = pos + match.end()
+            
+            if start < len(content) and content[start] == '{':
+                table_str, next_pos = parse_lua_table(content, start)
+                if table_str:
+                    item_data = parse_table(table_str)
+                    if item_data:
+                        result[key] = item_data
+                    pos = next_pos
+                else:
+                    pos = start + 1
+            else:
+                pos = start
+    
+    return result
+
+def convert_ship_skin_expression(content):
+    result = {}
+    pattern = r'pg\.base\.ship_skin_expression\.([a-zA-Z0-9_]+)\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        key = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                expression_data = parse_table(table_str)
+                if expression_data:
+                    result[key] = expression_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
+
+def convert_lua_files_to_json(lua_files_dir: Path = Path(".")):
+    converters = {
+        "ship_skin_template.lua": ("ship_skin_template.json", convert_ship_skin_template),
+        "ship_skin_words.lua": ("ship_skin_words.json", convert_ship_skin_words),
+        "name_code.lua": ("name_code.json", convert_name_code),
+        "painting_filte_map.lua": ("painting_filte_map.json", convert_painting_filte_map),
+        "ship_skin_expression.lua": ("ship_skin_expression.json", convert_ship_skin_expression)
+    }
+    
+    converted_files = {}
+    for input_file, (output_file, converter) in converters.items():
+        input_path = lua_files_dir / input_file
+        if not input_path.exists():
+            print(f"跳过: {input_file} 不存在")
+            continue
+        
+        print(f"转换: {input_file} -> {output_file}")
+        
+        with open(input_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        result = converter(content)
+        
+        output_path = Path(output_file)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+        
+        print(f"  ✓ 成功转换 {len(result)} 条数据")
+        converted_files[output_file.replace('.json', '')] = output_path
+    
+    print("\n所有Lua文件转换完成！")
+    return converted_files
+
 def find_data_file(filename: str, search_paths: List[Path] = None) -> Path:
     if search_paths is None:
         search_paths = [
@@ -185,12 +532,19 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
     }
 
 def generate_skin_voice_mapping():
-    template_path = find_data_file("ship_skin_template.json")
-    words_path = find_data_file("ship_skin_words.json")
-    if not template_path or not words_path:
+    template_path = find_data_file("ship_skin_template.json") or Path("ship_skin_template.json")
+    words_path = find_data_file("ship_skin_words.json") or Path("ship_skin_words.json")
+    
+    if not template_path.exists() or not words_path.exists():
+        print("跳过 skin_voice_mapping: 文件不存在")
         return
+    
     template = load_json_file(template_path)
     words = load_json_file(words_path)
+    
+    if not template or not words:
+        print("跳过 skin_voice_mapping: 数据为空")
+        return
     
     ships_by_name = defaultdict(list)
     for skin_id_str, info in template.items():
@@ -321,24 +675,42 @@ def generate_story_dialogues():
     story_path = find_data_file("story.json")
     memory_template_path = find_data_file("memory_template.json")
     memory_group_path = find_data_file("memory_group.json")
-    name_code_path = find_data_file("name_code.json")
-    if not all([story_path, memory_template_path, memory_group_path, name_code_path]):
+    name_code_path = find_data_file("name_code.json") or Path("name_code.json")
+    
+    if not name_code_path.exists():
+        print("跳过 story_dialogues: name_code.json 不存在")
         return
-    story = load_json_file(story_path)
-    mem_temp = load_json_file(memory_template_path)
-    mem_group = load_json_file(memory_group_path)
+    
     namecode = load_json_file(name_code_path)
+    
+    if story_path and story_path.exists():
+        story = load_json_file(story_path)
+    else:
+        story = {}
+    
+    if memory_template_path and memory_template_path.exists():
+        mem_temp = load_json_file(memory_template_path)
+    else:
+        mem_temp = {}
+    
+    if memory_group_path and memory_group_path.exists():
+        mem_group = load_json_file(memory_group_path)
+    else:
+        mem_group = {}
+    
     story_to_title = {}
     for tid, item in mem_temp.items():
         sk = item.get("story")
         if sk:
             story_to_title[sk.upper()] = item.get("title", "未知标题")
+    
     memory_to_group = {}
     for gid, group in mem_group.items():
         title = group.get("title", "未知组")
         memories = group.get("memories", [])
         for mid in memories:
             memory_to_group[str(mid)] = title
+    
     structured_output = {
         "metadata": {
             "generated_at": datetime.now().isoformat(),
@@ -347,6 +719,7 @@ def generate_story_dialogues():
         },
         "groups": []
     }
+    
     group_episodes = defaultdict(list)
     for key_lower, content in story.items():
         key_upper = key_lower.upper()
@@ -388,6 +761,7 @@ def generate_story_dialogues():
             "memory_id": memory_id,
             "dialogues": dialogues
         })
+    
     for group_name in sorted(group_episodes.keys()):
         episodes = sorted(group_episodes[group_name], key=lambda x: x["story_key"])
         structured_output["groups"].append({
@@ -399,34 +773,64 @@ def generate_story_dialogues():
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
 
 def main():
+    print("=" * 50)
+    print("步骤1: 转换Lua文件为JSON")
+    print("=" * 50)
+    convert_lua_files_to_json(Path("."))
+    
+    print("\n" + "=" * 50)
+    print("步骤2: 处理JSON数据")
+    print("=" * 50)
+    
     required_files = {
         "ships": "ship_skin_template.json",
         "words": "ship_skin_words.json",
         "namecode": "name_code.json"
     }
+    
     loaded_data = {}
     for key, filename in required_files.items():
-        file_path = find_data_file(filename)
-        if file_path:
+        file_path = Path(filename)
+        if not file_path.exists():
+            file_path = find_data_file(filename)
+        if file_path and file_path.exists():
             data = load_json_file(file_path)
-            if key == "words" and "ShareCfg" in str(file_path) and not "sharecfgdata" in str(file_path).lower():
-                alt_path = Path("sharecfgdata") / filename
-                if alt_path.exists():
-                    data = load_json_file(alt_path)
             loaded_data[key] = data
+            print(f"加载 {filename}: {len(data)} 条数据")
+        else:
+            print(f"警告: {filename} 未找到")
+            loaded_data[key] = {}
+    
     if loaded_data["ships"] and loaded_data["namecode"]:
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
+        print("生成 al_combined_final.json 完成")
+        
         with open("zuming.json", 'w', encoding='utf-8') as f:
             json.dump({"ships": combined["zuming_data"]["ships"]}, f, ensure_ascii=False, indent=2)
-        painting_filter_path = find_data_file("painting_filte_map.json")
+        print("生成 zuming.json 完成")
+        
+        painting_filter_path = find_data_file("painting_filte_map.json") or Path("painting_filte_map.json")
         painting_filter_data = {}
-        if painting_filter_path:
+        if painting_filter_path.exists():
             painting_filter_data = load_json_file(painting_filter_path)
+            print(f"加载 painting_filte_map.json: {len(painting_filter_data)} 条数据")
+        
         generate_name_json(combined["ships"], painting_filter_data)
+        print("生成 name.json 完成")
+    else:
+        print("缺少必要数据，跳过部分处理")
+    
+    print("\n" + "=" * 50)
+    print("步骤3: 生成附加数据")
+    print("=" * 50)
     generate_skin_voice_mapping()
     generate_story_dialogues()
+    
+    print("\n" + "=" * 50)
+    print("所有处理完成！")
+    print("=" * 50)
 
 if __name__ == "__main__":
     main()
