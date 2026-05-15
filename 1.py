@@ -5,254 +5,6 @@ from typing import List, Dict, Any
 from datetime import datetime
 import re
 
-def convert_name_code(content):
-    result = {}
-    pattern = r'pg\.base\.name_code\[(\d+)\]\s*=\s*\{([^}]+)\}'
-    
-    for match in re.finditer(pattern, content):
-        code_id = match.group(1)
-        table_content = match.group(2)
-        
-        code_data = {}
-        field_pattern = r'(\w+)\s*=\s*("([^"]*)"|(\d+))'
-        
-        for field_match in re.finditer(field_pattern, table_content):
-            key = field_match.group(1)
-            str_value = field_match.group(3)
-            int_value = field_match.group(4)
-            
-            if str_value is not None:
-                code_data[key] = str_value
-            else:
-                code_data[key] = int(int_value)
-        
-        result[code_id] = code_data
-    return result
-
-def replace_namecode_in_string(value, namecode_map):
-    if not isinstance(value, str):
-        return value
-    pattern = r'{namecode:(\d+)(?::[^}]*)?}'
-    def replace_match(match):
-        code = match.group(1)
-        if code in namecode_map:
-            return namecode_map[code].get('name', match.group(0))
-        return match.group(0)
-    return re.sub(pattern, replace_match, value)
-
-def convert_ship_skin_template(content, namecode_map=None):
-    result = {}
-    pattern = r'_G\.pg\.base\.ship_skin_template\[(\d+)\]\s*=\s*(\{(?:[^{}]|\{[^{}]*\})*\})'
-    
-    for match in re.finditer(pattern, content, re.DOTALL):
-        skin_id = match.group(1)
-        table_content = match.group(2)
-        
-        skin_data = {}
-        kv_pattern = r'(\w+)\s*=\s*("[^"\\]*(?:\\.[^"\\]*)*"|true|false|\{[^{}]*\}|-?\d+(?:\.\d+)?|[\w_]+)'
-        
-        for kv_match in re.finditer(kv_pattern, table_content):
-            key = kv_match.group(1)
-            value_str = kv_match.group(2)
-            
-            if value_str.startswith('"'):
-                value = value_str[1:-1].replace('\\"', '"')
-                if namecode_map:
-                    value = replace_namecode_in_string(value, namecode_map)
-            elif value_str == 'true':
-                value = True
-            elif value_str == 'false':
-                value = False
-            elif value_str.isdigit():
-                value = int(value_str)
-            elif value_str.startswith('-') and value_str[1:].isdigit():
-                value = int(value_str)
-            elif '.' in value_str and value_str.replace('.', '').isdigit():
-                value = float(value_str)
-            elif value_str.startswith('{'):
-                arr = re.findall(r'"([^"]*)"|(\d+)', value_str)
-                value = [item[0] if item[0] else int(item[1]) for item in arr if item[0] or item[1]]
-                if namecode_map and isinstance(value, list):
-                    value = [replace_namecode_in_string(v, namecode_map) if isinstance(v, str) else v for v in value]
-            else:
-                value = value_str
-                if namecode_map and isinstance(value, str):
-                    value = replace_namecode_in_string(value, namecode_map)
-            skin_data[key] = value
-        
-        result[skin_id] = skin_data
-    return result
-
-def convert_ship_skin_words(content, namecode_map=None):
-    result = {}
-    pattern = r'_G\.pg\.base\.ship_skin_words\[(\d+)\]\s*=\s*(\{(?:[^{}]|\{[^{}]*\})*\})'
-    
-    for match in re.finditer(pattern, content, re.DOTALL):
-        skin_id = match.group(1)
-        table_content = match.group(2)
-        
-        words_data = {}
-        kv_pattern = r'(\w+)\s*=\s*((?:"[^"\\]*(?:\\.[^"\\]*)*")|(?:{[^{}]*})|(?:\[[^\]]*\])|(?:true|false)|(?:-?\d+(?:\.\d+)?)|(?:[\w_]+))'
-        
-        for kv_match in re.finditer(kv_pattern, table_content):
-            key = kv_match.group(1)
-            value_str = kv_match.group(2).strip()
-            
-            if value_str.startswith('"'):
-                value = value_str[1:-1].replace('\\"', '"').replace('\\n', '\n')
-                if namecode_map:
-                    value = replace_namecode_in_string(value, namecode_map)
-            elif value_str == 'true':
-                value = True
-            elif value_str == 'false':
-                value = False
-            elif value_str.isdigit():
-                value = int(value_str)
-            elif value_str.startswith('-') and value_str[1:].isdigit():
-                value = int(value_str)
-            elif value_str.startswith('{'):
-                arr = re.findall(r'"([^"]*)"|(\d+)', value_str)
-                value = [item[0] if item[0] else int(item[1]) for item in arr if item[0] or item[1]]
-                if namecode_map and isinstance(value, list):
-                    value = [replace_namecode_in_string(v, namecode_map) if isinstance(v, str) else v for v in value]
-            elif value_str.startswith('['):
-                value = value_str
-            else:
-                value = value_str
-                if namecode_map and isinstance(value, str):
-                    value = replace_namecode_in_string(value, namecode_map)
-            words_data[key] = value
-        
-        result[skin_id] = words_data
-    return result
-
-def convert_painting_filte_map(content, namecode_map=None):
-    result = {}
-    
-    pattern1 = r'pg\.base\.painting_filte_map\["([^"]+)"\]\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
-    for match in re.finditer(pattern1, content, re.DOTALL):
-        key = match.group(1)
-        table_content = match.group(2)
-        
-        item_data = {}
-        key_match = re.search(r'key\s*=\s*"([^"]*)"', table_content)
-        if key_match:
-            val = key_match.group(1)
-            if namecode_map:
-                val = replace_namecode_in_string(val, namecode_map)
-            item_data["key"] = val
-        
-        res_list_match = re.search(r'res_list\s*=\s*\{([^}]+)\}', table_content)
-        if res_list_match:
-            res_list = re.findall(r'"([^"]*)"', res_list_match.group(1))
-            if res_list:
-                if namecode_map:
-                    res_list = [replace_namecode_in_string(r, namecode_map) for r in res_list]
-                item_data["res_list"] = res_list
-        
-        if item_data:
-            if namecode_map:
-                key = replace_namecode_in_string(key, namecode_map)
-            result[key] = item_data
-    
-    pattern2 = r'pg\.base\.painting_filte_map\.([a-zA-Z0-9_]+)\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
-    for match in re.finditer(pattern2, content, re.DOTALL):
-        key = match.group(1)
-        table_content = match.group(2)
-        
-        item_data = {}
-        key_match = re.search(r'key\s*=\s*"([^"]*)"', table_content)
-        if key_match:
-            val = key_match.group(1)
-            if namecode_map:
-                val = replace_namecode_in_string(val, namecode_map)
-            item_data["key"] = val
-        
-        res_list_match = re.search(r'res_list\s*=\s*\{([^}]+)\}', table_content)
-        if res_list_match:
-            res_list = re.findall(r'"([^"]*)"', res_list_match.group(1))
-            if res_list:
-                if namecode_map:
-                    res_list = [replace_namecode_in_string(r, namecode_map) for r in res_list]
-                item_data["res_list"] = res_list
-        
-        if item_data:
-            result[key] = item_data
-    
-    return result
-
-def convert_ship_skin_expression(content, namecode_map=None):
-    result = {}
-    pattern = r'pg\.base\.ship_skin_expression\.([a-zA-Z0-9_]+)\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
-    
-    for match in re.finditer(pattern, content, re.DOTALL):
-        key = match.group(1)
-        table_content = match.group(2)
-        
-        expression_data = {}
-        field_pattern = r'(\w+)\s*=\s*("([^"]*)"|(\d+))'
-        
-        for field_match in re.finditer(field_pattern, table_content):
-            field_name = field_match.group(1)
-            str_value = field_match.group(3)
-            int_value = field_match.group(4)
-            
-            if str_value is not None:
-                value = str_value
-                if namecode_map:
-                    value = replace_namecode_in_string(value, namecode_map)
-                expression_data[field_name] = value
-            else:
-                expression_data[field_name] = int(int_value)
-        
-        if expression_data:
-            result[key] = expression_data
-    
-    return result
-
-def convert_lua_files_to_json(lua_files_dir: Path = Path(".")):
-    namecode_path = lua_files_dir / "name_code.lua"
-    if not namecode_path.exists():
-        print("错误: name_code.lua 不存在，无法进行名称替换")
-        return {}
-    
-    with open(namecode_path, 'r', encoding='utf-8') as f:
-        namecode_content = f.read()
-    
-    namecode_map = convert_name_code(namecode_content)
-    print(f"加载 name_code: {len(namecode_map)} 条数据")
-    
-    converters = {
-        "ship_skin_template.lua": ("ship_skin_template.json", convert_ship_skin_template),
-        "ship_skin_words.lua": ("ship_skin_words.json", convert_ship_skin_words),
-        "painting_filte_map.lua": ("painting_filte_map.json", convert_painting_filte_map),
-        "ship_skin_expression.lua": ("ship_skin_expression.json", convert_ship_skin_expression)
-    }
-    
-    converted_files = {}
-    for input_file, (output_file, converter) in converters.items():
-        input_path = lua_files_dir / input_file
-        if not input_path.exists():
-            print(f"跳过: {input_file} 不存在")
-            continue
-        
-        print(f"转换: {input_file} -> {output_file}")
-        
-        with open(input_path, 'r', encoding='utf-8') as f:
-            content = f.read()
-        
-        result = converter(content, namecode_map)
-        
-        output_path = Path(output_file)
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(result, f, ensure_ascii=False, indent=2)
-        
-        print(f"  ✓ 成功转换 {len(result)} 条数据")
-        converted_files[output_file.replace('.json', '')] = output_path
-    
-    print("\n所有Lua文件转换完成！")
-    return converted_files
-
 def find_data_file(filename: str, search_paths: List[Path] = None) -> Path:
     if search_paths is None:
         search_paths = [
@@ -433,19 +185,12 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
     }
 
 def generate_skin_voice_mapping():
-    template_path = find_data_file("ship_skin_template.json") or Path("ship_skin_template.json")
-    words_path = find_data_file("ship_skin_words.json") or Path("ship_skin_words.json")
-    
-    if not template_path.exists() or not words_path.exists():
-        print("跳过 skin_voice_mapping: 文件不存在")
+    template_path = find_data_file("ship_skin_template.json")
+    words_path = find_data_file("ship_skin_words.json")
+    if not template_path or not words_path:
         return
-    
     template = load_json_file(template_path)
     words = load_json_file(words_path)
-    
-    if not template or not words:
-        print("跳过 skin_voice_mapping: 数据为空")
-        return
     
     ships_by_name = defaultdict(list)
     for skin_id_str, info in template.items():
@@ -576,42 +321,24 @@ def generate_story_dialogues():
     story_path = find_data_file("story.json")
     memory_template_path = find_data_file("memory_template.json")
     memory_group_path = find_data_file("memory_group.json")
-    name_code_path = find_data_file("name_code.json") or Path("name_code.json")
-    
-    if not name_code_path.exists():
-        print("跳过 story_dialogues: name_code.json 不存在")
+    name_code_path = find_data_file("name_code.json")
+    if not all([story_path, memory_template_path, memory_group_path, name_code_path]):
         return
-    
+    story = load_json_file(story_path)
+    mem_temp = load_json_file(memory_template_path)
+    mem_group = load_json_file(memory_group_path)
     namecode = load_json_file(name_code_path)
-    
-    if story_path and story_path.exists():
-        story = load_json_file(story_path)
-    else:
-        story = {}
-    
-    if memory_template_path and memory_template_path.exists():
-        mem_temp = load_json_file(memory_template_path)
-    else:
-        mem_temp = {}
-    
-    if memory_group_path and memory_group_path.exists():
-        mem_group = load_json_file(memory_group_path)
-    else:
-        mem_group = {}
-    
     story_to_title = {}
     for tid, item in mem_temp.items():
         sk = item.get("story")
         if sk:
             story_to_title[sk.upper()] = item.get("title", "未知标题")
-    
     memory_to_group = {}
     for gid, group in mem_group.items():
         title = group.get("title", "未知组")
         memories = group.get("memories", [])
         for mid in memories:
             memory_to_group[str(mid)] = title
-    
     structured_output = {
         "metadata": {
             "generated_at": datetime.now().isoformat(),
@@ -620,7 +347,6 @@ def generate_story_dialogues():
         },
         "groups": []
     }
-    
     group_episodes = defaultdict(list)
     for key_lower, content in story.items():
         key_upper = key_lower.upper()
@@ -662,7 +388,6 @@ def generate_story_dialogues():
             "memory_id": memory_id,
             "dialogues": dialogues
         })
-    
     for group_name in sorted(group_episodes.keys()):
         episodes = sorted(group_episodes[group_name], key=lambda x: x["story_key"])
         structured_output["groups"].append({
@@ -674,64 +399,34 @@ def generate_story_dialogues():
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
 
 def main():
-    print("=" * 50)
-    print("步骤1: 转换Lua文件为JSON（同时替换namecode）")
-    print("=" * 50)
-    convert_lua_files_to_json(Path("."))
-    
-    print("\n" + "=" * 50)
-    print("步骤2: 处理JSON数据")
-    print("=" * 50)
-    
     required_files = {
         "ships": "ship_skin_template.json",
         "words": "ship_skin_words.json",
         "namecode": "name_code.json"
     }
-    
     loaded_data = {}
     for key, filename in required_files.items():
-        file_path = Path(filename)
-        if not file_path.exists():
-            file_path = find_data_file(filename)
-        if file_path and file_path.exists():
+        file_path = find_data_file(filename)
+        if file_path:
             data = load_json_file(file_path)
+            if key == "words" and "ShareCfg" in str(file_path) and not "sharecfgdata" in str(file_path).lower():
+                alt_path = Path("sharecfgdata") / filename
+                if alt_path.exists():
+                    data = load_json_file(alt_path)
             loaded_data[key] = data
-            print(f"加载 {filename}: {len(data)} 条数据")
-        else:
-            print(f"警告: {filename} 未找到")
-            loaded_data[key] = {}
-    
     if loaded_data["ships"] and loaded_data["namecode"]:
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
             json.dump(combined, f, ensure_ascii=False, indent=2)
-        print("生成 al_combined_final.json 完成")
-        
         with open("zuming.json", 'w', encoding='utf-8') as f:
             json.dump({"ships": combined["zuming_data"]["ships"]}, f, ensure_ascii=False, indent=2)
-        print("生成 zuming.json 完成")
-        
-        painting_filter_path = find_data_file("painting_filte_map.json") or Path("painting_filte_map.json")
+        painting_filter_path = find_data_file("painting_filte_map.json")
         painting_filter_data = {}
-        if painting_filter_path.exists():
+        if painting_filter_path:
             painting_filter_data = load_json_file(painting_filter_path)
-            print(f"加载 painting_filte_map.json: {len(painting_filter_data)} 条数据")
-        
         generate_name_json(combined["ships"], painting_filter_data)
-        print("生成 name.json 完成")
-    else:
-        print("缺少必要数据，跳过部分处理")
-    
-    print("\n" + "=" * 50)
-    print("步骤3: 生成附加数据")
-    print("=" * 50)
     generate_skin_voice_mapping()
     generate_story_dialogues()
-    
-    print("\n" + "=" * 50)
-    print("所有处理完成！")
-    print("=" * 50)
 
 if __name__ == "__main__":
     main()
