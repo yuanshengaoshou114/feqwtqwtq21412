@@ -5,80 +5,7 @@ from typing import List, Dict, Any
 from datetime import datetime
 import re
 
-def convert_ship_skin_template(content):
-    """转换 ship_skin_template.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.ship_skin_template\[(\d+)\]\s*=\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}'
-    
-    for match in re.finditer(pattern, content, re.DOTALL):
-        skin_id = match.group(1)
-        table_content = match.group(2)
-        
-        skin_data = {}
-        kv_pattern = r'(\w+)\s*=\s*("[^"\\]*(?:\\.[^"\\]*)*"|true|false|\{[^}]*\}|-?\d+(?:\.\d+)?|[\w_]+)'
-        
-        for kv_match in re.finditer(kv_pattern, table_content):
-            key = kv_match.group(1)
-            value_str = kv_match.group(2)
-            
-            if value_str.startswith('"'):
-                value = value_str[1:-1].replace('\\"', '"')
-            elif value_str == 'true':
-                value = True
-            elif value_str == 'false':
-                value = False
-            elif value_str.isdigit():
-                value = int(value_str)
-            elif value_str.startswith('-') and value_str[1:].isdigit():
-                value = int(value_str)
-            elif '.' in value_str and value_str.replace('.', '').isdigit():
-                value = float(value_str)
-            else:
-                value = value_str
-            skin_data[key] = value
-        
-        result[skin_id] = skin_data
-    return result
-
-def convert_ship_skin_words(content):
-    """转换 ship_skin_words.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.ship_skin_words\[(\d+)\]\s*=\s*\{([^}]*(?:\{[^}]*\}[^}]*)*)\}'
-    
-    for match in re.finditer(pattern, content, re.DOTALL):
-        skin_id = match.group(1)
-        table_content = match.group(2)
-        
-        words_data = {}
-        kv_pattern = r'(\w+)\s*=\s*((?:"[^"\\]*(?:\\.[^"\\]*)*")|(?:{[^}]*})|(?:\[[^\]]*\])|(?:true|false)|(?:-?\d+(?:\.\d+)?)|(?:[\w_]+))'
-        
-        for kv_match in re.finditer(kv_pattern, table_content):
-            key = kv_match.group(1)
-            value_str = kv_match.group(2).strip()
-            
-            if value_str.startswith('"'):
-                value = value_str[1:-1].replace('\\"', '"').replace('\\n', '\n')
-            elif value_str == 'true':
-                value = True
-            elif value_str == 'false':
-                value = False
-            elif value_str.isdigit():
-                value = int(value_str)
-            elif value_str.startswith('-') and value_str[1:].isdigit():
-                value = int(value_str)
-            elif value_str.startswith('{'):
-                # 简单解析数组
-                arr = re.findall(r'"([^"]*)"|(\d+)', value_str)
-                value = [item[0] if item[0] else int(item[1]) for item in arr if item[0] or item[1]]
-            else:
-                value = value_str
-            words_data[key] = value
-        
-        result[skin_id] = words_data
-    return result
-
 def convert_name_code(content):
-    """转换 name_code.lua"""
     result = {}
     pattern = r'pg\.base\.name_code\[(\d+)\]\s*=\s*\{([^}]+)\}'
     
@@ -102,11 +29,106 @@ def convert_name_code(content):
         result[code_id] = code_data
     return result
 
-def convert_painting_filte_map(content):
-    """转换 painting_filte_map.lua"""
+def replace_namecode_in_string(value, namecode_map):
+    if not isinstance(value, str):
+        return value
+    pattern = r'{namecode:(\d+)(?::[^}]*)?}'
+    def replace_match(match):
+        code = match.group(1)
+        if code in namecode_map:
+            return namecode_map[code].get('name', match.group(0))
+        return match.group(0)
+    return re.sub(pattern, replace_match, value)
+
+def convert_ship_skin_template(content, namecode_map=None):
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_skin_template\[(\d+)\]\s*=\s*(\{(?:[^{}]|\{[^{}]*\})*\})'
+    
+    for match in re.finditer(pattern, content, re.DOTALL):
+        skin_id = match.group(1)
+        table_content = match.group(2)
+        
+        skin_data = {}
+        kv_pattern = r'(\w+)\s*=\s*("[^"\\]*(?:\\.[^"\\]*)*"|true|false|\{[^{}]*\}|-?\d+(?:\.\d+)?|[\w_]+)'
+        
+        for kv_match in re.finditer(kv_pattern, table_content):
+            key = kv_match.group(1)
+            value_str = kv_match.group(2)
+            
+            if value_str.startswith('"'):
+                value = value_str[1:-1].replace('\\"', '"')
+                if namecode_map:
+                    value = replace_namecode_in_string(value, namecode_map)
+            elif value_str == 'true':
+                value = True
+            elif value_str == 'false':
+                value = False
+            elif value_str.isdigit():
+                value = int(value_str)
+            elif value_str.startswith('-') and value_str[1:].isdigit():
+                value = int(value_str)
+            elif '.' in value_str and value_str.replace('.', '').isdigit():
+                value = float(value_str)
+            elif value_str.startswith('{'):
+                arr = re.findall(r'"([^"]*)"|(\d+)', value_str)
+                value = [item[0] if item[0] else int(item[1]) for item in arr if item[0] or item[1]]
+                if namecode_map and isinstance(value, list):
+                    value = [replace_namecode_in_string(v, namecode_map) if isinstance(v, str) else v for v in value]
+            else:
+                value = value_str
+                if namecode_map and isinstance(value, str):
+                    value = replace_namecode_in_string(value, namecode_map)
+            skin_data[key] = value
+        
+        result[skin_id] = skin_data
+    return result
+
+def convert_ship_skin_words(content, namecode_map=None):
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_skin_words\[(\d+)\]\s*=\s*(\{(?:[^{}]|\{[^{}]*\})*\})'
+    
+    for match in re.finditer(pattern, content, re.DOTALL):
+        skin_id = match.group(1)
+        table_content = match.group(2)
+        
+        words_data = {}
+        kv_pattern = r'(\w+)\s*=\s*((?:"[^"\\]*(?:\\.[^"\\]*)*")|(?:{[^{}]*})|(?:\[[^\]]*\])|(?:true|false)|(?:-?\d+(?:\.\d+)?)|(?:[\w_]+))'
+        
+        for kv_match in re.finditer(kv_pattern, table_content):
+            key = kv_match.group(1)
+            value_str = kv_match.group(2).strip()
+            
+            if value_str.startswith('"'):
+                value = value_str[1:-1].replace('\\"', '"').replace('\\n', '\n')
+                if namecode_map:
+                    value = replace_namecode_in_string(value, namecode_map)
+            elif value_str == 'true':
+                value = True
+            elif value_str == 'false':
+                value = False
+            elif value_str.isdigit():
+                value = int(value_str)
+            elif value_str.startswith('-') and value_str[1:].isdigit():
+                value = int(value_str)
+            elif value_str.startswith('{'):
+                arr = re.findall(r'"([^"]*)"|(\d+)', value_str)
+                value = [item[0] if item[0] else int(item[1]) for item in arr if item[0] or item[1]]
+                if namecode_map and isinstance(value, list):
+                    value = [replace_namecode_in_string(v, namecode_map) if isinstance(v, str) else v for v in value]
+            elif value_str.startswith('['):
+                value = value_str
+            else:
+                value = value_str
+                if namecode_map and isinstance(value, str):
+                    value = replace_namecode_in_string(value, namecode_map)
+            words_data[key] = value
+        
+        result[skin_id] = words_data
+    return result
+
+def convert_painting_filte_map(content, namecode_map=None):
     result = {}
     
-    # 格式1: 字符串键
     pattern1 = r'pg\.base\.painting_filte_map\["([^"]+)"\]\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
     for match in re.finditer(pattern1, content, re.DOTALL):
         key = match.group(1)
@@ -115,18 +137,24 @@ def convert_painting_filte_map(content):
         item_data = {}
         key_match = re.search(r'key\s*=\s*"([^"]*)"', table_content)
         if key_match:
-            item_data["key"] = key_match.group(1)
+            val = key_match.group(1)
+            if namecode_map:
+                val = replace_namecode_in_string(val, namecode_map)
+            item_data["key"] = val
         
         res_list_match = re.search(r'res_list\s*=\s*\{([^}]+)\}', table_content)
         if res_list_match:
             res_list = re.findall(r'"([^"]*)"', res_list_match.group(1))
             if res_list:
+                if namecode_map:
+                    res_list = [replace_namecode_in_string(r, namecode_map) for r in res_list]
                 item_data["res_list"] = res_list
         
         if item_data:
+            if namecode_map:
+                key = replace_namecode_in_string(key, namecode_map)
             result[key] = item_data
     
-    # 格式2: 点号键
     pattern2 = r'pg\.base\.painting_filte_map\.([a-zA-Z0-9_]+)\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
     for match in re.finditer(pattern2, content, re.DOTALL):
         key = match.group(1)
@@ -135,12 +163,17 @@ def convert_painting_filte_map(content):
         item_data = {}
         key_match = re.search(r'key\s*=\s*"([^"]*)"', table_content)
         if key_match:
-            item_data["key"] = key_match.group(1)
+            val = key_match.group(1)
+            if namecode_map:
+                val = replace_namecode_in_string(val, namecode_map)
+            item_data["key"] = val
         
         res_list_match = re.search(r'res_list\s*=\s*\{([^}]+)\}', table_content)
         if res_list_match:
             res_list = re.findall(r'"([^"]*)"', res_list_match.group(1))
             if res_list:
+                if namecode_map:
+                    res_list = [replace_namecode_in_string(r, namecode_map) for r in res_list]
                 item_data["res_list"] = res_list
         
         if item_data:
@@ -148,8 +181,7 @@ def convert_painting_filte_map(content):
     
     return result
 
-def convert_ship_skin_expression(content):
-    """转换 ship_skin_expression.lua"""
+def convert_ship_skin_expression(content, namecode_map=None):
     result = {}
     pattern = r'pg\.base\.ship_skin_expression\.([a-zA-Z0-9_]+)\s*=\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
     
@@ -166,9 +198,12 @@ def convert_ship_skin_expression(content):
             int_value = field_match.group(4)
             
             if str_value is not None:
-                expression_data[field_name] = str_value
+                value = str_value
+                if namecode_map:
+                    value = replace_namecode_in_string(value, namecode_map)
+                expression_data[field_name] = value
             else:
-                expression_data[field_name] = int_value
+                expression_data[field_name] = int(int_value)
         
         if expression_data:
             result[key] = expression_data
@@ -176,11 +211,20 @@ def convert_ship_skin_expression(content):
     return result
 
 def convert_lua_files_to_json(lua_files_dir: Path = Path(".")):
-    """将五个Lua文件转换为JSON文件"""
+    namecode_path = lua_files_dir / "name_code.lua"
+    if not namecode_path.exists():
+        print("错误: name_code.lua 不存在，无法进行名称替换")
+        return {}
+    
+    with open(namecode_path, 'r', encoding='utf-8') as f:
+        namecode_content = f.read()
+    
+    namecode_map = convert_name_code(namecode_content)
+    print(f"加载 name_code: {len(namecode_map)} 条数据")
+    
     converters = {
         "ship_skin_template.lua": ("ship_skin_template.json", convert_ship_skin_template),
         "ship_skin_words.lua": ("ship_skin_words.json", convert_ship_skin_words),
-        "name_code.lua": ("name_code.json", convert_name_code),
         "painting_filte_map.lua": ("painting_filte_map.json", convert_painting_filte_map),
         "ship_skin_expression.lua": ("ship_skin_expression.json", convert_ship_skin_expression)
     }
@@ -197,7 +241,7 @@ def convert_lua_files_to_json(lua_files_dir: Path = Path(".")):
         with open(input_path, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        result = converter(content)
+        result = converter(content, namecode_map)
         
         output_path = Path(output_file)
         with open(output_path, 'w', encoding='utf-8') as f:
@@ -389,7 +433,6 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
     }
 
 def generate_skin_voice_mapping():
-    # 尝试从多个位置查找文件
     template_path = find_data_file("ship_skin_template.json") or Path("ship_skin_template.json")
     words_path = find_data_file("ship_skin_words.json") or Path("ship_skin_words.json")
     
@@ -631,9 +674,8 @@ def generate_story_dialogues():
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
 
 def main():
-    # 首先转换Lua文件为JSON
     print("=" * 50)
-    print("步骤1: 转换Lua文件为JSON")
+    print("步骤1: 转换Lua文件为JSON（同时替换namecode）")
     print("=" * 50)
     convert_lua_files_to_json(Path("."))
     
@@ -641,7 +683,6 @@ def main():
     print("步骤2: 处理JSON数据")
     print("=" * 50)
     
-    # 现在JSON文件应该已经生成，可以正常加载
     required_files = {
         "ships": "ship_skin_template.json",
         "words": "ship_skin_words.json",
@@ -650,7 +691,6 @@ def main():
     
     loaded_data = {}
     for key, filename in required_files.items():
-        # 优先查找当前目录，然后查找其他目录
         file_path = Path(filename)
         if not file_path.exists():
             file_path = find_data_file(filename)
