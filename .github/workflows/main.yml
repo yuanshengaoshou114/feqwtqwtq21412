@@ -17,14 +17,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Pull latest CN Lua scripts (Lua source files)
-        uses: actions/checkout@v4
-        with:
-          repository: AzurLaneTools/AzurLaneLuaScripts
-          path: lua-scripts
-          fetch-depth: 1
-
-      - name: Pull latest CN raw data from upstream (JSON files)
+      - name: Pull latest CN raw data from upstream
         uses: actions/checkout@v4
         with:
           repository: AzurLaneTools/AzurLaneData
@@ -36,32 +29,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 复制 Lua 文件到工作目录
+      - name: 强制删除仓库根目录下所有旧的生成文件（每次都删干净）
         run: |
-          # 复制 Lua 文件
-          cp lua-scripts/CN/sharecfgdata/ship_skin_template.lua ./
-          cp lua-scripts/CN/sharecfgdata/ship_skin_words.lua ./
-          cp lua-scripts/CN/sharecfg/name_code.lua ./
-          cp lua-scripts/CN/sharecfg/painting_filte_map.lua ./
-          cp lua-scripts/CN/sharecfg/ship_skin_expression.lua ./
-          
-          echo "Lua 文件列表："
-          ls -la *.lua
+          set -e  # 遇到错误就停止
 
-      - name: 复制上游原始 JSON 文件
-        run: |
-          cp raw-data/CN/GameCfg/story.json ./story.json 2>/dev/null || echo "story.json 未找到"
-          cp raw-data/CN/ShareCfg/activity_sp_story.json ./activity_sp_story.json 2>/dev/null || echo "activity_sp_story.json 未找到"
-          
-          # 注意：ship_skin_expression.json 会由 Lua 转换生成，不需要从 raw-data 复制
-          # 但如果有其他需要的 JSON 文件可以继续复制
-          
-          ls -la *.json 2>/dev/null || true
-
-      - name: 强制删除仓库根目录下所有旧的生成文件
-        run: |
-          set -e
-          
           FILES_TO_DELETE=(
             "al_combined_final.json"
             "zuming.json"
@@ -71,41 +42,53 @@ jobs:
             "story.json"
             "activity_sp_story.json"
             "ship_skin_expression.json"
-            "ship_skin_template.json"
-            "ship_skin_words.json"
-            "name_code.json"
-            "painting_filte_map.json"
           )
-          
+
           echo "开始强制删除旧文件..."
-          
+
           for file in "${FILES_TO_DELETE[@]}"; do
             if [ -f "$file" ]; then
               echo "删除: $file"
               rm -f "$file"
-              git rm --quiet "$file" 2>/dev/null || true
+              git rm --quiet "$file" 2>/dev/null || true   # 告诉 git 这个文件被删了（不报错）
+            elif [ -e "$file" ]; then
+              echo "警告: $file 存在但不是普通文件，强制删除"
+              rm -rf "$file"
+            else
+              echo "文件不存在（正常）: $file"
             fi
           done
-          
+
+          # 提交删除操作（如果有文件被删）
           git status --short
           git commit -m "chore: remove old generated files before update" || echo "没有文件被删除，无需 commit 删除"
 
+          echo "删除阶段完成"
+
+      - name: 复制上游原始 story / activity_sp_story / ship_skin_expression
+        run: |
+          cp raw-data/CN/GameCfg/story.json ./story.json 2>/dev/null || echo "story.json 未找到"
+          cp raw-data/CN/ShareCfg/activity_sp_story.json ./activity_sp_story.json 2>/dev/null || echo "activity_sp_story.json 未找到"
+          cp raw-data/CN/ShareCfg/ship_skin_expression.json ./ship_skin_expression.json 2>/dev/null || echo "ship_skin_expression.json 未找到"
+
+          ls -l story*.json activity*.json ship_skin*.json 2>/dev/null || true
+
       - name: 执行处理脚本生成新文件
         run: |
-          echo "运行前文件列表："
-          ls -la *.lua *.json 2>/dev/null || echo "无文件"
-          
+          echo "运行前目录 json 文件："
+          ls -la *.json 2>/dev/null || echo "无 json 文件"
+
           python 1.py || { echo "1.py 执行失败！"; exit 1; }
-          
-          echo "运行后文件列表："
+
+          echo "运行后目录 json 文件："
           ls -la *.json
-          
+
           echo "关键文件检查："
-          for f in al_combined_final.json name.json story.json; do
+          for f in al_combined_final.json name.json 文本配置.json story.json; do
             [ -f "$f" ] && echo "$f 存在，大小 $(du -h "$f" | cut -f1)" || echo "!!! $f 缺失 !!!"
           done
 
-      - name: 提交所有生成的文件
+      - name: 提交所有生成的文件（内容变化或新增时提交）
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: |
