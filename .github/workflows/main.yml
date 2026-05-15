@@ -69,7 +69,7 @@ jobs:
         run: |
           cp raw-data/CN/GameCfg/story.json ./story.json 2>/dev/null || echo "story.json 未找到"
           cp raw-data/CN/ShareCfg/activity_sp_story.json ./activity_sp_story.json 2>/dev/null || echo "activity_sp_story.json 未找到"
-          cp raw-data/CN/ShareCfg/ship_skin_expression.json ./ship_skin_expression.json 2>/dev/null || echo "ship_skin_expression.json 未找到"
+          
 
           ls -l story*.json activity*.json ship_skin*.json 2>/dev/null || true
 
