@@ -627,7 +627,6 @@ def split_main_lines(value):
         return []
     lines = [line.strip() for line in value.split("|") if line.strip()]
     return lines
-
 def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None):
     painting_filter_map = painting_filter_data or {}
     painting_lower_map = {}
@@ -657,20 +656,27 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
                             ship_with_skins = (ship, skin_count)
             unique_ships.append(ship_with_skins[0])
     
+    def convert_to_list(data):
+        if isinstance(data, dict):
+            if all(str(k).isdigit() for k in data.keys()):
+                items = [(int(k), v) for k, v in data.items()]
+                items.sort()
+                return [v for _, v in items]
+        return data
+    
     name_data = {
         "ships": [
             {
                 "name": ship["name"],
                 "painting": ship["painting"],
                 "ship_group": ship.get("ship_group", ""),
-                "res_list": painting_lower_map.get(ship["painting"].lower(), {}).get("res_list", [])
+                "res_list": convert_to_list(painting_lower_map.get(ship["painting"].lower(), {}).get("res_list", {}))
             }
             for ship in unique_ships
         ]
     }
     with open("name.json", 'w', encoding='utf-8') as f:
         json.dump(name_data, f, ensure_ascii=False, indent=2)
-
 def generate_story_dialogues():
     story_path = find_data_file("story.json")
     memory_template_path = find_data_file("memory_template.json")
