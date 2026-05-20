@@ -7199,6 +7199,19 @@
       ]
     },
     {
+      "name": "仅予一人的华宴",
+      "painting": "hude_6",
+      "ship_group": "20403",
+      "res_list": [
+        "painting/hude_6_tex",
+        "painting/hude_6_rw_tex",
+        "painting/hude_6_n_rw_tex",
+        "painting/hude_6_n",
+        "painting/hude_6_bj_tex",
+        "painting/hude_6"
+      ]
+    },
+    {
       "name": "蔷薇恋诗",
       "painting": "hude_h",
       "ship_group": "20403",
@@ -8633,6 +8646,7 @@
       "ship_group": "29901",
       "res_list": [
         "painting/haiwangxing_3_tex",
+        "painting/haiwangxing_3_shophx_tex",
         "painting/haiwangxing_3_n_tex",
         "painting/haiwangxing_3_n",
         "painting/haiwangxing_3"
@@ -13619,6 +13633,21 @@
       ]
     },
     {
+      "name": "碧波绮尾",
+      "painting": "tiancheng_cv_3",
+      "ship_group": "30715",
+      "res_list": [
+        "painting/tiancheng_cv_3_tex",
+        "painting/tiancheng_cv_3_shophx_tex",
+        "painting/tiancheng_cv_3_rw_tex",
+        "painting/tiancheng_cv_3_n_rw_tex",
+        "painting/tiancheng_cv_3_n_bj_tex",
+        "painting/tiancheng_cv_3_n",
+        "painting/tiancheng_cv_3_bj_tex",
+        "painting/tiancheng_cv_3"
+      ]
+    },
+    {
       "name": "水月花烛",
       "painting": "tiancheng_cv_h",
       "ship_group": "30715",
@@ -14499,6 +14528,57 @@
       ]
     },
     {
+      "name": "Z14",
+      "painting": "z14",
+      "ship_group": "40114",
+      "res_list": [
+        "painting/z14_tex",
+        "painting/z14_rw_tex",
+        "painting/z14"
+      ]
+    },
+    {
+      "name": "夏日、晴空、意外迷路？！",
+      "painting": "z14_2",
+      "ship_group": "40114",
+      "res_list": [
+        "painting/z14_2_tex",
+        "painting/z14_2_rw_tex",
+        "painting/z14_2_n_rw_tex",
+        "painting/z14_2_n",
+        "painting/z14_2"
+      ]
+    },
+    {
+      "name": "Z15",
+      "painting": "z15",
+      "ship_group": "40115",
+      "res_list": [
+        "painting/z15_tex",
+        "painting/z15_rw_tex",
+        "painting/z15_n_tex",
+        "painting/z15_n_rw_tex",
+        "painting/z15_n",
+        "painting/z15_bj_tex",
+        "painting/z15"
+      ]
+    },
+    {
+      "name": "水上的心跳“意外”",
+      "painting": "z15_2",
+      "ship_group": "40115",
+      "res_list": [
+        "painting/z15_2_tex",
+        "painting/z15_2_shophx_tex",
+        "painting/z15_2_rw_tex",
+        "painting/z15_2_n_rw_tex",
+        "painting/z15_2_n_bj_tex",
+        "painting/z15_2_n",
+        "painting/z15_2_bj_tex",
+        "painting/z15_2"
+      ]
+    },
+    {
       "name": "Z16",
       "painting": "z16",
       "ship_group": "40116",
@@ -15337,6 +15417,19 @@
       ]
     },
     {
+      "name": "希佩尔海军上将·改",
+      "painting": "xipeierhaijunshangjiang_g",
+      "ship_group": "40301",
+      "res_list": [
+        "painting/xipeierhaijunshangjiang_g_tex",
+        "painting/xipeierhaijunshangjiang_g_rw_tex",
+        "painting/xipeierhaijunshangjiang_g_n_tex",
+        "painting/xipeierhaijunshangjiang_g_n_rw_tex",
+        "painting/xipeierhaijunshangjiang_g_n",
+        "painting/xipeierhaijunshangjiang_g"
+      ]
+    },
+    {
       "name": "布吕歇尔",
       "painting": "bulvxieer",
       "ship_group": "40302",
@@ -15810,6 +15903,33 @@
         "painting/aijier_younv_n_rw_tex",
         "painting/aijier_younv_n",
         "painting/aijier_younv"
+      ]
+    },
+    {
+      "name": "莫里茨亲王",
+      "painting": "molici",
+      "ship_group": "40317",
+      "res_list": [
+        "painting/molici_tex",
+        "painting/molici_rw_tex",
+        "painting/molici"
+      ]
+    },
+    {
+      "name": "神灯小姐的愿望游戏",
+      "painting": "molici_2",
+      "ship_group": "40317",
+      "res_list": [
+        "painting/molici_2_tex",
+        "painting/molici_2_shophx_tex",
+        "painting/molici_2_rw_tex",
+        "painting/molici_2_n_rw_tex",
+        "painting/molici_2_n_bj_tex",
+        "painting/molici_2_n_bj2_tex",
+        "painting/molici_2_n",
+        "painting/molici_2_bj_tex",
+        "painting/molici_2_bj2_tex",
+        "painting/molici_2"
       ]
     },
     {
@@ -16289,6 +16409,40 @@
         "painting/feiteliedadi_younv_n_tex",
         "painting/feiteliedadi_younv_n",
         "painting/feiteliedadi_younv"
+      ]
+    },
+    {
+      "name": "葛兹·冯·伯利欣根",
+      "painting": "gezi",
+      "ship_group": "40507",
+      "res_list": [
+        "painting/gezi_tex",
+        "painting/gezi_rw_tex",
+        "painting/gezi_n_tex",
+        "painting/gezi_n_rw_tex",
+        "painting/gezi_n",
+        "painting/gezi_bj_tex",
+        "painting/gezi"
+      ]
+    },
+    {
+      "name": "赤红之月的幻想",
+      "painting": "gezi_2",
+      "ship_group": "40507",
+      "res_list": [
+        "painting/gezi_2_tex",
+        "painting/gezi_2_shophx_tex",
+        "painting/gezi_2_rw_tex",
+        "painting/gezi_2_rw_hx_tex",
+        "painting/gezi_2_n_rw_tex",
+        "painting/gezi_2_n_rw_hx_tex",
+        "painting/gezi_2_n_hx",
+        "painting/gezi_2_n",
+        "painting/gezi_2_hx_tex",
+        "painting/gezi_2_hx",
+        "painting/gezi_2_bj_tex",
+        "painting/gezi_2_bj_hx_tex",
+        "painting/gezi_2"
       ]
     },
     {
@@ -16961,6 +17115,35 @@
       ]
     },
     {
+      "name": "U-2501",
+      "painting": "u2501",
+      "ship_group": "40815",
+      "res_list": [
+        "painting/u2501_tex",
+        "painting/u2501_rw_tex",
+        "painting/u2501_n_tex",
+        "painting/u2501_n_rw_tex",
+        "painting/u2501_n",
+        "painting/u2501"
+      ]
+    },
+    {
+      "name": "水幕后的珍宝",
+      "painting": "u2501_2",
+      "ship_group": "40815",
+      "res_list": [
+        "painting/u2501_2_tex",
+        "painting/u2501_2_shophx_tex",
+        "painting/u2501_2_rw_tex",
+        "painting/u2501_2_n_tex",
+        "painting/u2501_2_n_rw_tex",
+        "painting/u2501_2_n_bj_tex",
+        "painting/u2501_2_n",
+        "painting/u2501_2_bj_tex",
+        "painting/u2501_2"
+      ]
+    },
+    {
       "name": "秘密的起居室",
       "painting": "z23_9",
       "ship_group": "40123",
@@ -17048,6 +17231,18 @@
         "painting/luoen_4_n_tex",
         "painting/luoen_4_n",
         "painting/luoen_4"
+      ]
+    },
+    {
+      "name": "暗夜的悸动",
+      "painting": "luoen_5",
+      "ship_group": "49901",
+      "res_list": [
+        "painting/luoen_5_tex",
+        "painting/luoen_5_rw_tex",
+        "painting/luoen_5_n_rw_tex",
+        "painting/luoen_5_n",
+        "painting/luoen_5"
       ]
     },
     {
@@ -23037,13 +23232,13 @@
     },
     {
       "name": "易北·META",
-      "painting": "npcyibei_alter",
-      "ship_group": "900540",
+      "painting": "yibei_alter",
+      "ship_group": "970605",
       "res_list": [
-        "painting/npcyibei_alter_tex",
-        "painting/npcyibei_alter_rw_tex",
-        "painting/npcyibei_alter_bj_tex",
-        "painting/npcyibei_alter"
+        "painting/yibei_alter_tex",
+        "painting/yibei_alter_rw_tex",
+        "painting/yibei_alter_bj_tex",
+        "painting/yibei_alter"
       ]
     },
     {
@@ -23055,6 +23250,20 @@
         "painting/npckenisibao_alter_rw_tex",
         "painting/npckenisibao_alter_bj_tex",
         "painting/npckenisibao_alter"
+      ]
+    },
+    {
+      "name": "仲裁者·英普拉·IV ",
+      "painting": "emperor",
+      "ship_group": "900546",
+      "res_list": [
+        "painting/emperor_tex",
+        "painting/emperor_rw_tex",
+        "painting/emperor_n_tex",
+        "painting/emperor_n_rw_tex",
+        "painting/emperor_n",
+        "painting/emperor_bj_tex",
+        "painting/emperor"
       ]
     },
     {
@@ -23279,6 +23488,23 @@
         "painting/mojiaduoer_3_n_tex",
         "painting/mojiaduoer_3_n",
         "painting/mojiaduoer_3"
+      ]
+    },
+    {
+      "name": "共坠的渴慕",
+      "painting": "mojiaduoer_4",
+      "ship_group": "90107",
+      "res_list": [
+        "painting/mojiaduoer_4_tex",
+        "painting/mojiaduoer_4_rw_tex",
+        "painting/mojiaduoer_4_rw_hx_tex",
+        "painting/mojiaduoer_4_n_rw_tex",
+        "painting/mojiaduoer_4_n_rw_hx_tex",
+        "painting/mojiaduoer_4_n_hx",
+        "painting/mojiaduoer_4_n",
+        "painting/mojiaduoer_4_hx_tex",
+        "painting/mojiaduoer_4_hx",
+        "painting/mojiaduoer_4"
       ]
     },
     {
