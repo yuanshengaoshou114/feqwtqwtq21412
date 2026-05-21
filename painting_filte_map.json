@@ -14148,10 +14148,16 @@
     "res_list": {
       "0": "painting/npcyanusi_7_tex",
       "1": "painting/npcyanusi_7_rw_tex",
-      "2": "painting/npcyanusi_7_n_tex",
-      "3": "painting/npcyanusi_7_n_rw_tex",
-      "4": "painting/npcyanusi_7_n",
-      "5": "painting/npcyanusi_7"
+      "2": "painting/npcyanusi_7_rw_hx_tex",
+      "3": "painting/npcyanusi_7_n_tex",
+      "4": "painting/npcyanusi_7_n_rw_tex",
+      "5": "painting/npcyanusi_7_n_rw_hx_tex",
+      "6": "painting/npcyanusi_7_n_hx_tex",
+      "7": "painting/npcyanusi_7_n_hx",
+      "8": "painting/npcyanusi_7_n",
+      "9": "painting/npcyanusi_7_hx_tex",
+      "10": "painting/npcyanusi_7_hx",
+      "11": "painting/npcyanusi_7"
     }
   },
   "npcyanzhan_4": {
