@@ -318,7 +318,8 @@ def convert_item_data_statistics(content):
 def convert_skill_data_template(content):
     """转换 skill_data_template.lua"""
     result = {}
-    pattern = r'_G\.pg\.base\.skill_data_template\[(\d+)\]\s*=\s*'
+    # 修改：支持有或没有 _G. 前缀
+    pattern = r'(?:_G\.)?pg\.base\.skill_data_template\[(\d+)\]\s*=\s*'
     
     pos = 0
     while True:
@@ -342,32 +343,7 @@ def convert_skill_data_template(content):
     
     return result
 
-def convert_skill_data_display(content):
-    """转换 skill_data_display.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.skill_data_display\[(\d+)\]\s*=\s*'
-    
-    pos = 0
-    while True:
-        match = re.search(pattern, content[pos:])
-        if not match:
-            break
-        
-        skill_id = match.group(1)
-        start = pos + match.end()
-        
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                display_data = parse_table(table_str)
-                result[skill_id] = display_data
-                pos = next_pos
-            else:
-                pos = start + 1
-        else:
-            pos = start
-    
-    return result
+  
 def convert_painting_filte_map(content):
     result = {}
     
@@ -397,7 +373,33 @@ def convert_painting_filte_map(content):
                 pos = start
     
     return result
-
+def convert_skill_data_display(content):
+    """转换 skill_data_display.lua"""
+    result = {}
+    # 修改：支持有或没有 _G. 前缀
+    pattern = r'(?:_G\.)?pg\.base\.skill_data_display\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        skill_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                display_data = parse_table(table_str)
+                result[skill_id] = display_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
 def convert_ship_skin_expression(content):
     result = {}
     pattern = r'pg\.base\.ship_skin_expression\.([a-zA-Z0-9_]+)\s*=\s*'
