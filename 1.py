@@ -41,113 +41,7 @@ def parse_lua_table(content, start_pos):
         pos += 1
     
     return None, start_pos
-def convert_ship_data_statistics(content):
-    """转换 ship_data_statistics.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.ship_data_statistics\[(\d+)\]\s*=\s*'
-    
-    pos = 0
-    while True:
-        match = re.search(pattern, content[pos:])
-        if not match:
-            break
-        
-        ship_id = match.group(1)
-        start = pos + match.end()
-        
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                ship_data = parse_table(table_str)
-                result[ship_id] = ship_data
-                pos = next_pos
-            else:
-                pos = start + 1
-        else:
-            pos = start
-    
-    return result
 
-def convert_item_data_statistics(content):
-    """转换 item_data_statistics.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.item_data_statistics\[(\d+)\]\s*=\s*'
-    
-    pos = 0
-    while True:
-        match = re.search(pattern, content[pos:])
-        if not match:
-            break
-        
-        item_id = match.group(1)
-        start = pos + match.end()
-        
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                item_data = parse_table(table_str)
-                result[item_id] = item_data
-                pos = next_pos
-            else:
-                pos = start + 1
-        else:
-            pos = start
-    
-    return result
-
-def convert_skill_data_template(content):
-    """转换 skill_data_template.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.skill_data_template\[(\d+)\]\s*=\s*'
-    
-    pos = 0
-    while True:
-        match = re.search(pattern, content[pos:])
-        if not match:
-            break
-        
-        skill_id = match.group(1)
-        start = pos + match.end()
-        
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                skill_data = parse_table(table_str)
-                result[skill_id] = skill_data
-                pos = next_pos
-            else:
-                pos = start + 1
-        else:
-            pos = start
-    
-    return result
-
-def convert_skill_data_display(content):
-    """转换 skill_data_display.lua"""
-    result = {}
-    pattern = r'_G\.pg\.base\.skill_data_display\[(\d+)\]\s*=\s*'
-    
-    pos = 0
-    while True:
-        match = re.search(pattern, content[pos:])
-        if not match:
-            break
-        
-        skill_id = match.group(1)
-        start = pos + match.end()
-        
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                display_data = parse_table(table_str)
-                result[skill_id] = display_data
-                pos = next_pos
-            else:
-                pos = start + 1
-        else:
-            pos = start
-    
-    return result
 def parse_value(value_str):
     value_str = value_str.strip()
     
@@ -367,7 +261,113 @@ def convert_name_code(content):
             pos = start
     
     return result
+def convert_ship_data_statistics(content):
+    """转换 ship_data_statistics.lua"""
+    result = {}
+    pattern = r'_G\.pg\.base\.ship_data_statistics\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        ship_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                ship_data = parse_table(table_str)
+                result[ship_id] = ship_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
 
+def convert_item_data_statistics(content):
+    """转换 item_data_statistics.lua"""
+    result = {}
+    pattern = r'_G\.pg\.base\.item_data_statistics\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        item_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                item_data = parse_table(table_str)
+                result[item_id] = item_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
+
+def convert_skill_data_template(content):
+    """转换 skill_data_template.lua"""
+    result = {}
+    pattern = r'_G\.pg\.base\.skill_data_template\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        skill_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                skill_data = parse_table(table_str)
+                result[skill_id] = skill_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
+
+def convert_skill_data_display(content):
+    """转换 skill_data_display.lua"""
+    result = {}
+    pattern = r'_G\.pg\.base\.skill_data_display\[(\d+)\]\s*=\s*'
+    
+    pos = 0
+    while True:
+        match = re.search(pattern, content[pos:])
+        if not match:
+            break
+        
+        skill_id = match.group(1)
+        start = pos + match.end()
+        
+        if start < len(content) and content[start] == '{':
+            table_str, next_pos = parse_lua_table(content, start)
+            if table_str:
+                display_data = parse_table(table_str)
+                result[skill_id] = display_data
+                pos = next_pos
+            else:
+                pos = start + 1
+        else:
+            pos = start
+    
+    return result
 def convert_painting_filte_map(content):
     result = {}
     
@@ -426,17 +426,17 @@ def convert_ship_skin_expression(content):
     return result
 
 def convert_lua_files_to_json(lua_files_dir: Path = Path(".")):
-converters = {
-    "ship_skin_template.lua": ("ship_skin_template.json", convert_ship_skin_template),
-    "ship_skin_words.lua": ("ship_skin_words.json", convert_ship_skin_words),
-    "name_code.lua": ("name_code.json", convert_name_code),
-    "painting_filte_map.lua": ("painting_filte_map.json", convert_painting_filte_map),
-    "ship_skin_expression.lua": ("ship_skin_expression.json", convert_ship_skin_expression),
-    "ship_data_statistics.lua": ("ship_data_statistics.json", convert_ship_data_statistics),
-    "item_data_statistics.lua": ("item_data_statistics.json", convert_item_data_statistics),
-    "skill_data_template.lua": ("skill_data_template.json", convert_skill_data_template),
-    "skill_data_display.lua": ("skill_data_display.json", convert_skill_data_display),
-}
+    converters = {
+        "ship_skin_template.lua": ("ship_skin_template.json", convert_ship_skin_template),
+        "ship_skin_words.lua": ("ship_skin_words.json", convert_ship_skin_words),
+        "name_code.lua": ("name_code.json", convert_name_code),
+        "painting_filte_map.lua": ("painting_filte_map.json", convert_painting_filte_map),
+        "ship_data_statistics.lua": ("ship_data_statistics.json", convert_ship_data_statistics),
+        "item_data_statistics.lua": ("item_data_statistics.json", convert_item_data_statistics),
+        "skill_data_template.lua": ("skill_data_template.json", convert_skill_data_template),
+        "skill_data_display.lua": ("skill_data_display.json", convert_skill_data_display),
+        "ship_skin_expression.lua": ("ship_skin_expression.json", convert_ship_skin_expression)
+    }
     
     converted_files = {}
     for input_file, (output_file, converter) in converters.items():
