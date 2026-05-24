@@ -289,58 +289,139 @@ def convert_ship_data_statistics(content):
     return result
 
 def convert_item_data_statistics(content):
-    """转换 item_data_statistics.lua"""
+    """转换 item_data_statistics.lua - 纯正则版本"""
+    print(f"  - 文件大小: {len(content)} 字符 ({len(content)/1024/1024:.2f} MB)", flush=True)
     result = {}
-    pattern = r'_G\.pg\.base\.item_data_statistics\[(\d+)\]\s*=\s*'
+    
+    # 按 },\n\n_G 分割，但更简单：逐条正则匹配
+    # 匹配从 _G.pg.base.item_data_statistics[数字] = { 到对应的 }
+    
+    import re
+    
+    # 方法1：找到所有条目的起始位置
+    pattern_start = r'_G\.pg\.base\.item_data_statistics\[(\d+)\]\s*=\s*\{'
     
     pos = 0
+    count = 0
+    
+    while True:
+        match = re.search(pattern_start, content[pos:])
+        if not match:
+            break
+        
+        item_id = match.group(1)
+        start_pos = pos + match.start()
+        brace_pos = pos + match.end() - 1  # { 的位置
+        
+        # 找到匹配的 }
+        brace_count = 1
+        search_pos = brace_pos + 1
+        length = len(content)
+        
+        while search_pos < length and brace_count > 0:
+            if content[search_pos] == '{':
+                brace_count += 1
+            elif content[search_pos] == '}':
+                brace_count -= 1
+            search_pos += 1
+        
+        if brace_count == 0:
+            # 提取这个条目
+            entry = content[brace_pos:search_pos]
+            
+            # 用简单的正则提取键值对
+            item_data = {}
+            
+            # 提取各个字段
+            for field in ['id', 'name', 'type', 'rarity', 'icon', 'display', 'usage']:
+                field_pattern = rf'{field}\s*=\s*"([^"]*)"'
+                field_match = re.search(field_pattern, entry)
+                if field_match:
+                    item_data[field] = field_match.group(1)
+            
+            # 提取数字字段
+            for field in ['open_directly', 'order', 'max_num', 'virtual_type', 'compose_number', 'target_id']:
+                field_pattern = rf'{field}\s*=\s*(\d+)'
+                field_match = re.search(field_pattern, entry)
+                if field_match:
+                    item_data[field] = int(field_match.group(1))
+            
+            # 处理数组字段（空数组）
+            for field in ['display_icon', 'price', 'index', 'shiptrans_id', 'combination_display', 'limit']:
+                if re.search(rf'{field}\s*=\s*\{{}}\s*', entry):
+                    item_data[field] = []
+            
+            result[item_id] = item_data
+            count += 1
+            pos = search_pos
+            
+            if count % 500 == 0:
+                print(f"    已解析 {count} 条数据", flush=True)
+        else:
+            print(f"    警告: 无法找到 ID={item_id} 的结束括号", flush=True)
+            pos = brace_pos + 1
+    
+    print(f"  - 解析完成，共 {len(result)} 条数据", flush=True)
+    return result
+
+def convert_skill_data_template(content):
+    """转换 skill_data_template.lua"""
+    print(f"  - 文件大小: {len(content)} 字符", flush=True)
+    result = {}
+    
+    # 匹配有或没有 _G. 前缀
+    pattern = r'(?:_G\.)?pg\.base\.skill_data_template\[(\d+)\]\s*=\s*\{'
+    
+    pos = 0
+    count = 0
+    
     while True:
         match = re.search(pattern, content[pos:])
         if not match:
             break
         
         item_id = match.group(1)
-        start = pos + match.end()
+        brace_pos = pos + match.end() - 1
         
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                item_data = parse_table(table_str)
-                result[item_id] = item_data
-                pos = next_pos
-            else:
-                pos = start + 1
+        # 找到匹配的 }
+        brace_count = 1
+        search_pos = brace_pos + 1
+        length = len(content)
+        
+        while search_pos < length and brace_count > 0:
+            if content[search_pos] == '{':
+                brace_count += 1
+            elif content[search_pos] == '}':
+                brace_count -= 1
+            search_pos += 1
+        
+        if brace_count == 0:
+            entry = content[brace_pos:search_pos]
+            item_data = {}
+            
+            # 只提取 name 和 desc（你需要的字段）
+            name_match = re.search(r'name\s*=\s*"([^"]*)"', entry)
+            if name_match:
+                item_data["name"] = name_match.group(1)
+            
+            desc_match = re.search(r'desc\s*=\s*"([^"]*)"', entry)
+            if desc_match:
+                item_data["desc"] = desc_match.group(1)
+            
+            desc_get_match = re.search(r'desc_get\s*=\s*"([^"]*)"', entry)
+            if desc_get_match:
+                item_data["desc_get"] = desc_get_match.group(1)
+            
+            result[item_id] = item_data
+            pos = search_pos
+            count += 1
+            
+            if count % 500 == 0:
+                print(f"    已解析 {count} 条数据", flush=True)
         else:
-            pos = start
+            pos = brace_pos + 1
     
-    return result
-
-def convert_skill_data_template(content):
-    """转换 skill_data_template.lua"""
-    result = {}
-    # 修改：支持有或没有 _G. 前缀
-    pattern = r'(?:_G\.)?pg\.base\.skill_data_template\[(\d+)\]\s*=\s*'
-    
-    pos = 0
-    while True:
-        match = re.search(pattern, content[pos:])
-        if not match:
-            break
-        
-        skill_id = match.group(1)
-        start = pos + match.end()
-        
-        if start < len(content) and content[start] == '{':
-            table_str, next_pos = parse_lua_table(content, start)
-            if table_str:
-                skill_data = parse_table(table_str)
-                result[skill_id] = skill_data
-                pos = next_pos
-            else:
-                pos = start + 1
-        else:
-            pos = start
-    
+    print(f"  - 解析完成，共 {len(result)} 条数据", flush=True)
     return result
 
   
