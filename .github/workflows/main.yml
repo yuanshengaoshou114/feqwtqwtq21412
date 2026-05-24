@@ -45,8 +45,8 @@ jobs:
           cp lua-scripts/CN/sharecfg/ship_skin_expression.lua ./
           cp lua-scripts/CN/sharecfgdata/ship_data_statistics.lua ./
           cp lua-scripts/CN/sharecfgdata/item_data_statistics.lua ./ 
-          cp lua-scripts/CN/sharecfgdata/skill_data_template.lua ./ 
-          cp lua-scripts/CN/sharecfgdata/skill_data_display.lua ./ 
+          cp lua-scripts/CN/sharecfg/skill_data_template.lua ./ 
+          cp lua-scripts/CN/sharecfg/skill_data_display.lua ./ 
 
       - name: 复制原始 JSON 文件
         run: |
