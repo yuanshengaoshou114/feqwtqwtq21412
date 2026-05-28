@@ -51,7 +51,7 @@
       ]
     },
     {
-      "name": "特装型布里MKIII ",
+      "name": "特装型布里MKIII",
       "painting": "buli_super",
       "ship_group": "10002",
       "res_list": [
@@ -4133,6 +4133,19 @@
       ]
     },
     {
+      "name": "海边的按摩时光",
+      "painting": "duli_7",
+      "ship_group": "10722",
+      "res_list": [
+        "painting/duli_7_tex",
+        "painting/duli_7_rw_tex",
+        "painting/duli_7_n_rw_tex",
+        "painting/duli_7_n",
+        "painting/duli_7_bj_tex",
+        "painting/duli_7"
+      ]
+    },
+    {
       "name": "独立.改",
       "painting": "duli_g",
       "ship_group": "10722",
@@ -5651,6 +5664,25 @@
         "painting/yanusi_6_n_tex",
         "painting/yanusi_6_n",
         "painting/yanusi_6"
+      ]
+    },
+    {
+      "name": "云端的水光",
+      "painting": "yanusi_7",
+      "ship_group": "20135",
+      "res_list": [
+        "painting/yanusi_7_tex",
+        "painting/yanusi_7_rw_tex",
+        "painting/yanusi_7_rw_hx_tex",
+        "painting/yanusi_7_n_tex",
+        "painting/yanusi_7_n_rw_tex",
+        "painting/yanusi_7_n_rw_hx_tex",
+        "painting/yanusi_7_n_hx_tex",
+        "painting/yanusi_7_n_hx",
+        "painting/yanusi_7_n",
+        "painting/yanusi_7_hx_tex",
+        "painting/yanusi_7_hx",
+        "painting/yanusi_7"
       ]
     },
     {
@@ -8949,6 +8981,20 @@
       ]
     },
     {
+      "name": "甜蜜的意外序曲",
+      "painting": "shenxue_4",
+      "ship_group": "30104",
+      "res_list": [
+        "painting/shenxue_4_tex",
+        "painting/shenxue_4_rw_tex",
+        "painting/shenxue_4_n_rw_tex",
+        "painting/shenxue_4_n_bj_tex",
+        "painting/shenxue_4_n",
+        "painting/shenxue_4_bj_tex",
+        "painting/shenxue_4"
+      ]
+    },
+    {
       "name": "绫波",
       "painting": "lingbo",
       "ship_group": "30105",
@@ -12039,6 +12085,18 @@
         "painting/qianjian_2_bj_tex",
         "painting/qianjian_2_bj_hx_tex",
         "painting/qianjian_2"
+      ]
+    },
+    {
+      "name": "小云仙",
+      "painting": "yunxian_younv",
+      "ship_group": "30321",
+      "res_list": [
+        "painting/yunxian_younv_tex",
+        "painting/yunxian_younv_rw_tex",
+        "painting/yunxian_younv_n_rw_tex",
+        "painting/yunxian_younv_n",
+        "painting/yunxian_younv"
       ]
     },
     {
@@ -15285,6 +15343,19 @@
       ]
     },
     {
+      "name": "水畔的夕暮私语",
+      "painting": "aimudeng_5",
+      "ship_group": "40207",
+      "res_list": [
+        "painting/aimudeng_5_tex",
+        "painting/aimudeng_5_rw_tex",
+        "painting/aimudeng_5_n_rw_tex",
+        "painting/aimudeng_5_n",
+        "painting/aimudeng_5_bj_tex",
+        "painting/aimudeng_5"
+      ]
+    },
+    {
       "name": "埃尔宾",
       "painting": "aierbin",
       "ship_group": "40208",
@@ -15872,6 +15943,7 @@
       "ship_group": "40314",
       "res_list": [
         "painting/feiteliekaer_3_tex",
+        "painting/feiteliekaer_3_shophx_tex",
         "painting/feiteliekaer_3_rw_tex",
         "painting/feiteliekaer_3_n_tex",
         "painting/feiteliekaer_3_n_rw_tex",
@@ -17473,6 +17545,18 @@
       ]
     },
     {
+      "name": "与“魔女”的星夜之约",
+      "painting": "aogusite_4",
+      "ship_group": "49906",
+      "res_list": [
+        "painting/aogusite_4_tex",
+        "painting/aogusite_4_rw_tex",
+        "painting/aogusite_4_n_rw_tex",
+        "painting/aogusite_4_n",
+        "painting/aogusite_4"
+      ]
+    },
+    {
       "name": "鲁普雷希特亲王",
       "painting": "lupuleixite",
       "ship_group": "49907",
@@ -17933,6 +18017,19 @@
         "painting/yixian_3_n_rw_tex",
         "painting/yixian_3_n",
         "painting/yixian_3"
+      ]
+    },
+    {
+      "name": "细浪扶风",
+      "painting": "yixian_4",
+      "ship_group": "50201",
+      "res_list": [
+        "painting/yixian_4_tex",
+        "painting/yixian_4_rw_tex",
+        "painting/yixian_4_n_rw_tex",
+        "painting/yixian_4_n",
+        "painting/yixian_4_bj_tex",
+        "painting/yixian_4"
       ]
     },
     {
@@ -18614,6 +18711,20 @@
         "painting/huajia_2_hx",
         "painting/huajia_2_bj_tex",
         "painting/huajia_2"
+      ]
+    },
+    {
+      "name": "若漆之光",
+      "painting": "huajia_3",
+      "ship_group": "50602",
+      "res_list": [
+        "painting/huajia_3_tex",
+        "painting/huajia_3_rw_tex",
+        "painting/huajia_3_n_rw_tex",
+        "painting/huajia_3_n_bj_tex",
+        "painting/huajia_3_n",
+        "painting/huajia_3_bj_tex",
+        "painting/huajia_3"
       ]
     },
     {
@@ -21854,6 +21965,21 @@
       ]
     },
     {
+      "name": "微醺的静谧时光",
+      "painting": "luyijiushi_4",
+      "ship_group": "89901",
+      "res_list": [
+        "painting/luyijiushi_4_tex",
+        "painting/luyijiushi_4_rw_tex",
+        "painting/luyijiushi_4_n_tex",
+        "painting/luyijiushi_4_n_rw_tex",
+        "painting/luyijiushi_4_n_bj_tex",
+        "painting/luyijiushi_4_n",
+        "painting/luyijiushi_4_bj_tex",
+        "painting/luyijiushi_4"
+      ]
+    },
+    {
       "name": "香槟",
       "painting": "xiangbin",
       "ship_group": "89902",
@@ -23243,13 +23369,15 @@
     },
     {
       "name": "柯尼斯堡·META",
-      "painting": "npckenisibao_alter",
-      "ship_group": "900541",
+      "painting": "kenisibao_alter",
+      "ship_group": "970212",
       "res_list": [
-        "painting/npckenisibao_alter_tex",
-        "painting/npckenisibao_alter_rw_tex",
-        "painting/npckenisibao_alter_bj_tex",
-        "painting/npckenisibao_alter"
+        "painting/kenisibao_alter_tex",
+        "painting/kenisibao_alter_rw_tex",
+        "painting/kenisibao_alter_n_rw_tex",
+        "painting/kenisibao_alter_n",
+        "painting/kenisibao_alter_bj_tex",
+        "painting/kenisibao_alter"
       ]
     },
     {

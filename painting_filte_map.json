@@ -940,6 +940,23 @@
       "1": "painting/aimudeng_4_npc"
     }
   },
+  "aimudeng_5": {
+    "key": "aimudeng_5",
+    "res_list": {
+      "0": "painting/aimudeng_5_tex",
+      "1": "painting/aimudeng_5_rw_tex",
+      "2": "painting/aimudeng_5_n_rw_tex",
+      "3": "painting/aimudeng_5_n",
+      "4": "painting/aimudeng_5_bj_tex",
+      "5": "painting/aimudeng_5"
+    }
+  },
+  "aimudeng_5_asmr": {
+    "key": "aimudeng_5_asmr",
+    "res_list": {
+      "0": "painting/aimudeng_5_asmr"
+    }
+  },
   "aisaikesi": {
     "key": "aisaikesi",
     "res_list": {
@@ -1367,6 +1384,16 @@
       "2": "painting/aogusite_3_n_tex",
       "3": "painting/aogusite_3_n",
       "4": "painting/aogusite_3"
+    }
+  },
+  "aogusite_4": {
+    "key": "aogusite_4",
+    "res_list": {
+      "0": "painting/aogusite_4_tex",
+      "1": "painting/aogusite_4_rw_tex",
+      "2": "painting/aogusite_4_n_rw_tex",
+      "3": "painting/aogusite_4_n",
+      "4": "painting/aogusite_4"
     }
   },
   "aoliege": {
@@ -4960,6 +4987,17 @@
       "3": "painting/duli_6"
     }
   },
+  "duli_7": {
+    "key": "duli_7",
+    "res_list": {
+      "0": "painting/duli_7_tex",
+      "1": "painting/duli_7_rw_tex",
+      "2": "painting/duli_7_n_rw_tex",
+      "3": "painting/duli_7_n",
+      "4": "painting/duli_7_bj_tex",
+      "5": "painting/duli_7"
+    }
+  },
   "duli_g": {
     "key": "duli_g",
     "res_list": {
@@ -5439,12 +5477,13 @@
     "key": "feiteliekaer_3",
     "res_list": {
       "0": "painting/feiteliekaer_3_tex",
-      "1": "painting/feiteliekaer_3_rw_tex",
-      "2": "painting/feiteliekaer_3_n_tex",
-      "3": "painting/feiteliekaer_3_n_rw_tex",
-      "4": "painting/feiteliekaer_3_n",
-      "5": "painting/feiteliekaer_3_bj_tex",
-      "6": "painting/feiteliekaer_3"
+      "1": "painting/feiteliekaer_3_shophx_tex",
+      "2": "painting/feiteliekaer_3_rw_tex",
+      "3": "painting/feiteliekaer_3_n_tex",
+      "4": "painting/feiteliekaer_3_n_rw_tex",
+      "5": "painting/feiteliekaer_3_n",
+      "6": "painting/feiteliekaer_3_bj_tex",
+      "7": "painting/feiteliekaer_3"
     }
   },
   "feiying": {
@@ -7666,6 +7705,18 @@
       "7": "painting/huajia_2_hx",
       "8": "painting/huajia_2_bj_tex",
       "9": "painting/huajia_2"
+    }
+  },
+  "huajia_3": {
+    "key": "huajia_3",
+    "res_list": {
+      "0": "painting/huajia_3_tex",
+      "1": "painting/huajia_3_rw_tex",
+      "2": "painting/huajia_3_n_rw_tex",
+      "3": "painting/huajia_3_n_bj_tex",
+      "4": "painting/huajia_3_n",
+      "5": "painting/huajia_3_bj_tex",
+      "6": "painting/huajia_3"
     }
   },
   "huajia_g": {
@@ -10013,6 +10064,17 @@
       "1": "painting/kenisibao"
     }
   },
+  "kenisibao_alter": {
+    "key": "kenisibao_alter",
+    "res_list": {
+      "0": "painting/kenisibao_alter_tex",
+      "1": "painting/kenisibao_alter_rw_tex",
+      "2": "painting/kenisibao_alter_n_rw_tex",
+      "3": "painting/kenisibao_alter_n",
+      "4": "painting/kenisibao_alter_bj_tex",
+      "5": "painting/kenisibao_alter"
+    }
+  },
   "kente": {
     "key": "kente",
     "res_list": {
@@ -11984,6 +12046,19 @@
       "1": "painting/luyijiushi_3_n_tex",
       "2": "painting/luyijiushi_3_n",
       "3": "painting/luyijiushi_3"
+    }
+  },
+  "luyijiushi_4": {
+    "key": "luyijiushi_4",
+    "res_list": {
+      "0": "painting/luyijiushi_4_tex",
+      "1": "painting/luyijiushi_4_rw_tex",
+      "2": "painting/luyijiushi_4_n_tex",
+      "3": "painting/luyijiushi_4_n_rw_tex",
+      "4": "painting/luyijiushi_4_n_bj_tex",
+      "5": "painting/luyijiushi_4_n",
+      "6": "painting/luyijiushi_4_bj_tex",
+      "7": "painting/luyijiushi_4"
     }
   },
   "luyisiweier": {
@@ -16460,6 +16535,18 @@
       "3": "painting/shenxue_3"
     }
   },
+  "shenxue_4": {
+    "key": "shenxue_4",
+    "res_list": {
+      "0": "painting/shenxue_4_tex",
+      "1": "painting/shenxue_4_rw_tex",
+      "2": "painting/shenxue_4_n_rw_tex",
+      "3": "painting/shenxue_4_n_bj_tex",
+      "4": "painting/shenxue_4_n",
+      "5": "painting/shenxue_4_bj_tex",
+      "6": "painting/shenxue_4"
+    }
+  },
   "sheshuiyu": {
     "key": "sheshuiyu",
     "res_list": {
@@ -20836,6 +20923,23 @@
       "4": "painting/yanusi_6"
     }
   },
+  "yanusi_7": {
+    "key": "yanusi_7",
+    "res_list": {
+      "0": "painting/yanusi_7_tex",
+      "1": "painting/yanusi_7_rw_tex",
+      "2": "painting/yanusi_7_rw_hx_tex",
+      "3": "painting/yanusi_7_n_tex",
+      "4": "painting/yanusi_7_n_rw_tex",
+      "5": "painting/yanusi_7_n_rw_hx_tex",
+      "6": "painting/yanusi_7_n_hx_tex",
+      "7": "painting/yanusi_7_n_hx",
+      "8": "painting/yanusi_7_n",
+      "9": "painting/yanusi_7_hx_tex",
+      "10": "painting/yanusi_7_hx",
+      "11": "painting/yanusi_7"
+    }
+  },
   "yanusi_h": {
     "key": "yanusi_h",
     "res_list": {
@@ -21382,6 +21486,17 @@
       "5": "painting/yixian_3"
     }
   },
+  "yixian_4": {
+    "key": "yixian_4",
+    "res_list": {
+      "0": "painting/yixian_4_tex",
+      "1": "painting/yixian_4_rw_tex",
+      "2": "painting/yixian_4_n_rw_tex",
+      "3": "painting/yixian_4_n",
+      "4": "painting/yixian_4_bj_tex",
+      "5": "painting/yixian_4"
+    }
+  },
   "yixian_g": {
     "key": "yixian_g",
     "res_list": {
@@ -21864,6 +21979,16 @@
       "7": "painting/yunxian_3_hx_tex",
       "8": "painting/yunxian_3_hx",
       "9": "painting/yunxian_3"
+    }
+  },
+  "yunxian_younv": {
+    "key": "yunxian_younv",
+    "res_list": {
+      "0": "painting/yunxian_younv_tex",
+      "1": "painting/yunxian_younv_rw_tex",
+      "2": "painting/yunxian_younv_n_rw_tex",
+      "3": "painting/yunxian_younv_n",
+      "4": "painting/yunxian_younv"
     }
   },
   "z1": {
