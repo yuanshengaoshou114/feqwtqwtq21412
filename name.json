@@ -6332,8 +6332,6 @@
       "ship_group": "20220",
       "res_list": [
         "painting/tianlangxing_tex",
-        "painting/tianlangxing_hx_tex",
-        "painting/tianlangxing_hx",
         "painting/tianlangxing"
       ]
     },
@@ -6374,6 +6372,20 @@
         "painting/tianlangxing_5_n_tex",
         "painting/tianlangxing_5_n",
         "painting/tianlangxing_5"
+      ]
+    },
+    {
+      "name": "Alba Sirius",
+      "painting": "tianlangxing_h",
+      "ship_group": "20220",
+      "res_list": [
+        "painting/tianlangxing_hx_tex",
+        "painting/tianlangxing_hx",
+        "painting/tianlangxing_h_tex",
+        "painting/tianlangxing_h_rw_tex",
+        "painting/tianlangxing_h_n_rw_tex",
+        "painting/tianlangxing_h_n",
+        "painting/tianlangxing_h"
       ]
     },
     {
@@ -10802,6 +10814,18 @@
         "painting/chuyue_3_n_rw_tex",
         "painting/chuyue_3_n",
         "painting/chuyue_3"
+      ]
+    },
+    {
+      "name": "红桥映雪",
+      "painting": "chuyue_h",
+      "ship_group": "30189",
+      "res_list": [
+        "painting/chuyue_h_tex",
+        "painting/chuyue_h_rw_tex",
+        "painting/chuyue_h_n_rw_tex",
+        "painting/chuyue_h_n",
+        "painting/chuyue_h"
       ]
     },
     {
@@ -16493,6 +16517,7 @@
         "painting/gezi_n_tex",
         "painting/gezi_n_rw_tex",
         "painting/gezi_n",
+        "painting/gezi_buildhx_tex",
         "painting/gezi_bj_tex",
         "painting/gezi"
       ]
@@ -18634,7 +18659,6 @@
         "painting/zhenhai_n_tex",
         "painting/zhenhai_n_hx",
         "painting/zhenhai_n",
-        "painting/zhenhai_hx",
         "painting/zhenhai"
       ]
     },
@@ -18673,6 +18697,19 @@
         "painting/zhenhai_4_rw_n_tex",
         "painting/zhenhai_4_n",
         "painting/zhenhai_4"
+      ]
+    },
+    {
+      "name": "锦帐良宵",
+      "painting": "zhenhai_h",
+      "ship_group": "50601",
+      "res_list": [
+        "painting/zhenhai_hx",
+        "painting/zhenhai_h_tex",
+        "painting/zhenhai_h_rw_tex",
+        "painting/zhenhai_h_n_rw_tex",
+        "painting/zhenhai_h_n",
+        "painting/zhenhai_h"
       ]
     },
     {
@@ -24154,6 +24191,21 @@
       ]
     },
     {
+      "name": "红树林的守护精灵",
+      "painting": "aifosen_3",
+      "ship_group": "110101",
+      "res_list": [
+        "painting/aifosen_3_tex",
+        "painting/aifosen_3_rw_tex",
+        "painting/aifosen_3_n_tex",
+        "painting/aifosen_3_n_rw_tex",
+        "painting/aifosen_3_n_bj_tex",
+        "painting/aifosen_3_n",
+        "painting/aifosen_3_bj_tex",
+        "painting/aifosen_3"
+      ]
+    },
+    {
       "name": "七省",
       "painting": "qisheng",
       "ship_group": "110201",
@@ -24731,6 +24783,21 @@
         "painting/longqibing_alter_n",
         "painting/longqibing_alter_bj_tex",
         "painting/longqibing_alter"
+      ]
+    },
+    {
+      "name": "布里斯托尔·META",
+      "painting": "bulisituoer_alter",
+      "ship_group": "970112",
+      "res_list": [
+        "painting/bulisituoer_alter_tex",
+        "painting/bulisituoer_alter_rw_tex",
+        "painting/bulisituoer_alter_n_tex",
+        "painting/bulisituoer_alter_n_rw_tex",
+        "painting/bulisituoer_alter_n_bj_tex",
+        "painting/bulisituoer_alter_n",
+        "painting/bulisituoer_alter_bj_tex",
+        "painting/bulisituoer_alter"
       ]
     },
     {

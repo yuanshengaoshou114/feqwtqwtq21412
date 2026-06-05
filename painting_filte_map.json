@@ -645,6 +645,19 @@
       "4": "painting/aifosen_2"
     }
   },
+  "aifosen_3": {
+    "key": "aifosen_3",
+    "res_list": {
+      "0": "painting/aifosen_3_tex",
+      "1": "painting/aifosen_3_rw_tex",
+      "2": "painting/aifosen_3_n_tex",
+      "3": "painting/aifosen_3_n_rw_tex",
+      "4": "painting/aifosen_3_n_bj_tex",
+      "5": "painting/aifosen_3_n",
+      "6": "painting/aifosen_3_bj_tex",
+      "7": "painting/aifosen_3"
+    }
+  },
   "aijiang": {
     "key": "aijiang",
     "res_list": {
@@ -3151,6 +3164,19 @@
       "4": "painting/bulisituoer_3"
     }
   },
+  "bulisituoer_alter": {
+    "key": "bulisituoer_alter",
+    "res_list": {
+      "0": "painting/bulisituoer_alter_tex",
+      "1": "painting/bulisituoer_alter_rw_tex",
+      "2": "painting/bulisituoer_alter_n_tex",
+      "3": "painting/bulisituoer_alter_n_rw_tex",
+      "4": "painting/bulisituoer_alter_n_bj_tex",
+      "5": "painting/bulisituoer_alter_n",
+      "6": "painting/bulisituoer_alter_bj_tex",
+      "7": "painting/bulisituoer_alter"
+    }
+  },
   "bulukelin": {
     "key": "bulukelin",
     "res_list": {
@@ -4013,6 +4039,16 @@
       "2": "painting/chuyue_3_n_rw_tex",
       "3": "painting/chuyue_3_n",
       "4": "painting/chuyue_3"
+    }
+  },
+  "chuyue_h": {
+    "key": "chuyue_h",
+    "res_list": {
+      "0": "painting/chuyue_h_tex",
+      "1": "painting/chuyue_h_rw_tex",
+      "2": "painting/chuyue_h_n_rw_tex",
+      "3": "painting/chuyue_h_n",
+      "4": "painting/chuyue_h"
     }
   },
   "chuyun": {
@@ -6314,8 +6350,9 @@
       "2": "painting/gezi_n_tex",
       "3": "painting/gezi_n_rw_tex",
       "4": "painting/gezi_n",
-      "5": "painting/gezi_bj_tex",
-      "6": "painting/gezi"
+      "5": "painting/gezi_buildhx_tex",
+      "6": "painting/gezi_bj_tex",
+      "7": "painting/gezi"
     }
   },
   "gezi_2": {
@@ -17825,9 +17862,7 @@
     "key": "tianlangxing",
     "res_list": {
       "0": "painting/tianlangxing_tex",
-      "1": "painting/tianlangxing_hx_tex",
-      "2": "painting/tianlangxing_hx",
-      "3": "painting/tianlangxing"
+      "1": "painting/tianlangxing"
     }
   },
   "tianlangxing_2": {
@@ -17859,6 +17894,18 @@
       "2": "painting/tianlangxing_5_n_tex",
       "3": "painting/tianlangxing_5_n",
       "4": "painting/tianlangxing_5"
+    }
+  },
+  "tianlangxing_h": {
+    "key": "tianlangxing_h",
+    "res_list": {
+      "0": "painting/tianlangxing_hx_tex",
+      "1": "painting/tianlangxing_hx",
+      "2": "painting/tianlangxing_h_tex",
+      "3": "painting/tianlangxing_h_rw_tex",
+      "4": "painting/tianlangxing_h_n_rw_tex",
+      "5": "painting/tianlangxing_h_n",
+      "6": "painting/tianlangxing_h"
     }
   },
   "tiannaxi": {
@@ -22798,8 +22845,7 @@
       "3": "painting/zhenhai_n_tex",
       "4": "painting/zhenhai_n_hx",
       "5": "painting/zhenhai_n",
-      "6": "painting/zhenhai_hx",
-      "7": "painting/zhenhai"
+      "6": "painting/zhenhai"
     }
   },
   "zhenhai_2": {
@@ -22841,6 +22887,17 @@
       "2": "painting/zhenhai_g_n_tex",
       "3": "painting/zhenhai_g_n",
       "4": "painting/zhenhai_g"
+    }
+  },
+  "zhenhai_h": {
+    "key": "zhenhai_h",
+    "res_list": {
+      "0": "painting/zhenhai_hx",
+      "1": "painting/zhenhai_h_tex",
+      "2": "painting/zhenhai_h_rw_tex",
+      "3": "painting/zhenhai_h_n_rw_tex",
+      "4": "painting/zhenhai_h_n",
+      "5": "painting/zhenhai_h"
     }
   },
   "zhenmei": {

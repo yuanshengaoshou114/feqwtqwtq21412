@@ -9241,6 +9241,24 @@
     "combination_display": [],
     "limit": []
   },
+  "21062": {
+    "name": "结晶：布里斯托尔·META",
+    "icon": "Props/21062",
+    "display": "布里斯托尔·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+    "usage": "usage_undefined",
+    "open_directly": 0,
+    "order": 0,
+    "max_num": 0,
+    "virtual_type": 0,
+    "compose_number": 0,
+    "target_id": 0,
+    "display_icon": [],
+    "price": [],
+    "index": [],
+    "shiptrans_id": [],
+    "combination_display": [],
+    "limit": []
+  },
   "21101": {
     "name": "结晶化热强钢",
     "icon": "Props/21101",
@@ -9710,9 +9728,9 @@
     "limit": []
   },
   "21923": {
-    "name": "同步值：{namecode:468}",
+    "name": "同步值：布里斯托尔·META",
     "icon": "Props/21923",
-    "display": "于「信标·META」战斗中收集的数据，可以提升{namecode:468}同步率。",
+    "display": "于「信标·META」战斗中收集的数据，可以提升布里斯托尔·META同步率。",
     "usage": "usage_undefined",
     "open_directly": 0,
     "order": 0,
