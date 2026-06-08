@@ -723,10 +723,10 @@ def generate_combined_data(ship_data: Dict, words_data: Dict, code_mapping: Dict
         "id_mapping": id_mapping,
         "zuming_data": zuming_data
     }
-
 def generate_skin_voice_mapping():
     template_path = find_data_file("ship_skin_template.json") or Path("ship_skin_template.json")
     words_path = find_data_file("ship_skin_words.json") or Path("ship_skin_words.json")
+    namecode_path = find_data_file("name_code.json") or Path("name_code.json")
     
     if not template_path.exists() or not words_path.exists():
         print("跳过 skin_voice_mapping: 文件不存在")
@@ -734,14 +734,27 @@ def generate_skin_voice_mapping():
     
     template = load_json_file(template_path)
     words = load_json_file(words_path)
+    namecode = load_json_file(namecode_path) if namecode_path.exists() else {}
     
-    if not template or not words:
-        print("跳过 skin_voice_mapping: 数据为空")
-        return
+    def replace_namecodes_in_value(value):
+        if not isinstance(value, str):
+            return value
+        pattern = r'{namecode:(\d+)(?::[^}]*)?}'
+        def replace_match(match):
+            code = match.group(1)
+            if code in namecode:
+                return namecode[code].get("name", match.group(0))
+            return match.group(0)
+        return re.sub(pattern, replace_match, value)
+    
+    cue_alias_map = {
+        "task": "mission",
+        "touch_head": "headtouch",
+    }
     
     ships_by_name = defaultdict(list)
     for skin_id_str, info in template.items():
-        name = info.get("name", "未知皮肤")
+        name = replace_namecodes_in_value(info.get("name", "未知皮肤"))
         ships_by_name[name].append((skin_id_str, info))
     
     ship_groups_to_keep = set()
@@ -771,7 +784,7 @@ def generate_skin_voice_mapping():
         if str(ship_group) not in ship_groups_to_keep:
             continue
         group_index = info.get("group_index", 0)
-        name = info.get("name", "未知皮肤")
+        name = replace_namecodes_in_value(info.get("name", "未知皮肤"))
         skins_by_group[str(ship_group)].append({
             "skin_id": str(skin_id_str),
             "group_index": group_index,
@@ -795,6 +808,10 @@ def generate_skin_voice_mapping():
             for key, value in word_dict.items():
                 if not isinstance(value, str) or not value.strip():
                     continue
+                value = replace_namecodes_in_value(value)
+                
+                mapped_key = cue_alias_map.get(key, key)
+                
                 if key.startswith("main"):
                     lines = split_main_lines(value)
                     for i, line in enumerate(lines, start=1):
@@ -808,10 +825,18 @@ def generate_skin_voice_mapping():
                 elif key == "touch2":
                     full_key_base = "touch_2"
                 else:
-                    full_key_base = key
+                    full_key_base = mapped_key
                 full_key = full_key_base + suffix
                 group_map[full_key] = name
+                
+                if key == "headtouch":
+                    group_map["touch_head" + suffix] = name
+                if key == "mission":
+                    group_map["task" + suffix] = name
+                if key == "mission_complete":
+                    group_map["mission_complete" + suffix] = name
         mapping[ship_group] = group_map
+    
     with open("skin_voice_mapping_optimized.json", "w", encoding="utf-8") as f:
         json.dump(mapping, f, ensure_ascii=False, indent=4)
 
