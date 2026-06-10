@@ -41,32 +41,7 @@ def parse_lua_table(content, start_pos):
         pos += 1
     
     return None, start_pos
-def generate_fake_ship_config(ship_data: Dict, namecode: Dict) -> None:
-    """生成 fake_ship_config.txt，只包含有 buff_list 且以 1 结尾的舰船"""
-    print("生成 fake_ship_config.txt...")
-    
-    config_ids = []
-    
-    for ship_id_str, ship_info in ship_data.items():
-        ship_id = int(ship_id_str)
-        
-        if ship_id < 10000:
-            continue
-        
-        buff_list = ship_info.get("buff_list", [])
-        has_buff = len(buff_list) > 0 if isinstance(buff_list, list) else bool(buff_list)
-        is_base_form = (ship_id % 10 == 1)
-        
-        if has_buff and is_base_form:
-            config_ids.append(ship_id)
-    
-    config_ids.sort()
-    
-    with open("fake_ship_config.txt", "w", encoding="utf-8") as f:
-        for config_id in config_ids:
-            f.write(str(config_id) + "\n")
-    
-    print(f"  写入 {len(config_ids)} 个 configId")
+
 def parse_value(value_str):
     value_str = value_str.strip()
     
@@ -1020,7 +995,32 @@ def generate_story_dialogues():
     output_path = Path("story_dialogues_structured.json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
-
+def generate_fake_ship_config(ship_data: Dict) -> None:
+    """生成 fake_ship_config.txt，只包含有 buff_list 且以 1 结尾的舰船"""
+    print("生成 fake_ship_config.txt...")
+    
+    config_ids = []
+    
+    for ship_id_str, ship_info in ship_data.items():
+        ship_id = int(ship_id_str)
+        
+        if ship_id < 10000:
+            continue
+        
+        buff_list = ship_info.get("buff_list", [])
+        has_buff = len(buff_list) > 0 if isinstance(buff_list, list) else bool(buff_list)
+        is_base_form = (ship_id % 10 == 1)
+        
+        if has_buff and is_base_form:
+            config_ids.append(ship_id)
+    
+    config_ids.sort()
+    
+    with open("fake_ship_config.txt", "w", encoding="utf-8") as f:
+        for config_id in config_ids:
+            f.write(str(config_id) + "\n")
+    
+    print(f"  写入 {len(config_ids)} 个 configId")
 def main():
     print("=" * 50)
     print("步骤1: 转换Lua文件为JSON")
@@ -1051,7 +1051,7 @@ def main():
             loaded_data[key] = {}
     
     if loaded_data["ships"] and loaded_data["namecode"]:
-        generate_fake_ship_config(loaded_data["ships"], loaded_data["namecode"])
+        generate_fake_ship_config(loaded_data["ships"])
         
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
