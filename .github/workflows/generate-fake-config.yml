@@ -1,0 +1,57 @@
+name: Generate Fake Ship Config
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout 你的仓库
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Pull latest CN Lua scripts
+        uses: actions/checkout@v4
+        with:
+          repository: AzurLaneTools/AzurLaneLuaScripts
+          path: lua-scripts
+          fetch-depth: 1
+
+      - name: Pull latest CN raw data
+        uses: actions/checkout@v4
+        with:
+          repository: AzurLaneTools/AzurLaneData
+          path: raw-data
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 复制 ship_data_statistics.lua
+        run: |
+          cp lua-scripts/CN/sharecfgdata/ship_data_statistics.lua ./
+
+      - name: 转换并生成 fake_ship_config.txt
+        run: |
+          python generate_fake_config.py
+
+      - name: 提交生成的文件
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: |
+            chore: auto update fake_ship_config.txt
+            Run #${{ github.run_number }}
+          file_pattern: |
+            fake_ship_config.txt
+          add_options: '--all'
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
