@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 def main():
-    # 读取已经转换好的 JSON
+    # 读取自己仓库里已有的 JSON 文件（主工作流生成的）
     with open("ship_data_statistics.json", "r", encoding="utf-8") as f:
         ship_data = json.load(f)
     
@@ -22,17 +22,13 @@ def main():
         if not attrs:
             continue
         
-        has_positive = False
         for v in attrs.values():
             try:
                 if float(v) > 0:
-                    has_positive = True
+                    config_ids.append(ship_id)
                     break
             except:
                 continue
-        
-        if has_positive:
-            config_ids.append(ship_id)
     
     config_ids.sort()
     
