@@ -996,31 +996,61 @@ def generate_story_dialogues():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(structured_output, f, ensure_ascii=False, indent=2)
 def generate_fake_ship_config(ship_data: Dict) -> None:
-    """生成 fake_ship_config.txt，只包含有 buff_list 且以 1 结尾的舰船"""
+    """生成 fake_ship_config.txt
+    筛选条件：
+    1. 舰船 ID 尾号为 1
+    2. skin_id = id - 1
+    3. 所有 attrs 属性值都大于 0
+    """
     print("生成 fake_ship_config.txt...")
     
     config_ids = []
     
     for ship_id_str, ship_info in ship_data.items():
-        ship_id = int(ship_id_str)
-        
-        if ship_id < 10000:
+        try:
+            ship_id = int(ship_id_str)
+        except (ValueError, TypeError):
             continue
         
-        buff_list = ship_info.get("buff_list", [])
-        has_buff = len(buff_list) > 0 if isinstance(buff_list, list) else bool(buff_list)
-        is_base_form = (ship_id % 10 == 1)
+        # 条件1: 尾号必须是1
+        if ship_id % 10 != 1:
+            continue
         
-        if has_buff and is_base_form:
+        # 条件2: skin_id 必须等于 id - 1
+        skin_id = ship_info.get("skin_id")
+        if skin_id is None or skin_id != ship_id - 1:
+            continue
+        
+        # 条件3: 所有 attrs 属性值都大于 0
+        attrs = ship_info.get("attrs")
+        if not isinstance(attrs, dict):
+            continue
+        
+        # 检查所有属性值是否都大于 0
+        all_attrs_positive = True
+        for attr_key, attr_value in attrs.items():
+            try:
+                # 尝试转换为数字进行比较
+                numeric_value = float(attr_value) if isinstance(attr_value, (int, float, str)) else None
+                if numeric_value is None or numeric_value <= 0:
+                    all_attrs_positive = False
+                    break
+            except (ValueError, TypeError):
+                all_attrs_positive = False
+                break
+        
+        if all_attrs_positive:
             config_ids.append(ship_id)
     
+    # 排序
     config_ids.sort()
     
+    # 写入文件
     with open("fake_ship_config.txt", "w", encoding="utf-8") as f:
         for config_id in config_ids:
             f.write(str(config_id) + "\n")
     
-    print(f"  写入 {len(config_ids)} 个 configId")
+    print(f"  找到 {len(config_ids)} 个符合条件的 configId")
 def main():
     print("=" * 50)
     print("步骤1: 转换Lua文件为JSON")
