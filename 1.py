@@ -1012,16 +1012,13 @@ def generate_fake_ship_config(ship_data: Dict) -> None:
         except (ValueError, TypeError):
             continue
         
-        # 条件1: 尾号必须是1
         if ship_id % 10 != 1:
             continue
         
-        # 条件2: skin_id 必须等于 id - 1
         skin_id = ship_info.get("skin_id")
         if skin_id is None or skin_id != ship_id - 1:
             continue
         
-        # 条件3: 至少有一个 attrs 属性值大于 0
         attrs = ship_info.get("attrs")
         if not isinstance(attrs, dict):
             continue
@@ -1039,15 +1036,14 @@ def generate_fake_ship_config(ship_data: Dict) -> None:
         if has_positive_attr:
             config_ids.append(ship_id)
     
-    # 排序
     config_ids.sort()
     
-    # 写入文件
     with open("fake_ship_config.txt", "w", encoding="utf-8") as f:
         for config_id in config_ids:
             f.write(str(config_id) + "\n")
     
     print(f"  找到 {len(config_ids)} 个符合条件的 configId")
+
 def main():
     print("=" * 50)
     print("步骤1: 转换Lua文件为JSON")
@@ -1077,8 +1073,17 @@ def main():
             print(f"警告: {filename} 未找到")
             loaded_data[key] = {}
     
+    ship_stats_path = find_data_file("ship_data_statistics.json") or Path("ship_data_statistics.json")
+    ship_stats_data = {}
+    if ship_stats_path.exists():
+        ship_stats_data = load_json_file(ship_stats_path)
+        print(f"加载 ship_data_statistics.json: {len(ship_stats_data)} 条数据")
+    else:
+        print("警告: ship_data_statistics.json 未找到")
+    
     if loaded_data["ships"] and loaded_data["namecode"]:
-        generate_fake_ship_config(loaded_data["ships"])
+        if ship_stats_data:
+            generate_fake_ship_config(ship_stats_data)
         
         combined = generate_combined_data(loaded_data["ships"], loaded_data["words"], loaded_data["namecode"])
         with open("al_combined_final.json", 'w', encoding='utf-8') as f:
