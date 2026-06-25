@@ -121,6 +121,17 @@
       "3": "painting/adaerbote_3"
     }
   },
+  "adaerbote_4": {
+    "key": "adaerbote_4",
+    "res_list": {
+      "0": "painting/adaerbote_4_tex",
+      "1": "painting/adaerbote_4_rw_tex",
+      "2": "painting/adaerbote_4_n_rw_tex",
+      "3": "painting/adaerbote_4_n",
+      "4": "painting/adaerbote_4_bj_tex",
+      "5": "painting/adaerbote_4"
+    }
+  },
   "adiliao": {
     "key": "adiliao",
     "res_list": {
@@ -1186,6 +1197,29 @@
       "3": "painting/alabama_3_n",
       "4": "painting/alabama_3_bj_tex",
       "5": "painting/alabama_3"
+    }
+  },
+  "aluomangshi": {
+    "key": "aluomangshi",
+    "res_list": {
+      "0": "painting/aluomangshi_tex",
+      "1": "painting/aluomangshi_rw_tex",
+      "2": "painting/aluomangshi_n_tex",
+      "3": "painting/aluomangshi_n_rw_tex",
+      "4": "painting/aluomangshi_n",
+      "5": "painting/aluomangshi_bj_tex",
+      "6": "painting/aluomangshi"
+    }
+  },
+  "aluomangshi_2": {
+    "key": "aluomangshi_2",
+    "res_list": {
+      "0": "painting/aluomangshi_2_tex",
+      "1": "painting/aluomangshi_2_rw_tex",
+      "2": "painting/aluomangshi_2_n_tex",
+      "3": "painting/aluomangshi_2_n_rw_tex",
+      "4": "painting/aluomangshi_2_n",
+      "5": "painting/aluomangshi_2"
     }
   },
   "andelieyaduoliya": {
@@ -4273,6 +4307,18 @@
       "1": "painting/dafenqi_2_n_tex",
       "2": "painting/dafenqi_2_n",
       "3": "painting/dafenqi_2"
+    }
+  },
+  "dafenqi_3": {
+    "key": "dafenqi_3",
+    "res_list": {
+      "0": "painting/dafenqi_3_tex",
+      "1": "painting/dafenqi_3_rw_tex",
+      "2": "painting/dafenqi_3_n_rw_tex",
+      "3": "painting/dafenqi_3_n_bj_tex",
+      "4": "painting/dafenqi_3_n",
+      "5": "painting/dafenqi_3_bj_tex",
+      "6": "painting/dafenqi_3"
     }
   },
   "dahuangfeng": {
@@ -10513,6 +10559,16 @@
       "4": "painting/lafeier_2"
     }
   },
+  "lafeier_3": {
+    "key": "lafeier_3",
+    "res_list": {
+      "0": "painting/lafeier_3_tex",
+      "1": "painting/lafeier_3_rw_tex",
+      "2": "painting/lafeier_3_n_rw_tex",
+      "3": "painting/lafeier_3_n",
+      "4": "painting/lafeier_3"
+    }
+  },
   "lafeiii": {
     "key": "lafeiii",
     "res_list": {
@@ -12308,6 +12364,17 @@
       "5": "painting/makeboluo_2_hx_tex",
       "6": "painting/makeboluo_2_hx",
       "7": "painting/makeboluo_2"
+    }
+  },
+  "makeboluo_3": {
+    "key": "makeboluo_3",
+    "res_list": {
+      "0": "painting/makeboluo_3_tex",
+      "1": "painting/makeboluo_3_rw_tex",
+      "2": "painting/makeboluo_3_n_rw_tex",
+      "3": "painting/makeboluo_3_n",
+      "4": "painting/makeboluo_3_bj_tex",
+      "5": "painting/makeboluo_3"
     }
   },
   "malani": {
@@ -16079,6 +16146,34 @@
       "1": "painting/saqieer"
     }
   },
+  "sebao": {
+    "key": "sebao",
+    "res_list": {
+      "0": "painting/sebao_tex",
+      "1": "painting/sebao_rw_tex",
+      "2": "painting/sebao_n_tex",
+      "3": "painting/sebao_n_rw_tex",
+      "4": "painting/sebao_n",
+      "5": "painting/sebao"
+    }
+  },
+  "sebao_2": {
+    "key": "sebao_2",
+    "res_list": {
+      "0": "painting/sebao_2_tex",
+      "1": "painting/sebao_2_rw_tex",
+      "2": "painting/sebao_2_rw_hx_tex",
+      "3": "painting/sebao_2_n_rw_tex",
+      "4": "painting/sebao_2_n_rw_hx_tex",
+      "5": "painting/sebao_2_n_hx",
+      "6": "painting/sebao_2_n",
+      "7": "painting/sebao_2_hx_tex",
+      "8": "painting/sebao_2_hx",
+      "9": "painting/sebao_2_bj_tex",
+      "10": "painting/sebao_2_bj_hx_tex",
+      "11": "painting/sebao_2"
+    }
+  },
   "shaenhuosite": {
     "key": "shaenhuosite",
     "res_list": {
@@ -19257,6 +19352,29 @@
       "1": "painting/wugelini_2_rw_tex",
       "2": "painting/wugelini_2_bj_tex",
       "3": "painting/wugelini_2"
+    }
+  },
+  "wuju": {
+    "key": "wuju",
+    "res_list": {
+      "0": "painting/wuju_tex",
+      "1": "painting/wuju_rw_tex",
+      "2": "painting/wuju_n_tex",
+      "3": "painting/wuju_n_rw_tex",
+      "4": "painting/wuju_n",
+      "5": "painting/wuju_bj_tex",
+      "6": "painting/wuju"
+    }
+  },
+  "wuju_2": {
+    "key": "wuju_2",
+    "res_list": {
+      "0": "painting/wuju_2_tex",
+      "1": "painting/wuju_2_rw_tex",
+      "2": "painting/wuju_2_n_rw_tex",
+      "3": "painting/wuju_2_n",
+      "4": "painting/wuju_2_bj_tex",
+      "5": "painting/wuju_2"
     }
   },
   "wululu": {

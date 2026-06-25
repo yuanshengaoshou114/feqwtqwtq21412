@@ -15892,6 +15892,19 @@
       ]
     },
     {
+      "name": "黑与白的魔术师",
+      "painting": "adaerbote_4",
+      "ship_group": "40310",
+      "res_list": [
+        "painting/adaerbote_4_tex",
+        "painting/adaerbote_4_rw_tex",
+        "painting/adaerbote_4_n_rw_tex",
+        "painting/adaerbote_4_n",
+        "painting/adaerbote_4_bj_tex",
+        "painting/adaerbote_4"
+      ]
+    },
+    {
       "name": "朱月的破坏者",
       "painting": "yueke_ger_2",
       "ship_group": "40311",
@@ -19681,6 +19694,18 @@
       ]
     },
     {
+      "name": "共绘的魔术杰作",
+      "painting": "lafeier_3",
+      "ship_group": "60508",
+      "res_list": [
+        "painting/lafeier_3_tex",
+        "painting/lafeier_3_rw_tex",
+        "painting/lafeier_3_n_rw_tex",
+        "painting/lafeier_3_n",
+        "painting/lafeier_3"
+      ]
+    },
+    {
       "name": "弗朗西斯科·卡拉乔洛",
       "painting": "fulangxisike",
       "ship_group": "60509",
@@ -19834,6 +19859,20 @@
       ]
     },
     {
+      "name": "摇摆兔女郎",
+      "painting": "dafenqi_3",
+      "ship_group": "60802",
+      "res_list": [
+        "painting/dafenqi_3_tex",
+        "painting/dafenqi_3_rw_tex",
+        "painting/dafenqi_3_n_rw_tex",
+        "painting/dafenqi_3_n_bj_tex",
+        "painting/dafenqi_3_n",
+        "painting/dafenqi_3_bj_tex",
+        "painting/dafenqi_3"
+      ]
+    },
+    {
       "name": "巴拉卡少校",
       "painting": "balaka",
       "ship_group": "60803",
@@ -19890,6 +19929,19 @@
         "painting/makeboluo_2_hx_tex",
         "painting/makeboluo_2_hx",
         "painting/makeboluo_2"
+      ]
+    },
+    {
+      "name": "好戏开幕！惊奇Show",
+      "painting": "makeboluo_3",
+      "ship_group": "69901",
+      "res_list": [
+        "painting/makeboluo_3_tex",
+        "painting/makeboluo_3_rw_tex",
+        "painting/makeboluo_3_n_rw_tex",
+        "painting/makeboluo_3_n",
+        "painting/makeboluo_3_bj_tex",
+        "painting/makeboluo_3"
       ]
     },
     {
@@ -21372,6 +21424,33 @@
       ]
     },
     {
+      "name": "无惧",
+      "painting": "wuju",
+      "ship_group": "80106",
+      "res_list": [
+        "painting/wuju_tex",
+        "painting/wuju_rw_tex",
+        "painting/wuju_n_tex",
+        "painting/wuju_n_rw_tex",
+        "painting/wuju_n",
+        "painting/wuju_bj_tex",
+        "painting/wuju"
+      ]
+    },
+    {
+      "name": "炙焰冲刺！",
+      "painting": "wuju_2",
+      "ship_group": "80106",
+      "res_list": [
+        "painting/wuju_2_tex",
+        "painting/wuju_2_rw_tex",
+        "painting/wuju_2_n_rw_tex",
+        "painting/wuju_2_n",
+        "painting/wuju_2_bj_tex",
+        "painting/wuju_2"
+      ]
+    },
+    {
       "name": "可怖",
       "painting": "kebu",
       "ship_group": "80107",
@@ -21882,6 +21961,33 @@
       ]
     },
     {
+      "name": "阿罗芒什",
+      "painting": "aluomangshi",
+      "ship_group": "80602",
+      "res_list": [
+        "painting/aluomangshi_tex",
+        "painting/aluomangshi_rw_tex",
+        "painting/aluomangshi_n_tex",
+        "painting/aluomangshi_n_rw_tex",
+        "painting/aluomangshi_n",
+        "painting/aluomangshi_bj_tex",
+        "painting/aluomangshi"
+      ]
+    },
+    {
+      "name": "足尖弓矢",
+      "painting": "aluomangshi_2",
+      "ship_group": "80602",
+      "res_list": [
+        "painting/aluomangshi_2_tex",
+        "painting/aluomangshi_2_rw_tex",
+        "painting/aluomangshi_2_n_tex",
+        "painting/aluomangshi_2_n_rw_tex",
+        "painting/aluomangshi_2_n",
+        "painting/aluomangshi_2"
+      ]
+    },
+    {
       "name": "贝亚恩",
       "painting": "beiyaen",
       "ship_group": "80701",
@@ -21970,6 +22076,38 @@
         "painting/xukufu_3_hx_tex",
         "painting/xukufu_3_hx",
         "painting/xukufu_3"
+      ]
+    },
+    {
+      "name": "瑟堡",
+      "painting": "sebao",
+      "ship_group": "81801",
+      "res_list": [
+        "painting/sebao_tex",
+        "painting/sebao_rw_tex",
+        "painting/sebao_n_tex",
+        "painting/sebao_n_rw_tex",
+        "painting/sebao_n",
+        "painting/sebao"
+      ]
+    },
+    {
+      "name": "布偶熊里面的是……？",
+      "painting": "sebao_2",
+      "ship_group": "81801",
+      "res_list": [
+        "painting/sebao_2_tex",
+        "painting/sebao_2_rw_tex",
+        "painting/sebao_2_rw_hx_tex",
+        "painting/sebao_2_n_rw_tex",
+        "painting/sebao_2_n_rw_hx_tex",
+        "painting/sebao_2_n_hx",
+        "painting/sebao_2_n",
+        "painting/sebao_2_hx_tex",
+        "painting/sebao_2_hx",
+        "painting/sebao_2_bj_tex",
+        "painting/sebao_2_bj_hx_tex",
+        "painting/sebao_2"
       ]
     },
     {
