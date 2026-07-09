@@ -424600,6 +424600,645 @@
       "1": 180009
     }
   },
+  "900944": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 4,
+    "name": "邓肯",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 900944,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "simulation",
+    "oxy_cost": 0,
+    "skin_id": 299060,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1492,
+      "1": 70,
+      "2": 52,
+      "3": 63,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 24,
+      "8": 9,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 40181,
+      "1": 1453,
+      "2": 1116,
+      "3": 1329,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 383,
+      "8": 238,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 44210,
+      "1": 42250,
+      "2": 46410
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.8,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "900945": {
+    "nationality": 3,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "高梁",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 900945,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "simulation",
+    "oxy_cost": 0,
+    "skin_id": 399060,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 916,
+      "1": 33,
+      "2": 81,
+      "3": 80,
+      "4": 0,
+      "5": 57,
+      "6": 0,
+      "7": 57,
+      "8": 30,
+      "9": 34.5,
+      "10": 0,
+      "11": 89
+    },
+    "attrs_growth": {
+      "0": 22710,
+      "1": 664,
+      "2": 1700,
+      "3": 1632,
+      "4": 0,
+      "5": 399,
+      "6": 0,
+      "7": 816,
+      "8": 495,
+      "9": 0,
+      "10": 0,
+      "11": 423
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 224
+    },
+    "default_equip_list": {
+      "0": 32370,
+      "1": 35280,
+      "2": 36570
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.5,
+      "2": 1.75
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180004
+    }
+  },
+  "900946": {
+    "nationality": 4,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "马克斯·殷麦曼",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 900946,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "simulation",
+    "oxy_cost": 0,
+    "skin_id": 499110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1531,
+      "1": 0,
+      "2": 0,
+      "3": 57,
+      "4": 96,
+      "5": 48,
+      "6": 0,
+      "7": 37,
+      "8": 16,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 39222,
+      "1": 0,
+      "2": 0,
+      "3": 1214,
+      "4": 1927,
+      "5": 335,
+      "6": 0,
+      "7": 595,
+      "8": 358,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 85613,
+      "1": 49093,
+      "2": 85613
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 3,
+      "1": 3,
+      "2": 3
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.6,
+      "1": 1.5,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180008
+    }
+  },
+  "900947": {
+    "nationality": 12,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "瓦尔帕莱索",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 900947,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "simulation",
+    "oxy_cost": 0,
+    "skin_id": 1299010,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1585,
+      "1": 84,
+      "2": 0,
+      "3": 82,
+      "4": 0,
+      "5": 65,
+      "6": 0,
+      "7": 25,
+      "8": 12,
+      "9": 30,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42238,
+      "1": 1662,
+      "2": 0,
+      "3": 1674,
+      "4": 0,
+      "5": 449,
+      "6": 0,
+      "7": 411,
+      "8": 292,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 24353,
+      "1": 11293,
+      "2": 16493
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.5,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "ValSkill",
+      "2": "Valparaiso"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180009
+    }
+  },
+  "900948": {
+    "nationality": 8,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "暴风雨",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 900948,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "simulation",
+    "oxy_cost": 0,
+    "skin_id": 899050,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 425,
+      "1": 26,
+      "2": 87,
+      "3": 31,
+      "4": 0,
+      "5": 80,
+      "6": 0,
+      "7": 70,
+      "8": 77,
+      "9": 40.8,
+      "10": 0,
+      "11": 50
+    },
+    "attrs_growth": {
+      "0": 10892,
+      "1": 570,
+      "2": 1760,
+      "3": 679,
+      "4": 0,
+      "5": 554,
+      "6": 0,
+      "7": 1134,
+      "8": 1228,
+      "9": 0,
+      "10": 0,
+      "11": 573
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 91410,
+      "1": 35280,
+      "2": 36570
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.7,
+      "1": 1.3,
+      "2": 0.8
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {}
+  },
   "1101011": {
     "nationality": 11,
     "oxy_max": 0,
@@ -540141,6 +540780,2570 @@
     },
     "gift_dislike": {
       "0": 180005,
+      "1": 180009
+    }
+  },
+  "499111": {
+    "nationality": 4,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "马克斯·殷麦曼",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 499111,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "KMS Max Immelmann",
+    "oxy_cost": 0,
+    "skin_id": 499110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1531,
+      "1": 0,
+      "2": 0,
+      "3": 57,
+      "4": 96,
+      "5": 48,
+      "6": 0,
+      "7": 37,
+      "8": 16,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 39222,
+      "1": 0,
+      "2": 0,
+      "3": 1214,
+      "4": 1927,
+      "5": 335,
+      "6": 0,
+      "7": 595,
+      "8": 358,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 121,
+      "1": 123,
+      "2": 122
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.45,
+      "1": 1.4,
+      "2": 1.4
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180008
+    }
+  },
+  "499112": {
+    "nationality": 4,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "马克斯·殷麦曼",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 499112,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "KMS Max Immelmann",
+    "oxy_cost": 0,
+    "skin_id": 499110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1531,
+      "1": 0,
+      "2": 0,
+      "3": 57,
+      "4": 96,
+      "5": 48,
+      "6": 0,
+      "7": 37,
+      "8": 16,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 39222,
+      "1": 0,
+      "2": 0,
+      "3": 1214,
+      "4": 1927,
+      "5": 335,
+      "6": 0,
+      "7": 595,
+      "8": 358,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 121,
+      "1": 123,
+      "2": 122
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.45,
+      "1": 1.45,
+      "2": 1.45
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180008
+    }
+  },
+  "499113": {
+    "nationality": 4,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "马克斯·殷麦曼",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 499113,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "KMS Max Immelmann",
+    "oxy_cost": 0,
+    "skin_id": 499110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1531,
+      "1": 0,
+      "2": 0,
+      "3": 57,
+      "4": 96,
+      "5": 48,
+      "6": 0,
+      "7": 37,
+      "8": 16,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 39222,
+      "1": 0,
+      "2": 0,
+      "3": 1214,
+      "4": 1927,
+      "5": 335,
+      "6": 0,
+      "7": 595,
+      "8": 358,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 121,
+      "1": 123,
+      "2": 122
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.55,
+      "1": 1.45,
+      "2": 1.45
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180008
+    }
+  },
+  "499114": {
+    "nationality": 4,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "马克斯·殷麦曼",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 499114,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "KMS Max Immelmann",
+    "oxy_cost": 0,
+    "skin_id": 499110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1531,
+      "1": 0,
+      "2": 0,
+      "3": 57,
+      "4": 96,
+      "5": 48,
+      "6": 0,
+      "7": 37,
+      "8": 16,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 39222,
+      "1": 0,
+      "2": 0,
+      "3": 1214,
+      "4": 1927,
+      "5": 335,
+      "6": 0,
+      "7": 595,
+      "8": 358,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 121,
+      "1": 123,
+      "2": 122
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 3,
+      "1": 3,
+      "2": 3
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.6,
+      "1": 1.5,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180008
+    }
+  },
+  "299061": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 4,
+    "name": "邓肯",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 299061,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Duncan",
+    "oxy_cost": 0,
+    "skin_id": 299060,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1492,
+      "1": 70,
+      "2": 52,
+      "3": 63,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 24,
+      "8": 9,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 40181,
+      "1": 1453,
+      "2": 1116,
+      "3": 1329,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 383,
+      "8": 238,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 1.8,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "299062": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 4,
+    "name": "邓肯",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 299062,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Duncan",
+    "oxy_cost": 0,
+    "skin_id": 299060,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1492,
+      "1": 70,
+      "2": 52,
+      "3": 63,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 24,
+      "8": 9,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 40181,
+      "1": 1453,
+      "2": 1116,
+      "3": 1329,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 383,
+      "8": 238,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 1.8,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "299063": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 4,
+    "name": "邓肯",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 299063,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Duncan",
+    "oxy_cost": 0,
+    "skin_id": 299060,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1492,
+      "1": 70,
+      "2": 52,
+      "3": 63,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 24,
+      "8": 9,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 40181,
+      "1": 1453,
+      "2": 1116,
+      "3": 1329,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 383,
+      "8": 238,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.8,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "299064": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 4,
+    "name": "邓肯",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 299064,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Duncan",
+    "oxy_cost": 0,
+    "skin_id": 299060,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1492,
+      "1": 70,
+      "2": 52,
+      "3": 63,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 24,
+      "8": 9,
+      "9": 32,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 40181,
+      "1": 1453,
+      "2": 1116,
+      "3": 1329,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 383,
+      "8": 238,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.8,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "399081": {
+    "nationality": 3,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "高梁",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 399081,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "IJN Takahashi",
+    "oxy_cost": 0,
+    "skin_id": 399080,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1040,
+      "1": 36,
+      "2": 83,
+      "3": 94,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 59,
+      "8": 30,
+      "9": 34.5,
+      "10": 0,
+      "11": 47
+    },
+    "attrs_growth": {
+      "0": 27710,
+      "1": 734,
+      "2": 1688,
+      "3": 1886,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 896,
+      "8": 554,
+      "9": 0,
+      "10": 0,
+      "11": 537
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.1,
+      "1": 1.2,
+      "2": 1.65
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "Takahashi"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "399082": {
+    "nationality": 3,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "高梁",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 399082,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "IJN Takahashi",
+    "oxy_cost": 0,
+    "skin_id": 399080,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1040,
+      "1": 36,
+      "2": 83,
+      "3": 94,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 59,
+      "8": 30,
+      "9": 34.5,
+      "10": 0,
+      "11": 59
+    },
+    "attrs_growth": {
+      "0": 27710,
+      "1": 734,
+      "2": 1688,
+      "3": 1886,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 896,
+      "8": 554,
+      "9": 0,
+      "10": 0,
+      "11": 537
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.1,
+      "1": 1.25,
+      "2": 1.65
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "Takahashi"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "399083": {
+    "nationality": 3,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "高梁",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 399083,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "IJN Takahashi",
+    "oxy_cost": 0,
+    "skin_id": 399080,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1040,
+      "1": 36,
+      "2": 83,
+      "3": 94,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 59,
+      "8": 30,
+      "9": 34.5,
+      "10": 0,
+      "11": 82
+    },
+    "attrs_growth": {
+      "0": 27710,
+      "1": 734,
+      "2": 1688,
+      "3": 1886,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 896,
+      "8": 554,
+      "9": 0,
+      "10": 0,
+      "11": 537
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.35,
+      "2": 1.65
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "Takahashi"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "399084": {
+    "nationality": 3,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "高梁",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 399084,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "IJN Takahashi",
+    "oxy_cost": 0,
+    "skin_id": 399080,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1040,
+      "1": 36,
+      "2": 83,
+      "3": 94,
+      "4": 0,
+      "5": 62,
+      "6": 0,
+      "7": 59,
+      "8": 30,
+      "9": 34.5,
+      "10": 0,
+      "11": 116
+    },
+    "attrs_growth": {
+      "0": 27710,
+      "1": 734,
+      "2": 1688,
+      "3": 1886,
+      "4": 0,
+      "5": 430,
+      "6": 0,
+      "7": 896,
+      "8": 554,
+      "9": 0,
+      "10": 0,
+      "11": 537
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 2,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.5,
+      "2": 1.65
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "Takahashi"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "899051": {
+    "nationality": 8,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "暴风雨",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 899051,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "FFNF Orage",
+    "oxy_cost": 0,
+    "skin_id": 899050,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 425,
+      "1": 26,
+      "2": 87,
+      "3": 31,
+      "4": 0,
+      "5": 80,
+      "6": 0,
+      "7": 70,
+      "8": 77,
+      "9": 40.8,
+      "10": 0,
+      "11": 50
+    },
+    "attrs_growth": {
+      "0": 10892,
+      "1": 570,
+      "2": 1760,
+      "3": 679,
+      "4": 0,
+      "5": 554,
+      "6": 0,
+      "7": 1134,
+      "8": 1228,
+      "9": 0,
+      "10": 0,
+      "11": 573
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.6,
+      "1": 1.25,
+      "2": 0.65
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180008
+    }
+  },
+  "899052": {
+    "nationality": 8,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "暴风雨",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 899052,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "FFNF Orage",
+    "oxy_cost": 0,
+    "skin_id": 899050,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 425,
+      "1": 26,
+      "2": 87,
+      "3": 31,
+      "4": 0,
+      "5": 80,
+      "6": 0,
+      "7": 70,
+      "8": 77,
+      "9": 40.8,
+      "10": 0,
+      "11": 62
+    },
+    "attrs_growth": {
+      "0": 10892,
+      "1": 570,
+      "2": 1760,
+      "3": 679,
+      "4": 0,
+      "5": 554,
+      "6": 0,
+      "7": 1134,
+      "8": 1228,
+      "9": 0,
+      "10": 0,
+      "11": 573
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.65,
+      "1": 1.25,
+      "2": 0.65
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180008
+    }
+  },
+  "899053": {
+    "nationality": 8,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "暴风雨",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 899053,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "FFNF Orage",
+    "oxy_cost": 0,
+    "skin_id": 899050,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 425,
+      "1": 26,
+      "2": 87,
+      "3": 31,
+      "4": 0,
+      "5": 80,
+      "6": 0,
+      "7": 70,
+      "8": 77,
+      "9": 40.8,
+      "10": 0,
+      "11": 87
+    },
+    "attrs_growth": {
+      "0": 10892,
+      "1": 570,
+      "2": 1760,
+      "3": 679,
+      "4": 0,
+      "5": 554,
+      "6": 0,
+      "7": 1134,
+      "8": 1228,
+      "9": 0,
+      "10": 0,
+      "11": 573
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.65,
+      "1": 1.25,
+      "2": 0.75
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180008
+    }
+  },
+  "899054": {
+    "nationality": 8,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "暴风雨",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 899054,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "FFNF Orage",
+    "oxy_cost": 0,
+    "skin_id": 899050,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 425,
+      "1": 26,
+      "2": 87,
+      "3": 31,
+      "4": 0,
+      "5": 80,
+      "6": 0,
+      "7": 70,
+      "8": 77,
+      "9": 40.8,
+      "10": 0,
+      "11": 125
+    },
+    "attrs_growth": {
+      "0": 10892,
+      "1": 570,
+      "2": 1760,
+      "3": 679,
+      "4": 0,
+      "5": 554,
+      "6": 0,
+      "7": 1134,
+      "8": 1228,
+      "9": 0,
+      "10": 0,
+      "11": 573
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.7,
+      "1": 1.3,
+      "2": 0.8
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180008
+    }
+  },
+  "1299011": {
+    "nationality": 12,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "瓦尔帕莱索",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 1299011,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Valparaíso",
+    "oxy_cost": 0,
+    "skin_id": 1299010,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1585,
+      "1": 84,
+      "2": 0,
+      "3": 82,
+      "4": 0,
+      "5": 65,
+      "6": 0,
+      "7": 25,
+      "8": 12,
+      "9": 30,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42238,
+      "1": 1662,
+      "2": 0,
+      "3": 1674,
+      "4": 0,
+      "5": 449,
+      "6": 0,
+      "7": 411,
+      "8": 292,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1,
+      "1": 1.4,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "ValSkill",
+      "2": "Valparaiso"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180009
+    }
+  },
+  "1299012": {
+    "nationality": 12,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "瓦尔帕莱索",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 1299012,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Valparaíso",
+    "oxy_cost": 0,
+    "skin_id": 1299010,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1585,
+      "1": 84,
+      "2": 0,
+      "3": 82,
+      "4": 0,
+      "5": 65,
+      "6": 0,
+      "7": 25,
+      "8": 12,
+      "9": 30,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42238,
+      "1": 1662,
+      "2": 0,
+      "3": 1674,
+      "4": 0,
+      "5": 449,
+      "6": 0,
+      "7": 411,
+      "8": 292,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.05,
+      "1": 1.4,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "ValSkill",
+      "2": "Valparaiso"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180009
+    }
+  },
+  "1299013": {
+    "nationality": 12,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "瓦尔帕莱索",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 1299013,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Valparaíso",
+    "oxy_cost": 0,
+    "skin_id": 1299010,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1585,
+      "1": 84,
+      "2": 0,
+      "3": 82,
+      "4": 0,
+      "5": 65,
+      "6": 0,
+      "7": 25,
+      "8": 12,
+      "9": 30,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42238,
+      "1": 1662,
+      "2": 0,
+      "3": 1674,
+      "4": 0,
+      "5": 449,
+      "6": 0,
+      "7": 411,
+      "8": 292,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 1.4,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "ValSkill",
+      "2": "Valparaiso"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180009
+    }
+  },
+  "1299014": {
+    "nationality": 12,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "瓦尔帕莱索",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 6,
+    "ammo": 0,
+    "id": 1299014,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Valparaíso",
+    "oxy_cost": 0,
+    "skin_id": 1299010,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1585,
+      "1": 84,
+      "2": 0,
+      "3": 82,
+      "4": 0,
+      "5": 65,
+      "6": 0,
+      "7": 25,
+      "8": 12,
+      "9": 30,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42238,
+      "1": 1662,
+      "2": 0,
+      "3": 1674,
+      "4": 0,
+      "5": 449,
+      "6": 0,
+      "7": 411,
+      "8": 292,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.3,
+      "1": 1.4,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Plan-Class",
+      "1": "ValSkill",
+      "2": "Valparaiso"
+    },
+    "gift_dislike": {
+      "0": 180004,
       "1": 180009
     }
   }

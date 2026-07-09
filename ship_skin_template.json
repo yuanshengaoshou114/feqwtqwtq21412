@@ -241786,7 +241786,7 @@
     "get_showing": "",
     "main_UI_FX": "",
     "shop_id": 0,
-    "voice_actor": 158,
+    "voice_actor": 510,
     "shop_dynamic_hx": 0,
     "spine_offset": "",
     "illustrator": -1,
@@ -241907,7 +241907,7 @@
     "part_scale": "",
     "main_UI_FX": "",
     "shop_id": 71373,
-    "voice_actor": 158,
+    "voice_actor": 510,
     "shop_dynamic_hx": 0,
     "illustrator": -1,
     "rarity_bg": "",
@@ -351571,7 +351571,7 @@
       "show": 1,
       "data": {
         "0": {
-          "0": 1470,
+          "0": 1270,
           "1": 356,
           "2": 2,
           "3": 0,
@@ -354377,6 +354377,145 @@
       "14": 89903115,
       "15": 89903116,
       "16": 89903117
+    }
+  },
+  "899050": {
+    "name": "暴风雨",
+    "change_skin": "",
+    "desc": "驱逐舰一一暴风雨",
+    "illustrator2": -1,
+    "ship_group": 89905,
+    "group_index": 0,
+    "purchase_offset": "",
+    "painting": "baofengyu",
+    "lover_hand": "hand_1_02",
+    "skin_type": -1,
+    "shop_type_id": 0,
+    "l2d_ignore_drag": 0,
+    "hand_id": 13,
+    "lip_smoothing": 0,
+    "l2d_animations": "",
+    "lover_kiss": "lip03",
+    "bg_sp": "",
+    "bg": "",
+    "bgm": "",
+    "spine_use_live2d": 0,
+    "spine_action_offset": false,
+    "spine_offset_profile": "",
+    "shop_offset": "",
+    "id": 899050,
+    "voice_actor_2": -1,
+    "gyro": 0,
+    "ship_l2d_id": "",
+    "l2d_drag_rate": "",
+    "prefab": "baofengyu",
+    "l2d_se": "",
+    "part_scale": "",
+    "get_showing": "",
+    "main_UI_FX": "",
+    "shop_id": 0,
+    "voice_actor": 418,
+    "shop_dynamic_hx": 0,
+    "illustrator": 1,
+    "rarity_bg": "",
+    "double_char": 0,
+    "skeleton_default_skin": "",
+    "voice_lang": "",
+    "time": "",
+    "l2d_para_range": "",
+    "lip_sync_gain": 0,
+    "live2d_offset_profile": "",
+    "show_skin": "stand",
+    "l2d_voice_calibrate": "",
+    "tag": {},
+    "live2d_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fx_container": {
+      "0": {
+        "0": 0,
+        "1": 1.99185,
+        "2": 1.15
+      },
+      "1": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "2": {
+        "0": 0,
+        "1": 0.75,
+        "2": -1.299
+      },
+      "3": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      }
+    },
+    "bound_bone": {
+      "cannon": {
+        "0": {
+          "0": 0.902,
+          "1": 0.814,
+          "2": 0
+        }
+      },
+      "vicegun": {
+        "0": {
+          "0": 1.125,
+          "1": 1.048,
+          "2": 0
+        }
+      },
+      "torpedo": {
+        "0": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      "antiaircraft": {
+        "0": {
+          "0": 0.865,
+          "1": 2.804,
+          "2": 0
+        }
+      }
+    },
+    "smoke": {
+      "0": {
+        "0": 50,
+        "1": {
+          "0": {
+            "0": "smoke",
+            "1": {
+              "0": -0.51,
+              "1": 2.507,
+              "2": -0.16
+            }
+          }
+        }
+      }
+    },
+    "spine_offset": {
+      "0": -35,
+      "1": -1749,
+      "2": 0,
+      "3": 1.2
+    },
+    "special_effects": {
+      "0": "lihui_buleisite",
+      "1": {
+        "0": -51,
+        "1": 162,
+        "2": 0
+      },
+      "2": {
+        "0": 2.2
+      }
     }
   },
   "199040": {
@@ -358224,6 +358363,508 @@
       "1": -95.4,
       "2": 0,
       "3": 0.715
+    }
+  },
+  "399080": {
+    "name": "{namecode:313}",
+    "change_skin": "",
+    "desc": "巡洋舰一一{namecode:313}",
+    "illustrator2": -1,
+    "ship_group": 39908,
+    "group_index": 0,
+    "purchase_offset": "",
+    "painting": "gaoliang",
+    "lover_hand": "hand_1_02",
+    "skin_type": -1,
+    "shop_type_id": 0,
+    "l2d_ignore_drag": 0,
+    "hand_id": 2,
+    "lip_smoothing": 0,
+    "l2d_animations": "",
+    "lover_kiss": "lip03",
+    "bg_sp": "",
+    "bg": "",
+    "bgm": "",
+    "spine_use_live2d": 0,
+    "spine_action_offset": false,
+    "spine_offset_profile": "",
+    "shop_offset": "",
+    "special_effects": "",
+    "id": 399080,
+    "voice_actor_2": -1,
+    "gyro": 0,
+    "ship_l2d_id": "",
+    "l2d_drag_rate": "",
+    "prefab": "gaoliang",
+    "l2d_se": "",
+    "part_scale": "",
+    "get_showing": "",
+    "main_UI_FX": "",
+    "shop_id": 0,
+    "voice_actor": 513,
+    "shop_dynamic_hx": 0,
+    "spine_offset": "",
+    "illustrator": 1,
+    "rarity_bg": "",
+    "double_char": 0,
+    "skeleton_default_skin": "",
+    "voice_lang": "",
+    "time": "",
+    "l2d_para_range": "",
+    "lip_sync_gain": 0,
+    "live2d_offset_profile": "",
+    "show_skin": "stand",
+    "l2d_voice_calibrate": "",
+    "tag": {},
+    "live2d_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fx_container": {
+      "0": {
+        "0": 0,
+        "1": 1.99185,
+        "2": 1.15
+      },
+      "1": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "2": {
+        "0": 0,
+        "1": 0.75,
+        "2": -1.299
+      },
+      "3": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      }
+    },
+    "bound_bone": {
+      "cannon": {
+        "0": {
+          "0": 0.593,
+          "1": 0.809,
+          "2": 0
+        }
+      },
+      "torpedo": {
+        "0": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      "antiaircraft": {
+        "0": {
+          "0": 0.791,
+          "1": 2.002,
+          "2": 0
+        }
+      }
+    },
+    "smoke": {
+      "0": {
+        "0": 40,
+        "1": {
+          "0": {
+            "0": "smoke",
+            "1": {
+              "0": -0.604,
+              "1": 2.246,
+              "2": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "499110": {
+    "name": "{namecode:565}",
+    "change_skin": "",
+    "desc": "航空母舰一一{namecode:565}",
+    "illustrator2": -1,
+    "ship_group": 49911,
+    "group_index": 0,
+    "purchase_offset": "",
+    "painting": "makesi",
+    "lover_hand": "hand_1_02",
+    "skin_type": -1,
+    "shop_type_id": 0,
+    "l2d_ignore_drag": 0,
+    "hand_id": 1,
+    "lip_smoothing": 0,
+    "l2d_animations": "",
+    "lover_kiss": "lip03",
+    "bg_sp": "",
+    "bg": "",
+    "bgm": "",
+    "spine_use_live2d": 0,
+    "spine_action_offset": false,
+    "shop_offset": "",
+    "special_effects": "",
+    "id": 499110,
+    "voice_actor_2": -1,
+    "gyro": 0,
+    "ship_l2d_id": "",
+    "l2d_drag_rate": "",
+    "prefab": "makesi",
+    "l2d_se": "",
+    "part_scale": "",
+    "get_showing": "",
+    "main_UI_FX": "",
+    "shop_id": 0,
+    "voice_actor": 512,
+    "shop_dynamic_hx": 0,
+    "illustrator": 1,
+    "rarity_bg": "",
+    "double_char": 0,
+    "skeleton_default_skin": "",
+    "voice_lang": "",
+    "time": "",
+    "l2d_para_range": "",
+    "lip_sync_gain": 0,
+    "live2d_offset_profile": "",
+    "show_skin": "stand",
+    "l2d_voice_calibrate": "",
+    "tag": {},
+    "live2d_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "spine_offset_profile": {
+      "0": 1,
+      "1": -221,
+      "2": 0,
+      "3": 0.67
+    },
+    "fx_container": {
+      "0": {
+        "0": 0,
+        "1": 1.99185,
+        "2": 1.15
+      },
+      "1": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "2": {
+        "0": 0,
+        "1": 0.75,
+        "2": -1.299
+      },
+      "3": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      }
+    },
+    "bound_bone": {
+      "cannon": {
+        "0": {
+          "0": 1.202,
+          "1": 1.08,
+          "2": 0
+        }
+      },
+      "plane": {
+        "0": {
+          "0": 1.374,
+          "1": 0.729,
+          "2": 0
+        }
+      },
+      "antiaircraft": {
+        "0": {
+          "0": 0.727,
+          "1": 2.39,
+          "2": 0
+        }
+      }
+    },
+    "smoke": {
+      "0": {
+        "0": 50,
+        "1": {
+          "0": {
+            "0": "smoke",
+            "1": {
+              "0": -0.679,
+              "1": 2.619,
+              "2": -0.16
+            }
+          }
+        }
+      }
+    },
+    "spine_offset": {
+      "0": 10.8,
+      "1": -252.8,
+      "2": 0,
+      "3": 0.73
+    }
+  },
+  "1299010": {
+    "name": "瓦尔帕莱索",
+    "change_skin": "",
+    "desc": "战列舰--瓦尔帕莱索",
+    "illustrator2": -1,
+    "ship_group": 129901,
+    "group_index": 0,
+    "purchase_offset": "",
+    "painting": "waerpalaisuo",
+    "lover_hand": "hand_2_02",
+    "skin_type": -1,
+    "shop_type_id": 0,
+    "l2d_ignore_drag": 0,
+    "hand_id": 1,
+    "lip_smoothing": 0,
+    "l2d_animations": "",
+    "lover_kiss": "lip02",
+    "bg_sp": "",
+    "bg": "",
+    "bgm": "",
+    "spine_use_live2d": 0,
+    "spine_action_offset": false,
+    "shop_offset": "",
+    "special_effects": "",
+    "id": 1299010,
+    "voice_actor_2": -1,
+    "gyro": 0,
+    "ship_l2d_id": "",
+    "l2d_drag_rate": "",
+    "prefab": "waerpalaisuo",
+    "l2d_se": "",
+    "part_scale": "",
+    "get_showing": "",
+    "main_UI_FX": "",
+    "shop_id": 0,
+    "voice_actor": 315,
+    "shop_dynamic_hx": 0,
+    "illustrator": 1,
+    "rarity_bg": "",
+    "double_char": 0,
+    "skeleton_default_skin": "",
+    "voice_lang": "",
+    "time": "",
+    "l2d_para_range": "",
+    "lip_sync_gain": 0,
+    "live2d_offset_profile": "",
+    "show_skin": "stand",
+    "l2d_voice_calibrate": "",
+    "tag": {},
+    "live2d_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "spine_offset_profile": {
+      "0": -74,
+      "1": -977,
+      "2": 0,
+      "3": 1.14
+    },
+    "fx_container": {
+      "0": {
+        "0": 0,
+        "1": 1.99185,
+        "2": 1.15
+      },
+      "1": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "2": {
+        "0": 0,
+        "1": 0.75,
+        "2": -1.299
+      },
+      "3": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      }
+    },
+    "bound_bone": {
+      "cannon": {
+        "0": {
+          "0": 0.98,
+          "1": 0.999,
+          "2": 0
+        }
+      },
+      "vicegun": {
+        "0": {
+          "0": 1.09,
+          "1": 0.783,
+          "2": 0
+        }
+      },
+      "torpedo": {
+        "0": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      "antiaircraft": {
+        "0": {
+          "0": 0.73,
+          "1": 2.332,
+          "2": 0
+        }
+      }
+    },
+    "smoke": {
+      "0": {
+        "0": 40,
+        "1": {
+          "0": {
+            "0": "smoke",
+            "1": {
+              "0": -0.718,
+              "1": 2.278,
+              "2": 0
+            }
+          }
+        }
+      }
+    },
+    "spine_offset": {
+      "0": -16.2,
+      "1": -784.2,
+      "2": 0,
+      "3": 0.995
+    }
+  },
+  "299060": {
+    "name": "邓肯",
+    "change_skin": "",
+    "desc": "G3型战列巡洋舰一一邓肯",
+    "illustrator2": -1,
+    "ship_group": 29906,
+    "group_index": 0,
+    "purchase_offset": "",
+    "painting": "dengken",
+    "lover_hand": "hand_2_02",
+    "skin_type": -1,
+    "shop_type_id": 0,
+    "l2d_ignore_drag": 0,
+    "hand_id": 1,
+    "lip_smoothing": 0,
+    "l2d_animations": "",
+    "lover_kiss": "lip02",
+    "bg_sp": "",
+    "bg": "",
+    "bgm": "",
+    "spine_use_live2d": 0,
+    "spine_action_offset": false,
+    "spine_offset_profile": "",
+    "shop_offset": "",
+    "special_effects": "",
+    "id": 299060,
+    "voice_actor_2": -1,
+    "gyro": 0,
+    "ship_l2d_id": "",
+    "l2d_drag_rate": "",
+    "prefab": "dengken",
+    "l2d_se": "",
+    "part_scale": "",
+    "get_showing": "",
+    "main_UI_FX": "",
+    "shop_id": 0,
+    "voice_actor": 179,
+    "shop_dynamic_hx": 0,
+    "spine_offset": "",
+    "illustrator": 1,
+    "rarity_bg": "",
+    "double_char": 0,
+    "skeleton_default_skin": "",
+    "voice_lang": "",
+    "time": "",
+    "l2d_para_range": "",
+    "lip_sync_gain": 0,
+    "live2d_offset_profile": "",
+    "show_skin": "stand",
+    "l2d_voice_calibrate": "",
+    "tag": {},
+    "live2d_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fx_container": {
+      "0": {
+        "0": 0,
+        "1": 1.99185,
+        "2": 1.15
+      },
+      "1": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      },
+      "2": {
+        "0": 0,
+        "1": 0.75,
+        "2": -1.299
+      },
+      "3": {
+        "0": 0,
+        "1": 0,
+        "2": 0
+      }
+    },
+    "bound_bone": {
+      "cannon": {
+        "0": {
+          "0": 1.299,
+          "1": 1.146,
+          "2": 0
+        }
+      },
+      "vicegun": {
+        "0": {
+          "0": 1.087,
+          "1": 0.906,
+          "2": 0
+        }
+      },
+      "torpedo": {
+        "0": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        }
+      },
+      "antiaircraft": {
+        "0": {
+          "0": 0.663,
+          "1": 2.381,
+          "2": 0
+        }
+      }
+    },
+    "smoke": {
+      "0": {
+        "0": 50,
+        "1": {
+          "0": {
+            "0": "smoke",
+            "1": {
+              "0": -0.603,
+              "1": 2.343,
+              "2": -0.16
+            }
+          }
+        }
+      }
     }
   }
 }

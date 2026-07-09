@@ -8872,6 +8872,21 @@
       ]
     },
     {
+      "name": "邓肯",
+      "painting": "dengken",
+      "ship_group": "29906",
+      "res_list": [
+        "painting/dengken_tex",
+        "painting/dengken_rw_tex",
+        "painting/dengken_n_tex",
+        "painting/dengken_n_rw_tex",
+        "painting/dengken_n_bj_tex",
+        "painting/dengken_n",
+        "painting/dengken_bj_tex",
+        "painting/dengken"
+      ]
+    },
+    {
       "name": "吹雪",
       "painting": "chuixue",
       "ship_group": "30101",
@@ -14476,6 +14491,19 @@
       ]
     },
     {
+      "name": "高梁",
+      "painting": "gaoliang",
+      "ship_group": "39908",
+      "res_list": [
+        "painting/gaoliang_tex",
+        "painting/gaoliang_rw_tex",
+        "painting/gaoliang_n_tex",
+        "painting/gaoliang_n_rw_tex",
+        "painting/gaoliang_n",
+        "painting/gaoliang"
+      ]
+    },
+    {
       "name": "Z1",
       "painting": "z1",
       "ship_group": "40101",
@@ -17720,6 +17748,26 @@
         "painting/meikelunbao_2_hx_tex",
         "painting/meikelunbao_2_hx",
         "painting/meikelunbao_2"
+      ]
+    },
+    {
+      "name": "马克斯·殷麦曼",
+      "painting": "makesi",
+      "ship_group": "49911",
+      "res_list": [
+        "painting/makesi_tex",
+        "painting/makesi_rw_tex",
+        "painting/makesi_rw_hx_tex",
+        "painting/makesi_n_tex",
+        "painting/makesi_n_rw_tex",
+        "painting/makesi_n_rw_hx_tex",
+        "painting/makesi_n_hx_tex",
+        "painting/makesi_n_hx",
+        "painting/makesi_n",
+        "painting/makesi_hx_tex",
+        "painting/makesi_hx",
+        "painting/makesi_bj_tex",
+        "painting/makesi"
       ]
     },
     {
@@ -22252,6 +22300,19 @@
       ]
     },
     {
+      "name": "暴风雨",
+      "painting": "baofengyu",
+      "ship_group": "89905",
+      "res_list": [
+        "painting/baofengyu_tex",
+        "painting/baofengyu_rw_tex",
+        "painting/baofengyu_n_tex",
+        "painting/baofengyu_n_rw_tex",
+        "painting/baofengyu_n",
+        "painting/baofengyu"
+      ]
+    },
+    {
       "name": "？？？？？",
       "painting": "unknown1",
       "ship_group": "900011",
@@ -24402,6 +24463,20 @@
         "painting/jinshi_2_bj_tex",
         "painting/jinshi_2_bj_hx_tex",
         "painting/jinshi_2"
+      ]
+    },
+    {
+      "name": "瓦尔帕莱索",
+      "painting": "waerpalaisuo",
+      "ship_group": "129901",
+      "res_list": [
+        "painting/waerpalaisuo_tex",
+        "painting/waerpalaisuo_rw_tex",
+        "painting/waerpalaisuo_n_tex",
+        "painting/waerpalaisuo_n_rw_tex",
+        "painting/waerpalaisuo_n",
+        "painting/waerpalaisuo_bj_tex",
+        "painting/waerpalaisuo"
       ]
     },
     {

@@ -2042,6 +2042,17 @@
       "4": "painting/baoduoliuhua_3"
     }
   },
+  "baofengyu": {
+    "key": "baofengyu",
+    "res_list": {
+      "0": "painting/baofengyu_tex",
+      "1": "painting/baofengyu_rw_tex",
+      "2": "painting/baofengyu_n_tex",
+      "3": "painting/baofengyu_n_rw_tex",
+      "4": "painting/baofengyu_n",
+      "5": "painting/baofengyu"
+    }
+  },
   "baolei1": {
     "key": "baolei1",
     "res_list": {
@@ -4598,6 +4609,19 @@
       "1": "painting/deleike_2"
     }
   },
+  "dengken": {
+    "key": "dengken",
+    "res_list": {
+      "0": "painting/dengken_tex",
+      "1": "painting/dengken_rw_tex",
+      "2": "painting/dengken_n_tex",
+      "3": "painting/dengken_n_rw_tex",
+      "4": "painting/dengken_n_bj_tex",
+      "5": "painting/dengken_n",
+      "6": "painting/dengken_bj_tex",
+      "7": "painting/dengken"
+    }
+  },
   "devil": {
     "key": "devil",
     "res_list": {
@@ -6123,6 +6147,17 @@
       "4": "painting/gangyishawa_2_n",
       "5": "painting/gangyishawa_2_bj1_tex",
       "6": "painting/gangyishawa_2"
+    }
+  },
+  "gaoliang": {
+    "key": "gaoliang",
+    "res_list": {
+      "0": "painting/gaoliang_tex",
+      "1": "painting/gaoliang_rw_tex",
+      "2": "painting/gaoliang_n_tex",
+      "3": "painting/gaoliang_n_rw_tex",
+      "4": "painting/gaoliang_n",
+      "5": "painting/gaoliang"
     }
   },
   "gaoxiong": {
@@ -12375,6 +12410,24 @@
       "3": "painting/makeboluo_3_n",
       "4": "painting/makeboluo_3_bj_tex",
       "5": "painting/makeboluo_3"
+    }
+  },
+  "makesi": {
+    "key": "makesi",
+    "res_list": {
+      "0": "painting/makesi_tex",
+      "1": "painting/makesi_rw_tex",
+      "2": "painting/makesi_rw_hx_tex",
+      "3": "painting/makesi_n_tex",
+      "4": "painting/makesi_n_rw_tex",
+      "5": "painting/makesi_n_rw_hx_tex",
+      "6": "painting/makesi_n_hx_tex",
+      "7": "painting/makesi_n_hx",
+      "8": "painting/makesi_n",
+      "9": "painting/makesi_hx_tex",
+      "10": "painting/makesi_hx",
+      "11": "painting/makesi_bj_tex",
+      "12": "painting/makesi"
     }
   },
   "malani": {
@@ -18846,6 +18899,18 @@
     "res_list": {
       "0": "painting/vtuber_sora_wjz_tex",
       "1": "painting/vtuber_sora_wjz"
+    }
+  },
+  "waerpalaisuo": {
+    "key": "waerpalaisuo",
+    "res_list": {
+      "0": "painting/waerpalaisuo_tex",
+      "1": "painting/waerpalaisuo_rw_tex",
+      "2": "painting/waerpalaisuo_n_tex",
+      "3": "painting/waerpalaisuo_n_rw_tex",
+      "4": "painting/waerpalaisuo_n",
+      "5": "painting/waerpalaisuo_bj_tex",
+      "6": "painting/waerpalaisuo"
     }
   },
   "wanpi": {
