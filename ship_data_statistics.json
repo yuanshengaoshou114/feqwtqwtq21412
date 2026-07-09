@@ -424690,9 +424690,9 @@
     },
     "fix_equip_list": {},
     "default_equip_list": {
-      "0": 44210,
-      "1": 42250,
-      "2": 46410
+      "0": 24430,
+      "1": 21610,
+      "2": 26370
     },
     "depth_charge_list": {},
     "base_list": {
@@ -424837,7 +424837,7 @@
     },
     "preload_count": {
       "0": 0,
-      "1": 0,
+      "1": 2,
       "2": 0
     },
     "equipment_proficiency": {
@@ -424850,7 +424850,8 @@
       "0": {}
     },
     "tag_list": {
-      "0": "Plan-Class"
+      "0": "Plan-Class",
+      "1": "Takahashi"
     },
     "gift_dislike": {
       "0": 180002,
