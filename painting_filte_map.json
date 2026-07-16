@@ -6,6 +6,39 @@
       "1": "painting/22"
     }
   },
+  "2b": {
+    "key": "2b",
+    "res_list": {
+      "0": "painting/2b_tex",
+      "1": "painting/2b_rw_tex",
+      "2": "painting/2b_rw_hx_tex",
+      "3": "painting/2b_n_tex",
+      "4": "painting/2b_n_rw_tex",
+      "5": "painting/2b_n_rw_hx_tex",
+      "6": "painting/2b_n_hx_tex",
+      "7": "painting/2b_n_hx",
+      "8": "painting/2b_n_bj1_tex",
+      "9": "painting/2b_n_bj1_hx_tex",
+      "10": "painting/2b_n",
+      "11": "painting/2b_hx_tex",
+      "12": "painting/2b_hx",
+      "13": "painting/2b_bj2_tex",
+      "14": "painting/2b_bj2_hx_tex",
+      "15": "painting/2b_bj1_tex",
+      "16": "painting/2b_bj1_hx_tex",
+      "17": "painting/2b"
+    }
+  },
+  "2b_2": {
+    "key": "2b_2",
+    "res_list": {
+      "0": "painting/2b_2_tex",
+      "1": "painting/2b_2_rw_tex",
+      "2": "painting/2b_2_n_rw_tex",
+      "3": "painting/2b_2_n",
+      "4": "painting/2b_2"
+    }
+  },
   "33": {
     "key": "33",
     "res_list": {
@@ -25,6 +58,33 @@
     "res_list": {
       "0": "painting/kenisibao-ui_tex",
       "1": "painting/kenisibao-ui"
+    }
+  },
+  "a2": {
+    "key": "a2",
+    "res_list": {
+      "0": "painting/a2_tex",
+      "1": "painting/a2_rw_tex",
+      "2": "painting/a2_n_tex",
+      "3": "painting/a2_n_rw_tex",
+      "4": "painting/a2_n_bj2_tex",
+      "5": "painting/a2_n_bj1_tex",
+      "6": "painting/a2_n",
+      "7": "painting/a2_bj2_tex",
+      "8": "painting/a2_bj1_tex",
+      "9": "painting/a2"
+    }
+  },
+  "a2_2": {
+    "key": "a2_2",
+    "res_list": {
+      "0": "painting/a2_2_tex",
+      "1": "painting/a2_2_rw_tex",
+      "2": "painting/a2_2_n_tex",
+      "3": "painting/a2_2_n_rw_tex",
+      "4": "painting/a2_2_n",
+      "5": "painting/a2_2_bj_tex",
+      "6": "painting/a2_2"
     }
   },
   "abeikelongbi": {
