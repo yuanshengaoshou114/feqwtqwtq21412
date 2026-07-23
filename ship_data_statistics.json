@@ -90406,6 +90406,522 @@
       "1": 180008
     }
   },
+  "201151": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "格里芬 ",
+    "huntingrange_level": 0,
+    "star": 2,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.5",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 201151,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Griffin",
+    "oxy_cost": 0,
+    "skin_id": 201150,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 279,
+      "1": 16,
+      "2": 70,
+      "3": 32,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 71,
+      "8": 78,
+      "9": 43.2,
+      "10": 46,
+      "11": 53
+    },
+    "attrs_growth": {
+      "0": 7943,
+      "1": 219,
+      "2": 896,
+      "3": 696,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 1093,
+      "8": 1445,
+      "9": 0,
+      "10": 0,
+      "11": 601
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 1.3,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "G-Class",
+      "1": "Griffin"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "201152": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "格里芬 ",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.5",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 201152,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Griffin",
+    "oxy_cost": 0,
+    "skin_id": 201150,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 347,
+      "1": 20,
+      "2": 87,
+      "3": 40,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 71,
+      "8": 78,
+      "9": 43.2,
+      "10": 46,
+      "11": 66
+    },
+    "attrs_growth": {
+      "0": 7943,
+      "1": 219,
+      "2": 896,
+      "3": 696,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 1093,
+      "8": 1445,
+      "9": 0,
+      "10": 0,
+      "11": 601
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.3,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "G-Class",
+      "1": "Griffin"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "201153": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "格里芬 ",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.5",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 201153,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Griffin",
+    "oxy_cost": 0,
+    "skin_id": 201150,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 483,
+      "1": 28,
+      "2": 122,
+      "3": 55,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 71,
+      "8": 78,
+      "9": 43.2,
+      "10": 46,
+      "11": 92
+    },
+    "attrs_growth": {
+      "0": 7943,
+      "1": 219,
+      "2": 896,
+      "3": 696,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 1093,
+      "8": 1445,
+      "9": 0,
+      "10": 0,
+      "11": 601
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.3,
+      "1": 1.3,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "G-Class",
+      "1": "Griffin"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
+  "201154": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "格里芬 ",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.5",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 201154,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Griffin",
+    "oxy_cost": 0,
+    "skin_id": 201150,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 687,
+      "1": 39,
+      "2": 174,
+      "3": 79,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 71,
+      "8": 78,
+      "9": 43.2,
+      "10": 46,
+      "11": 132
+    },
+    "attrs_growth": {
+      "0": 7943,
+      "1": 219,
+      "2": 896,
+      "3": 696,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 1093,
+      "8": 1445,
+      "9": 0,
+      "10": 0,
+      "11": 601
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.35,
+      "1": 1.35,
+      "2": 1.05
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "G-Class",
+      "1": "Griffin"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180007
+    }
+  },
   "201391": {
     "nationality": 2,
     "oxy_max": 0,
@@ -117764,6 +118280,534 @@
       "1": 180009
     }
   },
+  "202371": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "华丽",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 202371,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Superb",
+    "oxy_cost": 0,
+    "skin_id": 202370,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 669,
+      "1": 31,
+      "2": 69,
+      "3": 63,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 59,
+      "8": 29,
+      "9": 32,
+      "10": 60,
+      "11": 36
+    },
+    "attrs_growth": {
+      "0": 17138,
+      "1": 426,
+      "2": 886,
+      "3": 1337,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 869,
+      "8": 672,
+      "9": 0,
+      "10": 0,
+      "11": 427
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 211
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.35,
+      "1": 1.45,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Swiftsure-Class",
+      "1": "Superb"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180009
+    }
+  },
+  "202372": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "华丽",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 202372,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Superb",
+    "oxy_cost": 0,
+    "skin_id": 202370,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 832,
+      "1": 39,
+      "2": 86,
+      "3": 79,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 59,
+      "8": 29,
+      "9": 32,
+      "10": 60,
+      "11": 45
+    },
+    "attrs_growth": {
+      "0": 17138,
+      "1": 426,
+      "2": 886,
+      "3": 1337,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 869,
+      "8": 672,
+      "9": 0,
+      "10": 0,
+      "11": 427
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 212
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.45,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Swiftsure-Class",
+      "1": "Superb"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180009
+    }
+  },
+  "202373": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "华丽",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 202373,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Superb",
+    "oxy_cost": 0,
+    "skin_id": 202370,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1158,
+      "1": 54,
+      "2": 120,
+      "3": 110,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 59,
+      "8": 29,
+      "9": 32,
+      "10": 60,
+      "11": 63
+    },
+    "attrs_growth": {
+      "0": 17138,
+      "1": 426,
+      "2": 886,
+      "3": 1337,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 869,
+      "8": 672,
+      "9": 0,
+      "10": 0,
+      "11": 427
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 213
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.55,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Swiftsure-Class",
+      "1": "Superb"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180009
+    }
+  },
+  "202374": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "华丽",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 202374,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Superb",
+    "oxy_cost": 0,
+    "skin_id": 202370,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1648,
+      "1": 77,
+      "2": 171,
+      "3": 156,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 59,
+      "8": 29,
+      "9": 32,
+      "10": 60,
+      "11": 89
+    },
+    "attrs_growth": {
+      "0": 17138,
+      "1": 426,
+      "2": 886,
+      "3": 1337,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 869,
+      "8": 672,
+      "9": 0,
+      "10": 0,
+      "11": 427
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 214
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.55,
+      "1": 1.55,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Swiftsure-Class",
+      "1": "Superb"
+    },
+    "gift_dislike": {
+      "0": 180007,
+      "1": 180009
+    }
+  },
   "203011": {
     "nationality": 2,
     "oxy_max": 0,
@@ -123750,6 +124794,530 @@
     "gift_dislike": {
       "0": 180002,
       "1": 180003
+    }
+  },
+  "203141": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 3,
+    "name": "萨里",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 203141,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Surrey",
+    "oxy_cost": 0,
+    "skin_id": 203140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 642,
+      "1": 47,
+      "2": 30,
+      "3": 71,
+      "4": 0,
+      "5": 57,
+      "6": 0,
+      "7": 43,
+      "8": 9,
+      "9": 24,
+      "10": 70,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 18292,
+      "1": 643,
+      "2": 417,
+      "3": 1472,
+      "4": 0,
+      "5": 400,
+      "6": 0,
+      "7": 672,
+      "8": 493,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 311
+    },
+    "default_equip_list": {
+      "0": 102,
+      "1": 107,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.1,
+      "2": 1.65,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Surrey-Class",
+      "1": "Surrey"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180004
+    }
+  },
+  "203142": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 3,
+    "name": "萨里",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 203142,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Surrey",
+    "oxy_cost": 0,
+    "skin_id": 203140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 799,
+      "1": 59,
+      "2": 37,
+      "3": 88,
+      "4": 0,
+      "5": 57,
+      "6": 0,
+      "7": 43,
+      "8": 9,
+      "9": 24,
+      "10": 70,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 18292,
+      "1": 643,
+      "2": 417,
+      "3": 1472,
+      "4": 0,
+      "5": 400,
+      "6": 0,
+      "7": 672,
+      "8": 493,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 312
+    },
+    "default_equip_list": {
+      "0": 102,
+      "1": 107,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.45,
+      "1": 1.1,
+      "2": 1.65,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Surrey-Class",
+      "1": "Surrey"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180004
+    }
+  },
+  "203143": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 3,
+    "name": "萨里",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 203143,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Surrey",
+    "oxy_cost": 0,
+    "skin_id": 203140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1112,
+      "1": 82,
+      "2": 52,
+      "3": 123,
+      "4": 0,
+      "5": 57,
+      "6": 0,
+      "7": 43,
+      "8": 9,
+      "9": 24,
+      "10": 70,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 18292,
+      "1": 643,
+      "2": 417,
+      "3": 1472,
+      "4": 0,
+      "5": 400,
+      "6": 0,
+      "7": 672,
+      "8": 493,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 313
+    },
+    "default_equip_list": {
+      "0": 102,
+      "1": 107,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.55,
+      "1": 1.1,
+      "2": 1.65,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Surrey-Class",
+      "1": "Surrey"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180004
+    }
+  },
+  "203144": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 3,
+    "name": "萨里",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 203144,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Surrey",
+    "oxy_cost": 0,
+    "skin_id": 203140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1582,
+      "1": 116,
+      "2": 75,
+      "3": 175,
+      "4": 0,
+      "5": 57,
+      "6": 0,
+      "7": 43,
+      "8": 9,
+      "9": 24,
+      "10": 70,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 18292,
+      "1": 643,
+      "2": 417,
+      "3": 1472,
+      "4": 0,
+      "5": 400,
+      "6": 0,
+      "7": 672,
+      "8": 493,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air",
+      "1": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 314
+    },
+    "default_equip_list": {
+      "0": 102,
+      "1": 107,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.7,
+      "1": 1.1,
+      "2": 1.65,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Surrey-Class",
+      "1": "Surrey"
+    },
+    "gift_dislike": {
+      "0": 180002,
+      "1": 180004
     }
   },
   "204011": {

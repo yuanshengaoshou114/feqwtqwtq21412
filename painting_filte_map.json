@@ -6209,6 +6209,18 @@
       "6": "painting/gangyishawa_2"
     }
   },
+  "gangyishawa_3": {
+    "key": "gangyishawa_3",
+    "res_list": {
+      "0": "painting/gangyishawa_3_tex",
+      "1": "painting/gangyishawa_3_rw_tex",
+      "2": "painting/gangyishawa_3_n_tex",
+      "3": "painting/gangyishawa_3_n_rw_tex",
+      "4": "painting/gangyishawa_3_n",
+      "5": "painting/gangyishawa_3_bj_tex",
+      "6": "painting/gangyishawa_3"
+    }
+  },
   "gaoliang": {
     "key": "gaoliang",
     "res_list": {
@@ -6357,6 +6369,28 @@
     "res_list": {
       "0": "painting/gelideli_2_tex",
       "1": "painting/gelideli_2"
+    }
+  },
+  "gelifen": {
+    "key": "gelifen",
+    "res_list": {
+      "0": "painting/gelifen_tex",
+      "1": "painting/gelifen_rw_tex",
+      "2": "painting/gelifen_n_tex",
+      "3": "painting/gelifen_n_rw_tex",
+      "4": "painting/gelifen_n",
+      "5": "painting/gelifen"
+    }
+  },
+  "gelifen_2": {
+    "key": "gelifen_2",
+    "res_list": {
+      "0": "painting/gelifen_2_tex",
+      "1": "painting/gelifen_2_rw_tex",
+      "2": "painting/gelifen_2_n_tex",
+      "3": "painting/gelifen_2_n_rw_tex",
+      "4": "painting/gelifen_2_n",
+      "5": "painting/gelifen_2"
     }
   },
   "geliqiya": {
@@ -7925,6 +7959,31 @@
       "1": "painting/huajian_2_n_tex",
       "2": "painting/huajian_2_n",
       "3": "painting/huajian_2"
+    }
+  },
+  "huali": {
+    "key": "huali",
+    "res_list": {
+      "0": "painting/huali_tex",
+      "1": "painting/huali_rw_tex",
+      "2": "painting/huali_n_tex",
+      "3": "painting/huali_n_rw_tex",
+      "4": "painting/huali_n",
+      "5": "painting/huali_bj_tex",
+      "6": "painting/huali"
+    }
+  },
+  "huali_2": {
+    "key": "huali_2",
+    "res_list": {
+      "0": "painting/huali_2_tex",
+      "1": "painting/huali_2_rw_tex",
+      "2": "painting/huali_2_n_tex",
+      "3": "painting/huali_2_n_rw_tex",
+      "4": "painting/huali_2_n_bj_tex",
+      "5": "painting/huali_2_n",
+      "6": "painting/huali_2_bj_tex",
+      "7": "painting/huali_2"
     }
   },
   "huan_2_doa": {
@@ -14396,6 +14455,13 @@
       "3": "painting/npcrangbaer_5_n"
     }
   },
+  "npcsali_2": {
+    "key": "npcsali_2",
+    "res_list": {
+      "0": "painting/npcsali_2_tex",
+      "1": "painting/npcsali_2"
+    }
+  },
   "npcshengluyisi_5": {
     "key": "npcshengluyisi_5",
     "res_list": {
@@ -14989,6 +15055,16 @@
       "0": "painting/pulimaosi_2_tex",
       "1": "painting/pulimaosi_2_rw_tex",
       "2": "painting/pulimaosi_2"
+    }
+  },
+  "pulimaosi_3": {
+    "key": "pulimaosi_3",
+    "res_list": {
+      "0": "painting/pulimaosi_3_tex",
+      "1": "painting/pulimaosi_3_rw_tex",
+      "2": "painting/pulimaosi_3_n_rw_tex",
+      "3": "painting/pulimaosi_3_n",
+      "4": "painting/pulimaosi_3"
     }
   },
   "pulinsidun": {
@@ -16155,6 +16231,27 @@
       "3": "painting/salatuojia_h"
     }
   },
+  "sali": {
+    "key": "sali",
+    "res_list": {
+      "0": "painting/sali_tex",
+      "1": "painting/sali_rw_tex",
+      "2": "painting/sali_n_tex",
+      "3": "painting/sali_n_rw_tex",
+      "4": "painting/sali_n",
+      "5": "painting/sali"
+    }
+  },
+  "sali_2": {
+    "key": "sali_2",
+    "res_list": {
+      "0": "painting/sali_2_tex",
+      "1": "painting/sali_2_rw_tex",
+      "2": "painting/sali_2_n_rw_tex",
+      "3": "painting/sali_2_n",
+      "4": "painting/sali_2"
+    }
+  },
   "sanli": {
     "key": "sanli",
     "res_list": {
@@ -16784,12 +16881,13 @@
     "key": "shenxue_4",
     "res_list": {
       "0": "painting/shenxue_4_tex",
-      "1": "painting/shenxue_4_rw_tex",
-      "2": "painting/shenxue_4_n_rw_tex",
-      "3": "painting/shenxue_4_n_bj_tex",
-      "4": "painting/shenxue_4_n",
-      "5": "painting/shenxue_4_bj_tex",
-      "6": "painting/shenxue_4"
+      "1": "painting/shenxue_4_shophx_tex",
+      "2": "painting/shenxue_4_rw_tex",
+      "3": "painting/shenxue_4_n_rw_tex",
+      "4": "painting/shenxue_4_n_bj_tex",
+      "5": "painting/shenxue_4_n",
+      "6": "painting/shenxue_4_bj_tex",
+      "7": "painting/shenxue_4"
     }
   },
   "sheshuiyu": {
@@ -22321,6 +22419,16 @@
       "2": "painting/z11_2_n_tex",
       "3": "painting/z11_2_n",
       "4": "painting/z11_2"
+    }
+  },
+  "z11_3": {
+    "key": "z11_3",
+    "res_list": {
+      "0": "painting/z11_3_tex",
+      "1": "painting/z11_3_rw_tex",
+      "2": "painting/z11_3_n_rw_tex",
+      "3": "painting/z11_3_n",
+      "4": "painting/z11_3"
     }
   },
   "z13": {

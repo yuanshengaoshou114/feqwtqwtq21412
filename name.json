@@ -5254,6 +5254,32 @@
       ]
     },
     {
+      "name": "格里芬",
+      "painting": "gelifen",
+      "ship_group": "20115",
+      "res_list": [
+        "painting/gelifen_tex",
+        "painting/gelifen_rw_tex",
+        "painting/gelifen_n_tex",
+        "painting/gelifen_n_rw_tex",
+        "painting/gelifen_n",
+        "painting/gelifen"
+      ]
+    },
+    {
+      "name": "紧张的放松疗愈",
+      "painting": "gelifen_2",
+      "ship_group": "20115",
+      "res_list": [
+        "painting/gelifen_2_tex",
+        "painting/gelifen_2_rw_tex",
+        "painting/gelifen_2_n_tex",
+        "painting/gelifen_2_n_rw_tex",
+        "painting/gelifen_2_n",
+        "painting/gelifen_2"
+      ]
+    },
+    {
       "name": "勇敢",
       "painting": "yonggan",
       "ship_group": "20116",
@@ -6897,6 +6923,35 @@
       ]
     },
     {
+      "name": "华丽",
+      "painting": "huali",
+      "ship_group": "20237",
+      "res_list": [
+        "painting/huali_tex",
+        "painting/huali_rw_tex",
+        "painting/huali_n_tex",
+        "painting/huali_n_rw_tex",
+        "painting/huali_n",
+        "painting/huali_bj_tex",
+        "painting/huali"
+      ]
+    },
+    {
+      "name": "唇齿之间",
+      "painting": "huali_2",
+      "ship_group": "20237",
+      "res_list": [
+        "painting/huali_2_tex",
+        "painting/huali_2_rw_tex",
+        "painting/huali_2_n_tex",
+        "painting/huali_2_n_rw_tex",
+        "painting/huali_2_n_bj_tex",
+        "painting/huali_2_n",
+        "painting/huali_2_bj_tex",
+        "painting/huali_2"
+      ]
+    },
+    {
       "name": "伦敦",
       "painting": "lundun",
       "ship_group": "20301",
@@ -7142,6 +7197,31 @@
         "painting/dewenjun_2_tex",
         "painting/dewenjun_2_shophx_tex",
         "painting/dewenjun_2"
+      ]
+    },
+    {
+      "name": "萨里",
+      "painting": "sali",
+      "ship_group": "20314",
+      "res_list": [
+        "painting/sali_tex",
+        "painting/sali_rw_tex",
+        "painting/sali_n_tex",
+        "painting/sali_n_rw_tex",
+        "painting/sali_n",
+        "painting/sali"
+      ]
+    },
+    {
+      "name": "失序的迷糊时刻",
+      "painting": "sali_2",
+      "ship_group": "20314",
+      "res_list": [
+        "painting/sali_2_tex",
+        "painting/sali_2_rw_tex",
+        "painting/sali_2_n_rw_tex",
+        "painting/sali_2_n",
+        "painting/sali_2"
       ]
     },
     {
@@ -8872,6 +8952,18 @@
       ]
     },
     {
+      "name": "纯白天使的全身检查",
+      "painting": "pulimaosi_3",
+      "ship_group": "29905",
+      "res_list": [
+        "painting/pulimaosi_3_tex",
+        "painting/pulimaosi_3_rw_tex",
+        "painting/pulimaosi_3_n_rw_tex",
+        "painting/pulimaosi_3_n",
+        "painting/pulimaosi_3"
+      ]
+    },
+    {
       "name": "邓肯",
       "painting": "dengken",
       "ship_group": "29906",
@@ -9013,6 +9105,7 @@
       "ship_group": "30104",
       "res_list": [
         "painting/shenxue_4_tex",
+        "painting/shenxue_4_shophx_tex",
         "painting/shenxue_4_rw_tex",
         "painting/shenxue_4_n_rw_tex",
         "painting/shenxue_4_n_bj_tex",
@@ -14607,6 +14700,18 @@
         "painting/z11_2_n_tex",
         "painting/z11_2_n",
         "painting/z11_2"
+      ]
+    },
+    {
+      "name": "鼓起勇气的诊断时间",
+      "painting": "z11_3",
+      "ship_group": "40111",
+      "res_list": [
+        "painting/z11_3_tex",
+        "painting/z11_3_rw_tex",
+        "painting/z11_3_n_rw_tex",
+        "painting/z11_3_n",
+        "painting/z11_3"
       ]
     },
     {
@@ -24664,6 +24769,20 @@
         "painting/gangyishawa_2_n",
         "painting/gangyishawa_2_bj1_tex",
         "painting/gangyishawa_2"
+      ]
+    },
+    {
+      "name": "真我的显影",
+      "painting": "gangyishawa_3",
+      "ship_group": "960007",
+      "res_list": [
+        "painting/gangyishawa_3_tex",
+        "painting/gangyishawa_3_rw_tex",
+        "painting/gangyishawa_3_n_tex",
+        "painting/gangyishawa_3_n_rw_tex",
+        "painting/gangyishawa_3_n",
+        "painting/gangyishawa_3_bj_tex",
+        "painting/gangyishawa_3"
       ]
     },
     {
