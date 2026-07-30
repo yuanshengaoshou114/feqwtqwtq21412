@@ -9435,6 +9435,24 @@
     "combination_display": [],
     "limit": []
   },
+  "21063": {
+    "name": "结晶：{namecode:567}",
+    "icon": "Props/21063",
+    "display": "{namecode:567}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+    "usage": "usage_undefined",
+    "open_directly": 0,
+    "order": 0,
+    "max_num": 0,
+    "virtual_type": 0,
+    "compose_number": 0,
+    "target_id": 0,
+    "display_icon": [],
+    "price": [],
+    "index": [],
+    "shiptrans_id": [],
+    "combination_display": [],
+    "limit": []
+  },
   "21101": {
     "name": "结晶化热强钢",
     "icon": "Props/21101",
@@ -12523,6 +12541,23 @@
     "limit": []
   },
   "30435": {
+    "name": "外观装备箱(世界巡游)",
+    "icon": "Props/appearanceboxshijiexunyou",
+    "display": "可以随机获得一件本次世界巡游限定外观装备",
+    "usage": "usage_drop",
+    "open_directly": 1,
+    "order": 0,
+    "max_num": 0,
+    "virtual_type": 0,
+    "compose_number": 0,
+    "target_id": 0,
+    "price": [],
+    "index": [],
+    "shiptrans_id": [],
+    "combination_display": [],
+    "limit": []
+  },
+  "30436": {
     "name": "外观装备箱(世界巡游)",
     "icon": "Props/appearanceboxshijiexunyou",
     "display": "可以随机获得一件本次世界巡游限定外观装备",
