@@ -42611,6 +42611,24 @@
     "combination_display": [],
     "limit": []
   },
+  "59859": {
+    "name": "必要的准备（纪念版）",
+    "icon": "Props/59859",
+    "display": "参与活动「律动储物间」的纪念品",
+    "usage": "usage_undefined",
+    "open_directly": 0,
+    "order": 0,
+    "max_num": 0,
+    "virtual_type": 0,
+    "compose_number": 0,
+    "target_id": 0,
+    "display_icon": [],
+    "price": [],
+    "index": [],
+    "shiptrans_id": [],
+    "combination_display": [],
+    "limit": []
+  },
   "59900": {
     "name": "核心数据",
     "icon": "Props/shuju",
