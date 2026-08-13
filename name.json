@@ -1267,6 +1267,81 @@
       ]
     },
     {
+      "name": "柯莱特",
+      "painting": "kelaite",
+      "ship_group": "10156",
+      "res_list": [
+        "painting/kelaite_tex",
+        "painting/kelaite_rw_tex",
+        "painting/kelaite_bj_tex",
+        "painting/kelaite"
+      ]
+    },
+    {
+      "name": "飞高高的“自动”洗车法",
+      "painting": "kelaite_2",
+      "ship_group": "10156",
+      "res_list": [
+        "painting/kelaite_2_tex",
+        "painting/kelaite_2_rw_tex",
+        "painting/kelaite_2_n_tex",
+        "painting/kelaite_2_n_rw_tex",
+        "painting/kelaite_2_n",
+        "painting/kelaite_2"
+      ]
+    },
+    {
+      "name": "哈里森",
+      "painting": "halisen",
+      "ship_group": "10157",
+      "res_list": [
+        "painting/halisen_tex",
+        "painting/halisen_rw_tex",
+        "painting/halisen"
+      ]
+    },
+    {
+      "name": "提前开始的追逐赛？",
+      "painting": "halisen_2",
+      "ship_group": "10157",
+      "res_list": [
+        "painting/halisen_2_tex",
+        "painting/halisen_2_rw_tex",
+        "painting/halisen_2_n_rw_tex",
+        "painting/halisen_2_n_bj_tex",
+        "painting/halisen_2_n",
+        "painting/halisen_2_bj_tex",
+        "painting/halisen_2"
+      ]
+    },
+    {
+      "name": "约翰·罗杰斯",
+      "painting": "yuehanluojiesi",
+      "ship_group": "10158",
+      "res_list": [
+        "painting/yuehanluojiesi_tex",
+        "painting/yuehanluojiesi_rw_tex",
+        "painting/yuehanluojiesi"
+      ]
+    },
+    {
+      "name": "赛车女郎休憩中",
+      "painting": "yuehanluojiesi_2",
+      "ship_group": "10158",
+      "res_list": [
+        "painting/yuehanluojiesi_2_tex",
+        "painting/yuehanluojiesi_2_rw_tex",
+        "painting/yuehanluojiesi_2_rw_hx_tex",
+        "painting/yuehanluojiesi_2_n_rw_tex",
+        "painting/yuehanluojiesi_2_n_rw_hx_tex",
+        "painting/yuehanluojiesi_2_n_hx",
+        "painting/yuehanluojiesi_2_n",
+        "painting/yuehanluojiesi_2_hx_tex",
+        "painting/yuehanluojiesi_2_hx",
+        "painting/yuehanluojiesi_2"
+      ]
+    },
+    {
       "name": "奥马哈",
       "painting": "aomaha",
       "ship_group": "10201",
@@ -2237,6 +2312,33 @@
         "painting/pasadina_2_n_rw_tex",
         "painting/pasadina_2_n",
         "painting/pasadina_2"
+      ]
+    },
+    {
+      "name": "维克斯堡",
+      "painting": "weikesibao",
+      "ship_group": "10236",
+      "res_list": [
+        "painting/weikesibao_tex",
+        "painting/weikesibao_rw_tex",
+        "painting/weikesibao_n_tex",
+        "painting/weikesibao_n_rw_tex",
+        "painting/weikesibao_n",
+        "painting/weikesibao_bj_tex",
+        "painting/weikesibao"
+      ]
+    },
+    {
+      "name": "闪亮的赛车偶像",
+      "painting": "weikesibao_2",
+      "ship_group": "10236",
+      "res_list": [
+        "painting/weikesibao_2_tex",
+        "painting/weikesibao_2_rw_tex",
+        "painting/weikesibao_2_n_rw_tex",
+        "painting/weikesibao_2_n",
+        "painting/weikesibao_2_bj_tex",
+        "painting/weikesibao_2"
       ]
     },
     {
@@ -4094,6 +4196,33 @@
       ]
     },
     {
+      "name": "本宁顿",
+      "painting": "benningdun",
+      "ship_group": "10720",
+      "res_list": [
+        "painting/benningdun_tex",
+        "painting/benningdun_rw_tex",
+        "painting/benningdun_n_tex",
+        "painting/benningdun_n_rw_tex",
+        "painting/benningdun_n",
+        "painting/benningdun_bj_tex",
+        "painting/benningdun"
+      ]
+    },
+    {
+      "name": "全速！盛夏逐光企划",
+      "painting": "benningdun_2",
+      "ship_group": "10720",
+      "res_list": [
+        "painting/benningdun_2_tex",
+        "painting/benningdun_2_rw_tex",
+        "painting/benningdun_2_n_tex",
+        "painting/benningdun_2_n_rw_tex",
+        "painting/benningdun_2_n",
+        "painting/benningdun_2"
+      ]
+    },
+    {
       "name": "独立",
       "painting": "duli",
       "ship_group": "10722",
@@ -4708,6 +4837,23 @@
       ]
     },
     {
+      "name": "泳池里的默契训练",
+      "painting": "aisaikesi_10",
+      "ship_group": "10709",
+      "res_list": [
+        "painting/aisaikesi_10_tex",
+        "painting/aisaikesi_10_rw_tex",
+        "painting/aisaikesi_10_rw_hx_tex",
+        "painting/aisaikesi_10_n_rw_tex",
+        "painting/aisaikesi_10_n_rw_hx_tex",
+        "painting/aisaikesi_10_n_hx",
+        "painting/aisaikesi_10_n",
+        "painting/aisaikesi_10_hx_tex",
+        "painting/aisaikesi_10_hx",
+        "painting/aisaikesi_10"
+      ]
+    },
+    {
       "name": "西雅图",
       "painting": "xiyatu",
       "ship_group": "19901",
@@ -4884,6 +5030,17 @@
         "painting/qiershazhi_3_n_tex",
         "painting/qiershazhi_3_n",
         "painting/qiershazhi_3"
+      ]
+    },
+    {
+      "name": "Vow mode（誓言模式）",
+      "painting": "qiershazhi_h",
+      "ship_group": "19904",
+      "res_list": [
+        "painting/qiershazhi_h_tex",
+        "painting/qiershazhi_h_rw_tex",
+        "painting/qiershazhi_h_bj_tex",
+        "painting/qiershazhi_h"
       ]
     },
     {
@@ -6217,6 +6374,19 @@
       "res_list": [
         "painting/beierfasite_h_tex",
         "painting/beierfasite_h"
+      ]
+    },
+    {
+      "name": "贝尔法斯特·改",
+      "painting": "beierfasite_g",
+      "ship_group": "20212",
+      "res_list": [
+        "painting/beierfasite_g_tex",
+        "painting/beierfasite_g_rw_tex",
+        "painting/beierfasite_g_n_tex",
+        "painting/beierfasite_g_n_rw_tex",
+        "painting/beierfasite_g_n",
+        "painting/beierfasite_g"
       ]
     },
     {
@@ -8586,6 +8756,18 @@
         "painting/bunao_2_n_tex",
         "painting/bunao_2_n",
         "painting/bunao_2"
+      ]
+    },
+    {
+      "name": "慵懒的领航员小姐",
+      "painting": "bunao_3",
+      "ship_group": "20712",
+      "res_list": [
+        "painting/bunao_3_tex",
+        "painting/bunao_3_rw_tex",
+        "painting/bunao_3_n_rw_tex",
+        "painting/bunao_3_n",
+        "painting/bunao_3"
       ]
     },
     {
@@ -12829,6 +13011,18 @@
       ]
     },
     {
+      "name": "只为你献上的应援",
+      "painting": "wuzang_4",
+      "ship_group": "30510",
+      "res_list": [
+        "painting/wuzang_4_tex",
+        "painting/wuzang_4_rw_tex",
+        "painting/wuzang_4_n_rw_tex",
+        "painting/wuzang_4_n",
+        "painting/wuzang_4"
+      ]
+    },
+    {
       "name": "紫藤花的无瑕心意",
       "painting": "wuzang_h",
       "ship_group": "30510",
@@ -16934,6 +17128,19 @@
         "painting/fulici_2_n_tex",
         "painting/fulici_2_n",
         "painting/fulici_2"
+      ]
+    },
+    {
+      "name": "暮色邀约",
+      "painting": "fulici_3",
+      "ship_group": "40704",
+      "res_list": [
+        "painting/fulici_3_tex",
+        "painting/fulici_3_rw_tex",
+        "painting/fulici_3_n_tex",
+        "painting/fulici_3_n_rw_tex",
+        "painting/fulici_3_n",
+        "painting/fulici_3"
       ]
     },
     {
@@ -23745,6 +23952,46 @@
         "painting/emperor_n",
         "painting/emperor_bj_tex",
         "painting/emperor"
+      ]
+    },
+    {
+      "name": "灵敏·META",
+      "painting": "npclingmin_alter",
+      "ship_group": "900549",
+      "res_list": [
+        "painting/npclingmin_alter_tex",
+        "painting/npclingmin_alter_rw_tex",
+        "painting/npclingmin_alter_bj_tex",
+        "painting/npclingmin_alter"
+      ]
+    },
+    {
+      "name": "萨拉托加·META",
+      "painting": "npcsalatuojia_alter",
+      "ship_group": "900550",
+      "res_list": [
+        "painting/npcsalatuojia_alter_tex",
+        "painting/npcsalatuojia_alter_rw_tex",
+        "painting/npcsalatuojia_alter_bj_tex",
+        "painting/npcsalatuojia_alter"
+      ]
+    },
+    {
+      "name": "Error十三世",
+      "painting": "Error13",
+      "ship_group": "900551",
+      "res_list": [
+        "painting/error13_tex",
+        "painting/error13"
+      ]
+    },
+    {
+      "name": "本宁顿 ",
+      "painting": "npcbenningdun_2",
+      "ship_group": "900555",
+      "res_list": [
+        "painting/npcbenningdun_2_tex",
+        "painting/npcbenningdun_2"
       ]
     },
     {

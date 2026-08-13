@@ -23451,6 +23451,1546 @@
       "1": 180006
     }
   },
+  "101561": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "柯莱特",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 101561,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Collett",
+    "oxy_cost": 0,
+    "skin_id": 101560,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 387,
+      "1": 27,
+      "2": 70,
+      "3": 45,
+      "4": 0,
+      "5": 84,
+      "6": 0,
+      "7": 76,
+      "8": 59,
+      "9": 40.8,
+      "10": 85,
+      "11": 55
+    },
+    "attrs_growth": {
+      "0": 11021,
+      "1": 370,
+      "2": 894,
+      "3": 978,
+      "4": 0,
+      "5": 585,
+      "6": 0,
+      "7": 1175,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 614
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.25,
+      "2": 1.5
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Allen M. Sumner-class",
+      "1": "Collett"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180008
+    }
+  },
+  "101562": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "柯莱特",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 101562,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Collett",
+    "oxy_cost": 0,
+    "skin_id": 101560,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 481,
+      "1": 34,
+      "2": 87,
+      "3": 56,
+      "4": 0,
+      "5": 84,
+      "6": 0,
+      "7": 76,
+      "8": 59,
+      "9": 40.8,
+      "10": 85,
+      "11": 69
+    },
+    "attrs_growth": {
+      "0": 11021,
+      "1": 370,
+      "2": 894,
+      "3": 978,
+      "4": 0,
+      "5": 585,
+      "6": 0,
+      "7": 1175,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 614
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.27,
+      "1": 1.27,
+      "2": 1.52
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Allen M. Sumner-class",
+      "1": "Collett"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180008
+    }
+  },
+  "101563": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "柯莱特",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 101563,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Collett",
+    "oxy_cost": 0,
+    "skin_id": 101560,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 670,
+      "1": 47,
+      "2": 122,
+      "3": 78,
+      "4": 0,
+      "5": 84,
+      "6": 0,
+      "7": 76,
+      "8": 59,
+      "9": 40.8,
+      "10": 85,
+      "11": 96
+    },
+    "attrs_growth": {
+      "0": 11021,
+      "1": 370,
+      "2": 894,
+      "3": 978,
+      "4": 0,
+      "5": 585,
+      "6": 0,
+      "7": 1175,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 614
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.3,
+      "1": 1.3,
+      "2": 1.55
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Allen M. Sumner-class",
+      "1": "Collett"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180008
+    }
+  },
+  "101564": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "柯莱特",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 101564,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Collett",
+    "oxy_cost": 0,
+    "skin_id": 101560,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 953,
+      "1": 67,
+      "2": 174,
+      "3": 111,
+      "4": 0,
+      "5": 84,
+      "6": 0,
+      "7": 76,
+      "8": 59,
+      "9": 40.8,
+      "10": 85,
+      "11": 136
+    },
+    "attrs_growth": {
+      "0": 11021,
+      "1": 370,
+      "2": 894,
+      "3": 978,
+      "4": 0,
+      "5": 585,
+      "6": 0,
+      "7": 1175,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 614
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.35,
+      "1": 1.35,
+      "2": 1.6
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Allen M. Sumner-class",
+      "1": "Collett"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180008
+    }
+  },
+  "101571": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "哈里森",
+    "huntingrange_level": 0,
+    "star": 2,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101571,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Harrison",
+    "oxy_cost": 0,
+    "skin_id": 101570,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 343,
+      "1": 18,
+      "2": 70,
+      "3": 43,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 75,
+      "11": 56
+    },
+    "attrs_growth": {
+      "0": 9771,
+      "1": 249,
+      "2": 894,
+      "3": 941,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 626
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 1.2,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180004
+    }
+  },
+  "101572": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "哈里森",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101572,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Harrison",
+    "oxy_cost": 0,
+    "skin_id": 101570,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 427,
+      "1": 22,
+      "2": 87,
+      "3": 54,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 75,
+      "11": 70
+    },
+    "attrs_growth": {
+      "0": 9771,
+      "1": 249,
+      "2": 894,
+      "3": 941,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 626
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.17,
+      "1": 1.22,
+      "2": 1.22
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180004
+    }
+  },
+  "101573": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "哈里森",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101573,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Harrison",
+    "oxy_cost": 0,
+    "skin_id": 101570,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 594,
+      "1": 31,
+      "2": 122,
+      "3": 75,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 75,
+      "11": 97
+    },
+    "attrs_growth": {
+      "0": 9771,
+      "1": 249,
+      "2": 894,
+      "3": 941,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 626
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.25,
+      "2": 1.25
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180004
+    }
+  },
+  "101574": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "哈里森",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101574,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Harrison",
+    "oxy_cost": 0,
+    "skin_id": 101570,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 845,
+      "1": 45,
+      "2": 174,
+      "3": 106,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 75,
+      "11": 139
+    },
+    "attrs_growth": {
+      "0": 9771,
+      "1": 249,
+      "2": 894,
+      "3": 941,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 626
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.3,
+      "2": 1.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180004
+    }
+  },
+  "101581": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "约翰·罗杰斯",
+    "huntingrange_level": 0,
+    "star": 2,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101581,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS John Rodgers",
+    "oxy_cost": 0,
+    "skin_id": 101580,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 361,
+      "1": 19,
+      "2": 69,
+      "3": 45,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 86,
+      "11": 56
+    },
+    "attrs_growth": {
+      "0": 10295,
+      "1": 258,
+      "2": 886,
+      "3": 990,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 629
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 1.2,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180004
+    }
+  },
+  "101582": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "约翰·罗杰斯",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101582,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS John Rodgers",
+    "oxy_cost": 0,
+    "skin_id": 101580,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 449,
+      "1": 24,
+      "2": 86,
+      "3": 56,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 86,
+      "11": 70
+    },
+    "attrs_growth": {
+      "0": 10295,
+      "1": 258,
+      "2": 886,
+      "3": 990,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 629
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.17,
+      "1": 1.22,
+      "2": 1.22
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180004
+    }
+  },
+  "101583": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "约翰·罗杰斯",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101583,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS John Rodgers",
+    "oxy_cost": 0,
+    "skin_id": 101580,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 625,
+      "1": 33,
+      "2": 120,
+      "3": 78,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 86,
+      "11": 98
+    },
+    "attrs_growth": {
+      "0": 10295,
+      "1": 258,
+      "2": 886,
+      "3": 990,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 629
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.25,
+      "2": 1.25
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180004
+    }
+  },
+  "101584": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "约翰·罗杰斯",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.2",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 101584,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS John Rodgers",
+    "oxy_cost": 0,
+    "skin_id": 101580,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 890,
+      "1": 47,
+      "2": 171,
+      "3": 112,
+      "4": 0,
+      "5": 81,
+      "6": 0,
+      "7": 73,
+      "8": 59,
+      "9": 42,
+      "10": 86,
+      "11": 139
+    },
+    "attrs_growth": {
+      "0": 10295,
+      "1": 258,
+      "2": 886,
+      "3": 990,
+      "4": 0,
+      "5": 562,
+      "6": 0,
+      "7": 1125,
+      "8": 1095,
+      "9": 0,
+      "10": 0,
+      "11": 629
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 108,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.3,
+      "2": 1.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Fletcher-Class"
+    },
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180004
+    }
+  },
   "101994": {
     "nationality": 1,
     "oxy_max": 0,
@@ -40655,6 +42195,522 @@
     "gift_dislike": {
       "0": 180006,
       "1": 180002
+    }
+  },
+  "102361": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "维克斯堡",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.45",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 102361,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Vicksburg",
+    "oxy_cost": 0,
+    "skin_id": 102360,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 751,
+      "1": 31,
+      "2": 0,
+      "3": 88,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 56,
+      "8": 28,
+      "9": 32.5,
+      "10": 72,
+      "11": 25
+    },
+    "attrs_growth": {
+      "0": 18618,
+      "1": 431,
+      "2": 0,
+      "3": 1771,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 828,
+      "8": 562,
+      "9": 0,
+      "10": 0,
+      "11": 305
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1,
+      "1": 0.75,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Cleveland-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180006
+    }
+  },
+  "102362": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "维克斯堡",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.45",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 102362,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Vicksburg",
+    "oxy_cost": 0,
+    "skin_id": 102360,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 934,
+      "1": 39,
+      "2": 0,
+      "3": 110,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 56,
+      "8": 28,
+      "9": 32.5,
+      "10": 72,
+      "11": 31
+    },
+    "attrs_growth": {
+      "0": 18618,
+      "1": 431,
+      "2": 0,
+      "3": 1771,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 828,
+      "8": 562,
+      "9": 0,
+      "10": 0,
+      "11": 305
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.05,
+      "1": 0.75,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Cleveland-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180006
+    }
+  },
+  "102363": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "维克斯堡",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.45",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 102363,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Vicksburg",
+    "oxy_cost": 0,
+    "skin_id": 102360,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1300,
+      "1": 54,
+      "2": 0,
+      "3": 153,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 56,
+      "8": 28,
+      "9": 32.5,
+      "10": 72,
+      "11": 43
+    },
+    "attrs_growth": {
+      "0": 18618,
+      "1": 431,
+      "2": 0,
+      "3": 1771,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 828,
+      "8": 562,
+      "9": 0,
+      "10": 0,
+      "11": 305
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 0.75,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Cleveland-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180006
+    }
+  },
+  "102364": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "维克斯堡",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.45",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 102364,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Vicksburg",
+    "oxy_cost": 0,
+    "skin_id": 102360,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1850,
+      "1": 77,
+      "2": 0,
+      "3": 217,
+      "4": 0,
+      "5": 71,
+      "6": 0,
+      "7": 56,
+      "8": 28,
+      "9": 32.5,
+      "10": 72,
+      "11": 62
+    },
+    "attrs_growth": {
+      "0": 18618,
+      "1": 431,
+      "2": 0,
+      "3": 1771,
+      "4": 0,
+      "5": 492,
+      "6": 0,
+      "7": 828,
+      "8": 562,
+      "9": 0,
+      "10": 0,
+      "11": 305
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 101,
+      "1": 100,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.3,
+      "1": 0.75,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Cleveland-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180006
     }
   },
   "103011": {
@@ -70318,6 +72374,522 @@
     "gift_dislike": {
       "0": 180007,
       "1": 180008
+    }
+  },
+  "107201": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "本宁顿",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 107201,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Bennington",
+    "oxy_cost": 0,
+    "skin_id": 107200,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1106,
+      "1": 0,
+      "2": 0,
+      "3": 63,
+      "4": 83,
+      "5": 48,
+      "6": 0,
+      "7": 30,
+      "8": 13,
+      "9": 33,
+      "10": 85,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29701,
+      "1": 0,
+      "2": 0,
+      "3": 1329,
+      "4": 1022,
+      "5": 333,
+      "6": 0,
+      "7": 437,
+      "8": 175,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.15,
+      "2": 1.05
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Essex-Class",
+      "1": "Essex-Class-No-Yorktown"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "107202": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "本宁顿",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 107202,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Bennington",
+    "oxy_cost": 0,
+    "skin_id": 107200,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1376,
+      "1": 0,
+      "2": 0,
+      "3": 78,
+      "4": 104,
+      "5": 48,
+      "6": 0,
+      "7": 30,
+      "8": 13,
+      "9": 33,
+      "10": 85,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29701,
+      "1": 0,
+      "2": 0,
+      "3": 1329,
+      "4": 1022,
+      "5": 333,
+      "6": 0,
+      "7": 437,
+      "8": 175,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.28,
+      "1": 1.18,
+      "2": 1.08
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Essex-Class",
+      "1": "Essex-Class-No-Yorktown"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "107203": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "本宁顿",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 107203,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Bennington",
+    "oxy_cost": 0,
+    "skin_id": 107200,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1915,
+      "1": 0,
+      "2": 0,
+      "3": 109,
+      "4": 145,
+      "5": 48,
+      "6": 0,
+      "7": 30,
+      "8": 13,
+      "9": 33,
+      "10": 85,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29701,
+      "1": 0,
+      "2": 0,
+      "3": 1329,
+      "4": 1022,
+      "5": 333,
+      "6": 0,
+      "7": 437,
+      "8": 175,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.33,
+      "1": 1.23,
+      "2": 1.13
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Essex-Class",
+      "1": "Essex-Class-No-Yorktown"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "107204": {
+    "nationality": 1,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "本宁顿",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 107204,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Bennington",
+    "oxy_cost": 0,
+    "skin_id": 107200,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 2725,
+      "1": 0,
+      "2": 0,
+      "3": 155,
+      "4": 207,
+      "5": 48,
+      "6": 0,
+      "7": 30,
+      "8": 13,
+      "9": 33,
+      "10": 85,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29701,
+      "1": 0,
+      "2": 0,
+      "3": 1329,
+      "4": 1022,
+      "5": 333,
+      "6": 0,
+      "7": 437,
+      "8": 175,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 3,
+      "1": 3,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.3,
+      "2": 1.2
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Essex-Class",
+      "1": "Essex-Class-No-Yorktown"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
     }
   },
   "107221": {
@@ -118811,6 +121383,137 @@
     "gift_dislike": {
       "0": 180007,
       "1": 180009
+    }
+  },
+  "202994": {
+    "nationality": 2,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "贝尔法斯特.改",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 202994,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "HMS Belfast",
+    "oxy_cost": 0,
+    "skin_id": 202120,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1689,
+      "1": 82,
+      "2": 159,
+      "3": 136,
+      "4": 0,
+      "5": 67,
+      "6": 0,
+      "7": 55,
+      "8": 28,
+      "9": 32,
+      "10": 88,
+      "11": 87
+    },
+    "attrs_growth": {
+      "0": 17283,
+      "1": 457,
+      "2": 834,
+      "3": 1183,
+      "4": 0,
+      "5": 467,
+      "6": 0,
+      "7": 810,
+      "8": 641,
+      "9": 0,
+      "10": 0,
+      "11": 418
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 214
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 2,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.05,
+      "1": 1.55,
+      "2": 1.2,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Town-Class"
+    },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180005
     }
   },
   "203011": {
@@ -404061,6 +406764,132 @@
       "1": 180002
     }
   },
+  "900406": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "埃塞克斯·META",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 900406,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Essex.META",
+    "oxy_cost": 0,
+    "skin_id": 900550,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 2566,
+      "1": 0,
+      "2": 0,
+      "3": 154,
+      "4": 207,
+      "5": 49,
+      "6": 0,
+      "7": 37,
+      "8": 19,
+      "9": 32.5,
+      "10": 93,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 27540,
+      "1": 0,
+      "2": 0,
+      "3": 1322,
+      "4": 972,
+      "5": 338,
+      "6": 0,
+      "7": 540,
+      "8": 336,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 17453,
+      "1": 19313,
+      "2": 18233
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 3,
+      "1": 3,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.25,
+      "2": 1.25
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {},
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180005
+    }
+  },
   "900409": {
     "nationality": 98,
     "oxy_max": 0,
@@ -419511,6 +422340,258 @@
       "0": "Richelieu-Class",
       "1": "PRE"
     },
+    "gift_dislike": {
+      "0": 180009,
+      "1": 180005
+    }
+  },
+  "900549": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "灵敏.META",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 900549,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 900549,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 619,
+      "1": 37,
+      "2": 162,
+      "3": 87,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 71,
+      "8": 71,
+      "9": 43.2,
+      "10": 28,
+      "11": 114
+    },
+    "attrs_growth": {
+      "0": 7159,
+      "1": 207,
+      "2": 847,
+      "3": 768,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 1093,
+      "8": 1329,
+      "9": 0,
+      "10": 0,
+      "11": 532
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 22293,
+      "1": 45253,
+      "2": 85231
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.35,
+      "1": 1.25,
+      "2": 0.75
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {},
+    "gift_dislike": {
+      "0": 180006,
+      "1": 180009
+    }
+  },
+  "900550": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "萨拉托加·META",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 900550,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "USS Saratoga.META",
+    "oxy_cost": 0,
+    "skin_id": 900550,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 2566,
+      "1": 0,
+      "2": 0,
+      "3": 154,
+      "4": 207,
+      "5": 49,
+      "6": 0,
+      "7": 37,
+      "8": 19,
+      "9": 32.5,
+      "10": 93,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 27540,
+      "1": 0,
+      "2": 0,
+      "3": 1322,
+      "4": 972,
+      "5": 338,
+      "6": 0,
+      "7": 540,
+      "8": 336,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 17453,
+      "1": 19313,
+      "2": 18233
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 3,
+      "1": 3,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.25,
+      "2": 1.25
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {},
     "gift_dislike": {
       "0": 180009,
       "1": 180005
