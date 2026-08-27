@@ -9810,6 +9810,32 @@
       ]
     },
     {
+      "name": "天津风",
+      "painting": "tianjinfeng",
+      "ship_group": "30119",
+      "res_list": [
+        "painting/tianjinfeng_tex",
+        "painting/tianjinfeng_rw_tex",
+        "painting/tianjinfeng_n_tex",
+        "painting/tianjinfeng_n_rw_tex",
+        "painting/tianjinfeng_n",
+        "painting/tianjinfeng_bj_tex",
+        "painting/tianjinfeng"
+      ]
+    },
+    {
+      "name": "狐仙大人驾到",
+      "painting": "tianjinfeng_2",
+      "ship_group": "30119",
+      "res_list": [
+        "painting/tianjinfeng_2_tex",
+        "painting/tianjinfeng_2_rw_tex",
+        "painting/tianjinfeng_2_n_rw_tex",
+        "painting/tianjinfeng_2_n",
+        "painting/tianjinfeng_2"
+      ]
+    },
+    {
       "name": "野分",
       "painting": "yefen",
       "ship_group": "30120",
@@ -22871,7 +22897,7 @@
     {
       "name": "领航员-TB",
       "painting": "tbniang",
-      "ship_group": "90284",
+      "ship_group": "900284",
       "res_list": [
         "painting/tbniang_tex",
         "painting/tbniang"
@@ -22880,7 +22906,7 @@
     {
       "name": "仲裁者·司特莲库斯·VIII",
       "painting": "strength",
-      "ship_group": "90285",
+      "ship_group": "900285",
       "res_list": [
         "painting/strength_tex",
         "painting/strength"
@@ -22889,7 +22915,7 @@
     {
       "name": "仲裁者·天帕岚斯·XIV",
       "painting": "temperance",
-      "ship_group": "90286",
+      "ship_group": "900286",
       "res_list": [
         "painting/temperance_tex",
         "painting/temperance"
@@ -22898,7 +22924,7 @@
     {
       "name": "仲裁者·赫米忒·IX",
       "painting": "hermit",
-      "ship_group": "90287",
+      "ship_group": "900287",
       "res_list": [
         "painting/hermit_tex",
         "painting/hermit"

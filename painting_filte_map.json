@@ -18355,6 +18355,38 @@
       "3": "painting/tianhou_2"
     }
   },
+  "tianjinfeng": {
+    "key": "tianjinfeng",
+    "res_list": {
+      "0": "painting/tianjinfeng_tex",
+      "1": "painting/tianjinfeng_rw_tex",
+      "2": "painting/tianjinfeng_n_tex",
+      "3": "painting/tianjinfeng_n_rw_tex",
+      "4": "painting/tianjinfeng_n",
+      "5": "painting/tianjinfeng_bj_tex",
+      "6": "painting/tianjinfeng"
+    }
+  },
+  "tianjinfeng_2": {
+    "key": "tianjinfeng_2",
+    "res_list": {
+      "0": "painting/tianjinfeng_2_tex",
+      "1": "painting/tianjinfeng_2_rw_tex",
+      "2": "painting/tianjinfeng_2_n_rw_tex",
+      "3": "painting/tianjinfeng_2_n",
+      "4": "painting/tianjinfeng_2"
+    }
+  },
+  "tianjinfeng_3": {
+    "key": "tianjinfeng_3",
+    "res_list": {
+      "0": "painting/tianjinfeng_3_tex",
+      "1": "painting/tianjinfeng_3_rw_tex",
+      "2": "painting/tianjinfeng_3_n_rw_tex",
+      "3": "painting/tianjinfeng_3_n",
+      "4": "painting/tianjinfeng_3"
+    }
+  },
   "tianlangxing": {
     "key": "tianlangxing",
     "res_list": {
