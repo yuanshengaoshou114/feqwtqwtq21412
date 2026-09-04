@@ -95157,7 +95157,8 @@
     },
     "tag_list": {
       "0": "J-Class",
-      "1": "Jersey Skill"
+      "1": "Jersey Skill",
+      "2": "Javelin"
     },
     "gift_dislike": {
       "0": 180007,
@@ -95286,7 +95287,8 @@
     },
     "tag_list": {
       "0": "J-Class",
-      "1": "Jersey Skill"
+      "1": "Jersey Skill",
+      "2": "Javelin"
     },
     "gift_dislike": {
       "0": 180007,
@@ -95415,7 +95417,8 @@
     },
     "tag_list": {
       "0": "J-Class",
-      "1": "Jersey Skill"
+      "1": "Jersey Skill",
+      "2": "Javelin"
     },
     "gift_dislike": {
       "0": 180007,
@@ -95544,7 +95547,8 @@
     },
     "tag_list": {
       "0": "J-Class",
-      "1": "Jersey Skill"
+      "1": "Jersey Skill",
+      "2": "Javelin"
     },
     "gift_dislike": {
       "0": 180007,
@@ -473583,6 +473587,518 @@
     "gift_dislike": {
       "0": 180009,
       "1": 180005
+    }
+  },
+  "9707101": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "萨拉托加·META",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 9707101,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Saratoga.META",
+    "oxy_cost": 0,
+    "skin_id": 9707100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1233,
+      "1": 0,
+      "2": 0,
+      "3": 68,
+      "4": 85,
+      "5": 48,
+      "6": 0,
+      "7": 25,
+      "8": 10,
+      "9": 33,
+      "10": 66,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 22486,
+      "1": 0,
+      "2": 0,
+      "3": 863,
+      "4": 1038,
+      "5": 332,
+      "6": 0,
+      "7": 348,
+      "8": 270,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.1,
+      "1": 1.25,
+      "2": 1.25
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SaratogaMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "9707102": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "萨拉托加·META",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 9707102,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Saratoga.META",
+    "oxy_cost": 0,
+    "skin_id": 9707100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 1534,
+      "1": 0,
+      "2": 0,
+      "3": 85,
+      "4": 106,
+      "5": 48,
+      "6": 0,
+      "7": 25,
+      "8": 10,
+      "9": 33,
+      "10": 66,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 22486,
+      "1": 0,
+      "2": 0,
+      "3": 863,
+      "4": 1038,
+      "5": 332,
+      "6": 0,
+      "7": 348,
+      "8": 270,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.13,
+      "1": 1.28,
+      "2": 1.28
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SaratogaMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "9707103": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "萨拉托加·META",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 9707103,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Saratoga.META",
+    "oxy_cost": 0,
+    "skin_id": 9707100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 2135,
+      "1": 0,
+      "2": 0,
+      "3": 118,
+      "4": 148,
+      "5": 48,
+      "6": 0,
+      "7": 25,
+      "8": 10,
+      "9": 33,
+      "10": 66,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 22486,
+      "1": 0,
+      "2": 0,
+      "3": 863,
+      "4": 1038,
+      "5": 332,
+      "6": 0,
+      "7": 348,
+      "8": 270,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 2,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.18,
+      "1": 1.33,
+      "2": 1.33
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SaratogaMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "9707104": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 7,
+    "name": "萨拉托加·META",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 9707104,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Saratoga.META",
+    "oxy_cost": 0,
+    "skin_id": 9707100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 2,
+    "attrs": {
+      "0": 3037,
+      "1": 0,
+      "2": 0,
+      "3": 168,
+      "4": 212,
+      "5": 48,
+      "6": 0,
+      "7": 25,
+      "8": 10,
+      "9": 33,
+      "10": 66,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 22486,
+      "1": 0,
+      "2": 0,
+      "3": 863,
+      "4": 1038,
+      "5": 332,
+      "6": 0,
+      "7": 348,
+      "8": 270,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "cannon",
+      "1": "torpedo",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 109,
+      "1": 111,
+      "2": 110
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 3,
+      "1": 3,
+      "2": 2
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.4,
+      "2": 1.4
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SaratogaMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
     }
   },
   "9708011": {

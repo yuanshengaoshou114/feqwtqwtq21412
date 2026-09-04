@@ -21968,6 +21968,19 @@
       ]
     },
     {
+      "name": "闪耀的“魔法”",
+      "painting": "aimierbeierding_5",
+      "ship_group": "80201",
+      "res_list": [
+        "painting/aimierbeierding_5_tex",
+        "painting/aimierbeierding_5_rw_tex",
+        "painting/aimierbeierding_5_n_rw_tex",
+        "painting/aimierbeierding_5_n",
+        "painting/aimierbeierding_5_bj_tex",
+        "painting/aimierbeierding_5"
+      ]
+    },
+    {
       "name": "埃米尔·贝尔汀.改",
       "painting": "aimierbeierding_g",
       "ship_group": "80201",
@@ -23993,13 +24006,16 @@
     },
     {
       "name": "萨拉托加·META",
-      "painting": "npcsalatuojia_alter",
-      "ship_group": "900550",
+      "painting": "salatuojia_alter",
+      "ship_group": "970710",
       "res_list": [
-        "painting/npcsalatuojia_alter_tex",
-        "painting/npcsalatuojia_alter_rw_tex",
-        "painting/npcsalatuojia_alter_bj_tex",
-        "painting/npcsalatuojia_alter"
+        "painting/salatuojia_alter_tex",
+        "painting/salatuojia_alter_rw_tex",
+        "painting/salatuojia_alter_n_tex",
+        "painting/salatuojia_alter_n_rw_tex",
+        "painting/salatuojia_alter_n",
+        "painting/salatuojia_alter_bj_tex",
+        "painting/salatuojia_alter"
       ]
     },
     {
