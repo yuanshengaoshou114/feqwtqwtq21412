@@ -5,6 +5,8 @@ from typing import List, Dict, Any
 from datetime import datetime
 import re
 
+import ship_taxonomy  # 阵营 / 稀有度 / 舰种 三级分类（见 ship_taxonomy.py）
+
 def parse_lua_table(content, start_pos):
     content_len = len(content)
     pos = start_pos
@@ -845,7 +847,16 @@ def split_main_lines(value):
         return []
     lines = [line.strip() for line in value.split("|") if line.strip()]
     return lines
-def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None):
+def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None,
+                       taxonomy: Dict = None, type_names: Dict = None):
+    """生成 name.json。
+
+    taxonomy 是 {ship_group: {nation, rarity, ship_type}}，由 ship_taxonomy.build_group_taxonomy
+    从 ship_data_statistics 算出来；传了就给每条记录补上三级分类字段，
+    没传（老数据 / 解析失败）就只输出原来的四个字段，不影响旧版读取。
+    """
+    taxonomy = taxonomy or {}
+    type_names = type_names or ship_taxonomy.TYPE_NAMES_FALLBACK
     painting_filter_map = painting_filter_data or {}
     painting_lower_map = {}
     for key, value in painting_filter_map.items():
@@ -882,16 +893,28 @@ def generate_name_json(ships_data: List[Dict], painting_filter_data: Dict = None
                 return [v for _, v in items]
         return data
     
+    rows = [
+        {
+            "name": ship["name"],
+            "painting": ship["painting"],
+            "ship_group": ship.get("ship_group", ""),
+            # 三级分类：阵营 / 稀有度 / 舰种，UI 直接拿这三个 *_name 建菜单
+            **ship_taxonomy.decorate(ship.get("ship_group", ""), taxonomy, type_names),
+            "res_list": convert_to_list(painting_lower_map.get(ship["painting"].lower(), {}).get("res_list", {}))
+        }
+        for ship in unique_ships
+    ]
+    # 输出就按三级菜单的顺序排：阵营 → 稀有度 → 舰种 → 角色 → 皮肤
+    rows.sort(key=ship_taxonomy.sort_key)
+
     name_data = {
-        "ships": [
-            {
-                "name": ship["name"],
-                "painting": ship["painting"],
-                "ship_group": ship.get("ship_group", ""),
-                "res_list": convert_to_list(painting_lower_map.get(ship["painting"].lower(), {}).get("res_list", {}))
-            }
-            for ship in unique_ships
-        ]
+        "meta": {
+            "version": 2,
+            "generated_at": datetime.now().isoformat(),
+            # 给界面用的字典：每一级有哪些值、按什么顺序显示
+            "taxonomy": ship_taxonomy.taxonomy_meta(type_names)
+        },
+        "ships": rows
     }
     with open("name.json", 'w', encoding='utf-8') as f:
         json.dump(name_data, f, ensure_ascii=False, indent=2)
@@ -1100,7 +1123,14 @@ def main():
             painting_filter_data = load_json_file(painting_filter_path)
             print(f"加载 painting_filte_map.json: {len(painting_filter_data)} 条数据")
         
-        generate_name_json(combined["ships"], painting_filter_data)
+        # 三级分类：ship_data_statistics（阵营/稀有度/舰种）+ ship_skin_template（组兜底）
+        taxonomy = {}
+        if ship_stats_data:
+            taxonomy = ship_taxonomy.build_group_taxonomy(ship_stats_data, loaded_data["ships"])
+            print(f"生成三级分类: {len(taxonomy)} 个 ship_group")
+        type_names = ship_taxonomy.load_type_names("ship_data_by_type.lua")
+
+        generate_name_json(combined["ships"], painting_filter_data, taxonomy, type_names)
         print("生成 name.json 完成")
     else:
         print("缺少必要数据，跳过部分处理")
