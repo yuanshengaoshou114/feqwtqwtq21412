@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-09-17T02:52:24.265187",
+    "generated_at": "2026-09-17T08:19:29.125346",
     "taxonomy": {
       "nation": [
         {
@@ -785,6 +785,24 @@
         "painting/aierdeliqi_8_rw_n_tex",
         "painting/aierdeliqi_8_n",
         "painting/aierdeliqi_8"
+      ]
+    },
+    {
+      "name": "金月桂香",
+      "painting": "aierdeliqi_9",
+      "ship_group": "10126",
+      "nation": 1,
+      "nation_name": "白鹰",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 1,
+      "ship_type_name": "驱逐",
+      "res_list": [
+        "painting/aierdeliqi_9_tex",
+        "painting/aierdeliqi_9_rw_tex",
+        "painting/aierdeliqi_9_n_rw_tex",
+        "painting/aierdeliqi_9_n",
+        "painting/aierdeliqi_9"
       ]
     },
     {
@@ -3899,6 +3917,25 @@
         "painting/mile_2_n_rw_tex",
         "painting/mile_2_n",
         "painting/mile_2"
+      ]
+    },
+    {
+      "name": "幽幽桥上，坏坏来袭！",
+      "painting": "mile_3",
+      "ship_group": "10153",
+      "nation": 1,
+      "nation_name": "白鹰",
+      "rarity": 4,
+      "rarity_name": "精锐",
+      "ship_type": 1,
+      "ship_type_name": "驱逐",
+      "res_list": [
+        "painting/mile_3_tex",
+        "painting/mile_3_rw_tex",
+        "painting/mile_3_n_rw_tex",
+        "painting/mile_3_n",
+        "painting/mile_3_bj_tex",
+        "painting/mile_3"
       ]
     },
     {
@@ -9253,6 +9290,25 @@
       ]
     },
     {
+      "name": "柴郡猫的童话书迷宫",
+      "painting": "chaijun_6",
+      "ship_group": "29903",
+      "nation": 2,
+      "nation_name": "皇家",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 3,
+      "ship_type_name": "重巡",
+      "res_list": [
+        "painting/chaijun_6_tex",
+        "painting/chaijun_6_rw_tex",
+        "painting/chaijun_6_n_rw_tex",
+        "painting/chaijun_6_n",
+        "painting/chaijun_6_bj_tex",
+        "painting/chaijun_6"
+      ]
+    },
+    {
       "name": "White Seaside Melody！",
       "painting": "chaijun_h",
       "ship_group": "29903",
@@ -10577,6 +10633,27 @@
       "res_list": [
         "painting/biaoqiang_tex",
         "painting/biaoqiang"
+      ]
+    },
+    {
+      "name": "PINKLOVE★Heart Lancer",
+      "painting": "biaoqiang_10",
+      "ship_group": "20121",
+      "nation": 2,
+      "nation_name": "皇家",
+      "rarity": 4,
+      "rarity_name": "精锐",
+      "ship_type": 1,
+      "ship_type_name": "驱逐",
+      "res_list": [
+        "painting/biaoqiang_10_tex",
+        "painting/biaoqiang_10_rw_tex",
+        "painting/biaoqiang_10_n_tex",
+        "painting/biaoqiang_10_n_rw_tex",
+        "painting/biaoqiang_10_n_bj_tex",
+        "painting/biaoqiang_10_n",
+        "painting/biaoqiang_10_bj_tex",
+        "painting/biaoqiang_10"
       ]
     },
     {
@@ -14801,6 +14878,25 @@
       ]
     },
     {
+      "name": "晴雨狐嫁",
+      "painting": "baifeng_3",
+      "ship_group": "30716",
+      "nation": 3,
+      "nation_name": "重樱",
+      "rarity": 6,
+      "rarity_name": "海上传奇",
+      "ship_type": 7,
+      "ship_type_name": "正航",
+      "res_list": [
+        "painting/baifeng_3_tex",
+        "painting/baifeng_3_rw_tex",
+        "painting/baifeng_3_n_rw_tex",
+        "painting/baifeng_3_n",
+        "painting/baifeng_3_bj_tex",
+        "painting/baifeng_3"
+      ]
+    },
+    {
       "name": "白龙",
       "painting": "bailong",
       "ship_group": "39905",
@@ -17309,6 +17405,26 @@
         "painting/xianghe_3_n_tex",
         "painting/xianghe_3_n",
         "painting/xianghe_3"
+      ]
+    },
+    {
+      "name": "飞雪织缘",
+      "painting": "xianghe_4",
+      "ship_group": "30705",
+      "nation": 3,
+      "nation_name": "重樱",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 7,
+      "ship_type_name": "正航",
+      "res_list": [
+        "painting/xianghe_4_tex",
+        "painting/xianghe_4_rw_tex",
+        "painting/xianghe_4_n_rw_tex",
+        "painting/xianghe_4_n_bj_tex",
+        "painting/xianghe_4_n",
+        "painting/xianghe_4_bj_tex",
+        "painting/xianghe_4"
       ]
     },
     {
@@ -27022,6 +27138,26 @@
         "painting/yueke_ger_3_n_tex",
         "painting/yueke_ger_3_n",
         "painting/yueke_ger_3"
+      ]
+    },
+    {
+      "name": "幻夜绮舞",
+      "painting": "yueke_ger_4",
+      "ship_group": "40311",
+      "nation": 4,
+      "nation_name": "铁血",
+      "rarity": 4,
+      "rarity_name": "精锐",
+      "ship_type": 3,
+      "ship_type_name": "重巡",
+      "res_list": [
+        "painting/yueke_ger_4_tex",
+        "painting/yueke_ger_4_rw_tex",
+        "painting/yueke_ger_4_n_rw_tex",
+        "painting/yueke_ger_4_n_bj_tex",
+        "painting/yueke_ger_4_n",
+        "painting/yueke_ger_4_bj_tex",
+        "painting/yueke_ger_4"
       ]
     },
     {
@@ -37000,6 +37136,33 @@
         "painting/jinluhao_2_n_rw2_tex",
         "painting/jinluhao_2_n",
         "painting/jinluhao_2"
+      ]
+    },
+    {
+      "name": "微笑的白色魅影",
+      "painting": "jinluhao_3",
+      "ship_group": "960003",
+      "nation": 96,
+      "nation_name": "飓风",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 23,
+      "ship_type_name": "风帆",
+      "res_list": [
+        "painting/jinluhao_3_tex",
+        "painting/jinluhao_3_rw_tex",
+        "painting/jinluhao_3_rw_hx_tex",
+        "painting/jinluhao_3_n_rw_tex",
+        "painting/jinluhao_3_n_rw_hx_tex",
+        "painting/jinluhao_3_n_hx",
+        "painting/jinluhao_3_n_bj_tex",
+        "painting/jinluhao_3_n_bj_hx_tex",
+        "painting/jinluhao_3_n",
+        "painting/jinluhao_3_hx_tex",
+        "painting/jinluhao_3_hx",
+        "painting/jinluhao_3_bj_tex",
+        "painting/jinluhao_3_bj_hx_tex",
+        "painting/jinluhao_3"
       ]
     },
     {

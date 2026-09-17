@@ -659,6 +659,16 @@
       "4": "painting/aierdeliqi_8"
     }
   },
+  "aierdeliqi_9": {
+    "key": "aierdeliqi_9",
+    "res_list": {
+      "0": "painting/aierdeliqi_9_tex",
+      "1": "painting/aierdeliqi_9_rw_tex",
+      "2": "painting/aierdeliqi_9_n_rw_tex",
+      "3": "painting/aierdeliqi_9_n",
+      "4": "painting/aierdeliqi_9"
+    }
+  },
   "aierdeliqi_g": {
     "key": "aierdeliqi_g",
     "res_list": {
@@ -13466,6 +13476,17 @@
       "2": "painting/mile_2_n_rw_tex",
       "3": "painting/mile_2_n",
       "4": "painting/mile_2"
+    }
+  },
+  "mile_3": {
+    "key": "mile_3",
+    "res_list": {
+      "0": "painting/mile_3_tex",
+      "1": "painting/mile_3_rw_tex",
+      "2": "painting/mile_3_n_rw_tex",
+      "3": "painting/mile_3_n",
+      "4": "painting/mile_3_bj_tex",
+      "5": "painting/mile_3"
     }
   },
   "mingji": {
