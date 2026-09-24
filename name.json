@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-09-24T02:38:17.928013",
+    "generated_at": "2026-09-24T08:03:28.008272",
     "taxonomy": {
       "nation": [
         {
@@ -925,6 +925,24 @@
       "res_list": [
         "painting/yinggelahan_2_tex",
         "painting/yinggelahan_2"
+      ]
+    },
+    {
+      "name": "漫游微缩世界",
+      "painting": "yinggelahan_3",
+      "ship_group": "10148",
+      "nation": 1,
+      "nation_name": "白鹰",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 1,
+      "ship_type_name": "驱逐",
+      "res_list": [
+        "painting/yinggelahan_3_tex",
+        "painting/yinggelahan_3_rw_tex",
+        "painting/yinggelahan_3_n_rw_tex",
+        "painting/yinggelahan_3_n",
+        "painting/yinggelahan_3"
       ]
     },
     {
@@ -9090,6 +9108,25 @@
       ]
     },
     {
+      "name": "花海中的无瑕誓约",
+      "painting": "sikula_h",
+      "ship_group": "20233",
+      "nation": 2,
+      "nation_name": "皇家",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 2,
+      "ship_type_name": "轻巡",
+      "res_list": [
+        "painting/sikula_h_tex",
+        "painting/sikula_h_rw_tex",
+        "painting/sikula_h_n_rw_tex",
+        "painting/sikula_h_n",
+        "painting/sikula_h_bj_tex",
+        "painting/sikula_h"
+      ]
+    },
+    {
       "name": "克利奥佩特拉",
       "painting": "keliaopeitela",
       "ship_group": "20235",
@@ -14781,6 +14818,25 @@
       ]
     },
     {
+      "name": "花下梦醒之约",
+      "painting": "xinnong_h",
+      "ship_group": "30708",
+      "nation": 3,
+      "nation_name": "重樱",
+      "rarity": 6,
+      "rarity_name": "海上传奇",
+      "ship_type": 7,
+      "ship_type_name": "正航",
+      "res_list": [
+        "painting/xinnong_h_tex",
+        "painting/xinnong_h_rw_tex",
+        "painting/xinnong_h_n_rw_tex",
+        "painting/xinnong_h_n",
+        "painting/xinnong_h_bj_tex",
+        "painting/xinnong_h"
+      ]
+    },
+    {
       "name": "落于王座之花",
       "painting": "tiancheng_cv_2",
       "ship_group": "30715",
@@ -16876,6 +16932,25 @@
         "painting/weizhang_3_n_tex",
         "painting/weizhang_3_n",
         "painting/weizhang_3"
+      ]
+    },
+    {
+      "name": "此刻，满溢的心意",
+      "painting": "weizhang_h",
+      "ship_group": "30513",
+      "nation": 3,
+      "nation_name": "重樱",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 5,
+      "ship_type_name": "战列",
+      "res_list": [
+        "painting/weizhang_h_tex",
+        "painting/weizhang_h_rw_tex",
+        "painting/weizhang_h_n_rw_tex",
+        "painting/weizhang_h_n",
+        "painting/weizhang_h_bj_tex",
+        "painting/weizhang_h"
       ]
     },
     {
@@ -43441,23 +43516,6 @@
       ]
     },
     {
-      "name": "灵敏·META",
-      "painting": "npclingmin_alter",
-      "ship_group": "900549",
-      "nation": null,
-      "nation_name": "其他",
-      "rarity": null,
-      "rarity_name": "其他",
-      "ship_type": null,
-      "ship_type_name": "其他",
-      "res_list": [
-        "painting/npclingmin_alter_tex",
-        "painting/npclingmin_alter_rw_tex",
-        "painting/npclingmin_alter_bj_tex",
-        "painting/npclingmin_alter"
-      ]
-    },
-    {
       "name": "Error十三世",
       "painting": "Error13",
       "ship_group": "900551",
@@ -43506,6 +43564,26 @@
         "painting/bulisituoer_alter_n",
         "painting/bulisituoer_alter_bj_tex",
         "painting/bulisituoer_alter"
+      ]
+    },
+    {
+      "name": "灵敏·META",
+      "painting": "lingmin_alter",
+      "ship_group": "970113",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/lingmin_alter_tex",
+        "painting/lingmin_alter_rw_tex",
+        "painting/lingmin_alter_n_tex",
+        "painting/lingmin_alter_n_rw_tex",
+        "painting/lingmin_alter_n",
+        "painting/lingmin_alter_bj_tex",
+        "painting/lingmin_alter"
       ]
     },
     {

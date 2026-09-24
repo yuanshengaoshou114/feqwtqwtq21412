@@ -452261,6 +452261,522 @@
       "1": 180007
     }
   },
+  "9701131": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "灵敏·META",
+    "huntingrange_level": 0,
+    "star": 2,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701131,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 390,
+      "1": 31,
+      "2": 43,
+      "3": 30,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 55,
+      "8": 55,
+      "9": 48,
+      "10": 84,
+      "11": 47
+    },
+    "attrs_growth": {
+      "0": 7903,
+      "1": 394,
+      "2": 594,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 746,
+      "8": 863,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.1,
+      "2": 1.05
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SoobrazitelnyMETA",
+      "1": "SoobrazitelnyMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "9701132": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "灵敏·META",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701132,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 485,
+      "1": 39,
+      "2": 54,
+      "3": 37,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 55,
+      "8": 55,
+      "9": 48,
+      "10": 84,
+      "11": 59
+    },
+    "attrs_growth": {
+      "0": 7903,
+      "1": 394,
+      "2": 594,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 746,
+      "8": 863,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.45,
+      "1": 1.1,
+      "2": 1.05
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SoobrazitelnyMETA",
+      "1": "SoobrazitelnyMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "9701133": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "灵敏·META",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701133,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 675,
+      "1": 54,
+      "2": 75,
+      "3": 52,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 55,
+      "8": 55,
+      "9": 48,
+      "10": 84,
+      "11": 82
+    },
+    "attrs_growth": {
+      "0": 7903,
+      "1": 394,
+      "2": 594,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 746,
+      "8": 863,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.55,
+      "1": 1.1,
+      "2": 1.05
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SoobrazitelnyMETA",
+      "1": "SoobrazitelnyMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "9701134": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "灵敏·META",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701134,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 960,
+      "1": 78,
+      "2": 107,
+      "3": 74,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 55,
+      "8": 55,
+      "9": 48,
+      "10": 84,
+      "11": 117
+    },
+    "attrs_growth": {
+      "0": 7903,
+      "1": 394,
+      "2": 594,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 746,
+      "8": 863,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.6,
+      "1": 1.15,
+      "2": 1.1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "SoobrazitelnyMETA",
+      "1": "SoobrazitelnyMETA"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
   "9702011": {
     "nationality": 97,
     "oxy_max": 0,

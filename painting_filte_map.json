@@ -11978,6 +11978,18 @@
       "4": "painting/lingmin_2"
     }
   },
+  "lingmin_alter": {
+    "key": "lingmin_alter",
+    "res_list": {
+      "0": "painting/lingmin_alter_tex",
+      "1": "painting/lingmin_alter_rw_tex",
+      "2": "painting/lingmin_alter_n_tex",
+      "3": "painting/lingmin_alter_n_rw_tex",
+      "4": "painting/lingmin_alter_n",
+      "5": "painting/lingmin_alter_bj_tex",
+      "6": "painting/lingmin_alter"
+    }
+  },
   "lingyangzhe1_1": {
     "key": "lingyangzhe1_1",
     "res_list": {
@@ -17766,6 +17778,17 @@
       "11": "painting/sikula_4"
     }
   },
+  "sikula_h": {
+    "key": "sikula_h",
+    "res_list": {
+      "0": "painting/sikula_h_tex",
+      "1": "painting/sikula_h_rw_tex",
+      "2": "painting/sikula_h_n_rw_tex",
+      "3": "painting/sikula_h_n",
+      "4": "painting/sikula_h_bj_tex",
+      "5": "painting/sikula_h"
+    }
+  },
   "silverfox": {
     "key": "silverfox",
     "res_list": {
@@ -19969,6 +19992,17 @@
       "5": "painting/weizhang_3"
     }
   },
+  "weizhang_h": {
+    "key": "weizhang_h",
+    "res_list": {
+      "0": "painting/weizhang_h_tex",
+      "1": "painting/weizhang_h_rw_tex",
+      "2": "painting/weizhang_h_n_rw_tex",
+      "3": "painting/weizhang_h_n",
+      "4": "painting/weizhang_h_bj_tex",
+      "5": "painting/weizhang_h"
+    }
+  },
   "wenqinzuojiaobeidi": {
     "key": "wenqinzuojiaobeidi",
     "res_list": {
@@ -21221,6 +21255,17 @@
       "3": "painting/xinnong_6"
     }
   },
+  "xinnong_h": {
+    "key": "xinnong_h",
+    "res_list": {
+      "0": "painting/xinnong_h_tex",
+      "1": "painting/xinnong_h_rw_tex",
+      "2": "painting/xinnong_h_n_rw_tex",
+      "3": "painting/xinnong_h_n",
+      "4": "painting/xinnong_h_bj_tex",
+      "5": "painting/xinnong_h"
+    }
+  },
   "xinnong_younv": {
     "key": "xinnong_younv",
     "res_list": {
@@ -22286,6 +22331,16 @@
     "res_list": {
       "0": "painting/yinggelahan_2_tex",
       "1": "painting/yinggelahan_2"
+    }
+  },
+  "yinggelahan_3": {
+    "key": "yinggelahan_3",
+    "res_list": {
+      "0": "painting/yinggelahan_3_tex",
+      "1": "painting/yinggelahan_3_rw_tex",
+      "2": "painting/yinggelahan_3_n_rw_tex",
+      "3": "painting/yinggelahan_3_n",
+      "4": "painting/yinggelahan_3"
     }
   },
   "yinghuochong": {
