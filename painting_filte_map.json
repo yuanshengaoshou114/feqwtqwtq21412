@@ -368,6 +368,17 @@
       "3": "painting/aerjiliya_3"
     }
   },
+  "aerjiliya_4": {
+    "key": "aerjiliya_4",
+    "res_list": {
+      "0": "painting/aerjiliya_4_tex",
+      "1": "painting/aerjiliya_4_rw_tex",
+      "2": "painting/aerjiliya_4_n_tex",
+      "3": "painting/aerjiliya_4_n_rw_tex",
+      "4": "painting/aerjiliya_4_n",
+      "5": "painting/aerjiliya_4"
+    }
+  },
   "aerjiliya_alter": {
     "key": "aerjiliya_alter",
     "res_list": {

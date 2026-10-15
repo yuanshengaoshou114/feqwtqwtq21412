@@ -55972,5 +55972,23 @@
     "shiptrans_id": [],
     "combination_display": [],
     "limit": []
+  },
+  "99985": {
+    "name": "作战奖励补给箱",
+    "icon": "Props/giftbox",
+    "display": "用于补发2026年9月大型作战委托作战部分奖励异常所涉及的奖励。开启后可随机获得特别兑换凭证、海域坐标记录仪或塞壬坐标记录仪。 ",
+    "usage": "usage_drop",
+    "open_directly": 0,
+    "order": 0,
+    "max_num": 10000,
+    "virtual_type": 0,
+    "compose_number": 0,
+    "target_id": 0,
+    "display_icon": [],
+    "price": [],
+    "index": [],
+    "shiptrans_id": [],
+    "combination_display": [],
+    "limit": []
   }
 }

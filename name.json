@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-10-15T02:43:57.626192",
+    "generated_at": "2026-10-15T07:56:07.004855",
     "taxonomy": {
       "nation": [
         {
@@ -35265,6 +35265,25 @@
         "painting/aerjiliya_3_n_tex",
         "painting/aerjiliya_3_n",
         "painting/aerjiliya_3"
+      ]
+    },
+    {
+      "name": "严厉女仆不严厉",
+      "painting": "aerjiliya_4",
+      "ship_group": "90302",
+      "nation": 9,
+      "nation_name": "维希教廷",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 3,
+      "ship_type_name": "重巡",
+      "res_list": [
+        "painting/aerjiliya_4_tex",
+        "painting/aerjiliya_4_rw_tex",
+        "painting/aerjiliya_4_n_tex",
+        "painting/aerjiliya_4_n_rw_tex",
+        "painting/aerjiliya_4_n",
+        "painting/aerjiliya_4"
       ]
     },
     {
