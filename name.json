@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-10-22T02:50:54.858192",
+    "generated_at": "2026-10-22T08:14:10.721140",
     "taxonomy": {
       "nation": [
         {
@@ -9739,6 +9739,24 @@
       ]
     },
     {
+      "name": "魅惑的夜之猎手",
+      "painting": "yuekegongjue_5",
+      "ship_group": "20507",
+      "nation": 2,
+      "nation_name": "皇家",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 5,
+      "ship_type_name": "战列",
+      "res_list": [
+        "painting/yuekegongjue_5_tex",
+        "painting/yuekegongjue_5_rw_tex",
+        "painting/yuekegongjue_5_n_rw_tex",
+        "painting/yuekegongjue_5_n",
+        "painting/yuekegongjue_5"
+      ]
+    },
+    {
       "name": "豪",
       "painting": "hao",
       "ship_group": "20509",
@@ -17142,6 +17160,26 @@
         "painting/dashan_2_n_tex",
         "painting/dashan_2_n",
         "painting/dashan_2"
+      ]
+    },
+    {
+      "name": "恶魔少女天使心",
+      "painting": "dashan_3",
+      "ship_group": "39907",
+      "nation": 3,
+      "nation_name": "重樱",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 5,
+      "ship_type_name": "战列",
+      "res_list": [
+        "painting/dashan_3_tex",
+        "painting/dashan_3_shophx_tex",
+        "painting/dashan_3_rw_tex",
+        "painting/dashan_3_n_tex",
+        "painting/dashan_3_n_rw_tex",
+        "painting/dashan_3_n",
+        "painting/dashan_3"
       ]
     },
     {
@@ -36150,6 +36188,29 @@
       ]
     },
     {
+      "name": "秽翼天使",
+      "painting": "qisheng_3",
+      "ship_group": "110201",
+      "nation": 11,
+      "nation_name": "郁金王国",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 2,
+      "ship_type_name": "轻巡",
+      "res_list": [
+        "painting/qisheng_3_tex",
+        "painting/qisheng_3_rw_tex",
+        "painting/qisheng_3_rw_hx_tex",
+        "painting/qisheng_3_n_rw_tex",
+        "painting/qisheng_3_n_rw_hx_tex",
+        "painting/qisheng_3_n_hx",
+        "painting/qisheng_3_n",
+        "painting/qisheng_3_hx_tex",
+        "painting/qisheng_3_hx",
+        "painting/qisheng_3"
+      ]
+    },
+    {
       "name": "埃佛森",
       "painting": "aifosen",
       "ship_group": "110101",
@@ -37477,6 +37538,29 @@
         "painting/anninvwang_2_n",
         "painting/anninvwang_2_bj_tex",
         "painting/anninvwang_2"
+      ]
+    },
+    {
+      "name": "堕翼之诱",
+      "painting": "anninvwang_3",
+      "ship_group": "960012",
+      "nation": 96,
+      "nation_name": "飓风",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 24,
+      "ship_type_name": "风帆",
+      "res_list": [
+        "painting/anninvwang_3_tex",
+        "painting/anninvwang_3_rw_tex",
+        "painting/anninvwang_3_rw_hx_tex",
+        "painting/anninvwang_3_n_rw_tex",
+        "painting/anninvwang_3_n_rw_hx_tex",
+        "painting/anninvwang_3_n_hx",
+        "painting/anninvwang_3_n",
+        "painting/anninvwang_3_hx_tex",
+        "painting/anninvwang_3_hx",
+        "painting/anninvwang_3"
       ]
     },
     {
@@ -43562,6 +43646,208 @@
       "res_list": [
         "painting/npcbenningdun_2_tex",
         "painting/npcbenningdun_2"
+      ]
+    },
+    {
+      "name": "水星号",
+      "painting": "shuixinghao",
+      "ship_group": "960017",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/shuixinghao_tex",
+        "painting/shuixinghao_rw_tex",
+        "painting/shuixinghao_n_tex",
+        "painting/shuixinghao_n_rw_tex",
+        "painting/shuixinghao_n_bj1_tex",
+        "painting/shuixinghao_n",
+        "painting/shuixinghao_bj2_tex",
+        "painting/shuixinghao_bj1_tex",
+        "painting/shuixinghao"
+      ]
+    },
+    {
+      "name": "天使降临之日",
+      "painting": "shuixinghao_2",
+      "ship_group": "960017",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/shuixinghao_2_tex",
+        "painting/shuixinghao_2_rw_tex",
+        "painting/shuixinghao_2_rw_hx_tex",
+        "painting/shuixinghao_2_n_rw_tex",
+        "painting/shuixinghao_2_n_rw_hx_tex",
+        "painting/shuixinghao_2_n_hx",
+        "painting/shuixinghao_2_n",
+        "painting/shuixinghao_2_hx_tex",
+        "painting/shuixinghao_2_hx",
+        "painting/shuixinghao_2_bj_tex",
+        "painting/shuixinghao_2_bj_hx_tex",
+        "painting/shuixinghao_2"
+      ]
+    },
+    {
+      "name": "铁角号",
+      "painting": "tiejiaohao",
+      "ship_group": "960018",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/tiejiaohao_tex",
+        "painting/tiejiaohao_rw_tex",
+        "painting/tiejiaohao_n_tex",
+        "painting/tiejiaohao_n_rw_tex",
+        "painting/tiejiaohao_n_bj_tex",
+        "painting/tiejiaohao_n",
+        "painting/tiejiaohao_bj_tex",
+        "painting/tiejiaohao"
+      ]
+    },
+    {
+      "name": "迷惘的堕天使",
+      "painting": "tiejiaohao_2",
+      "ship_group": "960018",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/tiejiaohao_2_tex",
+        "painting/tiejiaohao_2_rw_tex",
+        "painting/tiejiaohao_2_n_rw_tex",
+        "painting/tiejiaohao_2_n_bj_tex",
+        "painting/tiejiaohao_2_n",
+        "painting/tiejiaohao_2_bj_tex",
+        "painting/tiejiaohao_2"
+      ]
+    },
+    {
+      "name": "塞利米耶号",
+      "painting": "sailimiye",
+      "ship_group": "960019",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/sailimiye_tex",
+        "painting/sailimiye_rw_tex",
+        "painting/sailimiye_n_tex",
+        "painting/sailimiye_n_rw_tex",
+        "painting/sailimiye_n",
+        "painting/sailimiye"
+      ]
+    },
+    {
+      "name": "自投罗网的预言家？",
+      "painting": "sailimiye_2",
+      "ship_group": "960019",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/sailimiye_2_tex",
+        "painting/sailimiye_2_shophx_tex",
+        "painting/sailimiye_2_rw_tex",
+        "painting/sailimiye_2_n_rw_tex",
+        "painting/sailimiye_2_n",
+        "painting/sailimiye_2"
+      ]
+    },
+    {
+      "name": "长蛇号",
+      "painting": "changshehao",
+      "ship_group": "960020",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/changshehao_tex",
+        "painting/changshehao_rw_tex",
+        "painting/changshehao_n_tex",
+        "painting/changshehao_n_rw_tex",
+        "painting/changshehao_n",
+        "painting/changshehao"
+      ]
+    },
+    {
+      "name": "纯白的捕食者",
+      "painting": "changshehao_2",
+      "ship_group": "960020",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/changshehao_2_tex",
+        "painting/changshehao_2_rw_tex",
+        "painting/changshehao_2_n_rw_tex",
+        "painting/changshehao_2_n_bj_tex",
+        "painting/changshehao_2_n",
+        "painting/changshehao_2_bj_tex",
+        "painting/changshehao_2"
+      ]
+    },
+    {
+      "name": "雷伊尔·贝号",
+      "painting": "leiyierbei",
+      "ship_group": "960021",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/leiyierbei_tex",
+        "painting/leiyierbei_rw_tex",
+        "painting/leiyierbei_n_tex",
+        "painting/leiyierbei_n_rw_tex",
+        "painting/leiyierbei_n",
+        "painting/leiyierbei"
+      ]
+    },
+    {
+      "name": "偶像天使☆闪耀练习中！",
+      "painting": "leiyierbei_2",
+      "ship_group": "960021",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/leiyierbei_2_tex",
+        "painting/leiyierbei_2_rw_tex",
+        "painting/leiyierbei_2_n_rw_tex",
+        "painting/leiyierbei_2_n",
+        "painting/leiyierbei_2"
       ]
     },
     {
