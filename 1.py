@@ -8,41 +8,108 @@ import re
 import ship_taxonomy  # 阵营 / 稀有度 / 舰种 三级分类（见 ship_taxonomy.py）
 
 def parse_lua_table(content, start_pos):
+    """从 start_pos（指向 '{'）开始，返回完整的表字符串和结束位置。
+
+    修复点：旧版只认双引号字符串，遇到 Lua 长字符串 [[...]] / [=[...]=]
+    里的 } 就会提前结束，导致后面的字段（desc、name）被整条丢掉。
+    """
     content_len = len(content)
     pos = start_pos
     brace_count = 0
     in_string = False
+    quote = '"'
     escape_next = False
-    
+
     while pos < content_len:
         char = content[pos]
-        
+
         if escape_next:
             escape_next = False
             pos += 1
             continue
-        
-        if char == '\\' and in_string:
-            escape_next = True
+
+        if in_string:
+            if char == '\\':
+                escape_next = True
+                pos += 1
+                continue
+            if char == quote:
+                in_string = False
             pos += 1
             continue
-        
-        if char == '"' and not escape_next:
-            in_string = not in_string
+
+        # Lua 长字符串：[[ ... ]]、[=[ ... ]=]、[==[ ... ]==] ...
+        if char == '[' and pos + 1 < content_len and content[pos + 1] in ('[', '='):
+            long_match = re.match(r'\[(=*)\[', content[pos:])
+            if long_match:
+                close_tag = ']' + long_match.group(1) + ']'
+                end = content.find(close_tag, pos + long_match.end())
+                if end == -1:
+                    return None, start_pos
+                pos = end + len(close_tag)
+                continue
+
+        if char == '"' or char == "'":
+            in_string = True
+            quote = char
             pos += 1
             continue
-        
-        if not in_string:
-            if char == '{':
-                brace_count += 1
-            elif char == '}':
-                brace_count -= 1
-                if brace_count == 0:
-                    return content[start_pos:pos + 1], pos + 1
-        
+
+        if char == '{':
+            brace_count += 1
+        elif char == '}':
+            brace_count -= 1
+            if brace_count == 0:
+                return content[start_pos:pos + 1], pos + 1
+
         pos += 1
-    
+
     return None, start_pos
+
+def unescape_lua_string(text):
+    """还原 Lua 字符串里的转义：\\n \\r \\t \\" \\' \\\\"""
+    if '\\' not in text:
+        return text
+    mapping = {'n': '\n', 'r': '\r', 't': '\t', '"': '"', "'": "'", '\\': '\\'}
+    out = []
+    i = 0
+    while i < len(text):
+        ch = text[i]
+        if ch == '\\' and i + 1 < len(text):
+            out.append(mapping.get(text[i + 1], '\\' + text[i + 1]))
+            i += 2
+        else:
+            out.append(ch)
+            i += 1
+    return ''.join(out)
+
+def get_lua_string_field(entry, field):
+    """从一个表条目里取出字符串字段，支持：
+    field = "..."      （含 \\" 转义）
+    field = '...'
+    field = [[...]] / [=[...]=]   （长字符串，可以跨行）
+    field = 123        （数字字段，返回字符串）
+    找不到返回空串。
+    """
+    prefix = r'(?<![\w.])' + re.escape(field) + r'\s*=\s*'
+
+    m = re.search(prefix + r'"((?:[^"\\]|\\.)*)"', entry, re.S)
+    if m:
+        return unescape_lua_string(m.group(1))
+
+    m = re.search(prefix + r"'((?:[^'\\]|\\.)*)'", entry, re.S)
+    if m:
+        return unescape_lua_string(m.group(1))
+
+    m = re.search(prefix + r'\[(=*)\[(.*?)\]\1\]', entry, re.S)
+    if m:
+        return m.group(2)
+
+    m = re.search(prefix + r'(-?\d+(?:\.\d+)?)', entry)
+    if m:
+        return m.group(1)
+
+    return ""
 
 def parse_value(value_str):
     value_str = value_str.strip()
@@ -291,16 +358,10 @@ def convert_ship_data_statistics(content):
     return result
 
 def convert_item_data_statistics(content):
-    """转换 item_data_statistics.lua - 纯正则版本"""
+    """转换 item_data_statistics.lua"""
     print(f"  - 文件大小: {len(content)} 字符 ({len(content)/1024/1024:.2f} MB)", flush=True)
     result = {}
     
-    # 按 },\n\n_G 分割，但更简单：逐条正则匹配
-    # 匹配从 _G.pg.base.item_data_statistics[数字] = { 到对应的 }
-    
-    import re
-    
-    # 方法1：找到所有条目的起始位置
     pattern_start = r'_G\.pg\.base\.item_data_statistics\[(\d+)\]\s*=\s*\{'
     
     pos = 0
@@ -312,56 +373,40 @@ def convert_item_data_statistics(content):
             break
         
         item_id = match.group(1)
-        start_pos = pos + match.start()
         brace_pos = pos + match.end() - 1  # { 的位置
         
-        # 找到匹配的 }
-        brace_count = 1
-        search_pos = brace_pos + 1
-        length = len(content)
-        
-        while search_pos < length and brace_count > 0:
-            if content[search_pos] == '{':
-                brace_count += 1
-            elif content[search_pos] == '}':
-                brace_count -= 1
-            search_pos += 1
-        
-        if brace_count == 0:
-            # 提取这个条目
-            entry = content[brace_pos:search_pos]
-            
-            # 用简单的正则提取键值对
-            item_data = {}
-            
-            # 提取各个字段
-            for field in ['id', 'name', 'type', 'rarity', 'icon', 'display', 'usage']:
-                field_pattern = rf'{field}\s*=\s*"([^"]*)"'
-                field_match = re.search(field_pattern, entry)
-                if field_match:
-                    item_data[field] = field_match.group(1)
-            
-            # 提取数字字段
-            for field in ['open_directly', 'order', 'max_num', 'virtual_type', 'compose_number', 'target_id']:
-                field_pattern = rf'{field}\s*=\s*(\d+)'
-                field_match = re.search(field_pattern, entry)
-                if field_match:
-                    item_data[field] = int(field_match.group(1))
-            
-            # 处理数组字段（空数组）
-            for field in ['display_icon', 'price', 'index', 'shiptrans_id', 'combination_display', 'limit']:
-                if re.search(rf'{field}\s*=\s*\{{}}\s*', entry):
-                    item_data[field] = []
-            
-            result[item_id] = item_data
-            count += 1
-            pos = search_pos
-            
-            if count % 500 == 0:
-                print(f"    已解析 {count} 条数据", flush=True)
-        else:
+        # 用 parse_lua_table 找完整条目（旧版手数括号会被文本里的 { } 带偏）
+        entry, next_pos = parse_lua_table(content, brace_pos)
+        if entry is None:
             print(f"    警告: 无法找到 ID={item_id} 的结束括号", flush=True)
             pos = brace_pos + 1
+            continue
+        
+        item_data = {}
+        
+        # 字符串字段（支持转义引号 / 长字符串）
+        for field in ['id', 'name', 'type', 'rarity', 'icon', 'display', 'usage']:
+            value = get_lua_string_field(entry, field)
+            if value != "":
+                item_data[field] = value
+        
+        # 数字字段
+        for field in ['open_directly', 'order', 'max_num', 'virtual_type', 'compose_number', 'target_id']:
+            field_match = re.search(rf'(?<![\w.]){field}\s*=\s*(-?\d+)', entry)
+            if field_match:
+                item_data[field] = int(field_match.group(1))
+        
+        # 空数组字段
+        for field in ['display_icon', 'price', 'index', 'shiptrans_id', 'combination_display', 'limit']:
+            if re.search(rf'(?<![\w.]){field}\s*=\s*\{{}}\s*', entry):
+                item_data[field] = []
+        
+        result[item_id] = item_data
+        count += 1
+        pos = next_pos
+        
+        if count % 500 == 0:
+            print(f"    已解析 {count} 条数据", flush=True)
     
     print(f"  - 解析完成，共 {len(result)} 条数据", flush=True)
     return result
@@ -385,43 +430,24 @@ def convert_skill_data_template(content):
         item_id = match.group(1)
         brace_pos = pos + match.end() - 1
         
-        # 找到匹配的 }
-        brace_count = 1
-        search_pos = brace_pos + 1
-        length = len(content)
-        
-        while search_pos < length and brace_count > 0:
-            if content[search_pos] == '{':
-                brace_count += 1
-            elif content[search_pos] == '}':
-                brace_count -= 1
-            search_pos += 1
-        
-        if brace_count == 0:
-            entry = content[brace_pos:search_pos]
-            item_data = {}
-            
-            # 只提取 name 和 desc（你需要的字段）
-            name_match = re.search(r'name\s*=\s*"([^"]*)"', entry)
-            if name_match:
-                item_data["name"] = name_match.group(1)
-            
-            desc_match = re.search(r'desc\s*=\s*"([^"]*)"', entry)
-            if desc_match:
-                item_data["desc"] = desc_match.group(1)
-            
-            desc_get_match = re.search(r'desc_get\s*=\s*"([^"]*)"', entry)
-            if desc_get_match:
-                item_data["desc_get"] = desc_get_match.group(1)
-            
-            result[item_id] = item_data
-            pos = search_pos
-            count += 1
-            
-            if count % 500 == 0:
-                print(f"    已解析 {count} 条数据", flush=True)
-        else:
+        # 用 parse_lua_table 找完整的条目（会跳过字符串 / 长字符串里的 { }）
+        entry, next_pos = parse_lua_table(content, brace_pos)
+        if entry is None:
             pos = brace_pos + 1
+            continue
+        
+        # 只提取 name / desc / desc_get；字段缺失或为空也照样输出空串，
+        # 保证每条记录的键结构一致，前端不会拿到 undefined
+        result[item_id] = {
+            "name": get_lua_string_field(entry, "name"),
+            "desc": get_lua_string_field(entry, "desc"),
+            "desc_get": get_lua_string_field(entry, "desc_get"),
+        }
+        pos = next_pos
+        count += 1
+        
+        if count % 500 == 0:
+            print(f"    已解析 {count} 条数据", flush=True)
     
     print(f"  - 解析完成，共 {len(result)} 条数据", flush=True)
     return result
