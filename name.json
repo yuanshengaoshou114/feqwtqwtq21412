@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-11-11T21:43:57.555187",
+    "generated_at": "2026-11-12T05:18:01.852031",
     "taxonomy": {
       "nation": [
         {
@@ -41340,6 +41340,86 @@
         "painting/2b_2_n_rw_tex",
         "painting/2b_2_n",
         "painting/2b_2"
+      ]
+    },
+    {
+      "name": "莉莉艾露 天使空降队/理理沙",
+      "painting": "lilisha",
+      "ship_group": "1180001",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/lilisha_tex",
+        "painting/lilisha_rw_tex",
+        "painting/lilisha_n_tex",
+        "painting/lilisha_n_rw_tex",
+        "painting/lilisha_n",
+        "painting/lilisha"
+      ]
+    },
+    {
+      "name": "身心皆奉",
+      "painting": "lilisha_2",
+      "ship_group": "1180001",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/lilisha_2_tex",
+        "painting/lilisha_2_rw_tex",
+        "painting/lilisha_2_n_tex",
+        "painting/lilisha_2_n_rw_tex",
+        "painting/lilisha_2_n_bj_tex",
+        "painting/lilisha_2_n",
+        "painting/lilisha_2_bj_tex",
+        "painting/lilisha_2"
+      ]
+    },
+    {
+      "name": "美莉艾拉 天使空降队/美花莉",
+      "painting": "jumeihuali",
+      "ship_group": "1180002",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/jumeihuali_tex",
+        "painting/jumeihuali_rw_tex",
+        "painting/jumeihuali_n_tex",
+        "painting/jumeihuali_n_rw_tex",
+        "painting/jumeihuali_n",
+        "painting/jumeihuali"
+      ]
+    },
+    {
+      "name": "献给幸运的你",
+      "painting": "jumeihuali_2",
+      "ship_group": "1180002",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/jumeihuali_2_tex",
+        "painting/jumeihuali_2_rw_tex",
+        "painting/jumeihuali_2_n_tex",
+        "painting/jumeihuali_2_n_rw_tex",
+        "painting/jumeihuali_2_n_bj_tex",
+        "painting/jumeihuali_2_n",
+        "painting/jumeihuali_2_bj_tex",
+        "painting/jumeihuali_2"
       ]
     },
     {

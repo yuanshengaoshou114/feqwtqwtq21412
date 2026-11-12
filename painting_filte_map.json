@@ -10017,6 +10017,30 @@
       "1": "painting/juejiang_2"
     }
   },
+  "jumeihuali": {
+    "key": "jumeihuali",
+    "res_list": {
+      "0": "painting/jumeihuali_tex",
+      "1": "painting/jumeihuali_rw_tex",
+      "2": "painting/jumeihuali_n_tex",
+      "3": "painting/jumeihuali_n_rw_tex",
+      "4": "painting/jumeihuali_n",
+      "5": "painting/jumeihuali"
+    }
+  },
+  "jumeihuali_2": {
+    "key": "jumeihuali_2",
+    "res_list": {
+      "0": "painting/jumeihuali_2_tex",
+      "1": "painting/jumeihuali_2_rw_tex",
+      "2": "painting/jumeihuali_2_n_tex",
+      "3": "painting/jumeihuali_2_n_rw_tex",
+      "4": "painting/jumeihuali_2_n_bj_tex",
+      "5": "painting/jumeihuali_2_n",
+      "6": "painting/jumeihuali_2_bj_tex",
+      "7": "painting/jumeihuali_2"
+    }
+  },
   "junhe": {
     "key": "junhe",
     "res_list": {
@@ -11752,6 +11776,30 @@
       "0": "painting/lila_2_tex",
       "1": "painting/lila_2_rw_tex",
       "2": "painting/lila_2"
+    }
+  },
+  "lilisha": {
+    "key": "lilisha",
+    "res_list": {
+      "0": "painting/lilisha_tex",
+      "1": "painting/lilisha_rw_tex",
+      "2": "painting/lilisha_n_tex",
+      "3": "painting/lilisha_n_rw_tex",
+      "4": "painting/lilisha_n",
+      "5": "painting/lilisha"
+    }
+  },
+  "lilisha_2": {
+    "key": "lilisha_2",
+    "res_list": {
+      "0": "painting/lilisha_2_tex",
+      "1": "painting/lilisha_2_rw_tex",
+      "2": "painting/lilisha_2_n_tex",
+      "3": "painting/lilisha_2_n_rw_tex",
+      "4": "painting/lilisha_2_n_bj_tex",
+      "5": "painting/lilisha_2_n",
+      "6": "painting/lilisha_2_bj_tex",
+      "7": "painting/lilisha_2"
     }
   },
   "lingbo": {
