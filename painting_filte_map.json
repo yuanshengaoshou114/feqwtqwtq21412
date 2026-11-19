@@ -2080,6 +2080,17 @@
       "7": "painting/banerwei_3"
     }
   },
+  "banerwei_4": {
+    "key": "banerwei_4",
+    "res_list": {
+      "0": "painting/banerwei_4_tex",
+      "1": "painting/banerwei_4_rw_tex",
+      "2": "painting/banerwei_4_n_rw_tex",
+      "3": "painting/banerwei_4_n",
+      "4": "painting/banerwei_4_bj_tex",
+      "5": "painting/banerwei_4"
+    }
+  },
   "bangfeng": {
     "key": "bangfeng",
     "res_list": {
@@ -14188,6 +14199,16 @@
       "7": "painting/nabulesi_2"
     }
   },
+  "nabulesi_3": {
+    "key": "nabulesi_3",
+    "res_list": {
+      "0": "painting/nabulesi_3_tex",
+      "1": "painting/nabulesi_3_rw_tex",
+      "2": "painting/nabulesi_3_n_rw_tex",
+      "3": "painting/nabulesi_3_n",
+      "4": "painting/nabulesi_3"
+    }
+  },
   "naerxun": {
     "key": "naerxun",
     "res_list": {
@@ -21383,6 +21404,18 @@
       "5": "painting/xinaoerliang_2_hx_tex",
       "6": "painting/xinaoerliang_2_hx",
       "7": "painting/xinaoerliang_2"
+    }
+  },
+  "xinaoerliang_3": {
+    "key": "xinaoerliang_3",
+    "res_list": {
+      "0": "painting/xinaoerliang_3_tex",
+      "1": "painting/xinaoerliang_3_rw_tex",
+      "2": "painting/xinaoerliang_3_n_tex",
+      "3": "painting/xinaoerliang_3_n_rw_tex",
+      "4": "painting/xinaoerliang_3_n",
+      "5": "painting/xinaoerliang_3_bj_tex",
+      "6": "painting/xinaoerliang_3"
     }
   },
   "xingdengbao": {

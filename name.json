@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-11-19T02:12:21.056822",
+    "generated_at": "2026-11-19T11:02:09.423480",
     "taxonomy": {
       "nation": [
         {
@@ -1465,6 +1465,26 @@
         "painting/xinaoerliang_2_hx_tex",
         "painting/xinaoerliang_2_hx",
         "painting/xinaoerliang_2"
+      ]
+    },
+    {
+      "name": "深夜的亲密触诊",
+      "painting": "xinaoerliang_3",
+      "ship_group": "10312",
+      "nation": 1,
+      "nation_name": "白鹰",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 3,
+      "ship_type_name": "重巡",
+      "res_list": [
+        "painting/xinaoerliang_3_tex",
+        "painting/xinaoerliang_3_rw_tex",
+        "painting/xinaoerliang_3_n_tex",
+        "painting/xinaoerliang_3_n_rw_tex",
+        "painting/xinaoerliang_3_n",
+        "painting/xinaoerliang_3_bj_tex",
+        "painting/xinaoerliang_3"
       ]
     },
     {
@@ -30043,6 +30063,24 @@
       ]
     },
     {
+      "name": "误入纯白迷途",
+      "painting": "nabulesi_3",
+      "ship_group": "69902",
+      "nation": 6,
+      "nation_name": "撒丁帝国",
+      "rarity": 6,
+      "rarity_name": "海上传奇",
+      "ship_type": 3,
+      "ship_type_name": "重巡",
+      "res_list": [
+        "painting/nabulesi_3_tex",
+        "painting/nabulesi_3_rw_tex",
+        "painting/nabulesi_3_n_rw_tex",
+        "painting/nabulesi_3_n",
+        "painting/nabulesi_3"
+      ]
+    },
+    {
       "name": "拉斐尔",
       "painting": "lafeier",
       "ship_group": "60508",
@@ -34317,6 +34355,25 @@
         "painting/banerwei_3_hx_tex",
         "painting/banerwei_3_hx",
         "painting/banerwei_3"
+      ]
+    },
+    {
+      "name": "风中的纯白絮语",
+      "painting": "banerwei_4",
+      "ship_group": "80702",
+      "nation": 8,
+      "nation_name": "自由鸢尾",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 7,
+      "ship_type_name": "正航",
+      "res_list": [
+        "painting/banerwei_4_tex",
+        "painting/banerwei_4_rw_tex",
+        "painting/banerwei_4_n_rw_tex",
+        "painting/banerwei_4_n",
+        "painting/banerwei_4_bj_tex",
+        "painting/banerwei_4"
       ]
     },
     {
