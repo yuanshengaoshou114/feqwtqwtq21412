@@ -335853,6 +335853,530 @@
       "1": 180005
     }
   },
+  "702131": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "莫洛托夫",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 702131,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Molotov",
+    "oxy_cost": 0,
+    "skin_id": 702130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 788,
+      "1": 33,
+      "2": 47,
+      "3": 78,
+      "4": 0,
+      "5": 69,
+      "6": 0,
+      "7": 54,
+      "8": 35,
+      "9": 36.7,
+      "10": 60,
+      "11": 37
+    },
+    "attrs_growth": {
+      "0": 20195,
+      "1": 457,
+      "2": 643,
+      "3": 1594,
+      "4": 0,
+      "5": 478,
+      "6": 0,
+      "7": 798,
+      "8": 759,
+      "9": 0,
+      "10": 0,
+      "11": 442
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 261
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.35,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-CL"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "702132": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "莫洛托夫",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 702132,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Molotov",
+    "oxy_cost": 0,
+    "skin_id": 702130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 980,
+      "1": 41,
+      "2": 59,
+      "3": 97,
+      "4": 0,
+      "5": 69,
+      "6": 0,
+      "7": 54,
+      "8": 35,
+      "9": 36.7,
+      "10": 60,
+      "11": 46
+    },
+    "attrs_growth": {
+      "0": 20195,
+      "1": 457,
+      "2": 643,
+      "3": 1594,
+      "4": 0,
+      "5": 478,
+      "6": 0,
+      "7": 798,
+      "8": 759,
+      "9": 0,
+      "10": 0,
+      "11": 442
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 262
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.35,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-CL"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "702133": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "莫洛托夫",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 702133,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Molotov",
+    "oxy_cost": 0,
+    "skin_id": 702130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1365,
+      "1": 57,
+      "2": 82,
+      "3": 135,
+      "4": 0,
+      "5": 69,
+      "6": 0,
+      "7": 54,
+      "8": 35,
+      "9": 36.7,
+      "10": 60,
+      "11": 65
+    },
+    "attrs_growth": {
+      "0": 20195,
+      "1": 457,
+      "2": 643,
+      "3": 1594,
+      "4": 0,
+      "5": 478,
+      "6": 0,
+      "7": 798,
+      "8": 759,
+      "9": 0,
+      "10": 0,
+      "11": 442
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 263
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.35,
+      "1": 1.35,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-CL"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
+  "702134": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 2,
+    "name": "莫洛托夫",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 702134,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Molotov",
+    "oxy_cost": 0,
+    "skin_id": 702130,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 1942,
+      "1": 82,
+      "2": 116,
+      "3": 192,
+      "4": 0,
+      "5": 69,
+      "6": 0,
+      "7": 54,
+      "8": 35,
+      "9": 36.7,
+      "10": 60,
+      "11": 93
+    },
+    "attrs_growth": {
+      "0": 20195,
+      "1": 457,
+      "2": 643,
+      "3": 1594,
+      "4": 0,
+      "5": 478,
+      "6": 0,
+      "7": 798,
+      "8": 759,
+      "9": 0,
+      "10": 0,
+      "11": 442
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {
+      "0": 264
+    },
+    "default_equip_list": {
+      "0": 101,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 147
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.5,
+      "1": 1.35,
+      "2": 1.1,
+      "3": 0.3
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-CL"
+    },
+    "gift_dislike": {
+      "0": 180004,
+      "1": 180006
+    }
+  },
   "702081": {
     "nationality": 7,
     "oxy_max": 0,
@@ -343234,6 +343758,1034 @@
     },
     "gift_dislike": {
       "0": 180004,
+      "1": 180009
+    }
+  },
+  "705101": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "锡诺普",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 705101,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Sinop",
+    "oxy_cost": 0,
+    "skin_id": 705100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1494,
+      "1": 80,
+      "2": 0,
+      "3": 42,
+      "4": 0,
+      "5": 54,
+      "6": 0,
+      "7": 23,
+      "8": 7,
+      "9": 27,
+      "10": 29,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42563,
+      "1": 995,
+      "2": 0,
+      "3": 916,
+      "4": 0,
+      "5": 378,
+      "6": 0,
+      "7": 346,
+      "8": 189,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.1,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180008
+    }
+  },
+  "705102": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "锡诺普",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 705102,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Sinop",
+    "oxy_cost": 0,
+    "skin_id": 705100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1858,
+      "1": 100,
+      "2": 0,
+      "3": 52,
+      "4": 0,
+      "5": 54,
+      "6": 0,
+      "7": 23,
+      "8": 7,
+      "9": 27,
+      "10": 29,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42563,
+      "1": 995,
+      "2": 0,
+      "3": 916,
+      "4": 0,
+      "5": 378,
+      "6": 0,
+      "7": 346,
+      "8": 189,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180008
+    }
+  },
+  "705103": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "锡诺普",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 705103,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Sinop",
+    "oxy_cost": 0,
+    "skin_id": 705100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 2587,
+      "1": 140,
+      "2": 0,
+      "3": 73,
+      "4": 0,
+      "5": 54,
+      "6": 0,
+      "7": 23,
+      "8": 7,
+      "9": 27,
+      "10": 29,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42563,
+      "1": 995,
+      "2": 0,
+      "3": 916,
+      "4": 0,
+      "5": 378,
+      "6": 0,
+      "7": 346,
+      "8": 189,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180008
+    }
+  },
+  "705104": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "锡诺普",
+    "huntingrange_level": 0,
+    "star": 6,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 5,
+    "ammo": 0,
+    "id": 705104,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Sinop",
+    "oxy_cost": 0,
+    "skin_id": 705100,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 3680,
+      "1": 199,
+      "2": 0,
+      "3": 104,
+      "4": 0,
+      "5": 54,
+      "6": 0,
+      "7": 23,
+      "8": 7,
+      "9": 27,
+      "10": 29,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 42563,
+      "1": 995,
+      "2": 0,
+      "3": 916,
+      "4": 0,
+      "5": 378,
+      "6": 0,
+      "7": 346,
+      "8": 189,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180008
+    }
+  },
+  "705111": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "玛丽亚皇后",
+    "huntingrange_level": 0,
+    "star": 2,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 705111,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Empress Maria",
+    "oxy_cost": 0,
+    "skin_id": 705110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1101,
+      "1": 64,
+      "2": 0,
+      "3": 44,
+      "4": 0,
+      "5": 56,
+      "6": 0,
+      "7": 22,
+      "8": 4,
+      "9": 21,
+      "10": 30,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29784,
+      "1": 838,
+      "2": 0,
+      "3": 955,
+      "4": 0,
+      "5": 391,
+      "6": 0,
+      "7": 354,
+      "8": 165,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Empress Maria",
+      "1": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180005,
+      "1": 180009
+    }
+  },
+  "705112": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "玛丽亚皇后",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 705112,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Empress Maria",
+    "oxy_cost": 0,
+    "skin_id": 705110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1370,
+      "1": 80,
+      "2": 0,
+      "3": 55,
+      "4": 0,
+      "5": 56,
+      "6": 0,
+      "7": 22,
+      "8": 4,
+      "9": 21,
+      "10": 30,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29784,
+      "1": 838,
+      "2": 0,
+      "3": 955,
+      "4": 0,
+      "5": 391,
+      "6": 0,
+      "7": 354,
+      "8": 165,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.05,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Empress Maria",
+      "1": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180005,
+      "1": 180009
+    }
+  },
+  "705113": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "玛丽亚皇后",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 705113,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Empress Maria",
+    "oxy_cost": 0,
+    "skin_id": 705110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 1907,
+      "1": 112,
+      "2": 0,
+      "3": 76,
+      "4": 0,
+      "5": 56,
+      "6": 0,
+      "7": 22,
+      "8": 4,
+      "9": 21,
+      "10": 30,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29784,
+      "1": 838,
+      "2": 0,
+      "3": 955,
+      "4": 0,
+      "5": 391,
+      "6": 0,
+      "7": 354,
+      "8": 165,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.15,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Empress Maria",
+      "1": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180005,
+      "1": 180009
+    }
+  },
+  "705114": {
+    "nationality": 7,
+    "oxy_max": 0,
+    "type": 5,
+    "name": "玛丽亚皇后",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 705114,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "SN Empress Maria",
+    "oxy_cost": 0,
+    "skin_id": 705110,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 3,
+    "attrs": {
+      "0": 2712,
+      "1": 159,
+      "2": 0,
+      "3": 108,
+      "4": 0,
+      "5": 56,
+      "6": 0,
+      "7": 22,
+      "8": 4,
+      "9": 21,
+      "10": 30,
+      "11": 0
+    },
+    "attrs_growth": {
+      "0": 29784,
+      "1": 838,
+      "2": 0,
+      "3": 955,
+      "4": 0,
+      "5": 391,
+      "6": 0,
+      "7": 354,
+      "8": 165,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "torpedo",
+      "1": "air",
+      "2": "antisub"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 103,
+      "1": 101,
+      "2": 104
+    },
+    "depth_charge_list": {},
+    "base_list": {
+      "0": 1,
+      "1": 3,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.3,
+      "1": 2,
+      "2": 1
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "Empress Maria",
+      "1": "Northern Union-BB"
+    },
+    "gift_dislike": {
+      "0": 180005,
       "1": 180009
     }
   },
@@ -456271,6 +457823,518 @@
     "gift_dislike": {
       "0": 180004,
       "1": 180006
+    }
+  },
+  "9701141": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "凯尔圣·META",
+    "huntingrange_level": 0,
+    "star": 2,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701141,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 309,
+      "1": 27,
+      "2": 56,
+      "3": 30,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 58,
+      "8": 62,
+      "9": 43,
+      "10": 44,
+      "11": 47
+    },
+    "attrs_growth": {
+      "0": 6264,
+      "1": 337,
+      "2": 747,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 787,
+      "8": 952,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.2,
+      "1": 1.35,
+      "2": 0.7
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "KersaintMETA"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180009
+    }
+  },
+  "9701142": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "凯尔圣·META",
+    "huntingrange_level": 0,
+    "star": 3,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701142,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 384,
+      "1": 34,
+      "2": 70,
+      "3": 37,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 58,
+      "8": 62,
+      "9": 43,
+      "10": 44,
+      "11": 59
+    },
+    "attrs_growth": {
+      "0": 6264,
+      "1": 337,
+      "2": 747,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 787,
+      "8": 952,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.25,
+      "1": 1.35,
+      "2": 0.7
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "KersaintMETA"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180009
+    }
+  },
+  "9701143": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "凯尔圣·META",
+    "huntingrange_level": 0,
+    "star": 4,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701143,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 535,
+      "1": 47,
+      "2": 97,
+      "3": 52,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 58,
+      "8": 62,
+      "9": 43,
+      "10": 44,
+      "11": 82
+    },
+    "attrs_growth": {
+      "0": 6264,
+      "1": 337,
+      "2": 747,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 787,
+      "8": 952,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.35,
+      "1": 1.35,
+      "2": 0.7
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "KersaintMETA"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180009
+    }
+  },
+  "9701144": {
+    "nationality": 97,
+    "oxy_max": 0,
+    "type": 1,
+    "name": "凯尔圣·META",
+    "huntingrange_level": 0,
+    "star": 5,
+    "oxy_recovery": 0,
+    "backyard_speed": "0.3",
+    "rarity": 4,
+    "ammo": 0,
+    "id": 9701144,
+    "summon_offset": 0,
+    "scale": 100,
+    "raid_distance": 0,
+    "english_name": "Soobrazitelny.META",
+    "oxy_cost": 0,
+    "skin_id": 9701140,
+    "attack_duration": 0,
+    "oxy_recovery_surface": 0,
+    "oxy_recovery_bench": 0,
+    "armor_type": 1,
+    "attrs": {
+      "0": 761,
+      "1": 67,
+      "2": 139,
+      "3": 74,
+      "4": 0,
+      "5": 77,
+      "6": 0,
+      "7": 58,
+      "8": 62,
+      "9": 43,
+      "10": 44,
+      "11": 117
+    },
+    "attrs_growth": {
+      "0": 6264,
+      "1": 337,
+      "2": 747,
+      "3": 411,
+      "4": 0,
+      "5": 534,
+      "6": 0,
+      "7": 787,
+      "8": 952,
+      "9": 0,
+      "10": 0,
+      "11": 632
+    },
+    "attrs_growth_extra": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0
+    },
+    "lock": {
+      "0": "air"
+    },
+    "cld_box": {
+      "0": 4,
+      "1": 5,
+      "2": 5
+    },
+    "cld_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "aim_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "position_offset": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "fix_equip_list": {},
+    "default_equip_list": {
+      "0": 100,
+      "1": 106,
+      "2": 104
+    },
+    "depth_charge_list": {
+      "0": 141
+    },
+    "base_list": {
+      "0": 1,
+      "1": 2,
+      "2": 1
+    },
+    "parallel_max": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "preload_count": {
+      "0": 0,
+      "1": 1,
+      "2": 0
+    },
+    "equipment_proficiency": {
+      "0": 1.4,
+      "1": 1.4,
+      "2": 0.75
+    },
+    "strategy_list": {},
+    "hunting_range": {
+      "0": {}
+    },
+    "tag_list": {
+      "0": "KersaintMETA"
+    },
+    "gift_dislike": {
+      "0": 180003,
+      "1": 180009
     }
   },
   "9702011": {

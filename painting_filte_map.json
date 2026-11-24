@@ -10175,6 +10175,18 @@
       "7": "painting/kaiersheng_3"
     }
   },
+  "kaiersheng_alter": {
+    "key": "kaiersheng_alter",
+    "res_list": {
+      "0": "painting/kaiersheng_alter_tex",
+      "1": "painting/kaiersheng_alter_rw_tex",
+      "2": "painting/kaiersheng_alter_n_tex",
+      "3": "painting/kaiersheng_alter_n_rw_tex",
+      "4": "painting/kaiersheng_alter_n",
+      "5": "painting/kaiersheng_alter_bj_tex",
+      "6": "painting/kaiersheng_alter"
+    }
+  },
   "kaisa": {
     "key": "kaisa",
     "res_list": {
@@ -10580,6 +10592,19 @@
       "7": "painting/keliaopeitela_2_hx_tex",
       "8": "painting/keliaopeitela_2_hx",
       "9": "painting/keliaopeitela_2"
+    }
+  },
+  "keliaopeitela_3": {
+    "key": "keliaopeitela_3",
+    "res_list": {
+      "0": "painting/keliaopeitela_3_tex",
+      "1": "painting/keliaopeitela_3_rw_tex",
+      "2": "painting/keliaopeitela_3_n_tex",
+      "3": "painting/keliaopeitela_3_n_rw_tex",
+      "4": "painting/keliaopeitela_3_n_bj_tex",
+      "5": "painting/keliaopeitela_3_n",
+      "6": "painting/keliaopeitela_3_bj_tex",
+      "7": "painting/keliaopeitela_3"
     }
   },
   "kelifulan": {
@@ -13207,6 +13232,25 @@
       "1": "painting/maliluosi_doa_wjz"
     }
   },
+  "maliyahuanghou": {
+    "key": "maliyahuanghou",
+    "res_list": {
+      "0": "painting/maliyahuanghou_tex",
+      "1": "painting/maliyahuanghou_rw_tex",
+      "2": "painting/maliyahuanghou"
+    }
+  },
+  "maliyahuanghou_2": {
+    "key": "maliyahuanghou_2",
+    "res_list": {
+      "0": "painting/maliyahuanghou_2_tex",
+      "1": "painting/maliyahuanghou_2_rw_tex",
+      "2": "painting/maliyahuanghou_2_n_tex",
+      "3": "painting/maliyahuanghou_2_n_rw_tex",
+      "4": "painting/maliyahuanghou_2_n",
+      "5": "painting/maliyahuanghou_2"
+    }
+  },
   "manchao": {
     "key": "manchao",
     "res_list": {
@@ -14007,6 +14051,24 @@
       "2": "painting/molisen_3_n_rw_tex",
       "3": "painting/molisen_3_n",
       "4": "painting/molisen_3"
+    }
+  },
+  "moluotuofu": {
+    "key": "moluotuofu",
+    "res_list": {
+      "0": "painting/moluotuofu_tex",
+      "1": "painting/moluotuofu_rw_tex",
+      "2": "painting/moluotuofu"
+    }
+  },
+  "moluotuofu_2": {
+    "key": "moluotuofu_2",
+    "res_list": {
+      "0": "painting/moluotuofu_2_tex",
+      "1": "painting/moluotuofu_2_rw_tex",
+      "2": "painting/moluotuofu_2_n_rw_tex",
+      "3": "painting/moluotuofu_2_n",
+      "4": "painting/moluotuofu_2"
     }
   },
   "monika_2_doa": {
@@ -19569,6 +19631,17 @@
       "8": "painting/u556_3"
     }
   },
+  "u556_4": {
+    "key": "u556_4",
+    "res_list": {
+      "0": "painting/u556_4_tex",
+      "1": "painting/u556_4_rw_tex",
+      "2": "painting/u556_4_n_tex",
+      "3": "painting/u556_4_n_rw_tex",
+      "4": "painting/u556_4_n",
+      "5": "painting/u556_4"
+    }
+  },
   "u556_alter": {
     "key": "u556_alter",
     "res_list": {
@@ -21541,6 +21614,28 @@
     "res_list": {
       "0": "painting/xinnong_younv_tex",
       "1": "painting/xinnong_younv"
+    }
+  },
+  "xinuopu": {
+    "key": "xinuopu",
+    "res_list": {
+      "0": "painting/xinuopu_tex",
+      "1": "painting/xinuopu_rw_tex",
+      "2": "painting/xinuopu_n_tex",
+      "3": "painting/xinuopu_n_rw_tex",
+      "4": "painting/xinuopu_n",
+      "5": "painting/xinuopu_bj_tex",
+      "6": "painting/xinuopu"
+    }
+  },
+  "xinuopu_2": {
+    "key": "xinuopu_2",
+    "res_list": {
+      "0": "painting/xinuopu_2_tex",
+      "1": "painting/xinuopu_2_rw_tex",
+      "2": "painting/xinuopu_2_n_rw_tex",
+      "3": "painting/xinuopu_2_n",
+      "4": "painting/xinuopu_2"
     }
   },
   "xinyue": {

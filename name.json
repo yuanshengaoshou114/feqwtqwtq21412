@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generated_at": "2026-11-23T23:13:48.723168",
+    "generated_at": "2026-11-24T07:55:13.712802",
     "taxonomy": {
       "nation": [
         {
@@ -9186,6 +9186,27 @@
         "painting/keliaopeitela_2_hx_tex",
         "painting/keliaopeitela_2_hx",
         "painting/keliaopeitela_2"
+      ]
+    },
+    {
+      "name": "清凉的祝福试炼",
+      "painting": "keliaopeitela_3",
+      "ship_group": "20235",
+      "nation": 2,
+      "nation_name": "皇家",
+      "rarity": 5,
+      "rarity_name": "超稀有",
+      "ship_type": 2,
+      "ship_type_name": "轻巡",
+      "res_list": [
+        "painting/keliaopeitela_3_tex",
+        "painting/keliaopeitela_3_rw_tex",
+        "painting/keliaopeitela_3_n_tex",
+        "painting/keliaopeitela_3_n_rw_tex",
+        "painting/keliaopeitela_3_n_bj_tex",
+        "painting/keliaopeitela_3_n",
+        "painting/keliaopeitela_3_bj_tex",
+        "painting/keliaopeitela_3"
       ]
     },
     {
@@ -27733,6 +27754,25 @@
       ]
     },
     {
+      "name": "小恶魔女仆的限定芭菲",
+      "painting": "u556_4",
+      "ship_group": "40804",
+      "nation": 4,
+      "nation_name": "铁血",
+      "rarity": 4,
+      "rarity_name": "精锐",
+      "ship_type": 8,
+      "ship_type_name": "潜艇",
+      "res_list": [
+        "painting/u556_4_tex",
+        "painting/u556_4_rw_tex",
+        "painting/u556_4_n_tex",
+        "painting/u556_4_n_rw_tex",
+        "painting/u556_4_n",
+        "painting/u556_4"
+      ]
+    },
+    {
       "name": "U-73",
       "painting": "U73",
       "ship_group": "40805",
@@ -42197,6 +42237,113 @@
       ]
     },
     {
+      "name": "莫洛托夫",
+      "painting": "moluotuofu",
+      "ship_group": "70213",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/moluotuofu_tex",
+        "painting/moluotuofu_rw_tex",
+        "painting/moluotuofu"
+      ]
+    },
+    {
+      "name": "水上微醺",
+      "painting": "moluotuofu_2",
+      "ship_group": "70213",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/moluotuofu_2_tex",
+        "painting/moluotuofu_2_rw_tex",
+        "painting/moluotuofu_2_n_rw_tex",
+        "painting/moluotuofu_2_n",
+        "painting/moluotuofu_2"
+      ]
+    },
+    {
+      "name": "锡诺普",
+      "painting": "xinuopu",
+      "ship_group": "70510",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/xinuopu_tex",
+        "painting/xinuopu_rw_tex",
+        "painting/xinuopu_n_tex",
+        "painting/xinuopu_n_rw_tex",
+        "painting/xinuopu_n",
+        "painting/xinuopu_bj_tex",
+        "painting/xinuopu"
+      ]
+    },
+    {
+      "name": "沉溺妄想",
+      "painting": "xinuopu_2",
+      "ship_group": "70510",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/xinuopu_2_tex",
+        "painting/xinuopu_2_rw_tex",
+        "painting/xinuopu_2_n_rw_tex",
+        "painting/xinuopu_2_n",
+        "painting/xinuopu_2"
+      ]
+    },
+    {
+      "name": "玛丽亚皇后",
+      "painting": "maliyahuanghou",
+      "ship_group": "70511",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/maliyahuanghou_tex",
+        "painting/maliyahuanghou_rw_tex",
+        "painting/maliyahuanghou"
+      ]
+    },
+    {
+      "name": "摇曳风情",
+      "painting": "maliyahuanghou_2",
+      "ship_group": "70511",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/maliyahuanghou_2_tex",
+        "painting/maliyahuanghou_2_rw_tex",
+        "painting/maliyahuanghou_2_n_tex",
+        "painting/maliyahuanghou_2_n_rw_tex",
+        "painting/maliyahuanghou_2_n",
+        "painting/maliyahuanghou_2"
+      ]
+    },
+    {
       "name": "无惧",
       "painting": "wuju",
       "ship_group": "80106",
@@ -44026,6 +44173,26 @@
         "painting/lingmin_alter_n",
         "painting/lingmin_alter_bj_tex",
         "painting/lingmin_alter"
+      ]
+    },
+    {
+      "name": "凯尔圣·META",
+      "painting": "kaiersheng_alter",
+      "ship_group": "970114",
+      "nation": null,
+      "nation_name": "其他",
+      "rarity": null,
+      "rarity_name": "其他",
+      "ship_type": null,
+      "ship_type_name": "其他",
+      "res_list": [
+        "painting/kaiersheng_alter_tex",
+        "painting/kaiersheng_alter_rw_tex",
+        "painting/kaiersheng_alter_n_tex",
+        "painting/kaiersheng_alter_n_rw_tex",
+        "painting/kaiersheng_alter_n",
+        "painting/kaiersheng_alter_bj_tex",
+        "painting/kaiersheng_alter"
       ]
     },
     {
